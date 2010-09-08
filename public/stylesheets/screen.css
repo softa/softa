@@ -903,7 +903,7 @@ body {
   font-size: 87.5%;
   margin: 0;
   padding: 0;
-  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 /* line 68, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body h1, body h2, body h3, body h4, body h5, body h6 {
@@ -1145,7 +1145,7 @@ body .bottom {
   padding-bottom: 0;
 }
 /* line 23, ../../app/stylesheets/partials/_style.sass */
-body header, body footer, body section, body article, body aside {
+body article, body aside, body figure, body footer, body header, body hgroup, body nav, body section {
   display: block;
 }
 /* line 25, ../../app/stylesheets/partials/_style.sass */
@@ -1346,15 +1346,24 @@ body #content #softa_description .wrapper section, body #content #softa_methodol
   padding: 1em 0;
 }
 /* line 134, ../../app/stylesheets/partials/_style.sass */
+body #content #softa_methodology {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 136, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_works .wrapper section {
   padding: 1em 0 0 0;
 }
-/* line 136, ../../app/stylesheets/partials/_style.sass */
+/* line 138, ../../app/stylesheets/partials/_style.sass */
+body #social_stuff {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 140, ../../app/stylesheets/partials/_style.sass */
 body #social_stuff .wrapper section {
   padding: 1em 0;
 }
-/* line 138, ../../app/stylesheets/partials/_style.sass */
+/* line 142, ../../app/stylesheets/partials/_style.sass */
 body footer {
+  -webkit-font-smoothing: subpixel-antialiased;
   padding: 15px 0;
   border-top: 1px solid #555555;
   border-bottom: 1px solid black;
@@ -1365,13 +1374,13 @@ body footer {
   background-attachment: scroll;
   background-position: left top;
 }
-/* line 149, ../../app/stylesheets/partials/_style.sass */
+/* line 154, ../../app/stylesheets/partials/_style.sass */
 body footer h1 {
-  color: gray;
-  text-shadow: #cccccc 0 1px 0;
+  color: black;
+  text-shadow: #555555 0 1px 0;
   padding: 0.25em 0 0.5em 0;
 }
-/* line 153, ../../app/stylesheets/partials/_style.sass */
+/* line 158, ../../app/stylesheets/partials/_style.sass */
 body footer #contact_us {
   display: inline;
   float: left;
@@ -1382,7 +1391,7 @@ body footer #contact_us {
 * html body footer #contact_us {
   overflow-x: hidden;
 }
-/* line 155, ../../app/stylesheets/partials/_style.sass */
+/* line 160, ../../app/stylesheets/partials/_style.sass */
 body footer #where_to_find_us {
   display: inline;
   float: left;
@@ -1393,13 +1402,27 @@ body footer #where_to_find_us {
 * html body footer #where_to_find_us {
   overflow-x: hidden;
 }
-/* line 158, ../../app/stylesheets/partials/_style.sass */
+/* line 163, ../../app/stylesheets/partials/_style.sass */
 body footer #colophon p {
   color: white;
 }
-/* line 160, ../../app/stylesheets/partials/_style.sass */
+/* line 165, ../../app/stylesheets/partials/_style.sass */
 body .post_footer {
   border-top: 1px solid #222222;
   height: 20px;
   background: black;
+}
+
+/* line 4, ../../app/stylesheets/screen.sass */
+::-moz-selection {
+  background: #ff9900;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 8, ../../app/stylesheets/screen.sass */
+::selection {
+  background: #ff9900;
+  color: white;
+  text-shadow: none;
 }

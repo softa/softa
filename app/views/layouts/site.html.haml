@@ -1,23 +1,22 @@
 !!!5
 = render 'layouts/softa'
-%html
+%html{ :lang => 'pt-br'}
   %head
     %meta{ :charset => 'UTF-8' }
+    /[if IE]
+      %meta{ 'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge;chrome=1' }
     %title Softa · Aplicações web 2.0 em Rails e PostgreSQL
-    %meta{ :name => 'keywords', :content => 'web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo de oliveira biazus, daniel de souza weinmann, juan maiz lulkin flores da cunha, pedro kvitko axelrud, felipe benites cabral, leonardo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0' }
+    %meta{ :name => 'robots', :content => 'index, follow' }
     %meta{ :name => 'description', :content => 'Aplicações web 2.0. O melhor do open source: Ruby on Rails e PostgreSQL. Nós utilizamos as melhores tecnologias aliadas aos métodos certos para desenvolver seus projetos no menor tempo e com a maior qualidade.' }
     %meta{ :name => 'author', :content => 'Softa' }
+    %meta{ :name => 'keywords', :content => 'web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo de oliveira biazus, daniel de souza weinmann, juan maiz lulkin flores da cunha, pedro kvitko axelrud, felipe benites cabral, leonardo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0' }
+    %meta{ :name => 'viewport', :content=> 'width=device-width; initial-scale=1.0; maximum-scale=1.0;' }
     = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
     /[if IE]
-      %meta{ 'http-equiv' => 'X-UA-Compatible', :content => 'IE=9' }
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
-    = javascript_include_tag 'http://html5shim.googlecode.com/svn/trunk/html5.js'
-    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'
-    = javascript_include_tag 'juitter/jquery.juitter.js'
-    = javascript_include_tag 'juitter/system.js'
+      = javascript_include_tag 'http://html5shim.googlecode.com/svn/trunk/html5.js'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'jquery_tools/jquery.tools.min.js', 'zrssfeed/jquery.zrssfeed.min.js', 'top_navigation_fixed'
     = csrf_meta_tag
-    = javascript_include_tag 'jquery_tools/jquery.tools.min.js'
-    = javascript_include_tag  'zrssfeed/jquery.zrssfeed.min.js'
     :javascript 
       $(function(){
         $(".work_showcase_images img[rel]").overlay({mask:'#000',effect:'apple'});
@@ -38,8 +37,8 @@
           errormsg: 'Ooops. Ocorreu um erro ao tentar carregar o calendário da Softa.<br>Tente mais tarde novamente.'
         });
       });
-    = javascript_include_tag 'top_navigation_fixed'
-    %link{ :rel => 'shortcut icon', :type => 'image/x-icon', :href => 'favicon.ico' }
+    %link{ :rel => 'apple-touch-icon-precomposed', :href => 'apple-touch-icon.png'}
+    %link{ :rel => 'shortcut icon', :href => 'favicon.ico' }
   %body
     .fixed_navigation= render 'layouts/top_navigation_fixed'
     %header#top= render 'layouts/header'

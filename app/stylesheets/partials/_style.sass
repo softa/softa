@@ -18,9 +18,9 @@ body
   margin: 0
   padding: 0
   //-webkit-font-smoothing: none
-  -webkit-font-smoothing: subpixel-antialiased
-  //-webkit-font-smoothing: antialiased
-  header, footer, section, article, aside
+  //-webkit-font-smoothing: subpixel-antialiased
+  -webkit-font-smoothing: antialiased
+  article, aside, figure, footer, header, hgroup, nav, section
     display: block
   h1, h2, h3, h4, h5, h6
     font-weight: 900
@@ -131,11 +131,16 @@ body
         padding: .25em 0 .75em 0
       .wrapper section
         padding: 1em 0
+    #softa_methodology
+      -webkit-font-smoothing: subpixel-antialiased
     #softa_works .wrapper section
       padding: 1em 0 0 0
-  #social_stuff .wrapper section
-    padding: 1em 0
+  #social_stuff
+    -webkit-font-smoothing: subpixel-antialiased
+    .wrapper section
+      padding: 1em 0
   footer
+    -webkit-font-smoothing: subpixel-antialiased
     padding: 15px 0
     border-top: 1px solid #555
     border-bottom: 1px solid #000
@@ -147,8 +152,8 @@ body
       attachment: scroll
       position: left top
     h1
-      color: #808080
-      text-shadow: #ccc 0 1px 0
+      color: #000
+      text-shadow: #555 0 1px 0
       padding: .25em 0 .5em 0
     #contact_us
       +column(12)
