@@ -1,0 +1,89 @@
+body #content
+  #softa_works
+    border-top: 1px solid #fff
+    border-bottom: 1px solid #ccc
+    background:
+      color: #ccc
+      image: url(/images/work/work_background.png)
+      repeat: repeat-x
+      attachment: scroll
+      position: left top
+    .wrapper
+      overflow: visible
+      position: relative
+      .arrow_right, .arrow_left
+        height: 66px
+        width: 33px
+        position: absolute
+        margin-top: -16px
+        background:
+          color: transparent
+          image: url(/images/arrows_sprite.png)
+          repeat: no-repeat
+      .arrow_right
+        background-position: -60px -214px
+        right: -50px
+        top: 50%
+        &:hover
+          background-position: -60px -128px
+        &:active
+          background-position: -60px -42px
+      .arrow_left
+        background-position: 0 -214px
+        left: -70px
+        top: 50%
+        &:hover
+          background-position: 0 -128px
+        &:active
+          background-position: 0 -42px
+    h1
+      text-shadow: #fff 0 1px 0
+      color: #ccc
+      margin-top: .5em
+    .work_showcase_info
+      +column(9, last)
+      +append(1)
+      h3
+      ul.mailee_links, ul.circlo_links, ul.tbrasil_links
+        +two-box-shadow((#aaa + #444) 0 1px 0, (#aaa - #222) 0 1px 0 inset)
+        +rounded(.5em)
+        list-style: none
+        background-color: #aaa
+        padding: .5em 1em
+        li
+          text-shadow: #888 0 -1px 0
+          color: white
+          border-top: 1px solid #bbb
+          border-bottom: 1px solid #999
+          &:first-child
+            border-top: 0 none
+          &:last-child
+            border-bottom: 0 none
+      ul.mailee_links
+        a
+          color: #2255A0
+          text-shadow: #ccc 0 1px 0
+      ul.circlo_links
+        a
+          color: #A30050
+          text-shadow: #ccc 0 1px 0
+      ul.tbrasil_links
+        a
+          color: #96b923 - #222
+          text-shadow: #ccc 0 1px 0
+      ul.showcase_more_images
+        margin: 0
+        padding: 0
+        list-style: none
+        li
+          display: inline
+          padding-left: 4px
+          img
+            +box-shadow(0, 0, 6px, #888)
+            border: 1px solid silver
+    .work_showcase_image
+      +column(14)
+      text-align: right
+  .work_showcase
+
+    

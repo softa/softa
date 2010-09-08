@@ -1,0 +1,163 @@
+@import "blueprint/reset"
+@import "blueprint/grid"
+@import "partials/forms"
+@import "blueprint/typography"
+@import "blueprint/utilities"
+
+@import "partials/description"
+@import "partials/works"
+@import "partials/methodology"
+@import "partials/labs"
+@import "partials/social_stuff"
+
+@import "partials/apple_overlay"
+
+body
+  +blueprint-typography(true)
+  +blueprint-utilities
+  margin: 0
+  padding: 0
+  //-webkit-font-smoothing: none
+  -webkit-font-smoothing: subpixel-antialiased
+  //-webkit-font-smoothing: antialiased
+  header, footer, section, article, aside
+    display: block
+  h1, h2, h3, h4, h5, h6
+    font-weight: 900
+    text-rendering: optimizeLegibility
+    margin: 0
+    padding: 0
+  p, ul li
+    color: #666
+  address
+    font-style: normal
+  a
+    cursor: pointer
+    color: $link_color
+    -webkit-transition: color .35s ease-in
+    text-decoration: none
+    &:hover
+      color: $link_color + #222
+      text-decoration: underline
+    &:active
+      position: relative
+      top: 1px
+      color: $link_color - #111
+    &:visited
+      color: $link_color
+  .wrapper
+    +container
+  .fixed_navigation
+    +box-shadow(rgba(0,0,0,.25), 0, 0, 6px)
+    border-bottom: 1px solid #f90
+    display: block
+    position: fixed
+    padding: 0
+    height: 5px
+    width: 100%
+    background:
+      image: url(/images/header_top.gif)
+      repeat: repeat
+    z-index: 999
+    .wrapper
+      background-color: rgba(255,255,255,.05)
+      &:hover
+        background-color: rgba(255,255,255,0)
+    &.open
+      height: 42px
+    ul.top_navigation_fixed
+      display: none
+      margin: 0
+      padding: 8px 0
+      text-align: center
+      li
+        display: inline
+        margin: 0
+        padding: 0 20px
+        a
+          color: (#ff9900 - #666)
+          text-shadow: (#ff9900 + #1d1d1d) 0 1px 0
+          padding: 0
+          margin: 0
+          font-weight: 900
+          &:hover
+            color: (#ff9900 - #444)
+          &:active
+            color: (#ff9900 - #666)
+          img
+            vertical-align: middle
+  header
+    #softa_logo
+      +column(6, last)
+      text-align: center
+      img:hover
+        background: url(/images/softa_background.png) no-repeat center center
+    nav
+      +column(18)
+      padding-top: 40px
+      a
+        +column(4)
+        display: block
+        text-decoration: none
+        line-height: 15px
+        &:hover
+          text-decoration: none
+          strong
+            -webkit-transition: color .25s ease-in
+            color: #333
+          span
+            -webkit-transition: color .25s ease-in
+            color: #666
+        &:active
+          strong
+            color: #f90
+          span
+            color: #f90 + #222
+        strong
+          font-size: 20px
+          font-weight: 900
+          color: #666
+          text-decoration: none
+          display: block
+          padding-bottom: 6px
+        span
+          font-size: 12px
+          color: #aaa
+          text-decoration: none
+  #content
+    text-shadow: #fff 0 1px 0
+    #softa_description, #softa_methodology, #softa_labs
+      h1
+        padding: .25em 0 .75em 0
+      .wrapper section
+        padding: 1em 0
+    #softa_works .wrapper section
+      padding: 1em 0 0 0
+  #social_stuff .wrapper section
+    padding: 1em 0
+  footer
+    padding: 15px 0
+    border-top: 1px solid #555
+    border-bottom: 1px solid #000
+    color: white
+    background:
+      color: #333
+      image: url(/images/footer_background.gif)
+      repeat: repeat
+      attachment: scroll
+      position: left top
+    h1
+      color: #808080
+      text-shadow: #ccc 0 1px 0
+      padding: .25em 0 .5em 0
+    #contact_us
+      +column(12)
+    #where_to_find_us
+      +column(12,last)
+    #colophon
+      p
+        color: white
+  .post_footer
+    border-top: 1px solid #222
+    height: 20px
+    background: black

@@ -1,0 +1,50 @@
+#softa_works
+  .wrapper
+    .arrow_left
+    .arrow_right
+    %section
+      %h1 Trabalhos
+      #maileeme.work_showcase
+        %section
+          .work_showcase_info
+            %h3= link_to image_tag('work/maileeme/maileeme_logo.png', :alt => 'Mailee.me - Email marketing 2.0'), 'http://mailee.me'
+            %p Email marketing com criador de templates, geolocalização e integração com redes sociais.
+            %ul.mailee_links
+              %li Acesse o site » #{link_to 'mailee.me', 'http://mailee.me'}
+              %li Acompanhe no Twitter » #{twitter 'maileeme'}
+              %li Confira o Blog » #{link_to 'blog.mailee.me', 'http://blog.mailee.me'}
+            %ul.showcase_more_images
+              %li= image_tag 'work/maileeme/maileeme_small_one.jpg'
+              %li= image_tag 'work/maileeme/maileeme_small_two.jpg'
+              %li= image_tag 'work/maileeme/maileeme_small_three.jpg'
+          .work_showcase_image= image_tag 'work/maileeme/maileeme_showcase.png'
+          .clear
+      #circlo.work_showcase
+        %section
+          .work_showcase_info
+            %h3= link_to image_tag('work/circlo/circlo_logo.png', :alt => 'Circlo - Abra a porta para o e-commerce'), 'http://circlo.com.br'
+            %p Sistema para rede de revendedores para sites de e-commerce.
+            %ul.circlo_links
+              %li Acesse o site » #{link_to 'Circlo', 'http://circlo.com.br'}
+              %li Acompanhe no Twitter » #{twitter 'circlo'}
+            %ul.showcase_more_images
+              %li= image_tag 'work/circlo/circlo_small_one.jpg'
+              %li= image_tag 'work/circlo/circlo_small_two.jpg'
+              %li= image_tag 'work/circlo/circlo_small_three.jpg'
+          .work_showcase_image= image_tag 'work/circlo/circlo_showcase.png'
+          .clear
+      #tbrasil.work_showcase
+        %section
+          .work_showcase_info
+            %h3= link_to image_tag('work/tbrasil/tbrasil_logo.gif', :alt => 'T-Brasil Camisetas - As camisetas mais bacanas do Brasil juntas em um só lugar.'), 'http://circlo.com.br'
+            %p Sistema completo para e-commerce
+            %ul.tbrasil_links
+              %li Acesse o site » #{link_to 'T-Brasil', 'http://tbrasil.net'}
+              %li Acompanhe no Twitter » #{twitter 't_brasil'}
+            %ul.showcase_more_images
+              %li= image_tag 'work/tbrasil/tbrasil_small_one.jpg'
+              %li= image_tag 'work/tbrasil/tbrasil_small_two.jpg'
+              %li= image_tag 'work/tbrasil/tbrasil_small_three.jpg'
+          .work_showcase_image= image_tag 'work/tbrasil/tbrasil_showcase.png'
+          .clear
+.clear

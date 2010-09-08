@@ -1,0 +1,1405 @@
+/* line 4, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 6, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+html {
+  font-size: 100.01%;
+}
+
+/* line 16, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+pre, a, abbr, acronym, address, code, del, dfn, em, img,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 18, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote, q {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  quotes: "" "";
+}
+/* line 45, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+/* line 20, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+th, td, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 22, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 24, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 1, ../../app/stylesheets/partials/_forms.sass */
+form {
+  padding: 0;
+  margin: 0;
+}
+/* line 4, ../../app/stylesheets/partials/_forms.sass */
+form fieldset {
+  padding: 0 5px;
+  margin: 0;
+  border: 0 none;
+}
+/* line 8, ../../app/stylesheets/partials/_forms.sass */
+form fieldset.submit_button {
+  width: 410px;
+  text-align: right;
+}
+/* line 12, ../../app/stylesheets/partials/_forms.sass */
+form fieldset:hover label {
+  color: white;
+}
+/* line 14, ../../app/stylesheets/partials/_forms.sass */
+form fieldset input[type="text"], form fieldset input[type="email"], form fieldset input[type="password"], form fieldset textarea {
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  box-shadow: #ff9900 0 0 1px;
+  -webkit-box-shadow: #ff9900 0 0 1px;
+  -moz-box-shadow: #ff9900 0 0 1px;
+  -o-box-shadow: #ff9900 0 0 1px;
+  -khtml-box-shadow: #ff9900 0 0 1px;
+  border: 1px solid black;
+  width: 400px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #dd7700;
+  -webkit-transition: border-color 0.25s ease-in;
+  -webkit-transition: -webkit-box-shadow 0.25s ease-in;
+  -moz-transition: border-color 0.25s ease-in;
+  -moz-transition: -moz-box-shadow 0.25s ease-in;
+}
+/* line 26, ../../app/stylesheets/partials/_forms.sass */
+form fieldset input[type="text"]:focus, form fieldset input[type="email"]:focus, form fieldset input[type="password"]:focus, form fieldset textarea:focus {
+  box-shadow: #ff8000 0 0 6px;
+  -webkit-box-shadow: #ff8000 0 0 6px;
+  -moz-box-shadow: #ff8000 0 0 6px;
+  -o-box-shadow: #ff8000 0 0 6px;
+  -khtml-box-shadow: #ff8000 0 0 6px;
+  color: white;
+  border-color: #993300;
+  outline: 0 none;
+}
+/* line 31, ../../app/stylesheets/partials/_forms.sass */
+form fieldset input[type="text"], form fieldset input[type="email"], form fieldset input[type="password"] {
+  height: 30px;
+}
+/* line 33, ../../app/stylesheets/partials/_forms.sass */
+form fieldset textarea {
+  vertical-align: top;
+}
+/* line 35, ../../app/stylesheets/partials/_forms.sass */
+form fieldset label {
+  font-weight: 900;
+  color: #666666;
+  -webkit-transition: color 0.5s ease-in;
+}
+/* line 39, ../../app/stylesheets/partials/_forms.sass */
+form fieldset button[type="submit"] {
+  border-radius: 3em;
+  -webkit-border-radius: 3em;
+  -moz-border-radius: 3em;
+  -o-border-radius: 3em;
+  -khtml-border-radius: 3em;
+  padding: 6px 1em 8px 1em;
+  margin-top: 1em;
+  border: 0 none;
+  text-shadow: #dddddd 0 1px 0;
+  -webkit-transition: background-color 0.15s ease-in;
+  background-color: #cccccc;
+  background-image: url(/images/button_background.png);
+  background-repeat: repeat-x;
+  background-position: left top;
+  font-size: 14px;
+  font-weight: 900;
+}
+/* line 54, ../../app/stylesheets/partials/_forms.sass */
+form fieldset button[type="submit"]:hover {
+  background-color: #eeeeee;
+}
+/* line 56, ../../app/stylesheets/partials/_forms.sass */
+form fieldset button[type="submit"]:active {
+  position: relative;
+  top: 1px;
+  background-color: #aaaaaa;
+}
+/* line 60, ../../app/stylesheets/partials/_forms.sass */
+form fieldset button[type="submit"]:focus {
+  box-shadow: 0 0 6px white;
+  -webkit-box-shadow: 0 0 6px white;
+  -moz-box-shadow: 0 0 6px white;
+  -o-box-shadow: 0 0 6px white;
+  -khtml-box-shadow: 0 0 6px white;
+  background-color: #eeeeee;
+}
+/* line 64, ../../app/stylesheets/partials/_forms.sass */
+form fieldset input[type="text"]:focus, form fieldset input[type="text"]:active, form fieldset input[type="text"]:hover, form fieldset input[type="email"]:focus, form fieldset input[type="email"]:active, form fieldset input[type="email"]:hover, form fieldset input[type="password"]:focus, form fieldset input[type="password"]:active, form fieldset input[type="password"]:hover, form fieldset textarea:focus, form fieldset textarea:active, form fieldset textarea:hover, form fieldset button[type="submit"]:focus, form fieldset button[type="submit"]:active, form fieldset button[type="submit"]:hover {
+  outline: 0 none;
+}
+
+/* line 2, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description {
+  backgrond-color: black;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 5, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description .coffee_wrapper {
+  position: relative;
+}
+/* line 7, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description .coffee_wrapper #coffee_driven_development {
+  display: none;
+  position: absolute;
+  background-image: url(/images/coffee_driven_development.gif);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  top: -100px;
+  right: 50px;
+  height: 128px;
+  width: 400px;
+}
+/* line 18, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h1 {
+  z-index: 100;
+  font-size: 32px;
+  line-height: 38px;
+  padding: 1em 0;
+  color: #999999;
+  font-weight: 100;
+}
+/* line 25, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h1 em {
+  font-style: normal;
+  transition: color 1s ease-in;
+  -webkit-transition: color 1s ease-in;
+  -moz-transition: color 1s ease-in;
+  -o-transition: color 1s ease-in;
+  -khtml-transition: color 1s ease-in;
+}
+/* line 32, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h1 em.web_two.active {
+  color: #ff9900;
+}
+/* line 34, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h1 em.ruby_on_rails.active {
+  color: #b42738;
+}
+/* line 36, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h1 em.postgresql.active {
+  color: #009acc;
+}
+/* line 38, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h1 em.open_source.active {
+  color: #40a850;
+}
+/* line 40, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h1 em.methods.active {
+  color: #aa5303;
+}
+/* line 43, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h1 em.web_two.passed, body #content #softa_description h1 em.ruby_on_rails.passed, body #content #softa_description h1 em.postgresql.passed, body #content #softa_description h1 em.open_source.passed, body #content #softa_description h1 em.methods.passed {
+  color: #666666;
+}
+
+/* line 2, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works {
+  border-top: 1px solid white;
+  border-bottom: 1px solid #cccccc;
+  background-color: #cccccc;
+  background-image: url(/images/work/work_background.png);
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  background-position: left top;
+}
+/* line 11, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .wrapper {
+  overflow: visible;
+  position: relative;
+}
+/* line 14, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .wrapper .arrow_right, body #content #softa_works .wrapper .arrow_left {
+  height: 66px;
+  width: 33px;
+  position: absolute;
+  margin-top: -16px;
+  background-color: transparent;
+  background-image: url(/images/arrows_sprite.png);
+  background-repeat: no-repeat;
+}
+/* line 23, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .wrapper .arrow_right {
+  background-position: -60px -214px;
+  right: -50px;
+  top: 50%;
+}
+/* line 27, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .wrapper .arrow_right:hover {
+  background-position: -60px -128px;
+}
+/* line 29, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .wrapper .arrow_right:active {
+  background-position: -60px -42px;
+}
+/* line 31, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .wrapper .arrow_left {
+  background-position: 0 -214px;
+  left: -70px;
+  top: 50%;
+}
+/* line 35, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .wrapper .arrow_left:hover {
+  background-position: 0 -128px;
+}
+/* line 37, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .wrapper .arrow_left:active {
+  background-position: 0 -42px;
+}
+/* line 39, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works h1 {
+  text-shadow: white 0 1px 0;
+  color: #cccccc;
+  margin-top: 0.5em;
+}
+/* line 43, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_info {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 350px;
+  padding-right: 40px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #content #softa_works .work_showcase_info {
+  overflow-x: hidden;
+}
+/* line 47, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_info ul.mailee_links, body #content #softa_works .work_showcase_info ul.circlo_links, body #content #softa_works .work_showcase_info ul.tbrasil_links {
+  box-shadow: #eeeeee 0 1px 0, #888888 0 1px 0 inset;
+  -webkit-box-shadow: #eeeeee 0 1px 0, #888888 0 1px 0 inset;
+  -moz-box-shadow: #eeeeee 0 1px 0, #888888 0 1px 0 inset;
+  -o-box-shadow: #eeeeee 0 1px 0, #888888 0 1px 0 inset;
+  -khtml-box-shadow: #eeeeee 0 1px 0, #888888 0 1px 0 inset;
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  -khtml-border-radius: 0.5em;
+  list-style: none;
+  background-color: #aaaaaa;
+  padding: 0.5em 1em;
+}
+/* line 53, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_info ul.mailee_links li, body #content #softa_works .work_showcase_info ul.circlo_links li, body #content #softa_works .work_showcase_info ul.tbrasil_links li {
+  text-shadow: #888888 0 -1px 0;
+  color: white;
+  border-top: 1px solid #bbbbbb;
+  border-bottom: 1px solid #999999;
+}
+/* line 58, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_info ul.mailee_links li:first-child, body #content #softa_works .work_showcase_info ul.circlo_links li:first-child, body #content #softa_works .work_showcase_info ul.tbrasil_links li:first-child {
+  border-top: 0 none;
+}
+/* line 60, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_info ul.mailee_links li:last-child, body #content #softa_works .work_showcase_info ul.circlo_links li:last-child, body #content #softa_works .work_showcase_info ul.tbrasil_links li:last-child {
+  border-bottom: 0 none;
+}
+/* line 63, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_info ul.mailee_links a {
+  color: #2255a0;
+  text-shadow: #cccccc 0 1px 0;
+}
+/* line 67, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_info ul.circlo_links a {
+  color: #a30050;
+  text-shadow: #cccccc 0 1px 0;
+}
+/* line 71, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_info ul.tbrasil_links a {
+  color: #749701;
+  text-shadow: #cccccc 0 1px 0;
+}
+/* line 74, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_info ul.showcase_more_images {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 78, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_info ul.showcase_more_images li {
+  display: inline;
+  padding-left: 4px;
+}
+/* line 81, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_info ul.showcase_more_images li img {
+  box-shadow: 0 0 6px #888888;
+  -webkit-box-shadow: 0 0 6px #888888;
+  -moz-box-shadow: 0 0 6px #888888;
+  -o-box-shadow: 0 0 6px #888888;
+  -khtml-box-shadow: 0 0 6px #888888;
+  border: 1px solid silver;
+}
+/* line 84, ../../app/stylesheets/partials/_works.sass */
+body #content #softa_works .work_showcase_image {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 550px;
+  text-align: right;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #content #softa_works .work_showcase_image {
+  overflow-x: hidden;
+}
+
+/* line 2, ../../app/stylesheets/partials/_methodology.sass */
+body #content .methodology_torned_paper {
+  height: 84px;
+  background-color: #cccccc;
+  background-image: url(/images/methodology/methodology_torned_paper.gif);
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  background-position: left top;
+}
+/* line 10, ../../app/stylesheets/partials/_methodology.sass */
+body #content #softa_methodology {
+  border-bottom: 1px solid #cccccc;
+  background-color: #e0e0e0;
+  background-image: url(/images/methodology/methodology_background.gif);
+  background-repeat: repeat;
+  background-position: left top;
+}
+/* line 17, ../../app/stylesheets/partials/_methodology.sass */
+body #content #softa_methodology .wrapper {
+  background-image: url(/images/coffee_stain.png);
+  background-repeat: no-repeat;
+  background-position: left 600px;
+}
+/* line 22, ../../app/stylesheets/partials/_methodology.sass */
+body #content #softa_methodology h1 {
+  text-shadow: white 0 1px 0;
+  color: #d8d8d8;
+}
+/* line 25, ../../app/stylesheets/partials/_methodology.sass */
+body #content #softa_methodology .method_image {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 470px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #content #softa_methodology .method_image {
+  overflow-x: hidden;
+}
+/* line 27, ../../app/stylesheets/partials/_methodology.sass */
+body #content #softa_methodology .method_text {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #content #softa_methodology .method_text {
+  overflow-x: hidden;
+}
+
+/* line 2, ../../app/stylesheets/partials/_labs.sass */
+body #content .labs_wire {
+  border-top: 1px solid white;
+  background-image: url(/images/header_top.gif);
+  background-repeat: repeat-x;
+  height: 2px;
+}
+/* line 8, ../../app/stylesheets/partials/_labs.sass */
+body #content #softa_labs {
+  border-top: 1px solid white;
+  border-bottom: 1px solid #ff9900;
+}
+/* line 11, ../../app/stylesheets/partials/_labs.sass */
+body #content #softa_labs h1 {
+  text-align: center;
+}
+/* line 13, ../../app/stylesheets/partials/_labs.sass */
+body #content #softa_labs hr {
+  border: 0 none;
+  border-bottom: 1px dotted #dddddd;
+  padding: 1em 0;
+}
+/* line 18, ../../app/stylesheets/partials/_labs.sass */
+body #content article.labs_article .article_images {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 310px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #content article.labs_article .article_images {
+  overflow-x: hidden;
+}
+/* line 21, ../../app/stylesheets/partials/_labs.sass */
+body #content article.labs_article .article_images ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 25, ../../app/stylesheets/partials/_labs.sass */
+body #content article.labs_article .article_images ul li {
+  float: left;
+  margin-right: 18px;
+}
+/* line 29, ../../app/stylesheets/partials/_labs.sass */
+body #content article.labs_article .article_title h2 {
+  color: #666666;
+}
+/* line 32, ../../app/stylesheets/partials/_labs.sass */
+body #content article.labs_article .article_author h4 {
+  color: #ff9900;
+}
+/* line 34, ../../app/stylesheets/partials/_labs.sass */
+body #content article.labs_article .article_content {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 630px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #content article.labs_article .article_content {
+  overflow-x: hidden;
+}
+/* line 37, ../../app/stylesheets/partials/_labs.sass */
+body #content article.labs_article .article_content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 41, ../../app/stylesheets/partials/_labs.sass */
+body #content article.labs_article .article_content ul li {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff {
+  background: #ff9900;
+  border-top: 1px solid white;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 1em;
+}
+/* line 7, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff h2 {
+  color: #dd7700;
+  margin-top: 0.75em;
+  margin-bottom: 0.25em;
+  text-shadow: #ffbb22 0 1px 0;
+}
+/* line 12, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff hr {
+  border: 0 none;
+  border-top: 1px solid #e27c00;
+  border-bottom: 1px solid #ffb61d;
+}
+/* line 16, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff a {
+  color: #993300;
+  text-shadow: #ffb61d 0 1px 0;
+}
+/* line 19, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff a:hover {
+  color: #bb5500;
+}
+/* line 21, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff a:active {
+  color: #993300;
+}
+/* line 23, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #twitter {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 270px;
+  padding-right: 40px;
+  color: white;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #social_stuff #twitter {
+  overflow-x: hidden;
+}
+/* line 27, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #twitter #softa_twitter {
+  margin-bottom: 1em;
+}
+/* line 29, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #twitter #softa_twitter ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 33, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #twitter #softa_twitter ul li {
+  padding: 6px 0;
+  font-size: 12px;
+  word-break: normal;
+}
+/* line 37, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #twitter #softa_twitter ul li a.user_image_link {
+  display: block;
+  float: left;
+  margin: 4px 6px;
+}
+/* line 41, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #twitter #softa_twitter ul li a.user_image_link img {
+  border: 1px solid #ffb61d;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 0 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 3px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0 0 3px;
+  -khtml-box-shadow: rgba(0, 0, 0, 0.8) 0 0 3px;
+}
+/* line 44, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #twitter #softa_twitter ul li strong {
+  color: #333333;
+  text-shadow: #ffb61d 0 1px 0;
+}
+/* line 47, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #twitter #softa_twitter ul li p {
+  color: white;
+  margin-left: 65px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-shadow: #d26c00 0 -1px 0;
+}
+/* line 53, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #twitter #softa_twitter ul li time {
+  display: block;
+}
+/* line 55, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 350px;
+  padding-right: 40px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #social_stuff #blog {
+  overflow-x: hidden;
+}
+/* line 58, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog p {
+  color: white;
+}
+/* line 60, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog p a {
+  color: black;
+  text-decoration: underline;
+}
+/* line 63, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog #softa_blog_rss {
+  margin-bottom: 1em;
+}
+/* line 65, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog #softa_blog_rss p {
+  color: white;
+}
+/* line 67, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog #softa_blog_rss p a {
+  color: white;
+}
+/* line 69, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog #softa_blog_rss ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 73, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog #softa_blog_rss ul li {
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #e27c00;
+  border-top: 1px solid #ffb61d;
+}
+/* line 78, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog #softa_blog_rss ul li:first-child {
+  padding-top: 0;
+  border-top: 0 none;
+}
+/* line 81, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog #softa_blog_rss ul li:last-child {
+  border-bottom: 0 none;
+}
+/* line 83, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog #softa_blog_rss ul li h3 {
+  font-size: 14px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0 0 6px 0;
+}
+/* line 88, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog #softa_blog_rss ul li div {
+  font-size: 9px;
+}
+/* line 90, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #blog #softa_blog_rss ul li p {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  text-shadow: #d26c00 0 -1px 0;
+}
+/* line 95, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 230px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #social_stuff #calendar {
+  overflow-x: hidden;
+}
+/* line 97, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar #calendar_rss {
+  margin-bottom: 1em;
+}
+/* line 99, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar #calendar_rss ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 103, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar #calendar_rss ul li {
+  margin: 0;
+  padding: 6px 0;
+  border-bottom: 1px solid #e27c00;
+  border-top: 1px solid #ffb61d;
+}
+/* line 108, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar #calendar_rss ul li:first-child {
+  padding-top: 0;
+  border-top: 0 none;
+}
+/* line 111, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar #calendar_rss ul li:last-child {
+  border-bottom: 0 none;
+}
+/* line 113, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar #calendar_rss ul li h5 {
+  font-size: 12px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+/* line 118, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar #calendar_rss ul li p {
+  font-size: 10px;
+  padding: 0;
+  color: #eeeeee;
+  margin: 0;
+  text-shadow: #d26c00 0 -1px 0;
+}
+/* line 124, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar .contact_for_keynote {
+  box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
+  -webkit-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
+  -moz-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
+  -o-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
+  -khtml-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  background-color: #d26c00;
+  padding: 1em 1em 0.25em 1em;
+  text-align: center;
+}
+/* line 130, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar .contact_for_keynote p {
+  font-size: 12px;
+  color: white;
+  text-shadow: #bb5500 0 -1px 0;
+}
+/* line 134, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar .contact_for_keynote a {
+  color: #ffc62d;
+  text-shadow: #bb5500 0 -1px 0;
+}
+/* line 137, ../../app/stylesheets/partials/_social_stuff.sass */
+body #social_stuff #calendar h4 {
+  font-size: 15px;
+  font-weight: 900;
+  color: #cc6600;
+  text-shadow: #ffcc33 0 1px 0;
+}
+/* line 145, ../../app/stylesheets/partials/_social_stuff.sass */
+body #softa_folks #daniel_weinmann, body #softa_folks #felipe_cabral, body #softa_folks #leonardo_tartari {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 470px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #softa_folks #daniel_weinmann, * html body #softa_folks #felipe_cabral, * html body #softa_folks #leonardo_tartari {
+  overflow-x: hidden;
+}
+/* line 147, ../../app/stylesheets/partials/_social_stuff.sass */
+body #softa_folks #diogo_biazus, body #softa_folks #juan_maiz, body #softa_folks #pedro_axelrud {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #softa_folks #diogo_biazus, * html body #softa_folks #juan_maiz, * html body #softa_folks #pedro_axelrud {
+  overflow-x: hidden;
+}
+/* line 149, ../../app/stylesheets/partials/_social_stuff.sass */
+body #softa_folks #daniel_weinmann, body #softa_folks #diogo_biazus, body #softa_folks #felipe_cabral, body #softa_folks #juan_maiz, body #softa_folks #leonardo_tartari, body #softa_folks #pedro_axelrud {
+  box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
+  -webkit-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
+  -moz-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
+  -o-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
+  -khtml-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  background-color: #d26c00;
+  margin-bottom: 1em;
+}
+/* line 154, ../../app/stylesheets/partials/_social_stuff.sass */
+body #softa_folks #daniel_weinmann a, body #softa_folks #diogo_biazus a, body #softa_folks #felipe_cabral a, body #softa_folks #juan_maiz a, body #softa_folks #leonardo_tartari a, body #softa_folks #pedro_axelrud a {
+  color: #ffc62d;
+  text-shadow: #bb5500 0 -1px 0;
+}
+/* line 157, ../../app/stylesheets/partials/_social_stuff.sass */
+body #softa_folks #daniel_weinmann .image, body #softa_folks #diogo_biazus .image, body #softa_folks #felipe_cabral .image, body #softa_folks #juan_maiz .image, body #softa_folks #leonardo_tartari .image, body #softa_folks #pedro_axelrud .image {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 110px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #softa_folks #daniel_weinmann .image, * html body #softa_folks #diogo_biazus .image, * html body #softa_folks #felipe_cabral .image, * html body #softa_folks #juan_maiz .image, * html body #softa_folks #leonardo_tartari .image, * html body #softa_folks #pedro_axelrud .image {
+  overflow-x: hidden;
+}
+/* line 159, ../../app/stylesheets/partials/_social_stuff.sass */
+body #softa_folks #daniel_weinmann .image img, body #softa_folks #diogo_biazus .image img, body #softa_folks #felipe_cabral .image img, body #softa_folks #juan_maiz .image img, body #softa_folks #leonardo_tartari .image img, body #softa_folks #pedro_axelrud .image img {
+  width: 84px;
+  margin: 18px 0 16px 16px;
+  border: 1px solid white;
+}
+/* line 163, ../../app/stylesheets/partials/_social_stuff.sass */
+body #softa_folks #daniel_weinmann .info, body #softa_folks #diogo_biazus .info, body #softa_folks #felipe_cabral .info, body #softa_folks #juan_maiz .info, body #softa_folks #leonardo_tartari .info, body #softa_folks #pedro_axelrud .info {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 310px;
+  padding-top: 0.75em;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #softa_folks #daniel_weinmann .info, * html body #softa_folks #diogo_biazus .info, * html body #softa_folks #felipe_cabral .info, * html body #softa_folks #juan_maiz .info, * html body #softa_folks #leonardo_tartari .info, * html body #softa_folks #pedro_axelrud .info {
+  overflow-x: hidden;
+}
+/* line 166, ../../app/stylesheets/partials/_social_stuff.sass */
+body #softa_folks #daniel_weinmann .info h4, body #softa_folks #diogo_biazus .info h4, body #softa_folks #felipe_cabral .info h4, body #softa_folks #juan_maiz .info h4, body #softa_folks #leonardo_tartari .info h4, body #softa_folks #pedro_axelrud .info h4 {
+  padding: 7px 0 8px 0;
+  font-size: 14px;
+  color: white;
+}
+/* line 170, ../../app/stylesheets/partials/_social_stuff.sass */
+body #softa_folks #daniel_weinmann .info p, body #softa_folks #diogo_biazus .info p, body #softa_folks #felipe_cabral .info p, body #softa_folks #juan_maiz .info p, body #softa_folks #leonardo_tartari .info p, body #softa_folks #pedro_axelrud .info p {
+  padding: 0;
+  font-size: 12px;
+  color: white;
+  margin: 0 0 0.25em 0;
+}
+/* line 175, ../../app/stylesheets/partials/_social_stuff.sass */
+body #softa_folks #daniel_weinmann .info p.links, body #softa_folks #diogo_biazus .info p.links, body #softa_folks #felipe_cabral .info p.links, body #softa_folks #juan_maiz .info p.links, body #softa_folks #leonardo_tartari .info p.links, body #softa_folks #pedro_axelrud .info p.links {
+  font-size: 12px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+
+/* line 1, ../../app/stylesheets/partials/_apple_overlay.sass */
+.showcase_image_large {
+  display: none;
+  background-image: url(/images/overlay/white.png);
+  width: 640px;
+  padding: 35px;
+  font-size: 11px;
+}
+/* line 7, ../../app/stylesheets/partials/_apple_overlay.sass */
+.showcase_image_large .close {
+  background-image: url(/images/overlay/close.png);
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+}
+
+/* line 15, ../../app/stylesheets/partials/_style.sass */
+body {
+  line-height: 1.5;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Sans", "sans-serif";
+  color: #333333;
+  font-size: 87.5%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 68, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-weight: normal;
+  color: #222222;
+}
+/* line 69, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body h1 img, body h2 img, body h3 img, body h4 img, body h5 img, body h6 img {
+  margin: 0;
+}
+/* line 70, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.50em;
+}
+/* line 71, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}
+/* line 72, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1.00em;
+}
+/* line 73, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+/* line 74, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.50em;
+}
+/* line 75, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+/* line 76, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body p {
+  margin: 0 0 1.5em;
+}
+/* line 77, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body p img.left {
+  display: inline;
+  float: left;
+  margin: 1.5em 1.5em 1.5em 0;
+  padding: 0;
+}
+/* line 78, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body p img.right {
+  display: inline;
+  float: right;
+  margin: 1.5em 0 1.5em 1.5em;
+  padding: 0;
+}
+/* line 80, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body a {
+  text-decoration: underline;
+  color: #ff9900;
+}
+/* line 18, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body a:visited {
+  color: #cc6600;
+}
+/* line 22, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body a:focus {
+  color: black;
+}
+/* line 26, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body a:hover {
+  color: black;
+}
+/* line 30, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body a:active {
+  color: #ff9900;
+}
+/* line 81, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body blockquote {
+  margin: 1.5em;
+  color: #666666;
+  font-style: italic;
+}
+/* line 82, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body strong {
+  font-weight: bold;
+}
+/* line 83, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body em {
+  font-style: italic;
+}
+/* line 84, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body dfn {
+  font-style: italic;
+  font-weight: bold;
+}
+/* line 85, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body sup, body sub {
+  line-height: 0;
+}
+/* line 86, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body abbr, body acronym {
+  border-bottom: 1px dotted #666666;
+}
+/* line 87, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body address {
+  margin: 0 0 1.5em;
+  font-style: italic;
+}
+/* line 88, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body del {
+  color: #666666;
+}
+/* line 89, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body pre {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+/* line 90, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body pre, body code, body tt {
+  font: 1em "Menlo", "Monaco", "andale mono", "lucida console", "monospace";
+  line-height: 1.5;
+}
+/* line 91, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body li ul, body li ol {
+  margin: 0;
+}
+/* line 92, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body ul, body ol {
+  margin: 0 1.5em 1.5em 0;
+  padding-left: 3.333em;
+}
+/* line 93, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body ul {
+  list-style-type: disc;
+}
+/* line 94, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body ol {
+  list-style-type: decimal;
+}
+/* line 95, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body dl {
+  margin: 0 0 1.5em 0;
+}
+/* line 96, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body dl dt {
+  font-weight: bold;
+}
+/* line 97, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body dd {
+  margin-left: 1.5em;
+}
+/* line 98, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body table {
+  margin-bottom: 1.4em;
+  width: 100%;
+}
+/* line 99, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body th {
+  font-weight: bold;
+}
+/* line 100, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body thead th {
+  background: #c3d9ff;
+}
+/* line 101, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body th, body td, body caption {
+  padding: 4px 10px 4px 5px;
+}
+/* line 102, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body tr.even td {
+  background: #e5ecf9;
+}
+/* line 103, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body tfoot {
+  font-style: italic;
+}
+/* line 104, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body caption {
+  background: #eeeeee;
+}
+/* line 105, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body .quiet {
+  color: #666666;
+}
+/* line 106, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body .loud {
+  color: #111111;
+}
+/* line 9, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body .clear {
+  clear: both;
+}
+/* line 12, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body .nowrap {
+  white-space: nowrap;
+}
+/* line 16, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body .clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 18, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body .small {
+  font-size: 0.8em;
+  margin-bottom: 1.875em;
+  line-height: 1.875em;
+}
+/* line 22, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body .large {
+  font-size: 1.2em;
+  line-height: 2.5em;
+  margin-bottom: 1.25em;
+}
+/* line 26, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body .first {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 29, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body .last {
+  margin-right: 0;
+  padding-right: 0;
+}
+/* line 32, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body .top {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 35, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body .bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 23, ../../app/stylesheets/partials/_style.sass */
+body header, body footer, body section, body article, body aside {
+  display: block;
+}
+/* line 25, ../../app/stylesheets/partials/_style.sass */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-weight: 900;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+}
+/* line 30, ../../app/stylesheets/partials/_style.sass */
+body p, body ul li {
+  color: #666666;
+}
+/* line 32, ../../app/stylesheets/partials/_style.sass */
+body address {
+  font-style: normal;
+}
+/* line 34, ../../app/stylesheets/partials/_style.sass */
+body a {
+  cursor: pointer;
+  color: #ff9900;
+  -webkit-transition: color 0.35s ease-in;
+  text-decoration: none;
+}
+/* line 39, ../../app/stylesheets/partials/_style.sass */
+body a:hover {
+  color: #ffbb22;
+  text-decoration: underline;
+}
+/* line 42, ../../app/stylesheets/partials/_style.sass */
+body a:active {
+  position: relative;
+  top: 1px;
+  color: #ee8800;
+}
+/* line 46, ../../app/stylesheets/partials/_style.sass */
+body a:visited {
+  color: #ff9900;
+}
+/* line 48, ../../app/stylesheets/partials/_style.sass */
+body .wrapper {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 50, ../../app/stylesheets/partials/_style.sass */
+body .fixed_navigation {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px;
+  -o-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px;
+  -khtml-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px;
+  border-bottom: 1px solid #ff9900;
+  display: block;
+  position: fixed;
+  padding: 0;
+  height: 5px;
+  width: 100%;
+  background-image: url(/images/header_top.gif);
+  background-repeat: repeat;
+  z-index: 999;
+}
+/* line 62, ../../app/stylesheets/partials/_style.sass */
+body .fixed_navigation .wrapper {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+/* line 64, ../../app/stylesheets/partials/_style.sass */
+body .fixed_navigation .wrapper:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+/* line 66, ../../app/stylesheets/partials/_style.sass */
+body .fixed_navigation.open {
+  height: 42px;
+}
+/* line 68, ../../app/stylesheets/partials/_style.sass */
+body .fixed_navigation ul.top_navigation_fixed {
+  display: none;
+  margin: 0;
+  padding: 8px 0;
+  text-align: center;
+}
+/* line 73, ../../app/stylesheets/partials/_style.sass */
+body .fixed_navigation ul.top_navigation_fixed li {
+  display: inline;
+  margin: 0;
+  padding: 0 20px;
+}
+/* line 77, ../../app/stylesheets/partials/_style.sass */
+body .fixed_navigation ul.top_navigation_fixed li a {
+  color: #993300;
+  text-shadow: #ffb61d 0 1px 0;
+  padding: 0;
+  margin: 0;
+  font-weight: 900;
+}
+/* line 83, ../../app/stylesheets/partials/_style.sass */
+body .fixed_navigation ul.top_navigation_fixed li a:hover {
+  color: #bb5500;
+}
+/* line 85, ../../app/stylesheets/partials/_style.sass */
+body .fixed_navigation ul.top_navigation_fixed li a:active {
+  color: #993300;
+}
+/* line 87, ../../app/stylesheets/partials/_style.sass */
+body .fixed_navigation ul.top_navigation_fixed li a img {
+  vertical-align: middle;
+}
+/* line 90, ../../app/stylesheets/partials/_style.sass */
+body header #softa_logo {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 230px;
+  text-align: center;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body header #softa_logo {
+  overflow-x: hidden;
+}
+/* line 93, ../../app/stylesheets/partials/_style.sass */
+body header #softa_logo img:hover {
+  background: url(/images/softa_background.png) no-repeat center center;
+}
+/* line 95, ../../app/stylesheets/partials/_style.sass */
+body header nav {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 710px;
+  padding-top: 40px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body header nav {
+  overflow-x: hidden;
+}
+/* line 98, ../../app/stylesheets/partials/_style.sass */
+body header nav a {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+  display: block;
+  text-decoration: none;
+  line-height: 15px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body header nav a {
+  overflow-x: hidden;
+}
+/* line 103, ../../app/stylesheets/partials/_style.sass */
+body header nav a:hover {
+  text-decoration: none;
+}
+/* line 105, ../../app/stylesheets/partials/_style.sass */
+body header nav a:hover strong {
+  -webkit-transition: color 0.25s ease-in;
+  color: #333333;
+}
+/* line 108, ../../app/stylesheets/partials/_style.sass */
+body header nav a:hover span {
+  -webkit-transition: color 0.25s ease-in;
+  color: #666666;
+}
+/* line 112, ../../app/stylesheets/partials/_style.sass */
+body header nav a:active strong {
+  color: #ff9900;
+}
+/* line 114, ../../app/stylesheets/partials/_style.sass */
+body header nav a:active span {
+  color: #ffbb22;
+}
+/* line 116, ../../app/stylesheets/partials/_style.sass */
+body header nav a strong {
+  font-size: 20px;
+  font-weight: 900;
+  color: #666666;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 6px;
+}
+/* line 123, ../../app/stylesheets/partials/_style.sass */
+body header nav a span {
+  font-size: 12px;
+  color: #aaaaaa;
+  text-decoration: none;
+}
+/* line 127, ../../app/stylesheets/partials/_style.sass */
+body #content {
+  text-shadow: white 0 1px 0;
+}
+/* line 130, ../../app/stylesheets/partials/_style.sass */
+body #content #softa_description h1, body #content #softa_methodology h1, body #content #softa_labs h1 {
+  padding: 0.25em 0 0.75em 0;
+}
+/* line 132, ../../app/stylesheets/partials/_style.sass */
+body #content #softa_description .wrapper section, body #content #softa_methodology .wrapper section, body #content #softa_labs .wrapper section {
+  padding: 1em 0;
+}
+/* line 134, ../../app/stylesheets/partials/_style.sass */
+body #content #softa_works .wrapper section {
+  padding: 1em 0 0 0;
+}
+/* line 136, ../../app/stylesheets/partials/_style.sass */
+body #social_stuff .wrapper section {
+  padding: 1em 0;
+}
+/* line 138, ../../app/stylesheets/partials/_style.sass */
+body footer {
+  padding: 15px 0;
+  border-top: 1px solid #555555;
+  border-bottom: 1px solid black;
+  color: white;
+  background-color: #333333;
+  background-image: url(/images/footer_background.gif);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: left top;
+}
+/* line 149, ../../app/stylesheets/partials/_style.sass */
+body footer h1 {
+  color: gray;
+  text-shadow: #cccccc 0 1px 0;
+  padding: 0.25em 0 0.5em 0;
+}
+/* line 153, ../../app/stylesheets/partials/_style.sass */
+body footer #contact_us {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 470px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body footer #contact_us {
+  overflow-x: hidden;
+}
+/* line 155, ../../app/stylesheets/partials/_style.sass */
+body footer #where_to_find_us {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body footer #where_to_find_us {
+  overflow-x: hidden;
+}
+/* line 158, ../../app/stylesheets/partials/_style.sass */
+body footer #colophon p {
+  color: white;
+}
+/* line 160, ../../app/stylesheets/partials/_style.sass */
+body .post_footer {
+  border-top: 1px solid #222222;
+  height: 20px;
+  background: black;
+}

@@ -1,0 +1,32 @@
+.wrapper
+  #contact_us
+    %h1 Entre em contato
+    %form#contact_us{ :name => 'contact_form', :action => '#', :method => 'post' }
+      = token_tag
+      %fieldset
+        %label{ :for => 'contact_us_name' } Nome
+        %br
+        %input#contact_us_name{ :name => 'name', :type => 'text', :placeholder => 'Seu nome completo' }
+      %fieldset
+        %label{ :for => 'contact_us_email' } Email
+        %br
+        %input#contact_us_email{ :name => 'email', :type => 'email', :placeholder => 'usuario@dominio.com', :pattern => "/^[a-z0-9\._-]+@([a-z0-9][a-z0-9-_]*[a-z0-9-_]\.)+([a-z-_]+\.)?([a-z-_]+)$/"}
+      %fieldset
+        %label{ :for => 'contact_us_message' } Mensagem
+        %br
+        %textarea#contact_us_message{ :name => 'message', :type => 'email', :placeholder => 'Escreva sua mensagem', :wrap => 'soft', :rows => 4 }
+      %fieldset.submit_button
+        %button{ :type => 'submit', :form => 'contact_form' } enviar »
+  #where_to_find_us
+    %address{:style => 'text-align:right;'}
+      #{image_tag 'show_me_the_way.png', :style => 'margin-bottom:.5em; margin-top:1em;'}
+      %br
+      Rua Vieira de Castro, 262 / 202
+      %br
+      Bairro Farroupilha · Porto Alegre, RS
+      %br
+      +55 51 3062 5545 · #{mail_to 'contato@softa.com.br'}
+  .clear
+  #colophon{:style =>'position:relative; text-align:right;'}
+    %p Softa · 2010 · Powered by #{image_tag 'lots_of.png', :style => 'position:absolute; bottom:0px;'}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coffee
+.clear

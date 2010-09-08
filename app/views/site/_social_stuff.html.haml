@@ -1,0 +1,71 @@
+.wrapper
+  #twitter
+    %section
+      %h2 Twitter
+      #softa_twitter
+  #blog
+    %section
+      %h2 Blog
+      #softa_blog_rss
+  #calendar
+    %section
+      %h2 Agenda
+      #calendar_rss
+      .contact_for_keynote
+        %p
+          Quer nos chamar para palestras, cursos ou eventos?
+          %br
+          #{mail_to 'contato@softa.com.br', 'Entre em contato »' }
+      %h4 Eventos
+      %ul
+        %li #{link_to 'RS on Rails 2010', 'http://rsrails.com.br/'}
+        %li #{link_to 'RS on Rails 2009', 'http://rsrails.com.br/'}
+  .clear
+  %br
+  %hr
+  #softa_folks
+    %section
+      %h2 Softa Staff
+      #daniel_weinmann
+        .image
+          #{image_tag 'staff/person.png'}
+        .info
+          %h4 Daniel Weinmann #{ twitter 'danielweinmann' }
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          %p.links #{link_to 'link', '#'}
+      #diogo_biazus
+        .image
+          #{image_tag 'staff/person.png'}
+        .info
+          %h4 Diogo Biazus #{ twitter 'dbiazus' }
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          %p.links #{link_to 'link', '#'}
+      #felipe_cabral
+        .image
+          #{image_tag 'staff/person.png'}
+        .info
+          %h4 Felipe Cabral #{ twitter 'felipebcabral' }
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          %p.links #{link_to 'link', '#'}
+      #juan_maiz
+        .image
+          #{image_tag 'staff/person.png'}
+        .info
+          %h4 Juan Maiz #{ twitter 'joaomilho' }
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          %p.links #{link_to 'link', '#'}
+      #leonardo_tartari
+        .image
+          #{image_tag 'staff/person.png'}
+        .info
+          %h4 Léo Tartari #{ twitter 'leotartari' }
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          %p.links #{link_to 'Flickr', '#'} · #{link_to 'Skoob', '#'}
+      #pedro_axelrud
+        .image
+          #{image_tag 'staff/person.png'}
+        .info
+          %h4 Pedro Axelrud #{ twitter 'pedroaxl' }
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          %p.links #{link_to 'Flickr', '#'} · #{link_to 'Blog', '#'} · #{link_to 'Flavours', '#'}
+      .clear

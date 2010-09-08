@@ -1,0 +1,44 @@
+body #content
+  #softa_description
+    backgrond-color: #000
+    border-bottom: 1px solid #ccc
+    .coffee_wrapper
+      position: relative
+      #coffee_driven_development
+        display: none
+        position: absolute
+        background:
+          image: url(/images/coffee_driven_development.gif)
+          repeat: no-repeat
+          position: right bottom
+        top: -100px
+        right: 50px
+        height: 128px
+        width: 400px
+    h1
+      z-index: 100
+      font-size: 32px
+      line-height: 38px
+      padding: 1em 0
+      color: #999
+      font-weight: 100
+      em
+        font-style: normal
+        transition: color 1s ease-in
+        -webkit-transition: color 1s ease-in
+        -moz-transition: color 1s ease-in
+        -o-transition: color 1s ease-in
+        -khtml-transition: color 1s ease-in
+        &.web_two.active
+          color: #FF9900
+        &.ruby_on_rails.active
+          color: #B42738
+        &.postgresql.active
+          color: #009ACC
+        &.open_source.active
+          color: #40A850
+        &.methods.active
+          color: #AA5303
+        &.web_two, &.ruby_on_rails, &.postgresql, &.open_source, &.methods
+          &.passed
+            color: #666

@@ -1,0 +1,24 @@
+.labs_wire
+#softa_labs
+  .wrapper
+    %section
+      %h1 #{image_tag 'labs/softa_labs.png', :alt => 'Softa Labs'}
+      %section
+        %article.labs_article
+          .article_images
+            = image_tag 'labs/labs_one.jpg', :width => '275px'
+            %ul
+              - 3.times do
+                %li
+                  %img{ :width => '80px', :height => '40px' }
+          .article_title
+            %h2 Título do experimento
+          .article_author
+            %h4 Autor do experimento
+          .article_content
+            %p
+              Descrição do experimento
+              %br
+              <a href="#">Veja o site »</a>
+          .clear
+.clear

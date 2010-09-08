@@ -1,0 +1,52 @@
+!!!5
+= render 'layouts/softa'
+%html
+  %head
+    %meta{ :charset => 'UTF-8' }
+    %title Softa · Aplicações web 2.0 em Rails e PostgreSQL
+    %meta{ :name => 'keywords', :content => 'web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo de oliveira biazus, daniel de souza weinmann, juan maiz lulkin flores da cunha, pedro kvitko axelrud, felipe benites cabral, leonardo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0' }
+    %meta{ :name => 'description', :content => 'Aplicações web 2.0. O melhor do open source: Ruby on Rails e PostgreSQL. Nós utilizamos as melhores tecnologias aliadas aos métodos certos para desenvolver seus projetos no menor tempo e com a maior qualidade.' }
+    %meta{ :name => 'author', :content => 'Softa' }
+    = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
+    /[if IE]
+      %meta{ 'http-equiv' => 'X-UA-Compatible', :content => 'IE=9' }
+      = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
+    = javascript_include_tag 'http://html5shim.googlecode.com/svn/trunk/html5.js'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'
+    = javascript_include_tag 'juitter/jquery.juitter.js'
+    = javascript_include_tag 'juitter/system.js'
+    = csrf_meta_tag
+    = javascript_include_tag 'jquery_tools/jquery.tools.min.js'
+    = javascript_include_tag  'zrssfeed/jquery.zrssfeed.min.js'
+    :javascript 
+      $(function(){
+        $(".work_showcase_images img[rel]").overlay({mask:'#000',effect:'apple'});
+      });
+      $(document).ready(function(){
+        $('#softa_blog_rss').rssfeed('http://blog.softa.com.br/rss.xml', {
+          limit:    5,
+          header:   false,
+          titletag: 'h3',
+          date:     false,
+          errormsg: 'Ooops. Ocorreu um erro ao tentar carregar o <a href="http://blog.softa.com.br/" target="_blank">blog.softa.com.br</a>.<br>Tente mais tarde novamente.'
+        });
+        $('#calendar_rss').rssfeed('http://www.google.com/calendar/feeds/62loik9tem085k7v8rrgjg0138%40group.calendar.google.com/public/basic', {
+          limit:    5,
+          header:   false,
+          titletag: 'h5',
+          date:     false,
+          errormsg: 'Ooops. Ocorreu um erro ao tentar carregar o calendário da Softa.<br>Tente mais tarde novamente.'
+        });
+      });
+    = javascript_include_tag 'top_navigation_fixed'
+    %link{ :rel => 'shortcut icon', :type => 'image/x-icon', :href => 'favicon.ico' }
+  %body
+    .fixed_navigation= render 'layouts/top_navigation_fixed'
+    %header#top= render 'layouts/header'
+    #content= yield
+    .clear
+    #social_stuff= render 'site/social_stuff'
+    .clear
+    %footer= render 'layouts/footer'
+    .post_footer
+    = render 'layouts/google_analytics'

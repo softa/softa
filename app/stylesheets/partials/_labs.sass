@@ -1,0 +1,43 @@
+body #content
+  .labs_wire
+    border-top: 1px solid white
+    background:
+      image: url(/images/header_top.gif)
+      repeat: repeat-x
+    height: 2px
+  #softa_labs
+    border-top: 1px solid white
+    border-bottom: 1px solid #ff9900
+    h1
+      text-align: center
+    hr
+      border: 0 none
+      border-bottom: 1px dotted #ddd
+      padding: 1em 0
+  article.labs_article
+    .article_images
+      +column(8)
+      img
+      ul
+        list-style: none
+        margin: 0
+        padding: 0
+        li
+          float: left
+          margin-right: 18px
+    .article_title
+      h2
+        color: #666
+    .article_author
+      h4
+        color: #f90
+    .article_content
+      +column(16,last)
+      p
+      ul
+        margin: 0
+        padding: 0
+        list-style: none
+        li
+          margin: 0
+          padding: 0
