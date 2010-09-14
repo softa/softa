@@ -6,6 +6,14 @@
         #coffee_driven_development
       %p #{link_to 'Veja alguns projetos »', '#softa_works'} | #{link_to 'Veja como trabalhamos »', '#softa_methodology'} | #{link_to 'Confira nossos experimentos »', '#softa_labs'}
 :javascript
+  $("a[href^='#']").click(function(){
+    href = $(this).attr('href')
+    pos = $(href).position()
+    pos.top -= 40
+    $.scrollTo(pos,600)
+    return false
+  })
+
   var emphasis = [".web_two",".ruby_on_rails",".postgresql",".open_source",".methods"]
   function change_emphasis(emphasis, index)
   {
