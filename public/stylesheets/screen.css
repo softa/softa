@@ -1207,34 +1207,35 @@ body .fixed_navigation {
   width: 100%;
   background-image: url(/images/header_top.gif);
   background-repeat: repeat;
+  background-position: top center;
   z-index: 999;
 }
-/* line 62, ../../app/stylesheets/partials/_style.sass */
+/* line 63, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation .wrapper {
   background-color: rgba(255, 255, 255, 0.05);
 }
-/* line 64, ../../app/stylesheets/partials/_style.sass */
+/* line 65, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation .wrapper:hover {
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 66, ../../app/stylesheets/partials/_style.sass */
+/* line 67, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation.open {
   height: 42px;
 }
-/* line 68, ../../app/stylesheets/partials/_style.sass */
+/* line 69, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed {
   display: none;
   margin: 0;
   padding: 8px 0;
   text-align: center;
 }
-/* line 73, ../../app/stylesheets/partials/_style.sass */
+/* line 74, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li {
   display: inline;
   margin: 0;
   padding: 0 20px;
 }
-/* line 77, ../../app/stylesheets/partials/_style.sass */
+/* line 78, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a {
   color: #993300;
   text-shadow: #ffb61d 0 1px 0;
@@ -1242,19 +1243,19 @@ body .fixed_navigation ul.top_navigation_fixed li a {
   margin: 0;
   font-weight: 900;
 }
-/* line 83, ../../app/stylesheets/partials/_style.sass */
+/* line 84, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:hover {
   color: #bb5500;
 }
-/* line 85, ../../app/stylesheets/partials/_style.sass */
+/* line 86, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:active {
   color: #993300;
 }
-/* line 87, ../../app/stylesheets/partials/_style.sass */
+/* line 88, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a img {
   vertical-align: middle;
 }
-/* line 90, ../../app/stylesheets/partials/_style.sass */
+/* line 91, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo {
   display: inline;
   float: left;
@@ -1266,11 +1267,11 @@ body header #softa_logo {
 * html body header #softa_logo {
   overflow-x: hidden;
 }
-/* line 93, ../../app/stylesheets/partials/_style.sass */
+/* line 94, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo img:hover {
   background: url(/images/softa_background.png) no-repeat center center;
 }
-/* line 95, ../../app/stylesheets/partials/_style.sass */
+/* line 96, ../../app/stylesheets/partials/_style.sass */
 body header nav {
   display: inline;
   float: left;
@@ -1282,7 +1283,7 @@ body header nav {
 * html body header nav {
   overflow-x: hidden;
 }
-/* line 98, ../../app/stylesheets/partials/_style.sass */
+/* line 99, ../../app/stylesheets/partials/_style.sass */
 body header nav a {
   display: inline;
   float: left;
@@ -1296,29 +1297,29 @@ body header nav a {
 * html body header nav a {
   overflow-x: hidden;
 }
-/* line 103, ../../app/stylesheets/partials/_style.sass */
+/* line 104, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover {
   text-decoration: none;
 }
-/* line 105, ../../app/stylesheets/partials/_style.sass */
+/* line 106, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover strong {
   -webkit-transition: color 0.25s ease-in;
   color: #333333;
 }
-/* line 108, ../../app/stylesheets/partials/_style.sass */
+/* line 109, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover span {
   -webkit-transition: color 0.25s ease-in;
   color: #666666;
 }
-/* line 112, ../../app/stylesheets/partials/_style.sass */
+/* line 113, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active strong {
   color: #ff9900;
 }
-/* line 114, ../../app/stylesheets/partials/_style.sass */
+/* line 115, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active span {
   color: #ffbb22;
 }
-/* line 116, ../../app/stylesheets/partials/_style.sass */
+/* line 117, ../../app/stylesheets/partials/_style.sass */
 body header nav a strong {
   font-size: 20px;
   font-weight: 900;
@@ -1327,41 +1328,41 @@ body header nav a strong {
   display: block;
   padding-bottom: 6px;
 }
-/* line 123, ../../app/stylesheets/partials/_style.sass */
+/* line 124, ../../app/stylesheets/partials/_style.sass */
 body header nav a span {
   font-size: 12px;
   color: #aaaaaa;
   text-decoration: none;
 }
-/* line 127, ../../app/stylesheets/partials/_style.sass */
+/* line 128, ../../app/stylesheets/partials/_style.sass */
 body #content {
   text-shadow: white 0 1px 0;
 }
-/* line 130, ../../app/stylesheets/partials/_style.sass */
+/* line 131, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_description h1, body #content #softa_methodology h1, body #content #softa_labs h1 {
   padding: 0.25em 0 0.75em 0;
 }
-/* line 132, ../../app/stylesheets/partials/_style.sass */
+/* line 133, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_description .wrapper section, body #content #softa_methodology .wrapper section, body #content #softa_labs .wrapper section {
   padding: 1em 0;
 }
-/* line 134, ../../app/stylesheets/partials/_style.sass */
+/* line 135, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_methodology {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 136, ../../app/stylesheets/partials/_style.sass */
+/* line 137, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_works .wrapper section {
   padding: 1em 0 0 0;
 }
-/* line 138, ../../app/stylesheets/partials/_style.sass */
+/* line 139, ../../app/stylesheets/partials/_style.sass */
 body #social_stuff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 140, ../../app/stylesheets/partials/_style.sass */
+/* line 141, ../../app/stylesheets/partials/_style.sass */
 body #social_stuff .wrapper section {
   padding: 1em 0;
 }
-/* line 142, ../../app/stylesheets/partials/_style.sass */
+/* line 143, ../../app/stylesheets/partials/_style.sass */
 body footer {
   -webkit-font-smoothing: subpixel-antialiased;
   padding: 15px 0;
@@ -1374,13 +1375,13 @@ body footer {
   background-attachment: scroll;
   background-position: left top;
 }
-/* line 154, ../../app/stylesheets/partials/_style.sass */
+/* line 155, ../../app/stylesheets/partials/_style.sass */
 body footer h1 {
   color: black;
   text-shadow: #555555 0 1px 0;
   padding: 0.25em 0 0.5em 0;
 }
-/* line 158, ../../app/stylesheets/partials/_style.sass */
+/* line 159, ../../app/stylesheets/partials/_style.sass */
 body footer #contact_us {
   display: inline;
   float: left;
@@ -1391,7 +1392,7 @@ body footer #contact_us {
 * html body footer #contact_us {
   overflow-x: hidden;
 }
-/* line 160, ../../app/stylesheets/partials/_style.sass */
+/* line 161, ../../app/stylesheets/partials/_style.sass */
 body footer #where_to_find_us {
   display: inline;
   float: left;
@@ -1402,11 +1403,11 @@ body footer #where_to_find_us {
 * html body footer #where_to_find_us {
   overflow-x: hidden;
 }
-/* line 163, ../../app/stylesheets/partials/_style.sass */
+/* line 164, ../../app/stylesheets/partials/_style.sass */
 body footer #colophon p {
   color: white;
 }
-/* line 165, ../../app/stylesheets/partials/_style.sass */
+/* line 166, ../../app/stylesheets/partials/_style.sass */
 body .post_footer {
   border-top: 1px solid #222222;
   height: 20px;
