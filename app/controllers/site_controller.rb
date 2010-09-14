@@ -8,7 +8,7 @@ class SiteController < ApplicationController
     @events = []
     doc.search('entry').each do |entry|
       content = (entry%'content').html
-#      raise content
+      # raise content
       whn = content.scan(/Quando: (.+201\d)/).to_s
       whr = content.scan(/Onde: (.+)/).to_s
       desc = content.scan(/Descrição do evento: (.+)/).to_s

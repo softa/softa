@@ -346,28 +346,18 @@ body #content #softa_works .work_showcase_info ul.mailee_links a {
   color: #2255a0;
   text-shadow: #cccccc 0 1px 0;
 }
-/* line 67, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_info ul.circlo_links a {
-  color: #a30050;
-  text-shadow: #cccccc 0 1px 0;
-}
-/* line 71, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_info ul.tbrasil_links a {
-  color: #749701;
-  text-shadow: #cccccc 0 1px 0;
-}
-/* line 74, ../../app/stylesheets/partials/_works.sass */
+/* line 66, ../../app/stylesheets/partials/_works.sass */
 body #content #softa_works .work_showcase_info ul.showcase_more_images {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 78, ../../app/stylesheets/partials/_works.sass */
+/* line 70, ../../app/stylesheets/partials/_works.sass */
 body #content #softa_works .work_showcase_info ul.showcase_more_images li {
   display: inline;
   padding-left: 4px;
 }
-/* line 81, ../../app/stylesheets/partials/_works.sass */
+/* line 73, ../../app/stylesheets/partials/_works.sass */
 body #content #softa_works .work_showcase_info ul.showcase_more_images li img {
   -moz-box-shadow: 0 0 6px #888888 0;
   -webkit-box-shadow: 0 0 6px #888888 0;
@@ -375,7 +365,7 @@ body #content #softa_works .work_showcase_info ul.showcase_more_images li img {
   box-shadow: 0 0 6px #888888 0;
   border: 1px solid silver;
 }
-/* line 84, ../../app/stylesheets/partials/_works.sass */
+/* line 76, ../../app/stylesheets/partials/_works.sass */
 body #content #softa_works .work_showcase_image {
   display: inline;
   float: left;
@@ -842,7 +832,7 @@ body #softa_staff #daniel_weinmann .info, body #softa_staff #diogo_biazus .info,
 /* line 30, ../../app/stylesheets/partials/_staff.sass */
 body #softa_staff #daniel_weinmann .info h4, body #softa_staff #diogo_biazus .info h4, body #softa_staff #felipe_cabral .info h4, body #softa_staff #juan_maiz .info h4, body #softa_staff #leonardo_tartari .info h4, body #softa_staff #pedro_axelrud .info h4 {
   padding: 7px 0 8px 0;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
 }
 /* line 34, ../../app/stylesheets/partials/_staff.sass */
@@ -1170,13 +1160,29 @@ body a:visited {
   color: #ff9900;
 }
 /* line 40, ../../app/stylesheets/partials/_style.sass */
+body a.button {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  background: #ff9900;
+  color: white;
+  text-shadow: white 0 1px 0;
+  padding: 0.25em 0.5em;
+}
+/* line 46, ../../app/stylesheets/partials/_style.sass */
+body a.button:hover {
+  background: #ffcc33;
+}
+/* line 51, ../../app/stylesheets/partials/_style.sass */
 body .wrapper {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 42, ../../app/stylesheets/partials/_style.sass */
+/* line 53, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation {
   -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px 0;
@@ -1193,32 +1199,32 @@ body .fixed_navigation {
   background-position: top center;
   z-index: 999;
 }
-/* line 55, ../../app/stylesheets/partials/_style.sass */
+/* line 66, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation .wrapper {
   background-color: rgba(255, 255, 255, 0.05);
 }
-/* line 57, ../../app/stylesheets/partials/_style.sass */
+/* line 68, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation .wrapper:hover {
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 59, ../../app/stylesheets/partials/_style.sass */
+/* line 70, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation.open {
   height: 42px;
 }
-/* line 61, ../../app/stylesheets/partials/_style.sass */
+/* line 72, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed {
   display: none;
   margin: 0;
   padding: 8px 0;
   text-align: center;
 }
-/* line 66, ../../app/stylesheets/partials/_style.sass */
+/* line 77, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li {
   display: inline;
   margin: 0;
   padding: 0 20px;
 }
-/* line 70, ../../app/stylesheets/partials/_style.sass */
+/* line 81, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a {
   color: #993300;
   text-shadow: #ffb61d 0 1px 0;
@@ -1226,19 +1232,19 @@ body .fixed_navigation ul.top_navigation_fixed li a {
   margin: 0;
   font-weight: 900;
 }
-/* line 76, ../../app/stylesheets/partials/_style.sass */
+/* line 87, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:hover {
   color: #bb5500;
 }
-/* line 78, ../../app/stylesheets/partials/_style.sass */
+/* line 89, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:active {
   color: #993300;
 }
-/* line 80, ../../app/stylesheets/partials/_style.sass */
+/* line 91, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a img {
   vertical-align: middle;
 }
-/* line 83, ../../app/stylesheets/partials/_style.sass */
+/* line 94, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo {
   display: inline;
   float: left;
@@ -1250,11 +1256,11 @@ body header #softa_logo {
 * html body header #softa_logo {
   overflow-x: hidden;
 }
-/* line 86, ../../app/stylesheets/partials/_style.sass */
+/* line 97, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo img:hover {
   background: url(/images/softa_background.png) no-repeat center center;
 }
-/* line 88, ../../app/stylesheets/partials/_style.sass */
+/* line 99, ../../app/stylesheets/partials/_style.sass */
 body header nav {
   display: inline;
   float: left;
@@ -1266,7 +1272,7 @@ body header nav {
 * html body header nav {
   overflow-x: hidden;
 }
-/* line 91, ../../app/stylesheets/partials/_style.sass */
+/* line 102, ../../app/stylesheets/partials/_style.sass */
 body header nav a {
   display: inline;
   float: left;
@@ -1280,31 +1286,31 @@ body header nav a {
 * html body header nav a {
   overflow-x: hidden;
 }
-/* line 96, ../../app/stylesheets/partials/_style.sass */
+/* line 107, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover {
   text-decoration: none;
 }
-/* line 98, ../../app/stylesheets/partials/_style.sass */
+/* line 109, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover strong, body header nav a:hover span {
   -webkit-transition: color 0.05s ease-in;
 }
-/* line 100, ../../app/stylesheets/partials/_style.sass */
+/* line 111, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover strong {
   color: #333333;
 }
-/* line 102, ../../app/stylesheets/partials/_style.sass */
+/* line 113, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover span {
   color: #666666;
 }
-/* line 105, ../../app/stylesheets/partials/_style.sass */
+/* line 116, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active strong {
   color: #ff9900;
 }
-/* line 107, ../../app/stylesheets/partials/_style.sass */
+/* line 118, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active span {
   color: #ffbb22;
 }
-/* line 109, ../../app/stylesheets/partials/_style.sass */
+/* line 120, ../../app/stylesheets/partials/_style.sass */
 body header nav a strong {
   font-size: 18px;
   font-weight: 900;
@@ -1313,41 +1319,41 @@ body header nav a strong {
   display: block;
   padding-bottom: 6px;
 }
-/* line 116, ../../app/stylesheets/partials/_style.sass */
+/* line 127, ../../app/stylesheets/partials/_style.sass */
 body header nav a span {
   font-size: 13px;
   color: #aaaaaa;
   text-decoration: none;
 }
-/* line 120, ../../app/stylesheets/partials/_style.sass */
+/* line 131, ../../app/stylesheets/partials/_style.sass */
 body #content {
   text-shadow: white 0 1px 0;
 }
-/* line 123, ../../app/stylesheets/partials/_style.sass */
+/* line 134, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_description h1, body #content #softa_methodology h1, body #content #softa_labs h1, body #content #softa_staff h1 {
   padding: 0.25em 0 0.75em 0;
 }
-/* line 125, ../../app/stylesheets/partials/_style.sass */
+/* line 136, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_description .wrapper section, body #content #softa_methodology .wrapper section, body #content #softa_labs .wrapper section, body #content #softa_staff .wrapper section {
   padding: 1em 0;
 }
-/* line 127, ../../app/stylesheets/partials/_style.sass */
+/* line 138, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_methodology, body #content #softa_staff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 129, ../../app/stylesheets/partials/_style.sass */
+/* line 140, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_works .wrapper section {
   padding: 1em 0 0 0;
 }
-/* line 131, ../../app/stylesheets/partials/_style.sass */
+/* line 142, ../../app/stylesheets/partials/_style.sass */
 body #social_stuff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 133, ../../app/stylesheets/partials/_style.sass */
+/* line 144, ../../app/stylesheets/partials/_style.sass */
 body #social_stuff .wrapper section {
   padding: 1em 0;
 }
-/* line 135, ../../app/stylesheets/partials/_style.sass */
+/* line 146, ../../app/stylesheets/partials/_style.sass */
 body footer {
   -webkit-font-smoothing: subpixel-antialiased;
   padding: 15px 0;
@@ -1360,13 +1366,13 @@ body footer {
   background-attachment: scroll;
   background-position: center top;
 }
-/* line 147, ../../app/stylesheets/partials/_style.sass */
+/* line 158, ../../app/stylesheets/partials/_style.sass */
 body footer h1 {
   color: black;
   text-shadow: #555555 0 1px 0;
   padding: 0.25em 0 0.5em 0;
 }
-/* line 151, ../../app/stylesheets/partials/_style.sass */
+/* line 162, ../../app/stylesheets/partials/_style.sass */
 body footer #contact_us {
   display: inline;
   float: left;
@@ -1377,7 +1383,7 @@ body footer #contact_us {
 * html body footer #contact_us {
   overflow-x: hidden;
 }
-/* line 153, ../../app/stylesheets/partials/_style.sass */
+/* line 164, ../../app/stylesheets/partials/_style.sass */
 body footer #where_to_find_us {
   display: inline;
   float: left;
@@ -1388,11 +1394,11 @@ body footer #where_to_find_us {
 * html body footer #where_to_find_us {
   overflow-x: hidden;
 }
-/* line 156, ../../app/stylesheets/partials/_style.sass */
+/* line 167, ../../app/stylesheets/partials/_style.sass */
 body footer #colophon p {
   color: white;
 }
-/* line 158, ../../app/stylesheets/partials/_style.sass */
+/* line 169, ../../app/stylesheets/partials/_style.sass */
 body .post_footer {
   border-top: 1px solid #222222;
   height: 20px;

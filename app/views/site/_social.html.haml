@@ -12,13 +12,22 @@
       %section
         %h2 Agenda
         #calendar_rss
+          %ul
+            %li
+              %h3 Juan Maiz TreeTop
+              %h4 na RubyConf 2010
+              %h5 15/10
+              %p
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                %a.button link site evento
         .event_contact
           %p
-            Quer nos chamar para palestras, cursos ou eventos?
+            #{image_tag 'calendar.png'} Quer nos chamar para palestras, cursos ou eventos?
             %br
             #{mail_to 'contato@softa.com.br', 'Entre em contato »' }
-        %h3 Eventos
-        %p Eventos organizados pela Softa
-        %ul
-          %li #{link_to 'RS on Rails', 'http://rsrails.com.br/'}
+        -#
+          %h3 Eventos
+          %p Eventos organizados pela Softa
+          %ul
+            %li #{link_to 'RS on Rails', 'http://rsrails.com.br/'}
     .clear

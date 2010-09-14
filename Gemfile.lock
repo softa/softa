@@ -38,6 +38,7 @@ GEM
       abstract (>= 1.0.0)
     gem_plugin (0.2.3)
     haml (3.0.18)
+    hpricot (0.8.2)
     i18n (0.4.1)
     mail (2.2.5)
       activesupport (>= 2.3.6)
@@ -78,5 +79,6 @@ PLATFORMS
 DEPENDENCIES
   compass
   haml
+  hpricot
   mongrel (= 1.2.0.pre2)
   rails (= 3.0.0)

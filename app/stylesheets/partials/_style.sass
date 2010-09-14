@@ -37,6 +37,17 @@ body
       color: $link_color - #111
     &:visited
       color: $link_color
+    &.button
+      +rounded(4px)
+      background: $orange
+      color: white
+      text-shadow: #fff 0 1px 0
+      padding: .25em .5em
+      &:hover
+        background: $orange + #333
+
+      &:active
+      &:visited
   .wrapper
     +container
   .fixed_navigation
