@@ -2,7 +2,6 @@ class SiteController < ApplicationController
 
   def index
     require 'open-uri'
-    require 'hpricot'
     require 'ostruct'
     feed = 'http://www.google.com/calendar/feeds/62loik9tem085k7v8rrgjg0138%40group.calendar.google.com/public/basic'
     doc = Hpricot.XML(open(feed).read)

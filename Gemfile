@@ -7,7 +7,7 @@ gem 'haml'
 gem 'compass'
 
 gem 'mongrel', '1.2.0.pre2'
-
+gem 'hpricot'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
