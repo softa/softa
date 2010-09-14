@@ -14,26 +14,17 @@
     = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
     /[if IE]
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
-    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'jquery_tools/jquery.tools.min.js', 'zrssfeed/jquery.zrssfeed.min.js', 'top_navigation_fixed', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'jquery_tools/jquery.tools.min.js', 'zrssfeed/jquery.zrssfeed.min', 'top_navigation_fixed', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo'
     = csrf_meta_tag
     :javascript 
       $(function(){
         $(".work_showcase_images img[rel]").overlay({mask:'#000',effect:'apple'});
-      });
-      $(document).ready(function(){
         $('#softa_blog_rss').rssfeed('http://blog.softa.com.br/rss.xml', {
           limit:    5,
           header:   false,
           titletag: 'h3',
           date:     false,
           errormsg: 'Ooops. Ocorreu um erro ao tentar carregar o <a href="http://blog.softa.com.br/" target="_blank">blog.softa.com.br</a>.<br>Tente mais tarde novamente.'
-        });
-        $('#calendar_rss').rssfeed('http://www.google.com/calendar/feeds/62loik9tem085k7v8rrgjg0138%40group.calendar.google.com/public/basic', {
-          limit:    5,
-          header:   false,
-          titletag: 'h5',
-          date:     false,
-          errormsg: 'Ooops. Ocorreu um erro ao tentar carregar o calendário da Softa.<br>Tente mais tarde novamente.'
         });
       });
     %link{ :rel => 'apple-touch-icon-precomposed', :href => 'apple-touch-icon.png'}

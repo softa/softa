@@ -1,6 +1,7 @@
 Softa::Application.routes.draw do |map|
 
   get "site/index"
+  get "site/agenda"
 
   root :to => 'site#index'
 
