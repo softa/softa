@@ -14,9 +14,9 @@
               %li Acompanhe no Twitter » #{twitter 'maileeme'}
               %li Confira o Blog » #{link_to 'blog.mailee.me', 'http://blog.mailee.me'}
             %ul.showcase_more_images
-              %li= image_tag 'work/maileeme/maileeme_small_one.jpg'
-              %li= image_tag 'work/maileeme/maileeme_small_two.jpg'
-              %li= image_tag 'work/maileeme/maileeme_small_three.jpg'
+              %li= link_to image_tag('work/maileeme/maileeme_small_one.jpg'), '/images/work/maileeme/maileeme_one.jpg', :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'
+              %li= link_to image_tag('work/maileeme/maileeme_small_two.jpg'), '/images/work/maileeme/maileeme_two.jpg', :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'
+              %li= link_to image_tag('work/maileeme/maileeme_small_three.jpg'), '/images/work/maileeme/maileeme_three.jpg', :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'
           .work_showcase_image= image_tag 'work/maileeme/maileeme_showcase.png'
           .clear
 .clear

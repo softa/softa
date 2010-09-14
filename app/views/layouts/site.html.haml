@@ -11,12 +11,16 @@
     %meta{ :name => 'author', :content => 'Softa' }
     %meta{ :name => 'keywords', :content => 'web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo de oliveira biazus, daniel de souza weinmann, juan maiz lulkin flores da cunha, pedro kvitko axelrud, felipe benites cabral, leonardo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0' }
     %meta{ :name => 'viewport', :content=> 'width=device-width; initial-scale=1.0; maximum-scale=1.0;' }
-    = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'screen.css', 'shadowbox.css', :media => 'screen, projection'
     /[if IE]
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
-    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'jquery_tools/jquery.tools.min.js', 'zrssfeed/jquery.zrssfeed.min', 'top_navigation_fixed', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'jquery_tools/jquery.tools.min.js', 'zrssfeed/jquery.zrssfeed.min', 'top_navigation_fixed', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo', 'shadowbox/shadowbox'
     = csrf_meta_tag
     :javascript 
+      Shadowbox.init({
+        overlayOpacity: 0.8,
+        animate: false
+      });
       $(function(){
         $(".work_showcase_images img[rel]").overlay({mask:'#000',effect:'apple'});
         $('#softa_blog_rss').rssfeed('http://blog.softa.com.br/rss.xml', {
