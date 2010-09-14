@@ -1,0 +1,44 @@
+body #softa_staff
+  background: $orange
+  border-bottom: 1px solid ($orange - #966)
+  h1
+    color: $orange - #333
+    text-shadow: ($orange + #444) 0 1px 0
+  #daniel_weinmann, #felipe_cabral, #leonardo_tartari
+    +column(12)
+  #diogo_biazus, #juan_maiz, #pedro_axelrud
+    +column(12, last)
+  #daniel_weinmann, #diogo_biazus, #felipe_cabral, #juan_maiz, #leonardo_tartari, #pedro_axelrud
+    +two-box-shadow(($orange + #222) 0 1px 0, ($orange - #444) 0 1px 0 inset)
+    +rounded(4px)
+    background-color: ($orange - #2d2d2d)
+    background-clip: padding-box
+    margin-bottom: 1em
+    a
+      color: ($orange + #2d2d2d)
+      text-shadow: ($orange - #444) 0 -1px 0
+    .image
+      +column(3)
+      img
+        width: 84px
+        margin: 18px 0 16px 16px
+        border: 1px solid white
+    .info
+      +column(8, last)
+      padding-top: .75em
+      text-shadow: ($orange - $grey) 1px 1px 0
+      h4
+        padding: 7px 0 8px 0
+        font-size: 14px
+        color: #fff
+      p
+        padding: 0
+        font-size: 12px
+        color: #fff
+        margin: 0 0 .25em 0
+      p.links
+        font:
+          size: 12px
+          weight: 900
+        padding: 0
+        margin: 0 0 1em 0

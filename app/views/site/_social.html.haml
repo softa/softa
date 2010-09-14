@@ -1,0 +1,24 @@
+#social
+  .wrapper
+    #twitter
+      %section
+        %h2 Twitter
+        #softa_twitter
+    #blog
+      %section
+        %h2 Blog
+        #softa_blog_rss
+    #calendar
+      %section
+        %h2 Agenda
+        #calendar_rss
+        .event_contact
+          %p
+            Quer nos chamar para palestras, cursos ou eventos?
+            %br
+            #{mail_to 'contato@softa.com.br', 'Entre em contato »' }
+        %h3 Eventos
+        %p Eventos organizados pela Softa
+        %ul
+          %li #{link_to 'RS on Rails', 'http://rsrails.com.br/'}
+    .clear

@@ -1,14 +1,6 @@
-@import "blueprint/reset"
-@import "blueprint/grid"
-@import "partials/forms"
-@import "blueprint/typography"
-@import "blueprint/utilities"
+@import "blueprint/reset", "blueprint/grid", "partials/forms", "blueprint/typography", "blueprint/utilities", "compass/css3"
 
-@import "partials/description"
-@import "partials/works"
-@import "partials/methodology"
-@import "partials/labs"
-@import "partials/social_stuff"
+@import "partials/description", "partials/works", "partials/methodology", "partials/labs", "partials/social", "partials/staff"
 
 @import "partials/apple_overlay"
 
@@ -17,8 +9,8 @@ body
   +blueprint-utilities
   margin: 0
   padding: 0
-  //-webkit-font-smoothing: none
-  //-webkit-font-smoothing: subpixel-antialiased
+  //-webkit-font-smoothing: subpixel-antialiased // use for dark backgrounds
+  //-webkit-font-smoothing: antialiased // use for light backgrounds
   -webkit-font-smoothing: antialiased
   article, aside, figure, footer, header, hgroup, nav, section
     display: block
@@ -28,7 +20,7 @@ body
     margin: 0
     padding: 0
   p, ul li
-    color: #666
+    color: #444
   address
     font-style: normal
   a
@@ -49,7 +41,7 @@ body
     +container
   .fixed_navigation
     +box-shadow(rgba(0,0,0,.25), 0, 0, 6px)
-    border-bottom: 1px solid #f90
+    border-bottom: 1px solid $orange
     display: block
     position: fixed
     padding: 0
@@ -76,15 +68,15 @@ body
         margin: 0
         padding: 0 20px
         a
-          color: (#ff9900 - #666)
-          text-shadow: (#ff9900 + #1d1d1d) 0 1px 0
+          color: ($orange - $grey)
+          text-shadow: ($orange + #1d1d1d) 0 1px 0
           padding: 0
           margin: 0
           font-weight: 900
           &:hover
-            color: (#ff9900 - #444)
+            color: ($orange - #444)
           &:active
-            color: (#ff9900 - #666)
+            color: ($orange - $grey)
           img
             vertical-align: middle
   header
@@ -103,36 +95,36 @@ body
         line-height: 15px
         &:hover
           text-decoration: none
+          strong, span
+            -webkit-transition: color .05s ease-in
           strong
-            -webkit-transition: color .25s ease-in
             color: #333
           span
-            -webkit-transition: color .25s ease-in
-            color: #666
+            color: $grey
         &:active
           strong
-            color: #f90
+            color: $orange
           span
-            color: #f90 + #222
+            color: $orange + #222
         strong
-          font-size: 20px
+          font-size: 18px
           font-weight: 900
-          color: #666
+          color: $grey
           text-decoration: none
           display: block
           padding-bottom: 6px
         span
-          font-size: 12px
+          font-size: 13px
           color: #aaa
           text-decoration: none
   #content
     text-shadow: #fff 0 1px 0
-    #softa_description, #softa_methodology, #softa_labs
+    #softa_description, #softa_methodology, #softa_labs, #softa_staff
       h1
         padding: .25em 0 .75em 0
       .wrapper section
         padding: 1em 0
-    #softa_methodology
+    #softa_methodology, #softa_staff
       -webkit-font-smoothing: subpixel-antialiased
     #softa_works .wrapper section
       padding: 1em 0 0 0
@@ -143,7 +135,7 @@ body
   footer
     -webkit-font-smoothing: subpixel-antialiased
     padding: 15px 0
-    border-top: 1px solid #555
+    border-top: 1px solid #564040
     border-bottom: 1px solid #000
     color: white
     background:
@@ -151,7 +143,7 @@ body
       image: url(/images/footer_background.gif)
       repeat: repeat
       attachment: scroll
-      position: left top
+      position: center top
     h1
       color: #000
       text-shadow: #555 0 1px 0

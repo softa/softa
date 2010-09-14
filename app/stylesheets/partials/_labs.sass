@@ -1,13 +1,13 @@
 body #content
-  .labs_wire
+  .labs_header_wire
     border-top: 1px solid white
     background:
       image: url(/images/header_top.gif)
-      repeat: repeat-x
+      repeat: repeat
     height: 2px
   #softa_labs
+    background: #f3f3f3
     border-top: 1px solid white
-    border-bottom: 1px solid #ff9900
     h1
       text-align: center
     hr
@@ -27,10 +27,10 @@ body #content
           margin-right: 18px
     .article_title
       h2
-        color: #666
+        color: $grey
     .article_author
       h4
-        color: #f90
+        color: $orange
     .article_content
       +column(16,last)
       p
@@ -41,3 +41,9 @@ body #content
         li
           margin: 0
           padding: 0
+  .labs_footer_wire
+    border-bottom: 1px solid white
+    background:
+      image: url(/images/header_top.gif)
+      repeat: repeat
+    height: 1px

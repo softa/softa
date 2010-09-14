@@ -191,28 +191,12 @@ form fieldset input[type="text"]:focus, form fieldset input[type="text"]:active,
   outline: 0 none;
 }
 
-/* line 2, ../../app/stylesheets/partials/_description.sass */
+/* line 1, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description {
   backgrond-color: black;
   border-bottom: 1px solid #cccccc;
 }
-/* line 5, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description .coffee_wrapper {
-  position: relative;
-}
-/* line 7, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description .coffee_wrapper #coffee_driven_development {
-  display: none;
-  position: absolute;
-  background-image: url(/images/coffee_driven_development.gif);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  top: -100px;
-  right: 50px;
-  height: 128px;
-  width: 400px;
-}
-/* line 18, ../../app/stylesheets/partials/_description.sass */
+/* line 4, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 {
   z-index: 100;
   font-size: 32px;
@@ -221,7 +205,7 @@ body #content #softa_description h1 {
   color: #999999;
   font-weight: 100;
 }
-/* line 25, ../../app/stylesheets/partials/_description.sass */
+/* line 11, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em {
   font-style: normal;
   transition: color 1s ease-in;
@@ -230,27 +214,27 @@ body #content #softa_description h1 em {
   -o-transition: color 1s ease-in;
   -khtml-transition: color 1s ease-in;
 }
-/* line 32, ../../app/stylesheets/partials/_description.sass */
+/* line 18, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.web_two.active {
   color: #ff9900;
 }
-/* line 34, ../../app/stylesheets/partials/_description.sass */
+/* line 20, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.ruby_on_rails.active {
   color: #b42738;
 }
-/* line 36, ../../app/stylesheets/partials/_description.sass */
+/* line 22, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.postgresql.active {
   color: #009acc;
 }
-/* line 38, ../../app/stylesheets/partials/_description.sass */
+/* line 24, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.open_source.active {
   color: #40a850;
 }
-/* line 40, ../../app/stylesheets/partials/_description.sass */
+/* line 26, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.methods.active {
   color: #aa5303;
 }
-/* line 43, ../../app/stylesheets/partials/_description.sass */
+/* line 29, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.web_two.passed, body #content #softa_description h1 em.ruby_on_rails.passed, body #content #softa_description h1 em.postgresql.passed, body #content #softa_description h1 em.open_source.passed, body #content #softa_description h1 em.methods.passed {
   color: #666666;
 }
@@ -385,11 +369,10 @@ body #content #softa_works .work_showcase_info ul.showcase_more_images li {
 }
 /* line 81, ../../app/stylesheets/partials/_works.sass */
 body #content #softa_works .work_showcase_info ul.showcase_more_images li img {
-  box-shadow: 0 0 6px #888888;
-  -webkit-box-shadow: 0 0 6px #888888;
-  -moz-box-shadow: 0 0 6px #888888;
-  -o-box-shadow: 0 0 6px #888888;
-  -khtml-box-shadow: 0 0 6px #888888;
+  -moz-box-shadow: 0 0 6px #888888 0;
+  -webkit-box-shadow: 0 0 6px #888888 0;
+  -o-box-shadow: 0 0 6px #888888 0;
+  box-shadow: 0 0 6px #888888 0;
   border: 1px solid silver;
 }
 /* line 84, ../../app/stylesheets/partials/_works.sass */
@@ -412,7 +395,7 @@ body #content .methodology_torned_paper {
   background-image: url(/images/methodology/methodology_torned_paper.gif);
   background-repeat: repeat-x;
   background-attachment: scroll;
-  background-position: left top;
+  background-position: center top;
 }
 /* line 10, ../../app/stylesheets/partials/_methodology.sass */
 body #content #softa_methodology {
@@ -420,7 +403,7 @@ body #content #softa_methodology {
   background-color: #e0e0e0;
   background-image: url(/images/methodology/methodology_background.gif);
   background-repeat: repeat;
-  background-position: left top;
+  background-position: center top;
 }
 /* line 17, ../../app/stylesheets/partials/_methodology.sass */
 body #content #softa_methodology .wrapper {
@@ -457,16 +440,16 @@ body #content #softa_methodology .method_text {
 }
 
 /* line 2, ../../app/stylesheets/partials/_labs.sass */
-body #content .labs_wire {
+body #content .labs_header_wire {
   border-top: 1px solid white;
   background-image: url(/images/header_top.gif);
-  background-repeat: repeat-x;
+  background-repeat: repeat;
   height: 2px;
 }
 /* line 8, ../../app/stylesheets/partials/_labs.sass */
 body #content #softa_labs {
+  background: #f3f3f3;
   border-top: 1px solid white;
-  border-bottom: 1px solid #ff9900;
 }
 /* line 11, ../../app/stylesheets/partials/_labs.sass */
 body #content #softa_labs h1 {
@@ -530,42 +513,56 @@ body #content article.labs_article .article_content ul li {
   margin: 0;
   padding: 0;
 }
+/* line 44, ../../app/stylesheets/partials/_labs.sass */
+body #content .labs_footer_wire {
+  border-bottom: 1px solid white;
+  background-image: url(/images/header_top.gif);
+  background-repeat: repeat;
+  height: 1px;
+}
 
-/* line 2, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff {
-  background: #ff9900;
-  border-top: 1px solid white;
-  border-bottom: 1px solid #333333;
+/* line 3, ../../app/stylesheets/partials/_social.sass */
+body #social {
+  background: #663300;
+  border-top: 1px solid #996633;
+  border-bottom: 1px solid #111111;
   padding-bottom: 1em;
 }
-/* line 7, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff h2 {
-  color: #dd7700;
+/* line 8, ../../app/stylesheets/partials/_social.sass */
+body #social h2 {
+  color: #441100;
   margin-top: 0.75em;
   margin-bottom: 0.25em;
-  text-shadow: #ffbb22 0 1px 0;
+  text-shadow: #885522 0 1px 0;
 }
-/* line 12, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff hr {
+/* line 13, ../../app/stylesheets/partials/_social.sass */
+body #social hr {
   border: 0 none;
-  border-top: 1px solid #e27c00;
-  border-bottom: 1px solid #ffb61d;
+  border-top: 1px solid #441100;
+  border-bottom: 1px solid #885522;
 }
-/* line 16, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff a {
-  color: #993300;
-  text-shadow: #ffb61d 0 1px 0;
+/* line 17, ../../app/stylesheets/partials/_social.sass */
+body #social a {
+  color: #ff9900;
+  text-shadow: #993300 -1px -1px 0;
 }
-/* line 19, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff a:hover {
-  color: #bb5500;
+/* line 20, ../../app/stylesheets/partials/_social.sass */
+body #social a:hover {
+  color: #ffdd44;
 }
-/* line 21, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff a:active {
-  color: #993300;
+/* line 22, ../../app/stylesheets/partials/_social.sass */
+body #social a:active {
+  color: #ee8800;
 }
-/* line 23, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #twitter {
+/* line 24, ../../app/stylesheets/partials/_social.sass */
+body #social p {
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-shadow: #993300 -1px -1px 0;
+}
+/* line 29, ../../app/stylesheets/partials/_social.sass */
+body #social #twitter {
   display: inline;
   float: left;
   margin-right: 10px;
@@ -574,59 +571,46 @@ body #social_stuff #twitter {
   color: white;
 }
 /* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #social_stuff #twitter {
+* html body #social #twitter {
   overflow-x: hidden;
 }
-/* line 27, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #twitter #softa_twitter {
+/* line 33, ../../app/stylesheets/partials/_social.sass */
+body #social #twitter #softa_twitter {
+  overflow: hidden;
   margin-bottom: 1em;
 }
-/* line 29, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #twitter #softa_twitter ul {
+/* line 36, ../../app/stylesheets/partials/_social.sass */
+body #social #twitter #softa_twitter p {
+  margin-left: 65px;
+}
+/* line 38, ../../app/stylesheets/partials/_social.sass */
+body #social #twitter #softa_twitter ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 33, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #twitter #softa_twitter ul li {
-  padding: 6px 0;
+/* line 42, ../../app/stylesheets/partials/_social.sass */
+body #social #twitter #softa_twitter ul li {
+  padding: 6px 0 8px 0;
   font-size: 12px;
   word-break: normal;
 }
-/* line 37, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #twitter #softa_twitter ul li a.user_image_link {
+/* line 46, ../../app/stylesheets/partials/_social.sass */
+body #social #twitter #softa_twitter ul li a.user_image_link {
   display: block;
   float: left;
   margin: 4px 6px;
 }
-/* line 41, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #twitter #softa_twitter ul li a.user_image_link img {
-  border: 1px solid #ffb61d;
-  box-shadow: rgba(0, 0, 0, 0.8) 0 0 3px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 0 3px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 3px;
-  -o-box-shadow: rgba(0, 0, 0, 0.8) 0 0 3px;
-  -khtml-box-shadow: rgba(0, 0, 0, 0.8) 0 0 3px;
+/* line 50, ../../app/stylesheets/partials/_social.sass */
+body #social #twitter #softa_twitter ul li a.user_image_link img {
+  border: 1px solid #774411;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
 }
-/* line 44, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #twitter #softa_twitter ul li strong {
-  color: #333333;
-  text-shadow: #ffb61d 0 1px 0;
-}
-/* line 47, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #twitter #softa_twitter ul li p {
-  color: white;
-  margin-left: 65px;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  text-shadow: #d26c00 0 -1px 0;
-}
-/* line 53, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #twitter #softa_twitter ul li time {
-  display: block;
-}
-/* line 55, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog {
+/* line 53, ../../app/stylesheets/partials/_social.sass */
+body #social #blog {
   display: inline;
   float: left;
   margin-right: 10px;
@@ -634,180 +618,178 @@ body #social_stuff #blog {
   padding-right: 40px;
 }
 /* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #social_stuff #blog {
+* html body #social #blog {
   overflow-x: hidden;
 }
-/* line 58, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog p {
+/* line 56, ../../app/stylesheets/partials/_social.sass */
+body #social #blog p {
   color: white;
 }
-/* line 60, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog p a {
+/* line 58, ../../app/stylesheets/partials/_social.sass */
+body #social #blog p a {
   color: black;
   text-decoration: underline;
 }
-/* line 63, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog #softa_blog_rss {
+/* line 61, ../../app/stylesheets/partials/_social.sass */
+body #social #blog #softa_blog_rss {
   margin-bottom: 1em;
 }
-/* line 65, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog #softa_blog_rss p {
-  color: white;
-}
-/* line 67, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog #softa_blog_rss p a {
-  color: white;
-}
-/* line 69, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog #softa_blog_rss ul {
+/* line 63, ../../app/stylesheets/partials/_social.sass */
+body #social #blog #softa_blog_rss ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 73, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog #softa_blog_rss ul li {
+/* line 67, ../../app/stylesheets/partials/_social.sass */
+body #social #blog #softa_blog_rss ul li {
   margin: 0;
   padding: 10px 0;
-  border-bottom: 1px solid #e27c00;
-  border-top: 1px solid #ffb61d;
+  border-bottom: 1px solid #441100;
+  border-top: 1px solid #885522;
 }
-/* line 78, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog #softa_blog_rss ul li:first-child {
+/* line 72, ../../app/stylesheets/partials/_social.sass */
+body #social #blog #softa_blog_rss ul li:first-child {
   padding-top: 0;
   border-top: 0 none;
 }
-/* line 81, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog #softa_blog_rss ul li:last-child {
+/* line 75, ../../app/stylesheets/partials/_social.sass */
+body #social #blog #softa_blog_rss ul li:last-child {
   border-bottom: 0 none;
 }
-/* line 83, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog #softa_blog_rss ul li h3 {
+/* line 77, ../../app/stylesheets/partials/_social.sass */
+body #social #blog #softa_blog_rss ul li h3 {
   font-size: 14px;
   font-weight: 900;
   margin: 0;
   padding: 0 0 6px 0;
 }
-/* line 88, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog #softa_blog_rss ul li div {
+/* line 82, ../../app/stylesheets/partials/_social.sass */
+body #social #blog #softa_blog_rss ul li div {
   font-size: 9px;
 }
-/* line 90, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #blog #softa_blog_rss ul li p {
+/* line 84, ../../app/stylesheets/partials/_social.sass */
+body #social #blog #softa_blog_rss ul li p {
   font-size: 12px;
-  padding: 0;
-  margin: 0;
-  text-shadow: #d26c00 0 -1px 0;
 }
-/* line 95, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar {
+/* line 86, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar {
   display: inline;
   float: left;
   margin-right: 0;
   width: 230px;
 }
 /* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #social_stuff #calendar {
+* html body #social #calendar {
   overflow-x: hidden;
 }
-/* line 97, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar #calendar_rss {
+/* line 88, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar #calendar_rss {
   margin-bottom: 1em;
 }
-/* line 99, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar #calendar_rss ul {
+/* line 90, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 103, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar #calendar_rss ul li {
+/* line 94, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar ul li {
   margin: 0;
   padding: 6px 0;
-  border-bottom: 1px solid #e27c00;
-  border-top: 1px solid #ffb61d;
+  border-bottom: 1px solid #441100;
+  border-top: 1px solid #885522;
 }
-/* line 108, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar #calendar_rss ul li:first-child {
+/* line 99, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar ul li:first-child {
   padding-top: 0;
   border-top: 0 none;
 }
-/* line 111, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar #calendar_rss ul li:last-child {
+/* line 102, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar ul li:last-child {
   border-bottom: 0 none;
 }
-/* line 113, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar #calendar_rss ul li h5 {
+/* line 104, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar ul li h5 {
   font-size: 12px;
   font-weight: 900;
   margin: 0;
   padding: 0;
 }
-/* line 118, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar #calendar_rss ul li p {
+/* line 109, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar ul li p {
   font-size: 10px;
-  padding: 0;
-  color: #eeeeee;
-  margin: 0;
-  text-shadow: #d26c00 0 -1px 0;
 }
-/* line 124, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar .contact_for_keynote {
-  box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
-  -webkit-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
-  -moz-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
-  -o-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
-  -khtml-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
+/* line 111, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar .event_contact {
+  box-shadow: #885522 0 1px 0, #441100 0 1px 0 inset;
+  -webkit-box-shadow: #885522 0 1px 0, #441100 0 1px 0 inset;
+  -moz-box-shadow: #885522 0 1px 0, #441100 0 1px 0 inset;
+  -o-box-shadow: #885522 0 1px 0, #441100 0 1px 0 inset;
+  -khtml-box-shadow: #885522 0 1px 0, #441100 0 1px 0 inset;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -o-border-radius: 4px;
   -khtml-border-radius: 4px;
-  background-color: #d26c00;
-  padding: 1em 1em 0.25em 1em;
+  background-color: #aa7744;
+  background-clip: padding-box;
+  padding: 1em 1em 0.5em 1em;
   text-align: center;
 }
-/* line 130, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar .contact_for_keynote p {
+/* line 118, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar .event_contact p {
   font-size: 12px;
-  color: white;
-  text-shadow: #bb5500 0 -1px 0;
+  text-shadow: #663300 1px 1px 0;
 }
-/* line 134, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar .contact_for_keynote a {
-  color: #ffc62d;
-  text-shadow: #bb5500 0 -1px 0;
-}
-/* line 137, ../../app/stylesheets/partials/_social_stuff.sass */
-body #social_stuff #calendar h4 {
-  font-size: 15px;
+/* line 121, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar .event_contact a {
   font-weight: 900;
-  color: #cc6600;
-  text-shadow: #ffcc33 0 1px 0;
+  text-shadow: #663300 1px 1px 0;
 }
-/* line 145, ../../app/stylesheets/partials/_social_stuff.sass */
-body #softa_folks #daniel_weinmann, body #softa_folks #felipe_cabral, body #softa_folks #leonardo_tartari {
+/* line 124, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar h3 {
+  color: #441100;
+  margin-top: 0.75em;
+  margin-bottom: 0.25em;
+  text-shadow: #885522 0 1px 0;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+/* line 1, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff {
+  background: #ff9900;
+  border-bottom: 1px solid #663300;
+}
+/* line 4, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff h1 {
+  color: #cc6600;
+  text-shadow: #ffdd44 0 1px 0;
+}
+/* line 7, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff #daniel_weinmann, body #softa_staff #felipe_cabral, body #softa_staff #leonardo_tartari {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 470px;
 }
 /* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #softa_folks #daniel_weinmann, * html body #softa_folks #felipe_cabral, * html body #softa_folks #leonardo_tartari {
+* html body #softa_staff #daniel_weinmann, * html body #softa_staff #felipe_cabral, * html body #softa_staff #leonardo_tartari {
   overflow-x: hidden;
 }
-/* line 147, ../../app/stylesheets/partials/_social_stuff.sass */
-body #softa_folks #diogo_biazus, body #softa_folks #juan_maiz, body #softa_folks #pedro_axelrud {
+/* line 9, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff #diogo_biazus, body #softa_staff #juan_maiz, body #softa_staff #pedro_axelrud {
   display: inline;
   float: left;
   margin-right: 0;
   width: 470px;
 }
 /* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #softa_folks #diogo_biazus, * html body #softa_folks #juan_maiz, * html body #softa_folks #pedro_axelrud {
+* html body #softa_staff #diogo_biazus, * html body #softa_staff #juan_maiz, * html body #softa_staff #pedro_axelrud {
   overflow-x: hidden;
 }
-/* line 149, ../../app/stylesheets/partials/_social_stuff.sass */
-body #softa_folks #daniel_weinmann, body #softa_folks #diogo_biazus, body #softa_folks #felipe_cabral, body #softa_folks #juan_maiz, body #softa_folks #leonardo_tartari, body #softa_folks #pedro_axelrud {
+/* line 11, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff #daniel_weinmann, body #softa_staff #diogo_biazus, body #softa_staff #felipe_cabral, body #softa_staff #juan_maiz, body #softa_staff #leonardo_tartari, body #softa_staff #pedro_axelrud {
   box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
   -webkit-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
   -moz-box-shadow: #ffbb22 0 1px 0, #bb5500 0 1px 0 inset;
@@ -819,57 +801,59 @@ body #softa_folks #daniel_weinmann, body #softa_folks #diogo_biazus, body #softa
   -o-border-radius: 4px;
   -khtml-border-radius: 4px;
   background-color: #d26c00;
+  background-clip: padding-box;
   margin-bottom: 1em;
 }
-/* line 154, ../../app/stylesheets/partials/_social_stuff.sass */
-body #softa_folks #daniel_weinmann a, body #softa_folks #diogo_biazus a, body #softa_folks #felipe_cabral a, body #softa_folks #juan_maiz a, body #softa_folks #leonardo_tartari a, body #softa_folks #pedro_axelrud a {
+/* line 17, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff #daniel_weinmann a, body #softa_staff #diogo_biazus a, body #softa_staff #felipe_cabral a, body #softa_staff #juan_maiz a, body #softa_staff #leonardo_tartari a, body #softa_staff #pedro_axelrud a {
   color: #ffc62d;
   text-shadow: #bb5500 0 -1px 0;
 }
-/* line 157, ../../app/stylesheets/partials/_social_stuff.sass */
-body #softa_folks #daniel_weinmann .image, body #softa_folks #diogo_biazus .image, body #softa_folks #felipe_cabral .image, body #softa_folks #juan_maiz .image, body #softa_folks #leonardo_tartari .image, body #softa_folks #pedro_axelrud .image {
+/* line 20, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff #daniel_weinmann .image, body #softa_staff #diogo_biazus .image, body #softa_staff #felipe_cabral .image, body #softa_staff #juan_maiz .image, body #softa_staff #leonardo_tartari .image, body #softa_staff #pedro_axelrud .image {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 110px;
 }
 /* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #softa_folks #daniel_weinmann .image, * html body #softa_folks #diogo_biazus .image, * html body #softa_folks #felipe_cabral .image, * html body #softa_folks #juan_maiz .image, * html body #softa_folks #leonardo_tartari .image, * html body #softa_folks #pedro_axelrud .image {
+* html body #softa_staff #daniel_weinmann .image, * html body #softa_staff #diogo_biazus .image, * html body #softa_staff #felipe_cabral .image, * html body #softa_staff #juan_maiz .image, * html body #softa_staff #leonardo_tartari .image, * html body #softa_staff #pedro_axelrud .image {
   overflow-x: hidden;
 }
-/* line 159, ../../app/stylesheets/partials/_social_stuff.sass */
-body #softa_folks #daniel_weinmann .image img, body #softa_folks #diogo_biazus .image img, body #softa_folks #felipe_cabral .image img, body #softa_folks #juan_maiz .image img, body #softa_folks #leonardo_tartari .image img, body #softa_folks #pedro_axelrud .image img {
+/* line 22, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff #daniel_weinmann .image img, body #softa_staff #diogo_biazus .image img, body #softa_staff #felipe_cabral .image img, body #softa_staff #juan_maiz .image img, body #softa_staff #leonardo_tartari .image img, body #softa_staff #pedro_axelrud .image img {
   width: 84px;
   margin: 18px 0 16px 16px;
   border: 1px solid white;
 }
-/* line 163, ../../app/stylesheets/partials/_social_stuff.sass */
-body #softa_folks #daniel_weinmann .info, body #softa_folks #diogo_biazus .info, body #softa_folks #felipe_cabral .info, body #softa_folks #juan_maiz .info, body #softa_folks #leonardo_tartari .info, body #softa_folks #pedro_axelrud .info {
+/* line 26, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff #daniel_weinmann .info, body #softa_staff #diogo_biazus .info, body #softa_staff #felipe_cabral .info, body #softa_staff #juan_maiz .info, body #softa_staff #leonardo_tartari .info, body #softa_staff #pedro_axelrud .info {
   display: inline;
   float: left;
   margin-right: 0;
   width: 310px;
   padding-top: 0.75em;
+  text-shadow: #993300 1px 1px 0;
 }
 /* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #softa_folks #daniel_weinmann .info, * html body #softa_folks #diogo_biazus .info, * html body #softa_folks #felipe_cabral .info, * html body #softa_folks #juan_maiz .info, * html body #softa_folks #leonardo_tartari .info, * html body #softa_folks #pedro_axelrud .info {
+* html body #softa_staff #daniel_weinmann .info, * html body #softa_staff #diogo_biazus .info, * html body #softa_staff #felipe_cabral .info, * html body #softa_staff #juan_maiz .info, * html body #softa_staff #leonardo_tartari .info, * html body #softa_staff #pedro_axelrud .info {
   overflow-x: hidden;
 }
-/* line 166, ../../app/stylesheets/partials/_social_stuff.sass */
-body #softa_folks #daniel_weinmann .info h4, body #softa_folks #diogo_biazus .info h4, body #softa_folks #felipe_cabral .info h4, body #softa_folks #juan_maiz .info h4, body #softa_folks #leonardo_tartari .info h4, body #softa_folks #pedro_axelrud .info h4 {
+/* line 30, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff #daniel_weinmann .info h4, body #softa_staff #diogo_biazus .info h4, body #softa_staff #felipe_cabral .info h4, body #softa_staff #juan_maiz .info h4, body #softa_staff #leonardo_tartari .info h4, body #softa_staff #pedro_axelrud .info h4 {
   padding: 7px 0 8px 0;
   font-size: 14px;
   color: white;
 }
-/* line 170, ../../app/stylesheets/partials/_social_stuff.sass */
-body #softa_folks #daniel_weinmann .info p, body #softa_folks #diogo_biazus .info p, body #softa_folks #felipe_cabral .info p, body #softa_folks #juan_maiz .info p, body #softa_folks #leonardo_tartari .info p, body #softa_folks #pedro_axelrud .info p {
+/* line 34, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff #daniel_weinmann .info p, body #softa_staff #diogo_biazus .info p, body #softa_staff #felipe_cabral .info p, body #softa_staff #juan_maiz .info p, body #softa_staff #leonardo_tartari .info p, body #softa_staff #pedro_axelrud .info p {
   padding: 0;
   font-size: 12px;
   color: white;
   margin: 0 0 0.25em 0;
 }
-/* line 175, ../../app/stylesheets/partials/_social_stuff.sass */
-body #softa_folks #daniel_weinmann .info p.links, body #softa_folks #diogo_biazus .info p.links, body #softa_folks #felipe_cabral .info p.links, body #softa_folks #juan_maiz .info p.links, body #softa_folks #leonardo_tartari .info p.links, body #softa_folks #pedro_axelrud .info p.links {
+/* line 39, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff #daniel_weinmann .info p.links, body #softa_staff #diogo_biazus .info p.links, body #softa_staff #felipe_cabral .info p.links, body #softa_staff #juan_maiz .info p.links, body #softa_staff #leonardo_tartari .info p.links, body #softa_staff #pedro_axelrud .info p.links {
   font-size: 12px;
   font-weight: 900;
   padding: 0;
@@ -895,10 +879,10 @@ body #softa_folks #daniel_weinmann .info p.links, body #softa_folks #diogo_biazu
   width: 35px;
 }
 
-/* line 15, ../../app/stylesheets/partials/_style.sass */
+/* line 7, ../../app/stylesheets/partials/_style.sass */
 body {
   line-height: 1.5;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Sans", "sans-serif";
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Sans", "Helvetica", "sans-serif";
   color: #333333;
   font-size: 87.5%;
   margin: 0;
@@ -1144,61 +1128,60 @@ body .bottom {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 23, ../../app/stylesheets/partials/_style.sass */
+/* line 15, ../../app/stylesheets/partials/_style.sass */
 body article, body aside, body figure, body footer, body header, body hgroup, body nav, body section {
   display: block;
 }
-/* line 25, ../../app/stylesheets/partials/_style.sass */
+/* line 17, ../../app/stylesheets/partials/_style.sass */
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-weight: 900;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
 }
-/* line 30, ../../app/stylesheets/partials/_style.sass */
+/* line 22, ../../app/stylesheets/partials/_style.sass */
 body p, body ul li {
-  color: #666666;
+  color: #444444;
 }
-/* line 32, ../../app/stylesheets/partials/_style.sass */
+/* line 24, ../../app/stylesheets/partials/_style.sass */
 body address {
   font-style: normal;
 }
-/* line 34, ../../app/stylesheets/partials/_style.sass */
+/* line 26, ../../app/stylesheets/partials/_style.sass */
 body a {
   cursor: pointer;
   color: #ff9900;
   -webkit-transition: color 0.35s ease-in;
   text-decoration: none;
 }
-/* line 39, ../../app/stylesheets/partials/_style.sass */
+/* line 31, ../../app/stylesheets/partials/_style.sass */
 body a:hover {
   color: #ffbb22;
   text-decoration: underline;
 }
-/* line 42, ../../app/stylesheets/partials/_style.sass */
+/* line 34, ../../app/stylesheets/partials/_style.sass */
 body a:active {
   position: relative;
   top: 1px;
   color: #ee8800;
 }
-/* line 46, ../../app/stylesheets/partials/_style.sass */
+/* line 38, ../../app/stylesheets/partials/_style.sass */
 body a:visited {
   color: #ff9900;
 }
-/* line 48, ../../app/stylesheets/partials/_style.sass */
+/* line 40, ../../app/stylesheets/partials/_style.sass */
 body .wrapper {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 50, ../../app/stylesheets/partials/_style.sass */
+/* line 42, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation {
-  box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px;
-  -khtml-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px 0;
   border-bottom: 1px solid #ff9900;
   display: block;
   position: fixed;
@@ -1210,32 +1193,32 @@ body .fixed_navigation {
   background-position: top center;
   z-index: 999;
 }
-/* line 63, ../../app/stylesheets/partials/_style.sass */
+/* line 55, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation .wrapper {
   background-color: rgba(255, 255, 255, 0.05);
 }
-/* line 65, ../../app/stylesheets/partials/_style.sass */
+/* line 57, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation .wrapper:hover {
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 67, ../../app/stylesheets/partials/_style.sass */
+/* line 59, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation.open {
   height: 42px;
 }
-/* line 69, ../../app/stylesheets/partials/_style.sass */
+/* line 61, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed {
   display: none;
   margin: 0;
   padding: 8px 0;
   text-align: center;
 }
-/* line 74, ../../app/stylesheets/partials/_style.sass */
+/* line 66, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li {
   display: inline;
   margin: 0;
   padding: 0 20px;
 }
-/* line 78, ../../app/stylesheets/partials/_style.sass */
+/* line 70, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a {
   color: #993300;
   text-shadow: #ffb61d 0 1px 0;
@@ -1243,19 +1226,19 @@ body .fixed_navigation ul.top_navigation_fixed li a {
   margin: 0;
   font-weight: 900;
 }
-/* line 84, ../../app/stylesheets/partials/_style.sass */
+/* line 76, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:hover {
   color: #bb5500;
 }
-/* line 86, ../../app/stylesheets/partials/_style.sass */
+/* line 78, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:active {
   color: #993300;
 }
-/* line 88, ../../app/stylesheets/partials/_style.sass */
+/* line 80, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a img {
   vertical-align: middle;
 }
-/* line 91, ../../app/stylesheets/partials/_style.sass */
+/* line 83, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo {
   display: inline;
   float: left;
@@ -1267,11 +1250,11 @@ body header #softa_logo {
 * html body header #softa_logo {
   overflow-x: hidden;
 }
-/* line 94, ../../app/stylesheets/partials/_style.sass */
+/* line 86, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo img:hover {
   background: url(/images/softa_background.png) no-repeat center center;
 }
-/* line 96, ../../app/stylesheets/partials/_style.sass */
+/* line 88, ../../app/stylesheets/partials/_style.sass */
 body header nav {
   display: inline;
   float: left;
@@ -1283,7 +1266,7 @@ body header nav {
 * html body header nav {
   overflow-x: hidden;
 }
-/* line 99, ../../app/stylesheets/partials/_style.sass */
+/* line 91, ../../app/stylesheets/partials/_style.sass */
 body header nav a {
   display: inline;
   float: left;
@@ -1297,91 +1280,93 @@ body header nav a {
 * html body header nav a {
   overflow-x: hidden;
 }
-/* line 104, ../../app/stylesheets/partials/_style.sass */
+/* line 96, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover {
   text-decoration: none;
 }
-/* line 106, ../../app/stylesheets/partials/_style.sass */
+/* line 98, ../../app/stylesheets/partials/_style.sass */
+body header nav a:hover strong, body header nav a:hover span {
+  -webkit-transition: color 0.05s ease-in;
+}
+/* line 100, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover strong {
-  -webkit-transition: color 0.25s ease-in;
   color: #333333;
 }
-/* line 109, ../../app/stylesheets/partials/_style.sass */
+/* line 102, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover span {
-  -webkit-transition: color 0.25s ease-in;
   color: #666666;
 }
-/* line 113, ../../app/stylesheets/partials/_style.sass */
+/* line 105, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active strong {
   color: #ff9900;
 }
-/* line 115, ../../app/stylesheets/partials/_style.sass */
+/* line 107, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active span {
   color: #ffbb22;
 }
-/* line 117, ../../app/stylesheets/partials/_style.sass */
+/* line 109, ../../app/stylesheets/partials/_style.sass */
 body header nav a strong {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 900;
   color: #666666;
   text-decoration: none;
   display: block;
   padding-bottom: 6px;
 }
-/* line 124, ../../app/stylesheets/partials/_style.sass */
+/* line 116, ../../app/stylesheets/partials/_style.sass */
 body header nav a span {
-  font-size: 12px;
+  font-size: 13px;
   color: #aaaaaa;
   text-decoration: none;
 }
-/* line 128, ../../app/stylesheets/partials/_style.sass */
+/* line 120, ../../app/stylesheets/partials/_style.sass */
 body #content {
   text-shadow: white 0 1px 0;
 }
-/* line 131, ../../app/stylesheets/partials/_style.sass */
-body #content #softa_description h1, body #content #softa_methodology h1, body #content #softa_labs h1 {
+/* line 123, ../../app/stylesheets/partials/_style.sass */
+body #content #softa_description h1, body #content #softa_methodology h1, body #content #softa_labs h1, body #content #softa_staff h1 {
   padding: 0.25em 0 0.75em 0;
 }
-/* line 133, ../../app/stylesheets/partials/_style.sass */
-body #content #softa_description .wrapper section, body #content #softa_methodology .wrapper section, body #content #softa_labs .wrapper section {
+/* line 125, ../../app/stylesheets/partials/_style.sass */
+body #content #softa_description .wrapper section, body #content #softa_methodology .wrapper section, body #content #softa_labs .wrapper section, body #content #softa_staff .wrapper section {
   padding: 1em 0;
 }
-/* line 135, ../../app/stylesheets/partials/_style.sass */
-body #content #softa_methodology {
+/* line 127, ../../app/stylesheets/partials/_style.sass */
+body #content #softa_methodology, body #content #softa_staff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 137, ../../app/stylesheets/partials/_style.sass */
+/* line 129, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_works .wrapper section {
   padding: 1em 0 0 0;
 }
-/* line 139, ../../app/stylesheets/partials/_style.sass */
+/* line 131, ../../app/stylesheets/partials/_style.sass */
 body #social_stuff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 141, ../../app/stylesheets/partials/_style.sass */
+/* line 133, ../../app/stylesheets/partials/_style.sass */
 body #social_stuff .wrapper section {
   padding: 1em 0;
 }
-/* line 143, ../../app/stylesheets/partials/_style.sass */
+/* line 135, ../../app/stylesheets/partials/_style.sass */
 body footer {
   -webkit-font-smoothing: subpixel-antialiased;
   padding: 15px 0;
-  border-top: 1px solid #555555;
+  border-top: 1px solid #564040;
   border-bottom: 1px solid black;
   color: white;
   background-color: #333333;
   background-image: url(/images/footer_background.gif);
   background-repeat: repeat;
   background-attachment: scroll;
-  background-position: left top;
+  background-position: center top;
 }
-/* line 155, ../../app/stylesheets/partials/_style.sass */
+/* line 147, ../../app/stylesheets/partials/_style.sass */
 body footer h1 {
   color: black;
   text-shadow: #555555 0 1px 0;
   padding: 0.25em 0 0.5em 0;
 }
-/* line 159, ../../app/stylesheets/partials/_style.sass */
+/* line 151, ../../app/stylesheets/partials/_style.sass */
 body footer #contact_us {
   display: inline;
   float: left;
@@ -1392,7 +1377,7 @@ body footer #contact_us {
 * html body footer #contact_us {
   overflow-x: hidden;
 }
-/* line 161, ../../app/stylesheets/partials/_style.sass */
+/* line 153, ../../app/stylesheets/partials/_style.sass */
 body footer #where_to_find_us {
   display: inline;
   float: left;
@@ -1403,11 +1388,11 @@ body footer #where_to_find_us {
 * html body footer #where_to_find_us {
   overflow-x: hidden;
 }
-/* line 164, ../../app/stylesheets/partials/_style.sass */
+/* line 156, ../../app/stylesheets/partials/_style.sass */
 body footer #colophon p {
   color: white;
 }
-/* line 166, ../../app/stylesheets/partials/_style.sass */
+/* line 158, ../../app/stylesheets/partials/_style.sass */
 body .post_footer {
   border-top: 1px solid #222222;
   height: 20px;

@@ -14,8 +14,7 @@
     = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
     /[if IE]
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
-      = javascript_include_tag 'http://html5shim.googlecode.com/svn/trunk/html5.js'
-    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'jquery_tools/jquery.tools.min.js', 'zrssfeed/jquery.zrssfeed.min.js', 'top_navigation_fixed'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'jquery_tools/jquery.tools.min.js', 'zrssfeed/jquery.zrssfeed.min.js', 'top_navigation_fixed', 'http://html5shim.googlecode.com/svn/trunk/html5.js'
     = csrf_meta_tag
     :javascript 
       $(function(){
@@ -43,8 +42,6 @@
     .fixed_navigation= render 'layouts/top_navigation_fixed'
     %header#top= render 'layouts/header'
     #content= yield
-    .clear
-    #social_stuff= render 'site/social_stuff'
     .clear
     %footer= render 'layouts/footer'
     .post_footer

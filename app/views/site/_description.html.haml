@@ -1,10 +1,8 @@
 #softa_description
   .wrapper
     %section
-      %h1.softa_work_description Desenvolvemos aplicações <em class="web_two">web 2.0</em> usando <em class="ruby_on_rails">Ruby on Rails</em> e <em class="postgresql">PostgreSQL</em>, aliando o melhor da tecnologia <em class="open_source">Open Source</em> aos <em class="methods">métodos certos</em> para realizar seus projetos no <em class="methods">menor tempo</em> e com a <em class="methods">maior qualidade</em>.
-      .coffee_wrapper
-        #coffee_driven_development
-      %p #{link_to 'Veja alguns projetos »', '#softa_works'} | #{link_to 'Veja como trabalhamos »', '#softa_methodology'} | #{link_to 'Confira nossos experimentos »', '#softa_labs'}
+      %h1 Desenvolvemos aplicações <em class="web_two">web 2.0</em> usando <em class="ruby_on_rails">Ruby on Rails</em> e <em class="postgresql">PostgreSQL</em>, aliando o melhor da tecnologia <em class="open_source">Open Source</em> aos <em class="methods">métodos certos</em> para realizar seus projetos no <em class="methods">menor tempo</em> e com a <em class="methods">maior qualidade</em>.
+      %a.call_to_action Yo! Click here.
 :javascript
   var emphasis = [".web_two",".ruby_on_rails",".postgresql",".open_source",".methods"]
   function change_emphasis(emphasis, index)
@@ -13,7 +11,6 @@
       $(emphasis[index - 1]).removeClass('active').addClass('passed')
     if(index == emphasis.length)
     {
-      $('#coffee_driven_development').show('slow')
       return
     }
     else

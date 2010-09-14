@@ -1,0 +1,131 @@
+$social: $orange - #966
+body
+  #social
+    background: $social
+    border-top: 1px solid ($social + #333)
+    border-bottom: 1px solid #111
+    padding-bottom: 1em
+    h2
+      color: ($social - #222)
+      margin-top: .75em
+      margin-bottom: .25em
+      text-shadow: ($social + #222) 0 1px 0
+    hr
+      border: 0 none
+      border-top: 1px solid ($social - #222)
+      border-bottom: 1px solid ($social + #222)
+    a
+      color: ($orange)
+      text-shadow: ($orange - $grey) -1px -1px 0
+      &:hover
+        color: ($orange + #444)
+      &:active
+        color: ($orange - #111)
+    p
+      color: white
+      padding: 0
+      margin: 0
+      text-shadow: ($orange - $grey) -1px -1px 0
+    #twitter
+      +column(7)
+      +append(1)
+      color: white
+      #softa_twitter
+        overflow: hidden
+        margin-bottom: 1em
+        p
+          margin-left: 65px
+        ul
+          margin: 0
+          padding: 0
+          list-style: none
+          li
+            padding: 6px 0 8px 0
+            font-size: 12px
+            word-break: normal
+            a.user_image_link
+              display: block
+              float: left
+              margin: 4px 6px
+              img
+                border: 1px solid ($social + #111)
+                +box-shadow(rgba(0,0,0,.5),0,1px,2px)
+    #blog
+      +column(9)
+      +append(1)
+      p
+        color: white
+        a
+          color: black
+          text-decoration: underline
+      #softa_blog_rss
+        margin-bottom: 1em
+        ul
+          margin: 0
+          padding: 0
+          list-style: none
+          li
+            margin: 0
+            padding: 10px 0
+            border-bottom: 1px solid ($social - #222)
+            border-top: 1px solid ($social + #222)
+            &:first-child
+              padding-top: 0
+              border-top: 0 none
+            &:last-child
+              border-bottom: 0 none
+            h3
+              font-size: 14px
+              font-weight: 900
+              margin: 0
+              padding: 0 0 6px 0
+            div
+              font-size: 9px
+            p
+              font-size: 12px
+    #calendar
+      +column(6, last)
+      #calendar_rss
+        margin-bottom: 1em
+      ul
+        margin: 0
+        padding: 0
+        list-style: none
+        li
+          margin: 0
+          padding: 6px 0
+          border-bottom: 1px solid ($social - #222)
+          border-top: 1px solid ($social + #222)
+          &:first-child
+            padding-top: 0
+            border-top: 0 none
+          &:last-child
+            border-bottom: 0 none
+          h5
+            font-size: 12px
+            font-weight: 900
+            margin: 0
+            padding: 0
+          p
+            font-size: 10px
+      .event_contact
+        +two-box-shadow(($social + #222) 0 1px 0, ($social - #222) 0 1px 0 inset)
+        +rounded(4px)
+        background-color: ($social + #444)
+        background-clip: padding-box
+        padding: 1em 1em .5em 1em
+        text-align: center
+        p
+          font-size: 12px
+          text-shadow: $social 1px 1px 0
+        a
+          font-weight: 900
+          text-shadow: $social 1px 1px 0
+      h3
+        color: ($social - #222)
+        margin-top: .75em
+        margin-bottom: .25em
+        text-shadow: ($social + #222) 0 1px 0
+        font:
+          size: 16px
+          weight: 900
