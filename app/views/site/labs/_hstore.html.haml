@@ -1,17 +1,13 @@
 %article.labs_article
   .article_images
     = image_tag 'https://spreadsheets.google.com/oimg?key=0AoQcKrACYfGjdGRVV3cyTDZYQkJMa255VkxxQW9LTHc&oid=1&zx=ksfsz3-j87df5', :width => '275px'
-    %ul
-      - 3.times do
-        %li
-          %img{ :width => '80px', :height => '40px' }
   .article_title
     %h2 ActiveRecord Postgres Hstore
   .article_author
     %h4 Juan Maiz
   .article_content
     %p
-      Suporte ao campo hstore do postgresql no ActiveRecord. Adeus serialize.
+      Suporte ao campo <samp>hstore</samp> do PostgreSQL no <samp>ActiveRecord</samp>. Adeus <samp>serialize</samp>.
       %br
       = link_to 'Veja o site »', 'http://github.com/softa/activerecord-postgres-hstore'
   .clear

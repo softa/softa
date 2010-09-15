@@ -15,7 +15,7 @@
     /[if IE]
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
       = javascript_include_tag 'selectivizr/selectivizr'
-    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'zrssfeed/jquery.zrssfeed.min', 'softa', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo', 'shadowbox/shadowbox'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'zrssfeed/jquery.zrssfeed.min', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo', 'shadowbox/shadowbox'
     = csrf_meta_tag
     :javascript 
       Shadowbox.init({
@@ -40,4 +40,5 @@
     .clear
     %footer= render 'layouts/footer'
     .post_footer
+    = javascript_include_tag 'softa'
     = render 'layouts/google_analytics'

@@ -1170,32 +1170,37 @@ body p, body ul li {
   color: #444444;
 }
 /* line 24, ../../app/stylesheets/partials/_style.sass */
+body tt, body code, body kbd, body samp {
+  font-size: 1em;
+  font-family: "Menlo", "Monaco", "andale mono", "lucida console", "monospace";
+}
+/* line 27, ../../app/stylesheets/partials/_style.sass */
 body address {
   font-style: normal;
 }
-/* line 26, ../../app/stylesheets/partials/_style.sass */
+/* line 29, ../../app/stylesheets/partials/_style.sass */
 body a {
   cursor: pointer;
   color: #ff9900;
   -webkit-transition: color 0.35s ease-in;
   text-decoration: none;
 }
-/* line 31, ../../app/stylesheets/partials/_style.sass */
+/* line 34, ../../app/stylesheets/partials/_style.sass */
 body a:hover {
   color: #ffbb22;
   text-decoration: underline;
 }
-/* line 34, ../../app/stylesheets/partials/_style.sass */
+/* line 37, ../../app/stylesheets/partials/_style.sass */
 body a:active {
   position: relative;
   top: 1px;
   color: #ee8800;
 }
-/* line 38, ../../app/stylesheets/partials/_style.sass */
+/* line 41, ../../app/stylesheets/partials/_style.sass */
 body a:visited {
   color: #ff9900;
 }
-/* line 40, ../../app/stylesheets/partials/_style.sass */
+/* line 43, ../../app/stylesheets/partials/_style.sass */
 body a.button {
   border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -1207,18 +1212,18 @@ body a.button {
   text-shadow: white 0 1px 0;
   padding: 0.25em 0.5em;
 }
-/* line 46, ../../app/stylesheets/partials/_style.sass */
+/* line 49, ../../app/stylesheets/partials/_style.sass */
 body a.button:hover {
   background: #ffcc33;
 }
-/* line 51, ../../app/stylesheets/partials/_style.sass */
+/* line 54, ../../app/stylesheets/partials/_style.sass */
 body .wrapper {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 53, ../../app/stylesheets/partials/_style.sass */
+/* line 56, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation {
   -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px 0;
@@ -1235,32 +1240,32 @@ body .fixed_navigation {
   background-position: top center;
   z-index: 999;
 }
-/* line 66, ../../app/stylesheets/partials/_style.sass */
+/* line 69, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation .wrapper {
   background-color: rgba(255, 255, 255, 0.05);
 }
-/* line 68, ../../app/stylesheets/partials/_style.sass */
+/* line 71, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation .wrapper:hover {
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 70, ../../app/stylesheets/partials/_style.sass */
+/* line 73, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation.open {
   height: 42px;
 }
-/* line 72, ../../app/stylesheets/partials/_style.sass */
+/* line 75, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed {
   display: none;
   margin: 0;
   padding: 8px 0;
   text-align: center;
 }
-/* line 77, ../../app/stylesheets/partials/_style.sass */
+/* line 80, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li {
   display: inline;
   margin: 0;
   padding: 0 20px;
 }
-/* line 81, ../../app/stylesheets/partials/_style.sass */
+/* line 84, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a {
   color: #993300;
   text-shadow: #ffb61d 0 1px 0;
@@ -1268,19 +1273,19 @@ body .fixed_navigation ul.top_navigation_fixed li a {
   margin: 0;
   font-weight: 900;
 }
-/* line 87, ../../app/stylesheets/partials/_style.sass */
+/* line 90, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:hover {
   color: #bb5500;
 }
-/* line 89, ../../app/stylesheets/partials/_style.sass */
+/* line 92, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:active {
   color: #993300;
 }
-/* line 91, ../../app/stylesheets/partials/_style.sass */
+/* line 94, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a img {
   vertical-align: middle;
 }
-/* line 94, ../../app/stylesheets/partials/_style.sass */
+/* line 97, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo {
   display: inline;
   float: left;
@@ -1292,11 +1297,11 @@ body header #softa_logo {
 * html body header #softa_logo {
   overflow-x: hidden;
 }
-/* line 97, ../../app/stylesheets/partials/_style.sass */
+/* line 100, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo img:hover {
   background: url(/images/softa_background.png) no-repeat center center;
 }
-/* line 99, ../../app/stylesheets/partials/_style.sass */
+/* line 102, ../../app/stylesheets/partials/_style.sass */
 body header nav {
   display: inline;
   float: left;
@@ -1308,7 +1313,7 @@ body header nav {
 * html body header nav {
   overflow-x: hidden;
 }
-/* line 102, ../../app/stylesheets/partials/_style.sass */
+/* line 105, ../../app/stylesheets/partials/_style.sass */
 body header nav a {
   display: inline;
   float: left;
@@ -1322,31 +1327,31 @@ body header nav a {
 * html body header nav a {
   overflow-x: hidden;
 }
-/* line 107, ../../app/stylesheets/partials/_style.sass */
+/* line 110, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover {
   text-decoration: none;
 }
-/* line 109, ../../app/stylesheets/partials/_style.sass */
+/* line 112, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover strong, body header nav a:hover span {
   -webkit-transition: color 0.05s ease-in;
 }
-/* line 111, ../../app/stylesheets/partials/_style.sass */
+/* line 114, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover strong {
   color: #333333;
 }
-/* line 113, ../../app/stylesheets/partials/_style.sass */
+/* line 116, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover span {
   color: #666666;
 }
-/* line 116, ../../app/stylesheets/partials/_style.sass */
+/* line 119, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active strong {
   color: #ff9900;
 }
-/* line 118, ../../app/stylesheets/partials/_style.sass */
+/* line 121, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active span {
   color: #ffbb22;
 }
-/* line 120, ../../app/stylesheets/partials/_style.sass */
+/* line 123, ../../app/stylesheets/partials/_style.sass */
 body header nav a strong {
   font-size: 18px;
   font-weight: 900;
@@ -1355,41 +1360,41 @@ body header nav a strong {
   display: block;
   padding-bottom: 6px;
 }
-/* line 127, ../../app/stylesheets/partials/_style.sass */
+/* line 130, ../../app/stylesheets/partials/_style.sass */
 body header nav a span {
   font-size: 13px;
   color: #aaaaaa;
   text-decoration: none;
 }
-/* line 131, ../../app/stylesheets/partials/_style.sass */
+/* line 134, ../../app/stylesheets/partials/_style.sass */
 body #content {
   text-shadow: white 0 1px 0;
 }
-/* line 134, ../../app/stylesheets/partials/_style.sass */
+/* line 137, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_description h1, body #content #softa_methodology h1, body #content #softa_labs h1, body #content #softa_staff h1 {
   padding: 0.25em 0 0.75em 0;
 }
-/* line 136, ../../app/stylesheets/partials/_style.sass */
+/* line 139, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_description .wrapper section, body #content #softa_methodology .wrapper section, body #content #softa_labs .wrapper section, body #content #softa_staff .wrapper section {
   padding: 1em 0;
 }
-/* line 138, ../../app/stylesheets/partials/_style.sass */
+/* line 141, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_methodology, body #content #softa_staff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 140, ../../app/stylesheets/partials/_style.sass */
+/* line 143, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_works .wrapper section {
   padding: 1em 0 0 0;
 }
-/* line 142, ../../app/stylesheets/partials/_style.sass */
+/* line 145, ../../app/stylesheets/partials/_style.sass */
 body #social_stuff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 144, ../../app/stylesheets/partials/_style.sass */
+/* line 147, ../../app/stylesheets/partials/_style.sass */
 body #social_stuff .wrapper section {
   padding: 1em 0;
 }
-/* line 146, ../../app/stylesheets/partials/_style.sass */
+/* line 149, ../../app/stylesheets/partials/_style.sass */
 body footer {
   -webkit-font-smoothing: subpixel-antialiased;
   padding: 15px 0;
@@ -1402,13 +1407,13 @@ body footer {
   background-attachment: scroll;
   background-position: center top;
 }
-/* line 158, ../../app/stylesheets/partials/_style.sass */
+/* line 161, ../../app/stylesheets/partials/_style.sass */
 body footer h1 {
   color: black;
   text-shadow: #555555 0 1px 0;
   padding: 0.25em 0 0.5em 0;
 }
-/* line 162, ../../app/stylesheets/partials/_style.sass */
+/* line 165, ../../app/stylesheets/partials/_style.sass */
 body footer #contact_us {
   display: inline;
   float: left;
@@ -1419,7 +1424,7 @@ body footer #contact_us {
 * html body footer #contact_us {
   overflow-x: hidden;
 }
-/* line 164, ../../app/stylesheets/partials/_style.sass */
+/* line 167, ../../app/stylesheets/partials/_style.sass */
 body footer #where_to_find_us {
   display: inline;
   float: left;
@@ -1430,11 +1435,11 @@ body footer #where_to_find_us {
 * html body footer #where_to_find_us {
   overflow-x: hidden;
 }
-/* line 167, ../../app/stylesheets/partials/_style.sass */
+/* line 170, ../../app/stylesheets/partials/_style.sass */
 body footer #colophon p {
   color: white;
 }
-/* line 169, ../../app/stylesheets/partials/_style.sass */
+/* line 172, ../../app/stylesheets/partials/_style.sass */
 body .post_footer {
   border-top: 1px solid #222222;
   height: 20px;
