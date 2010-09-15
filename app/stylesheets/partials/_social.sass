@@ -30,7 +30,7 @@ body
       +column(7)
       +append(1)
       color: white
-      #softa_twitter
+      #softa_twitter_rss
         overflow: hidden
         margin-bottom: 1em
         p
@@ -85,8 +85,38 @@ body
               font-size: 12px
     #calendar
       +column(6, last)
-      #calendar_rss
+      #softa_calendar_rss
         margin-bottom: 1em
+        h3.what
+          color: ($social - #222)
+          padding: 12px 0 6px 0
+          margin-right: 28px
+          text-shadow: ($social + #222) 0 1px 0
+          font:
+            size: 16px
+            weight: 900
+        h4.where
+          font:
+            size: 14px
+            weight: 900
+          color: $social + #444
+          text-shadow: ($social - #444) 0 -1px 0
+        time.when
+          +two-box-shadow(($social + #222) 0 1px 0, ($social - #666) 0 1px 0 inset)
+          +rounded(3px)
+          font:
+            size: 14px
+            weight: 900
+          width: 48px
+          display: inline
+          text-shadow: ($social + #222) 0 1px 0
+          height: 1em
+          overflow: hidden
+          margin-top: -2px
+          padding: 4px
+          font-size: 12px
+          background: ($social - #222)
+          color: white
       ul
         margin: 0
         padding: 0
@@ -101,31 +131,24 @@ body
             border-top: 0 none
           &:last-child
             border-bottom: 0 none
-          h5
-            font-size: 12px
-            font-weight: 900
-            margin: 0
-            padding: 0
           p
-            font-size: 10px
+            font-size: 12px
+            &.links
+              img
+                vertical-align: middle
       .event_contact
         +two-box-shadow(($social + #222) 0 1px 0, ($social - #222) 0 1px 0 inset)
         +rounded(4px)
         background-color: ($social + #444)
         background-clip: padding-box
         padding: 1em 1em .5em 1em
-        text-align: center
         p
-          font-size: 12px
-          text-shadow: $social 1px 1px 0
-        a
-          font-weight: 900
-          text-shadow: $social 1px 1px 0
-      h3
-        color: ($social - #222)
-        margin-top: .75em
-        margin-bottom: .25em
-        text-shadow: ($social + #222) 0 1px 0
-        font:
-          size: 16px
-          weight: 900
+          img
+            vertical-align: middle
+          a
+            font:
+              size: 12px
+              weight: 900
+            text-shadow: $social 1px 1px 0
+            &:hover, &:active
+              text-decoration: none

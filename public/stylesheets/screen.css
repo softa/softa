@@ -565,34 +565,34 @@ body #social #twitter {
   overflow-x: hidden;
 }
 /* line 33, ../../app/stylesheets/partials/_social.sass */
-body #social #twitter #softa_twitter {
+body #social #twitter #softa_twitter_rss {
   overflow: hidden;
   margin-bottom: 1em;
 }
 /* line 36, ../../app/stylesheets/partials/_social.sass */
-body #social #twitter #softa_twitter p {
+body #social #twitter #softa_twitter_rss p {
   margin-left: 65px;
 }
 /* line 38, ../../app/stylesheets/partials/_social.sass */
-body #social #twitter #softa_twitter ul {
+body #social #twitter #softa_twitter_rss ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 /* line 42, ../../app/stylesheets/partials/_social.sass */
-body #social #twitter #softa_twitter ul li {
+body #social #twitter #softa_twitter_rss ul li {
   padding: 6px 0 8px 0;
   font-size: 12px;
   word-break: normal;
 }
 /* line 46, ../../app/stylesheets/partials/_social.sass */
-body #social #twitter #softa_twitter ul li a.user_image_link {
+body #social #twitter #softa_twitter_rss ul li a.user_image_link {
   display: block;
   float: left;
   margin: 4px 6px;
 }
 /* line 50, ../../app/stylesheets/partials/_social.sass */
-body #social #twitter #softa_twitter ul li a.user_image_link img {
+body #social #twitter #softa_twitter_rss ul li a.user_image_link img {
   border: 1px solid #774411;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
@@ -673,43 +673,81 @@ body #social #calendar {
   overflow-x: hidden;
 }
 /* line 88, ../../app/stylesheets/partials/_social.sass */
-body #social #calendar #calendar_rss {
+body #social #calendar #softa_calendar_rss {
   margin-bottom: 1em;
 }
 /* line 90, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar #softa_calendar_rss h3.what {
+  color: #441100;
+  padding: 12px 0 6px 0;
+  margin-right: 28px;
+  text-shadow: #885522 0 1px 0;
+  font-size: 16px;
+  font-weight: 900;
+}
+/* line 98, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar #softa_calendar_rss h4.where {
+  font-size: 14px;
+  font-weight: 900;
+  color: #aa7744;
+  text-shadow: #220000 0 -1px 0;
+}
+/* line 104, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar #softa_calendar_rss time.when {
+  box-shadow: #885522 0 1px 0, black 0 1px 0 inset;
+  -webkit-box-shadow: #885522 0 1px 0, black 0 1px 0 inset;
+  -moz-box-shadow: #885522 0 1px 0, black 0 1px 0 inset;
+  -o-box-shadow: #885522 0 1px 0, black 0 1px 0 inset;
+  -khtml-box-shadow: #885522 0 1px 0, black 0 1px 0 inset;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  font-size: 14px;
+  font-weight: 900;
+  width: 48px;
+  display: inline;
+  text-shadow: #885522 0 1px 0;
+  height: 1em;
+  overflow: hidden;
+  margin-top: -2px;
+  padding: 4px;
+  font-size: 12px;
+  background: #441100;
+  color: white;
+}
+/* line 120, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 94, ../../app/stylesheets/partials/_social.sass */
+/* line 124, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar ul li {
   margin: 0;
   padding: 6px 0;
   border-bottom: 1px solid #441100;
   border-top: 1px solid #885522;
 }
-/* line 99, ../../app/stylesheets/partials/_social.sass */
+/* line 129, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar ul li:first-child {
   padding-top: 0;
   border-top: 0 none;
 }
-/* line 102, ../../app/stylesheets/partials/_social.sass */
+/* line 132, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar ul li:last-child {
   border-bottom: 0 none;
 }
-/* line 104, ../../app/stylesheets/partials/_social.sass */
-body #social #calendar ul li h5 {
-  font-size: 12px;
-  font-weight: 900;
-  margin: 0;
-  padding: 0;
-}
-/* line 109, ../../app/stylesheets/partials/_social.sass */
+/* line 134, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar ul li p {
-  font-size: 10px;
+  font-size: 12px;
 }
-/* line 111, ../../app/stylesheets/partials/_social.sass */
+/* line 137, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar ul li p.links img {
+  vertical-align: middle;
+}
+/* line 139, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar .event_contact {
   box-shadow: #885522 0 1px 0, #441100 0 1px 0 inset;
   -webkit-box-shadow: #885522 0 1px 0, #441100 0 1px 0 inset;
@@ -724,26 +762,20 @@ body #social #calendar .event_contact {
   background-color: #aa7744;
   background-clip: padding-box;
   padding: 1em 1em 0.5em 1em;
-  text-align: center;
 }
-/* line 118, ../../app/stylesheets/partials/_social.sass */
-body #social #calendar .event_contact p {
+/* line 146, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar .event_contact p img {
+  vertical-align: middle;
+}
+/* line 148, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar .event_contact p a {
   font-size: 12px;
-  text-shadow: #663300 1px 1px 0;
-}
-/* line 121, ../../app/stylesheets/partials/_social.sass */
-body #social #calendar .event_contact a {
   font-weight: 900;
   text-shadow: #663300 1px 1px 0;
 }
-/* line 124, ../../app/stylesheets/partials/_social.sass */
-body #social #calendar h3 {
-  color: #441100;
-  margin-top: 0.75em;
-  margin-bottom: 0.25em;
-  text-shadow: #885522 0 1px 0;
-  font-size: 16px;
-  font-weight: 900;
+/* line 153, ../../app/stylesheets/partials/_social.sass */
+body #social #calendar .event_contact p a:hover, body #social #calendar .event_contact p a:active {
+  text-decoration: none;
 }
 
 /* line 1, ../../app/stylesheets/partials/_staff.sass */
@@ -812,11 +844,15 @@ body #softa_staff #daniel_weinmann .image, body #softa_staff #diogo_biazus .imag
 }
 /* line 22, ../../app/stylesheets/partials/_staff.sass */
 body #softa_staff #daniel_weinmann .image img, body #softa_staff #diogo_biazus .image img, body #softa_staff #felipe_cabral .image img, body #softa_staff #juan_maiz .image img, body #softa_staff #leonardo_tartari .image img, body #softa_staff #pedro_axelrud .image img {
+  -moz-box-shadow: #333333 0 0 3px 0;
+  -webkit-box-shadow: #333333 0 0 3px 0;
+  -o-box-shadow: #333333 0 0 3px 0;
+  box-shadow: #333333 0 0 3px 0;
   width: 84px;
   margin: 18px 0 16px 16px;
-  border: 1px solid white;
+  border: 1px solid #ffbb22;
 }
-/* line 26, ../../app/stylesheets/partials/_staff.sass */
+/* line 27, ../../app/stylesheets/partials/_staff.sass */
 body #softa_staff #daniel_weinmann .info, body #softa_staff #diogo_biazus .info, body #softa_staff #felipe_cabral .info, body #softa_staff #juan_maiz .info, body #softa_staff #leonardo_tartari .info, body #softa_staff #pedro_axelrud .info {
   display: inline;
   float: left;
@@ -829,20 +865,20 @@ body #softa_staff #daniel_weinmann .info, body #softa_staff #diogo_biazus .info,
 * html body #softa_staff #daniel_weinmann .info, * html body #softa_staff #diogo_biazus .info, * html body #softa_staff #felipe_cabral .info, * html body #softa_staff #juan_maiz .info, * html body #softa_staff #leonardo_tartari .info, * html body #softa_staff #pedro_axelrud .info {
   overflow-x: hidden;
 }
-/* line 30, ../../app/stylesheets/partials/_staff.sass */
+/* line 31, ../../app/stylesheets/partials/_staff.sass */
 body #softa_staff #daniel_weinmann .info h4, body #softa_staff #diogo_biazus .info h4, body #softa_staff #felipe_cabral .info h4, body #softa_staff #juan_maiz .info h4, body #softa_staff #leonardo_tartari .info h4, body #softa_staff #pedro_axelrud .info h4 {
   padding: 7px 0 8px 0;
   font-size: 16px;
   color: white;
 }
-/* line 34, ../../app/stylesheets/partials/_staff.sass */
+/* line 35, ../../app/stylesheets/partials/_staff.sass */
 body #softa_staff #daniel_weinmann .info p, body #softa_staff #diogo_biazus .info p, body #softa_staff #felipe_cabral .info p, body #softa_staff #juan_maiz .info p, body #softa_staff #leonardo_tartari .info p, body #softa_staff #pedro_axelrud .info p {
   padding: 0;
   font-size: 12px;
   color: white;
   margin: 0 0 0.25em 0;
 }
-/* line 39, ../../app/stylesheets/partials/_staff.sass */
+/* line 40, ../../app/stylesheets/partials/_staff.sass */
 body #softa_staff #daniel_weinmann .info p.links, body #softa_staff #diogo_biazus .info p.links, body #softa_staff #felipe_cabral .info p.links, body #softa_staff #juan_maiz .info p.links, body #softa_staff #leonardo_tartari .info p.links, body #softa_staff #pedro_axelrud .info p.links {
   font-size: 12px;
   font-weight: 900;

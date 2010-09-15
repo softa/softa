@@ -9,12 +9,13 @@
     %meta{ :name => 'robots', :content => 'index, follow' }
     %meta{ :name => 'description', :content => 'Aplicações web 2.0. O melhor do open source: Ruby on Rails e PostgreSQL. Nós utilizamos as melhores tecnologias aliadas aos métodos certos para desenvolver seus projetos no menor tempo e com a maior qualidade.' }
     %meta{ :name => 'author', :content => 'Softa' }
-    %meta{ :name => 'keywords', :content => 'web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo de oliveira biazus, daniel de souza weinmann, juan maiz lulkin flores da cunha, pedro kvitko axelrud, felipe benites cabral, leonardo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0' }
+    %meta{ :name => 'keywords', :content => 'web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0, ui, ux' }
     %meta{ :name => 'viewport', :content=> 'width=device-width; initial-scale=1.0; maximum-scale=1.0;' }
     = stylesheet_link_tag 'screen.css', 'shadowbox.css', :media => 'screen, projection'
     /[if IE]
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
-    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'zrssfeed/jquery.zrssfeed.min', 'top_navigation_fixed', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo', 'shadowbox/shadowbox'
+      = javascript_include_tag 'selectivizr/selectivizr'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'zrssfeed/jquery.zrssfeed.min', 'softa', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo', 'shadowbox/shadowbox'
     = csrf_meta_tag
     :javascript 
       Shadowbox.init({
