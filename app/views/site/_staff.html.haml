@@ -2,40 +2,6 @@
   .wrapper
     %section
       %h1 Softa Staff
-      #daniel_weinmann
-        .image #{gravatar 'daniel'}
-        .info
-          %h4 Daniel Weinmann
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          %p.links  #{ twitter 'danielweinmann' }
-      #diogo_biazus
-        .image #{gravatar 'diogo'}
-        .info
-          %h4 Diogo Biazus
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          %p.links #{ twitter 'dbiazus' }
-      #felipe_cabral
-        .image #{gravatar 'cabral'}
-        .info
-          %h4 Felipe Cabral
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          %p.links #{ twitter 'felipebcabral' }
-      #juan_maiz
-        .image #{gravatar 'maiz'}
-        .info
-          %h4 Juan Maiz
-          %p Desenvolvedor Rails e JavaScript. Comemora efusivamente quando realiza entregas com zero bugs.
-          %p.links #{ twitter 'joaomilho' } · #{link_to 'Posterous', 'http://maiz.posterous.com', :target => :_blank }
-      #leonardo_tartari
-        .image #{gravatar 'leonardo'}
-        .info
-          %h4 Léo Tartari
-          %p Artista do design, tipografia, UI e UX. Extremista em detalhes, não perdoa erros de 1px.
-          %p.links #{ twitter 'leotartari' } · #{link_to 'Flickr', '#'} · #{link_to 'Tumblr', '#'}
-      #pedro_axelrud
-        .image #{gravatar 'pedro'}
-        .info
-          %h4 Pedro Axelrud
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          %p.links #{ twitter 'pedroaxl' } · #{link_to 'Flickr', '#'} · #{link_to 'Blog', '#'} · #{link_to 'Flavours', '#'}
+      - for idiot in %w{dw db fc jm lt pa}
+        = render "site/staff/#{idiot}" # How sweet...
       .clear
