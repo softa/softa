@@ -565,6 +565,10 @@ body #social ul {
   list-style: none;
 }
 /* line 38, ../../app/stylesheets/partials/_social.sass */
+body #social ul li {
+  margin: 0;
+}
+/* line 40, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter {
   display: inline;
   float: left;
@@ -577,28 +581,29 @@ body #social #twitter {
 * html body #social #twitter {
   overflow-x: hidden;
 }
-/* line 42, ../../app/stylesheets/partials/_social.sass */
+/* line 44, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter #softa_twitter_rss {
   overflow: hidden;
   margin-bottom: 1em;
 }
-/* line 45, ../../app/stylesheets/partials/_social.sass */
+/* line 47, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter #softa_twitter_rss p {
   margin-left: 65px;
+  font-size: 12px;
 }
-/* line 47, ../../app/stylesheets/partials/_social.sass */
+/* line 50, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter #softa_twitter_rss li {
   padding: 6px 0 8px 0;
   font-size: 12px;
   word-break: normal;
 }
-/* line 51, ../../app/stylesheets/partials/_social.sass */
+/* line 54, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter #softa_twitter_rss li a.user_image_link {
   display: block;
   float: left;
   margin: 4px 6px;
 }
-/* line 55, ../../app/stylesheets/partials/_social.sass */
+/* line 58, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter #softa_twitter_rss li a.user_image_link img {
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
@@ -606,7 +611,7 @@ body #social #twitter #softa_twitter_rss li a.user_image_link img {
   box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
   border: 1px solid #774411;
 }
-/* line 58, ../../app/stylesheets/partials/_social.sass */
+/* line 61, ../../app/stylesheets/partials/_social.sass */
 body #social #blog {
   display: inline;
   float: left;
@@ -618,44 +623,43 @@ body #social #blog {
 * html body #social #blog {
   overflow-x: hidden;
 }
-/* line 61, ../../app/stylesheets/partials/_social.sass */
+/* line 64, ../../app/stylesheets/partials/_social.sass */
 body #social #blog p {
   color: white;
 }
-/* line 63, ../../app/stylesheets/partials/_social.sass */
+/* line 66, ../../app/stylesheets/partials/_social.sass */
 body #social #blog p a {
   color: black;
   text-decoration: underline;
 }
-/* line 66, ../../app/stylesheets/partials/_social.sass */
+/* line 69, ../../app/stylesheets/partials/_social.sass */
 body #social #blog #softa_blog_rss {
   margin-bottom: 1em;
 }
-/* line 68, ../../app/stylesheets/partials/_social.sass */
+/* line 71, ../../app/stylesheets/partials/_social.sass */
+body #social #blog #softa_blog_rss p {
+  font-size: 12px;
+}
+/* line 73, ../../app/stylesheets/partials/_social.sass */
 body #social #blog #softa_blog_rss li {
-  margin: 0;
   padding: 10px 0;
   border-bottom: 1px solid #441100;
   border-top: 1px solid #885522;
 }
-/* line 73, ../../app/stylesheets/partials/_social.sass */
+/* line 77, ../../app/stylesheets/partials/_social.sass */
 body #social #blog #softa_blog_rss li:first-child {
   padding-top: 0;
   border-top: 0 none;
 }
-/* line 76, ../../app/stylesheets/partials/_social.sass */
+/* line 80, ../../app/stylesheets/partials/_social.sass */
 body #social #blog #softa_blog_rss li:last-child {
   border-bottom: 0 none;
 }
-/* line 78, ../../app/stylesheets/partials/_social.sass */
+/* line 82, ../../app/stylesheets/partials/_social.sass */
 body #social #blog #softa_blog_rss li div {
   font-size: 9px;
 }
-/* line 80, ../../app/stylesheets/partials/_social.sass */
-body #social #blog #softa_blog_rss li p {
-  font-size: 12px;
-}
-/* line 82, ../../app/stylesheets/partials/_social.sass */
+/* line 84, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar {
   display: inline;
   float: left;
@@ -667,16 +671,16 @@ body #social #calendar {
 * html body #social #calendar {
   overflow-x: hidden;
 }
-/* line 85, ../../app/stylesheets/partials/_social.sass */
+/* line 87, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar #softa_calendar_rss {
   margin-bottom: 1em;
 }
-/* line 87, ../../app/stylesheets/partials/_social.sass */
+/* line 89, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar #softa_calendar_rss h3.what {
   margin: 12px 0 6px 0;
   padding: 0 0 6px 0;
 }
-/* line 90, ../../app/stylesheets/partials/_social.sass */
+/* line 92, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar #softa_calendar_rss h4.where {
   font-size: 12px;
   font-weight: 900;
@@ -684,7 +688,7 @@ body #social #calendar #softa_calendar_rss h4.where {
   color: #cc9966;
   text-shadow: #441100 1px 1px 0;
 }
-/* line 97, ../../app/stylesheets/partials/_social.sass */
+/* line 99, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar #softa_calendar_rss time.when {
   box-shadow: #885522 0 1px 0, black 0 1px 0 inset;
   -webkit-box-shadow: #885522 0 1px 0, black 0 1px 0 inset;
@@ -697,8 +701,7 @@ body #social #calendar #softa_calendar_rss time.when {
   -o-border-radius: 3px;
   -khtml-border-radius: 3px;
   font-weight: 900;
-  width: 48px;
-  display: inline;
+  display: block;
   text-shadow: #885522 0 1px 0;
   overflow: hidden;
   padding: 4px;
@@ -706,9 +709,8 @@ body #social #calendar #softa_calendar_rss time.when {
   background: #441100;
   color: white;
 }
-/* line 109, ../../app/stylesheets/partials/_social.sass */
+/* line 110, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar li {
-  margin: 0;
   padding: 6px 0;
   border-bottom: 1px solid #441100;
   border-top: 1px solid #885522;
