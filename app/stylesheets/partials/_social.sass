@@ -10,13 +10,18 @@ body
       margin-top: .75em
       margin-bottom: .25em
       text-shadow: ($social + #222) 0 1px 0
+    h3
+      font-size: 14px
+      font-weight: 900
+      margin: 0
+      padding: 0 0 6px 0
     hr
       border: 0 none
       border-top: 1px solid ($social - #222)
       border-bottom: 1px solid ($social + #222)
     a
       color: ($orange)
-      text-shadow: ($orange - $grey) -1px -1px 0
+      text-shadow: ($social - #222) 1px 1px 0
       &:hover
         color: ($orange + #444)
       &:active
@@ -25,7 +30,11 @@ body
       color: white
       padding: 0
       margin: 0
-      text-shadow: ($orange - $grey) -1px -1px 0
+      text-shadow: none
+    ul
+      margin: 0
+      padding: 0
+      list-style: none
     #twitter
       +column(7)
       +append(1)
@@ -35,21 +44,17 @@ body
         margin-bottom: 1em
         p
           margin-left: 65px
-        ul
-          margin: 0
-          padding: 0
-          list-style: none
-          li
-            padding: 6px 0 8px 0
-            font-size: 12px
-            word-break: normal
-            a.user_image_link
-              display: block
-              float: left
-              margin: 4px 6px
-              img
-                border: 1px solid ($social + #111)
-                +box-shadow(rgba(0,0,0,.5),0,1px,2px)
+        li
+          padding: 6px 0 8px 0
+          font-size: 12px
+          word-break: normal
+          a.user_image_link
+            display: block
+            float: left
+            margin: 4px 6px
+            img
+              +box-shadow(rgba(0,0,0,.5),0,1px,2px)
+              border: 1px solid ($social + #111)
     #blog
       +column(9)
       +append(1)
@@ -60,70 +65,9 @@ body
           text-decoration: underline
       #softa_blog_rss
         margin-bottom: 1em
-        ul
-          margin: 0
-          padding: 0
-          list-style: none
-          li
-            margin: 0
-            padding: 10px 0
-            border-bottom: 1px solid ($social - #222)
-            border-top: 1px solid ($social + #222)
-            &:first-child
-              padding-top: 0
-              border-top: 0 none
-            &:last-child
-              border-bottom: 0 none
-            h3
-              font-size: 14px
-              font-weight: 900
-              margin: 0
-              padding: 0 0 6px 0
-            div
-              font-size: 9px
-            p
-              font-size: 12px
-    #calendar
-      +column(6, last)
-      #softa_calendar_rss
-        margin-bottom: 1em
-        h3.what
-          color: ($social - #222)
-          padding: 12px 0 6px 0
-          margin-right: 28px
-          text-shadow: ($social + #222) 0 1px 0
-          font:
-            size: 16px
-            weight: 900
-        h4.where
-          font:
-            size: 14px
-            weight: 900
-          color: $social + #444
-          text-shadow: ($social - #444) 0 -1px 0
-        time.when
-          +two-box-shadow(($social + #222) 0 1px 0, ($social - #666) 0 1px 0 inset)
-          +rounded(3px)
-          font:
-            size: 14px
-            weight: 900
-          width: 48px
-          display: inline
-          text-shadow: ($social + #222) 0 1px 0
-          height: 1em
-          overflow: hidden
-          margin-top: -2px
-          padding: 4px
-          font-size: 12px
-          background: ($social - #222)
-          color: white
-      ul
-        margin: 0
-        padding: 0
-        list-style: none
         li
           margin: 0
-          padding: 6px 0
+          padding: 10px 0
           border-bottom: 1px solid ($social - #222)
           border-top: 1px solid ($social + #222)
           &:first-child
@@ -131,24 +75,66 @@ body
             border-top: 0 none
           &:last-child
             border-bottom: 0 none
+          div
+            font-size: 9px
           p
             font-size: 12px
-            &.links
-              img
-                vertical-align: middle
-      .event_contact
-        +two-box-shadow(($social + #222) 0 1px 0, ($social - #222) 0 1px 0 inset)
-        +rounded(4px)
-        background-color: ($social + #444)
-        background-clip: padding-box
-        padding: 1em 1em .5em 1em
+    #calendar
+      +column(6, last)
+      text-align: center
+      #softa_calendar_rss
+        margin-bottom: 1em
+        h3.what
+          margin: 12px 0 6px 0
+          padding: 0 0 6px 0
+        h4.where
+          font:
+            size: 12px
+            weight: 900
+          margin: 6px 0
+          color: $social + $grey
+          text-shadow: ($social - #222) 1px 1px 0
+        time.when
+          +two-box-shadow(($social + #222) 0 1px 0, ($social - #666) 0 1px 0 inset)
+          +rounded(3px)
+          font-weight: 900
+          width: 48px
+          display: inline
+          text-shadow: ($social + #222) 0 1px 0
+          overflow: hidden
+          padding: 4px
+          font-size: 12px
+          background: ($social - #222)
+          color: white
+      li
+        margin: 0
+        padding: 6px 0
+        border-bottom: 1px solid ($social - #222)
+        border-top: 1px solid ($social + #222)
+        &:first-child
+          padding-top: 0
+          border-top: 0 none
+        &:last-child
+          border-bottom: 0 none
         p
-          img
-            vertical-align: middle
-          a
-            font:
-              size: 12px
-              weight: 900
-            text-shadow: $social 1px 1px 0
-            &:hover, &:active
-              text-decoration: none
+          font-size: 12px
+          &.links
+            img
+              vertical-align: middle
+      .event_contact
+        h3
+          color: ($social - #444)
+          padding: 12px 0 6px 0
+          text-shadow: ($social + #222) 0 1px 0
+          font:
+            size: 16px
+            weight: 900
+        a
+          font:
+            size: 12px
+            weight: 900
+          text-shadow: $social 1px 1px 0
+          &:hover, &:active
+            text-decoration: none
+  .separator
+    text-align: center

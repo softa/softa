@@ -15,7 +15,7 @@
     /[if IE]
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
       = javascript_include_tag 'selectivizr/selectivizr'
-    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter.js', 'juitter/system.js', 'zrssfeed/jquery.zrssfeed.min', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo', 'shadowbox/shadowbox'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter', 'juitter/system', 'zrssfeed/jquery.zrssfeed.min', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo', 'shadowbox/shadowbox'
     = csrf_meta_tag
     :javascript 
       Shadowbox.init({
@@ -34,6 +34,7 @@
     %link{ :rel => 'apple-touch-icon-precomposed', :href => 'apple-touch-icon.png'}
     %link{ :rel => 'shortcut icon', :href => 'favicon.ico' }
   %body
+    -#= link_to 'Voltar ao topo', '#top', :class => 'to_up'
     .fixed_navigation= render 'layouts/top_navigation_fixed'
     %header#top= render 'layouts/header'
     #content= yield

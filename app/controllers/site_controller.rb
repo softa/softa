@@ -6,15 +6,19 @@ class SiteController < ApplicationController
     doc = Hpricot.XML(open(feed).read)
     @events = []
     doc.search('entry').each do |entry|
-      content = (entry%'content').html
-      whn   = content.scan(/Quando: (.+201\d)/).to_s
-      whr   = content.scan(/Onde: (.+)/).to_s
-      desc  = content.scan(/Descrição do evento: (.+)/).to_s
+        content = (entry%'content').html
+            whn = content.scan(/Quando: (.+201\d)/).to_s
+            whr = content.scan(/Onde: (.+)/).to_s
+           desc = content.scan(/Descrição do evento: (.+)/).to_s
+           link = content.scan(/http:\/\//).to_s
+      event_url = content.scan(/http:\/\//).to_s
       @events << OpenStruct.new({
-        :title => (entry%'title').html,
-        :when => whn,
-        :where => whr,
-        :desc => desc
+        :title     => (entry%'title').html,
+        :when      => whn,
+        :where     => whr,
+        :desc      => desc,
+        :link      => link,
+        :event_url => event_url
       })
     end
   end

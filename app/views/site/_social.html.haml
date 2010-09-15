@@ -15,13 +15,15 @@
           %ul
             - @events.each do |event|
               %li
-                %h3.what= event.title
-                %h4.where= event.where
                 %time.when{ :datetime => event.when }= event.when
+                %h3.what
+                  %a.event_link{:href => event.link }= event.title
+                %h4.where= event.where
                 .clear
                 %p= event.desc
-        %hr
-        %p Quer nos chamar para palestras, cursos ou eventos?
+                %p.event_url #{link_to event.event_url}
+        .separator #{image_tag 'separator.png'}
         .event_contact
-          %p #{mail_to 'contato@softa.com.br',  image_tag('calendar.png') + ' entre em contato »' }
+          %h3 Interessado em uma palestra, curso ou evento?
+          %p #{mail_to 'contato@softa.com.br',  'Entre em contato »' }
     .clear
