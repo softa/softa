@@ -247,18 +247,19 @@ body #content #softa_description h1 em.web_two.passed, body #content #softa_desc
 }
 /* line 43, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description .call_to_action {
-  background-color: #8cc63f;
   background-image: url(/images/call_to_action.png);
   background-position: left top;
   width: 400px;
   height: 48px;
   display: block;
+  float: right;
   margin-left: 18%;
+  margin-top: -1em;
   font-size: 28px;
   text-align: center;
   text-indent: -10000em;
 }
-/* line 55, ../../app/stylesheets/partials/_description.sass */
+/* line 56, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description .call_to_action:hover {
   background-position: right top;
 }
@@ -385,11 +386,36 @@ body #content #softa_mailee .work_showcase_image {
   overflow-x: hidden;
 }
 
+/* line 67, ../../app/stylesheets/partials/_mailee.sass */
+.mailee_signup_bar {
+  background: #666666;
+  height: 70px;
+  border-top: 1px solid #555555;
+}
+/* line 72, ../../app/stylesheets/partials/_mailee.sass */
+.mailee_signup_bar .wrapper h2 {
+  z-index: 60;
+}
+/* line 74, ../../app/stylesheets/partials/_mailee.sass */
+.mailee_signup_bar .wrapper h2 a.mailee_call_to_action {
+  background-image: url(/images/mailee_call_to_action.png);
+  background-position: left top;
+  width: 325px;
+  margin-top: 12px;
+  height: 48px;
+  display: block;
+  text-indent: -10000em;
+}
+/* line 83, ../../app/stylesheets/partials/_mailee.sass */
+.mailee_signup_bar .wrapper h2 a.mailee_call_to_action:hover {
+  background-position: right top;
+}
+
 /* line 2, ../../app/stylesheets/partials/_methodology.sass */
 body #content .methodology_torned_paper {
-  height: 84px;
+  height: 14px;
   background-color: #cccccc;
-  background-image: url(/images/methodology/methodology_torned_paper.gif);
+  background-image: url(/images/methodology/methodology_torned_paper_alt.gif);
   background-repeat: repeat-x;
   background-attachment: scroll;
   background-position: center top;
