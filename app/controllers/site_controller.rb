@@ -1,5 +1,6 @@
 class SiteController < ApplicationController
   def index
+=begin
     require 'open-uri'
     require 'ostruct'
     feed = 'http://www.google.com/calendar/feeds/62loik9tem085k7v8rrgjg0138%40group.calendar.google.com/public/basic'
@@ -21,5 +22,6 @@ class SiteController < ApplicationController
         :event_url => event_url
       })
     end
+=end
   end
 end

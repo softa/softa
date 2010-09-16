@@ -37,89 +37,55 @@ body
       color: $link_color
   .wrapper
     +container
-  .fixed_navigation
-    .top_bar
-      height: 5px
-      border-bottom: 1px solid #111
-      background:
-        color: #111
-        repeat: repeat
-        position: top center
+  header
+    position: fixed
+    width: 100%
+    height: 47px
+    background-color: $orange
     +box-shadow(rgba(0,0,0,.25), 0, 0, 6px)
     border-bottom: 1px solid ($orange + #111)
-    display: block
-    position: fixed
-    padding: 0
-    height: 5px
-    width: 100%
-    background-color: $orange
     z-index: 999
-    &.open
-      height: 47px
-    ul.top_navigation_fixed
-      display: none
-      margin: 0
-      padding: 10px 0
-      li
-        display: inline
-        margin: 0
-        padding: 0 20px 0 0
-        img
-          margin-top: -6px
-        &.right
-          float: right
+    .top_bar
+      position: fixed
+      top: 0
+      left: 0
+      width: 100%
+      height: 5px
+      border-bottom: 1px solid rgba(0,0,0,0.5)
+      background: #000
+    nav
+      display: block
+      padding: 16px 0 0 0
+      .right
+        float: right
         a
-          color: white
-          text-shadow: ($orange - #333) 0 -1px 0
-          font-weight: 900
-          &:hover
-            color: white
-            text-decoration: underline
-          &:active
-            color: white
-            text-decoration: underline
+          padding-right: 4px
           img
             vertical-align: middle
-  header
-    #softa_logo
-      +column(6, last)
-      text-align: center
-      img:hover
-        background: url(/images/softa_background.png) no-repeat center center
-    nav
-      +column(18)
-      padding-top: 40px
-      a
-        +column(4)
-        display: block
-        text-decoration: none
-        line-height: 15px
+            opacity: .7
+          &:hover img
+            opacity: 1
+      a, a:visited
+        color: white
+        padding-right: 20px
+        text-shadow: ($orange - #333) 0 -1px 0
+        font-weight: 900
         &:hover
-          text-decoration: none
-          strong, span
-            -webkit-transition: color .05s ease-in
-          strong
-            color: #333
-          span
-            color: $grey
+          color: white
+          text-decoration: underline
         &:active
-          strong
-            color: $orange
-          span
-            color: $orange + #222
-        strong
-          font-size: 18px
-          font-weight: 900
-          color: $grey
-          text-decoration: none
-          display: block
-          padding-bottom: 6px
-        span
-          font-size: 13px
-          color: #aaa
-          text-decoration: none
+          color: white
+          text-decoration: underline
+        img
+          vertical-align: middle
   #content
     text-shadow: #fff 0 1px 0
+    #softa_description
+      padding-top: 50px
+      #softa_logo
+        text-align: center
+        img
+          padding-top: 20px
     #softa_description, #softa_methodology, #softa_labs, #softa_staff
       h1
         padding: .25em 0 .75em 0
@@ -171,3 +137,10 @@ body
       -webkit-font-smoothing: subpixel-antialiased
       img
         vertical-align: text-bottom
+#back_to_top
+  display: none
+  position: fixed
+  top: 50px
+  right: 15px
+  img
+    border: 0 none

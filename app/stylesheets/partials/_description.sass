@@ -1,7 +1,13 @@
+$green: #8CC63F
 body #content #softa_description
   backgrond-color: #000
   border-bottom: 1px solid #ccc
+  #softa_logo
+    float: left
+    width: 18%
   h1
+    float: left
+    width: 82%
     z-index: 100
     font-size: 32px
     line-height: 38px
@@ -34,3 +40,17 @@ body #content #softa_description
       &.web_two, &.ruby_on_rails, &.postgresql, &.open_source, &.methods
         &.passed
           color: #666
+  .call_to_action
+    background:
+      color: $green
+      image: url(/images/call_to_action.png)
+      position: left top
+    width: 400px
+    height: 48px
+    display: block
+    margin-left: 18%
+    font-size: 28px
+    text-align: center
+    text-indent: -10000em
+    &:hover
+      background-position: right top
