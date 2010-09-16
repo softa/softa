@@ -1,5 +1,7 @@
 class SiteController < ApplicationController
   def index
+    # [{:who => "Juan", :when => Date.today}].to_yaml
+    #--- \n- :who: Juan\n  :when: 2010-09-16\n"
 =begin
     require 'open-uri'
     require 'ostruct'
