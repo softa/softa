@@ -50,3 +50,5 @@ module Softa
     config.filter_parameters += [:password]
   end
 end
+
+COUNTRIES = Marshal.load(File.read('countries.marshal'))
