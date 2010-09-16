@@ -451,7 +451,20 @@ body #content #softa_labs hr {
   border-bottom: 1px dotted #dddddd;
   padding: 1em 0;
 }
-/* line 18, ../../app/stylesheets/partials/_labs.sass */
+/* line 17, ../../app/stylesheets/partials/_labs.sass */
+body #content #softa_labs samp {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  background: #666666;
+  color: white;
+  text-shadow: black 0 -1px 0;
+  padding: 0.25em;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 25, ../../app/stylesheets/partials/_labs.sass */
 body #content article.labs_article .article_images {
   display: inline;
   float: left;
@@ -462,26 +475,26 @@ body #content article.labs_article .article_images {
 * html body #content article.labs_article .article_images {
   overflow-x: hidden;
 }
-/* line 21, ../../app/stylesheets/partials/_labs.sass */
+/* line 28, ../../app/stylesheets/partials/_labs.sass */
 body #content article.labs_article .article_images ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 25, ../../app/stylesheets/partials/_labs.sass */
+/* line 32, ../../app/stylesheets/partials/_labs.sass */
 body #content article.labs_article .article_images ul li {
   float: left;
   margin-right: 18px;
 }
-/* line 29, ../../app/stylesheets/partials/_labs.sass */
+/* line 36, ../../app/stylesheets/partials/_labs.sass */
 body #content article.labs_article .article_title h2 {
   color: #666666;
 }
-/* line 32, ../../app/stylesheets/partials/_labs.sass */
+/* line 39, ../../app/stylesheets/partials/_labs.sass */
 body #content article.labs_article .article_author h4 {
   color: #ff9900;
 }
-/* line 34, ../../app/stylesheets/partials/_labs.sass */
+/* line 41, ../../app/stylesheets/partials/_labs.sass */
 body #content article.labs_article .article_content {
   display: inline;
   float: left;
@@ -492,18 +505,18 @@ body #content article.labs_article .article_content {
 * html body #content article.labs_article .article_content {
   overflow-x: hidden;
 }
-/* line 37, ../../app/stylesheets/partials/_labs.sass */
+/* line 44, ../../app/stylesheets/partials/_labs.sass */
 body #content article.labs_article .article_content ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 41, ../../app/stylesheets/partials/_labs.sass */
+/* line 48, ../../app/stylesheets/partials/_labs.sass */
 body #content article.labs_article .article_content ul li {
   margin: 0;
   padding: 0;
 }
-/* line 44, ../../app/stylesheets/partials/_labs.sass */
+/* line 51, ../../app/stylesheets/partials/_labs.sass */
 body #content .labs_footer_wire {
   border-bottom: 1px solid white;
   background-image: url(/images/header_top.gif);
@@ -511,64 +524,64 @@ body #content .labs_footer_wire {
   height: 1px;
 }
 
-/* line 3, ../../app/stylesheets/partials/_social.sass */
+/* line 2, ../../app/stylesheets/partials/_social.sass */
 body #social {
   background: #663300;
   border-top: 1px solid #996633;
-  border-bottom: 1px solid #111111;
+  border-bottom: 2px solid #cc2222;
   padding-bottom: 1em;
 }
-/* line 8, ../../app/stylesheets/partials/_social.sass */
+/* line 7, ../../app/stylesheets/partials/_social.sass */
 body #social h2 {
   color: #441100;
   margin-top: 0.75em;
   margin-bottom: 0.25em;
   text-shadow: #885522 0 1px 0;
 }
-/* line 13, ../../app/stylesheets/partials/_social.sass */
+/* line 12, ../../app/stylesheets/partials/_social.sass */
 body #social h3 {
   font-size: 14px;
   font-weight: 900;
   margin: 0;
   padding: 0 0 6px 0;
 }
-/* line 18, ../../app/stylesheets/partials/_social.sass */
+/* line 17, ../../app/stylesheets/partials/_social.sass */
 body #social hr {
   border: 0 none;
   border-top: 1px solid #441100;
   border-bottom: 1px solid #885522;
 }
-/* line 22, ../../app/stylesheets/partials/_social.sass */
+/* line 21, ../../app/stylesheets/partials/_social.sass */
 body #social a {
   color: #ff9900;
   text-shadow: #441100 1px 1px 0;
 }
-/* line 25, ../../app/stylesheets/partials/_social.sass */
+/* line 24, ../../app/stylesheets/partials/_social.sass */
 body #social a:hover {
   color: #ffdd44;
 }
-/* line 27, ../../app/stylesheets/partials/_social.sass */
+/* line 26, ../../app/stylesheets/partials/_social.sass */
 body #social a:active {
   color: #ee8800;
 }
-/* line 29, ../../app/stylesheets/partials/_social.sass */
+/* line 28, ../../app/stylesheets/partials/_social.sass */
 body #social p {
   color: white;
   padding: 0;
   margin: 0;
   text-shadow: none;
 }
-/* line 34, ../../app/stylesheets/partials/_social.sass */
+/* line 33, ../../app/stylesheets/partials/_social.sass */
 body #social ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 38, ../../app/stylesheets/partials/_social.sass */
+/* line 37, ../../app/stylesheets/partials/_social.sass */
 body #social ul li {
   margin: 0;
 }
-/* line 40, ../../app/stylesheets/partials/_social.sass */
+/* line 39, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter {
   display: inline;
   float: left;
@@ -581,29 +594,29 @@ body #social #twitter {
 * html body #social #twitter {
   overflow-x: hidden;
 }
-/* line 44, ../../app/stylesheets/partials/_social.sass */
+/* line 43, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter #softa_twitter_rss {
   overflow: hidden;
   margin-bottom: 1em;
 }
-/* line 47, ../../app/stylesheets/partials/_social.sass */
+/* line 46, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter #softa_twitter_rss p {
   margin-left: 65px;
   font-size: 12px;
 }
-/* line 50, ../../app/stylesheets/partials/_social.sass */
+/* line 49, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter #softa_twitter_rss li {
   padding: 6px 0 8px 0;
   font-size: 12px;
   word-break: normal;
 }
-/* line 54, ../../app/stylesheets/partials/_social.sass */
+/* line 53, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter #softa_twitter_rss li a.user_image_link {
   display: block;
   float: left;
   margin: 4px 6px;
 }
-/* line 58, ../../app/stylesheets/partials/_social.sass */
+/* line 57, ../../app/stylesheets/partials/_social.sass */
 body #social #twitter #softa_twitter_rss li a.user_image_link img {
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
@@ -611,7 +624,7 @@ body #social #twitter #softa_twitter_rss li a.user_image_link img {
   box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px 0;
   border: 1px solid #774411;
 }
-/* line 61, ../../app/stylesheets/partials/_social.sass */
+/* line 60, ../../app/stylesheets/partials/_social.sass */
 body #social #blog {
   display: inline;
   float: left;
@@ -623,43 +636,43 @@ body #social #blog {
 * html body #social #blog {
   overflow-x: hidden;
 }
-/* line 64, ../../app/stylesheets/partials/_social.sass */
+/* line 63, ../../app/stylesheets/partials/_social.sass */
 body #social #blog p {
   color: white;
 }
-/* line 66, ../../app/stylesheets/partials/_social.sass */
+/* line 65, ../../app/stylesheets/partials/_social.sass */
 body #social #blog p a {
   color: black;
   text-decoration: underline;
 }
-/* line 69, ../../app/stylesheets/partials/_social.sass */
+/* line 68, ../../app/stylesheets/partials/_social.sass */
 body #social #blog #softa_blog_rss {
   margin-bottom: 1em;
 }
-/* line 71, ../../app/stylesheets/partials/_social.sass */
+/* line 70, ../../app/stylesheets/partials/_social.sass */
 body #social #blog #softa_blog_rss p {
   font-size: 12px;
 }
-/* line 73, ../../app/stylesheets/partials/_social.sass */
+/* line 72, ../../app/stylesheets/partials/_social.sass */
 body #social #blog #softa_blog_rss li {
   padding: 10px 0;
   border-bottom: 1px solid #441100;
   border-top: 1px solid #885522;
 }
-/* line 77, ../../app/stylesheets/partials/_social.sass */
+/* line 76, ../../app/stylesheets/partials/_social.sass */
 body #social #blog #softa_blog_rss li:first-child {
   padding-top: 0;
   border-top: 0 none;
 }
-/* line 80, ../../app/stylesheets/partials/_social.sass */
+/* line 79, ../../app/stylesheets/partials/_social.sass */
 body #social #blog #softa_blog_rss li:last-child {
   border-bottom: 0 none;
 }
-/* line 82, ../../app/stylesheets/partials/_social.sass */
+/* line 81, ../../app/stylesheets/partials/_social.sass */
 body #social #blog #softa_blog_rss li div {
   font-size: 9px;
 }
-/* line 84, ../../app/stylesheets/partials/_social.sass */
+/* line 83, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar {
   display: inline;
   float: left;
@@ -671,16 +684,16 @@ body #social #calendar {
 * html body #social #calendar {
   overflow-x: hidden;
 }
-/* line 87, ../../app/stylesheets/partials/_social.sass */
+/* line 86, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar #softa_calendar_rss {
   margin-bottom: 1em;
 }
-/* line 89, ../../app/stylesheets/partials/_social.sass */
+/* line 88, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar #softa_calendar_rss h3.what {
   margin: 12px 0 6px 0;
   padding: 0 0 6px 0;
 }
-/* line 92, ../../app/stylesheets/partials/_social.sass */
+/* line 91, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar #softa_calendar_rss h4.where {
   font-size: 12px;
   font-weight: 900;
@@ -688,7 +701,7 @@ body #social #calendar #softa_calendar_rss h4.where {
   color: #cc9966;
   text-shadow: #441100 1px 1px 0;
 }
-/* line 99, ../../app/stylesheets/partials/_social.sass */
+/* line 98, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar #softa_calendar_rss time.when {
   box-shadow: #885522 0 1px 0, black 0 1px 0 inset;
   -webkit-box-shadow: #885522 0 1px 0, black 0 1px 0 inset;
@@ -709,30 +722,30 @@ body #social #calendar #softa_calendar_rss time.when {
   background: #441100;
   color: white;
 }
-/* line 110, ../../app/stylesheets/partials/_social.sass */
+/* line 109, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar li {
   padding: 6px 0;
   border-bottom: 1px solid #441100;
   border-top: 1px solid #885522;
 }
-/* line 114, ../../app/stylesheets/partials/_social.sass */
+/* line 113, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar li:first-child {
   padding-top: 0;
   border-top: 0 none;
 }
-/* line 117, ../../app/stylesheets/partials/_social.sass */
+/* line 116, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar li:last-child {
   border-bottom: 0 none;
 }
-/* line 119, ../../app/stylesheets/partials/_social.sass */
+/* line 118, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar li p {
   font-size: 12px;
 }
-/* line 122, ../../app/stylesheets/partials/_social.sass */
+/* line 121, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar li p.links img {
   vertical-align: middle;
 }
-/* line 125, ../../app/stylesheets/partials/_social.sass */
+/* line 124, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar .event_contact h3 {
   color: #220000;
   padding: 12px 0 6px 0;
@@ -740,17 +753,17 @@ body #social #calendar .event_contact h3 {
   font-size: 16px;
   font-weight: 900;
 }
-/* line 132, ../../app/stylesheets/partials/_social.sass */
+/* line 131, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar .event_contact a {
   font-size: 12px;
   font-weight: 900;
   text-shadow: #663300 1px 1px 0;
 }
-/* line 137, ../../app/stylesheets/partials/_social.sass */
+/* line 136, ../../app/stylesheets/partials/_social.sass */
 body #social #calendar .event_contact a:hover, body #social #calendar .event_contact a:active {
   text-decoration: none;
 }
-/* line 139, ../../app/stylesheets/partials/_social.sass */
+/* line 138, ../../app/stylesheets/partials/_social.sass */
 body .separator {
   text-align: center;
 }
@@ -861,6 +874,24 @@ body #softa_staff #daniel_weinmann .info p.links, body #softa_staff #diogo_biazu
   font-weight: 900;
   padding: 0;
   margin: 0 0 1em 0;
+}
+
+/* line 2, ../../app/stylesheets/partials/_rsonrails.sass */
+body #content #rsonrails {
+  border-top: 1px dashed #663300;
+  border-bottom: 1px dashed #111111;
+  padding: 0.5em 0;
+}
+/* line 6, ../../app/stylesheets/partials/_rsonrails.sass */
+body #content #rsonrails h2 {
+  margin: 0.25em 0;
+  font-size: 18px;
+  color: white;
+  text-shadow: none;
+}
+/* line 11, ../../app/stylesheets/partials/_rsonrails.sass */
+body #content #rsonrails h2 img {
+  vertical-align: middle;
 }
 
 /* line 1, ../../app/stylesheets/partials/_apple_overlay.sass */
@@ -1207,51 +1238,51 @@ body .fixed_navigation .top_bar {
   background-repeat: repeat;
   background-position: top center;
 }
-/* line 59, ../../app/stylesheets/partials/_style.sass */
+/* line 57, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation.open {
   height: 47px;
 }
-/* line 61, ../../app/stylesheets/partials/_style.sass */
+/* line 59, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed {
   display: none;
   margin: 0;
   padding: 10px 0;
 }
-/* line 65, ../../app/stylesheets/partials/_style.sass */
+/* line 63, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li {
   display: inline;
   margin: 0;
   padding: 0 20px 0 0;
 }
-/* line 69, ../../app/stylesheets/partials/_style.sass */
+/* line 67, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li img {
   margin-top: -6px;
 }
-/* line 71, ../../app/stylesheets/partials/_style.sass */
+/* line 69, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li.right {
   float: right;
 }
-/* line 73, ../../app/stylesheets/partials/_style.sass */
+/* line 71, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a {
   color: white;
   text-shadow: #cc6600 0 -1px 0;
   font-weight: 900;
 }
-/* line 77, ../../app/stylesheets/partials/_style.sass */
+/* line 75, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:hover {
   color: white;
   text-decoration: underline;
 }
-/* line 80, ../../app/stylesheets/partials/_style.sass */
+/* line 78, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:active {
   color: white;
   text-decoration: underline;
 }
-/* line 83, ../../app/stylesheets/partials/_style.sass */
+/* line 81, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a img {
   vertical-align: middle;
 }
-/* line 86, ../../app/stylesheets/partials/_style.sass */
+/* line 84, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo {
   display: inline;
   float: left;
@@ -1263,11 +1294,11 @@ body header #softa_logo {
 * html body header #softa_logo {
   overflow-x: hidden;
 }
-/* line 89, ../../app/stylesheets/partials/_style.sass */
+/* line 87, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo img:hover {
   background: url(/images/softa_background.png) no-repeat center center;
 }
-/* line 91, ../../app/stylesheets/partials/_style.sass */
+/* line 89, ../../app/stylesheets/partials/_style.sass */
 body header nav {
   display: inline;
   float: left;
@@ -1279,7 +1310,7 @@ body header nav {
 * html body header nav {
   overflow-x: hidden;
 }
-/* line 94, ../../app/stylesheets/partials/_style.sass */
+/* line 92, ../../app/stylesheets/partials/_style.sass */
 body header nav a {
   display: inline;
   float: left;
@@ -1293,31 +1324,31 @@ body header nav a {
 * html body header nav a {
   overflow-x: hidden;
 }
-/* line 99, ../../app/stylesheets/partials/_style.sass */
+/* line 97, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover {
   text-decoration: none;
 }
-/* line 101, ../../app/stylesheets/partials/_style.sass */
+/* line 99, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover strong, body header nav a:hover span {
   -webkit-transition: color 0.05s ease-in;
 }
-/* line 103, ../../app/stylesheets/partials/_style.sass */
+/* line 101, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover strong {
   color: #333333;
 }
-/* line 105, ../../app/stylesheets/partials/_style.sass */
+/* line 103, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover span {
   color: #666666;
 }
-/* line 108, ../../app/stylesheets/partials/_style.sass */
+/* line 106, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active strong {
   color: #ff9900;
 }
-/* line 110, ../../app/stylesheets/partials/_style.sass */
+/* line 108, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active span {
   color: #ffbb22;
 }
-/* line 112, ../../app/stylesheets/partials/_style.sass */
+/* line 110, ../../app/stylesheets/partials/_style.sass */
 body header nav a strong {
   font-size: 18px;
   font-weight: 900;
@@ -1326,45 +1357,53 @@ body header nav a strong {
   display: block;
   padding-bottom: 6px;
 }
-/* line 119, ../../app/stylesheets/partials/_style.sass */
+/* line 117, ../../app/stylesheets/partials/_style.sass */
 body header nav a span {
   font-size: 13px;
   color: #aaaaaa;
   text-decoration: none;
 }
-/* line 123, ../../app/stylesheets/partials/_style.sass */
+/* line 121, ../../app/stylesheets/partials/_style.sass */
 body #content {
   text-shadow: white 0 1px 0;
 }
-/* line 126, ../../app/stylesheets/partials/_style.sass */
+/* line 124, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_description h1, body #content #softa_methodology h1, body #content #softa_labs h1, body #content #softa_staff h1 {
   padding: 0.25em 0 0.75em 0;
 }
-/* line 128, ../../app/stylesheets/partials/_style.sass */
+/* line 126, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_description .wrapper section, body #content #softa_methodology .wrapper section, body #content #softa_labs .wrapper section, body #content #softa_staff .wrapper section {
   padding: 1em 0;
 }
-/* line 130, ../../app/stylesheets/partials/_style.sass */
+/* line 128, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_methodology, body #content #softa_staff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 132, ../../app/stylesheets/partials/_style.sass */
+/* line 130, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_mailee .wrapper section {
   padding: 1em 0 0 0;
 }
-/* line 134, ../../app/stylesheets/partials/_style.sass */
-body #social_stuff {
+/* line 132, ../../app/stylesheets/partials/_style.sass */
+body #content #social_stuff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 136, ../../app/stylesheets/partials/_style.sass */
-body #social_stuff .wrapper section {
+/* line 134, ../../app/stylesheets/partials/_style.sass */
+body #content #social_stuff .wrapper section {
   padding: 1em 0;
 }
+/* line 136, ../../app/stylesheets/partials/_style.sass */
+body #content #rsonrails {
+  background: #cc2222;
+}
 /* line 138, ../../app/stylesheets/partials/_style.sass */
+body #content #rsonrails .wrapper section {
+  text-align: center;
+}
+/* line 140, ../../app/stylesheets/partials/_style.sass */
 body footer {
   -webkit-font-smoothing: subpixel-antialiased;
   padding: 15px 0;
-  border-top: 1px solid #564040;
+  border-top: 2px solid #cc2222;
   border-bottom: 1px solid black;
   color: white;
   background-color: #333333;
@@ -1373,13 +1412,13 @@ body footer {
   background-attachment: scroll;
   background-position: center top;
 }
-/* line 150, ../../app/stylesheets/partials/_style.sass */
+/* line 152, ../../app/stylesheets/partials/_style.sass */
 body footer h1 {
   color: black;
   text-shadow: #555555 0 1px 0;
   padding: 0.25em 0 0.5em 0;
 }
-/* line 154, ../../app/stylesheets/partials/_style.sass */
+/* line 156, ../../app/stylesheets/partials/_style.sass */
 body footer #contact_us {
   display: inline;
   float: left;
@@ -1390,7 +1429,7 @@ body footer #contact_us {
 * html body footer #contact_us {
   overflow-x: hidden;
 }
-/* line 156, ../../app/stylesheets/partials/_style.sass */
+/* line 158, ../../app/stylesheets/partials/_style.sass */
 body footer #where_to_find_us {
   display: inline;
   float: left;
@@ -1401,15 +1440,24 @@ body footer #where_to_find_us {
 * html body footer #where_to_find_us {
   overflow-x: hidden;
 }
-/* line 158, ../../app/stylesheets/partials/_style.sass */
-body footer #colophon p {
-  color: white;
-}
 /* line 160, ../../app/stylesheets/partials/_style.sass */
 body .post_footer {
   border-top: 1px solid #222222;
-  height: 20px;
   background: black;
+  text-align: center;
+}
+/* line 164, ../../app/stylesheets/partials/_style.sass */
+body .post_footer #colophon p {
+  color: white;
+  font-size: 13px;
+  font-weight: 900;
+  padding: 0.5em 0;
+  margin: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 172, ../../app/stylesheets/partials/_style.sass */
+body .post_footer #colophon p img {
+  vertical-align: text-bottom;
 }
 
 /* line 4, ../../app/stylesheets/screen.sass */

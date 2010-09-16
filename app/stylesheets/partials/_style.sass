@@ -1,5 +1,5 @@
 @import "blueprint/reset", "blueprint/grid", "partials/forms", "blueprint/typography", "blueprint/utilities", "compass/css3"
-@import "partials/description", "partials/mailee", "partials/methodology", "partials/labs", "partials/social", "partials/staff"
+@import "partials/description", "partials/mailee", "partials/methodology", "partials/labs", "partials/social", "partials/staff", "partials/rsonrails"
 @import "partials/apple_overlay"
 body
   +blueprint-typography(true)
@@ -41,10 +41,8 @@ body
     .top_bar
       height: 5px
       border-bottom: 1px solid #111
-      // ($orange - #111)
       background:
         color: #111
-        // image: url(/images/header_top.gif)
         repeat: repeat
         position: top center
     +box-shadow(rgba(0,0,0,.25), 0, 0, 6px)
@@ -131,14 +129,18 @@ body
       -webkit-font-smoothing: subpixel-antialiased
     #softa_mailee .wrapper section
       padding: 1em 0 0 0
-  #social_stuff
-    -webkit-font-smoothing: subpixel-antialiased
-    .wrapper section
-      padding: 1em 0
+    #social_stuff
+      -webkit-font-smoothing: subpixel-antialiased
+      .wrapper section
+        padding: 1em 0
+    #rsonrails
+      background: #CC2222
+      .wrapper section
+        text-align: center
   footer
     -webkit-font-smoothing: subpixel-antialiased
     padding: 15px 0
-    border-top: 1px solid #564040
+    border-top: 2px solid $rsonrails
     border-bottom: 1px solid #000
     color: white
     background:
@@ -155,9 +157,17 @@ body
       +column(12)
     #where_to_find_us
       +column(12,last)
-    #colophon p
-      color: white
   .post_footer
     border-top: 1px solid #222
-    height: 20px
     background: black
+    text-align: center
+    #colophon p
+      color: white
+      font:
+        size: 13px
+        weight: 900
+      padding: .5em 0
+      margin: 0
+      -webkit-font-smoothing: subpixel-antialiased
+      img
+        vertical-align: text-bottom
