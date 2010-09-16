@@ -1,5 +1,5 @@
 @import "blueprint/reset", "blueprint/grid", "partials/forms", "blueprint/typography", "blueprint/utilities", "compass/css3"
-@import "partials/description", "partials/works", "partials/methodology", "partials/labs", "partials/social", "partials/staff"
+@import "partials/description", "partials/mailee", "partials/methodology", "partials/labs", "partials/social", "partials/staff"
 @import "partials/apple_overlay"
 body
   +blueprint-typography(true)
@@ -40,13 +40,15 @@ body
   .fixed_navigation
     .top_bar
       height: 5px
-      border-bottom: 1px solid ($orange - #111)
+      border-bottom: 1px solid #111
+      // ($orange - #111)
       background:
-        image: url(/images/header_top.gif)
+        color: #111
+        // image: url(/images/header_top.gif)
         repeat: repeat
         position: top center
     +box-shadow(rgba(0,0,0,.25), 0, 0, 6px)
-    border-bottom: 1px solid ($orange - #222)
+    border-bottom: 1px solid ($orange + #111)
     display: block
     position: fixed
     padding: 0
@@ -63,9 +65,11 @@ body
       li
         display: inline
         margin: 0
-        padding: 0 40px 0 0
+        padding: 0 20px 0 0
         img
           margin-top: -6px
+        &.right
+          float: right
         a
           color: white
           text-shadow: ($orange - #333) 0 -1px 0
@@ -125,7 +129,7 @@ body
         padding: 1em 0
     #softa_methodology, #softa_staff
       -webkit-font-smoothing: subpixel-antialiased
-    #softa_works .wrapper section
+    #softa_mailee .wrapper section
       padding: 1em 0 0 0
   #social_stuff
     -webkit-font-smoothing: subpixel-antialiased

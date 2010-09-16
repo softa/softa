@@ -214,48 +214,48 @@ body #content #softa_description h1 em {
   -o-transition: color 1s ease-in;
   -khtml-transition: color 1s ease-in;
 }
-/* line 18, ../../app/stylesheets/partials/_description.sass */
+/* line 20, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.web_two.active {
   color: #ff9900;
 }
-/* line 20, ../../app/stylesheets/partials/_description.sass */
+/* line 23, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.ruby_on_rails.active {
   color: #b42738;
 }
-/* line 22, ../../app/stylesheets/partials/_description.sass */
+/* line 26, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.postgresql.active {
   color: #009acc;
 }
-/* line 24, ../../app/stylesheets/partials/_description.sass */
+/* line 29, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.open_source.active {
   color: #40a850;
 }
-/* line 26, ../../app/stylesheets/partials/_description.sass */
+/* line 32, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.methods.active {
   color: #aa5303;
 }
-/* line 29, ../../app/stylesheets/partials/_description.sass */
+/* line 35, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description h1 em.web_two.passed, body #content #softa_description h1 em.ruby_on_rails.passed, body #content #softa_description h1 em.postgresql.passed, body #content #softa_description h1 em.open_source.passed, body #content #softa_description h1 em.methods.passed {
   color: #666666;
 }
 
-/* line 2, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works {
+/* line 2, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee {
   border-top: 1px solid white;
   border-bottom: 1px solid #cccccc;
   background-color: #cccccc;
-  background-image: url(/images/work/work_background.png);
+  background-image: url(/images/maileeme/background.png);
   background-repeat: repeat-x;
   background-attachment: scroll;
   background-position: left top;
 }
-/* line 11, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .wrapper {
+/* line 11, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .wrapper {
   overflow: visible;
   position: relative;
 }
-/* line 14, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .wrapper .arrow_right, body #content #softa_works .wrapper .arrow_left {
+/* line 14, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .wrapper .arrow_right, body #content #softa_mailee .wrapper .arrow_left {
   height: 66px;
   width: 33px;
   position: absolute;
@@ -264,42 +264,42 @@ body #content #softa_works .wrapper .arrow_right, body #content #softa_works .wr
   background-image: url(/images/arrows_sprite.png);
   background-repeat: no-repeat;
 }
-/* line 23, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .wrapper .arrow_right {
+/* line 23, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .wrapper .arrow_right {
   background-position: -60px -214px;
   right: -50px;
   top: 50%;
 }
-/* line 27, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .wrapper .arrow_right:hover {
+/* line 27, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .wrapper .arrow_right:hover {
   background-position: -60px -128px;
 }
-/* line 29, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .wrapper .arrow_right:active {
+/* line 29, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .wrapper .arrow_right:active {
   background-position: -60px -42px;
 }
-/* line 31, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .wrapper .arrow_left {
+/* line 31, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .wrapper .arrow_left {
   background-position: 0 -214px;
   left: -70px;
   top: 50%;
 }
-/* line 35, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .wrapper .arrow_left:hover {
+/* line 35, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .wrapper .arrow_left:hover {
   background-position: 0 -128px;
 }
-/* line 37, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .wrapper .arrow_left:active {
+/* line 37, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .wrapper .arrow_left:active {
   background-position: 0 -42px;
 }
-/* line 39, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works h1 {
+/* line 39, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee h1 {
   text-shadow: white 0 1px 0;
   color: #cccccc;
   margin-top: 0.5em;
 }
-/* line 43, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_info {
+/* line 43, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .work_showcase_info {
   display: inline;
   float: left;
   margin-right: 0;
@@ -307,11 +307,11 @@ body #content #softa_works .work_showcase_info {
   padding-right: 40px;
 }
 /* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #content #softa_works .work_showcase_info {
+* html body #content #softa_mailee .work_showcase_info {
   overflow-x: hidden;
 }
-/* line 47, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_info ul.mailee_links, body #content #softa_works .work_showcase_info ul.circlo_links, body #content #softa_works .work_showcase_info ul.tbrasil_links {
+/* line 47, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .work_showcase_info ul.mailee_links, body #content #softa_mailee .work_showcase_info ul.circlo_links, body #content #softa_mailee .work_showcase_info ul.tbrasil_links {
   box-shadow: #eeeeee 0 1px 0, #888888 0 1px 0 inset;
   -webkit-box-shadow: #eeeeee 0 1px 0, #888888 0 1px 0 inset;
   -moz-box-shadow: #eeeeee 0 1px 0, #888888 0 1px 0 inset;
@@ -326,47 +326,47 @@ body #content #softa_works .work_showcase_info ul.mailee_links, body #content #s
   background-color: #aaaaaa;
   padding: 0.5em 1em;
 }
-/* line 53, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_info ul.mailee_links li, body #content #softa_works .work_showcase_info ul.circlo_links li, body #content #softa_works .work_showcase_info ul.tbrasil_links li {
+/* line 53, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .work_showcase_info ul.mailee_links li, body #content #softa_mailee .work_showcase_info ul.circlo_links li, body #content #softa_mailee .work_showcase_info ul.tbrasil_links li {
   text-shadow: #888888 0 -1px 0;
   color: white;
   border-top: 1px solid #bbbbbb;
   border-bottom: 1px solid #999999;
 }
-/* line 58, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_info ul.mailee_links li:first-child, body #content #softa_works .work_showcase_info ul.circlo_links li:first-child, body #content #softa_works .work_showcase_info ul.tbrasil_links li:first-child {
+/* line 58, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .work_showcase_info ul.mailee_links li:first-child, body #content #softa_mailee .work_showcase_info ul.circlo_links li:first-child, body #content #softa_mailee .work_showcase_info ul.tbrasil_links li:first-child {
   border-top: 0 none;
 }
-/* line 60, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_info ul.mailee_links li:last-child, body #content #softa_works .work_showcase_info ul.circlo_links li:last-child, body #content #softa_works .work_showcase_info ul.tbrasil_links li:last-child {
+/* line 60, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .work_showcase_info ul.mailee_links li:last-child, body #content #softa_mailee .work_showcase_info ul.circlo_links li:last-child, body #content #softa_mailee .work_showcase_info ul.tbrasil_links li:last-child {
   border-bottom: 0 none;
 }
-/* line 63, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_info ul.mailee_links a {
+/* line 63, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .work_showcase_info ul.mailee_links a {
   color: #2255a0;
   text-shadow: #cccccc 0 1px 0;
 }
-/* line 66, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_info ul.showcase_more_images {
+/* line 66, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .work_showcase_info ul.showcase_more_images {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 70, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_info ul.showcase_more_images li {
+/* line 70, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .work_showcase_info ul.showcase_more_images li {
   display: inline;
   padding-left: 4px;
 }
-/* line 73, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_info ul.showcase_more_images li img {
+/* line 73, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .work_showcase_info ul.showcase_more_images li img {
   -moz-box-shadow: 0 0 6px #888888 0;
   -webkit-box-shadow: 0 0 6px #888888 0;
   -o-box-shadow: 0 0 6px #888888 0;
   box-shadow: 0 0 6px #888888 0;
   border: 1px solid silver;
 }
-/* line 76, ../../app/stylesheets/partials/_works.sass */
-body #content #softa_works .work_showcase_image {
+/* line 76, ../../app/stylesheets/partials/_mailee.sass */
+body #content #softa_mailee .work_showcase_image {
   display: inline;
   float: left;
   margin-right: 10px;
@@ -374,7 +374,7 @@ body #content #softa_works .work_showcase_image {
   text-align: right;
 }
 /* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #content #softa_works .work_showcase_image {
+* html body #content #softa_mailee .work_showcase_image {
   overflow-x: hidden;
 }
 
@@ -1190,7 +1190,7 @@ body .fixed_navigation {
   -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px 0;
   -o-box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px 0;
   box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px 0;
-  border-bottom: 1px solid #dd7700;
+  border-bottom: 1px solid #ffaa11;
   display: block;
   position: fixed;
   padding: 0;
@@ -1202,52 +1202,56 @@ body .fixed_navigation {
 /* line 41, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation .top_bar {
   height: 5px;
-  border-bottom: 1px solid #ee8800;
-  background-image: url(/images/header_top.gif);
+  border-bottom: 1px solid #111111;
+  background-color: #111111;
   background-repeat: repeat;
   background-position: top center;
 }
-/* line 57, ../../app/stylesheets/partials/_style.sass */
+/* line 59, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation.open {
   height: 47px;
 }
-/* line 59, ../../app/stylesheets/partials/_style.sass */
+/* line 61, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed {
   display: none;
   margin: 0;
   padding: 10px 0;
 }
-/* line 63, ../../app/stylesheets/partials/_style.sass */
+/* line 65, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li {
   display: inline;
   margin: 0;
-  padding: 0 40px 0 0;
+  padding: 0 20px 0 0;
 }
-/* line 67, ../../app/stylesheets/partials/_style.sass */
+/* line 69, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li img {
   margin-top: -6px;
 }
-/* line 69, ../../app/stylesheets/partials/_style.sass */
+/* line 71, ../../app/stylesheets/partials/_style.sass */
+body .fixed_navigation ul.top_navigation_fixed li.right {
+  float: right;
+}
+/* line 73, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a {
   color: white;
   text-shadow: #cc6600 0 -1px 0;
   font-weight: 900;
 }
-/* line 73, ../../app/stylesheets/partials/_style.sass */
+/* line 77, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:hover {
   color: white;
   text-decoration: underline;
 }
-/* line 76, ../../app/stylesheets/partials/_style.sass */
+/* line 80, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a:active {
   color: white;
   text-decoration: underline;
 }
-/* line 79, ../../app/stylesheets/partials/_style.sass */
+/* line 83, ../../app/stylesheets/partials/_style.sass */
 body .fixed_navigation ul.top_navigation_fixed li a img {
   vertical-align: middle;
 }
-/* line 82, ../../app/stylesheets/partials/_style.sass */
+/* line 86, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo {
   display: inline;
   float: left;
@@ -1259,11 +1263,11 @@ body header #softa_logo {
 * html body header #softa_logo {
   overflow-x: hidden;
 }
-/* line 85, ../../app/stylesheets/partials/_style.sass */
+/* line 89, ../../app/stylesheets/partials/_style.sass */
 body header #softa_logo img:hover {
   background: url(/images/softa_background.png) no-repeat center center;
 }
-/* line 87, ../../app/stylesheets/partials/_style.sass */
+/* line 91, ../../app/stylesheets/partials/_style.sass */
 body header nav {
   display: inline;
   float: left;
@@ -1275,7 +1279,7 @@ body header nav {
 * html body header nav {
   overflow-x: hidden;
 }
-/* line 90, ../../app/stylesheets/partials/_style.sass */
+/* line 94, ../../app/stylesheets/partials/_style.sass */
 body header nav a {
   display: inline;
   float: left;
@@ -1289,31 +1293,31 @@ body header nav a {
 * html body header nav a {
   overflow-x: hidden;
 }
-/* line 95, ../../app/stylesheets/partials/_style.sass */
+/* line 99, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover {
   text-decoration: none;
 }
-/* line 97, ../../app/stylesheets/partials/_style.sass */
+/* line 101, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover strong, body header nav a:hover span {
   -webkit-transition: color 0.05s ease-in;
 }
-/* line 99, ../../app/stylesheets/partials/_style.sass */
+/* line 103, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover strong {
   color: #333333;
 }
-/* line 101, ../../app/stylesheets/partials/_style.sass */
+/* line 105, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover span {
   color: #666666;
 }
-/* line 104, ../../app/stylesheets/partials/_style.sass */
+/* line 108, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active strong {
   color: #ff9900;
 }
-/* line 106, ../../app/stylesheets/partials/_style.sass */
+/* line 110, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active span {
   color: #ffbb22;
 }
-/* line 108, ../../app/stylesheets/partials/_style.sass */
+/* line 112, ../../app/stylesheets/partials/_style.sass */
 body header nav a strong {
   font-size: 18px;
   font-weight: 900;
@@ -1322,41 +1326,41 @@ body header nav a strong {
   display: block;
   padding-bottom: 6px;
 }
-/* line 115, ../../app/stylesheets/partials/_style.sass */
+/* line 119, ../../app/stylesheets/partials/_style.sass */
 body header nav a span {
   font-size: 13px;
   color: #aaaaaa;
   text-decoration: none;
 }
-/* line 119, ../../app/stylesheets/partials/_style.sass */
+/* line 123, ../../app/stylesheets/partials/_style.sass */
 body #content {
   text-shadow: white 0 1px 0;
 }
-/* line 122, ../../app/stylesheets/partials/_style.sass */
+/* line 126, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_description h1, body #content #softa_methodology h1, body #content #softa_labs h1, body #content #softa_staff h1 {
   padding: 0.25em 0 0.75em 0;
 }
-/* line 124, ../../app/stylesheets/partials/_style.sass */
+/* line 128, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_description .wrapper section, body #content #softa_methodology .wrapper section, body #content #softa_labs .wrapper section, body #content #softa_staff .wrapper section {
   padding: 1em 0;
 }
-/* line 126, ../../app/stylesheets/partials/_style.sass */
+/* line 130, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_methodology, body #content #softa_staff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 128, ../../app/stylesheets/partials/_style.sass */
-body #content #softa_works .wrapper section {
+/* line 132, ../../app/stylesheets/partials/_style.sass */
+body #content #softa_mailee .wrapper section {
   padding: 1em 0 0 0;
 }
-/* line 130, ../../app/stylesheets/partials/_style.sass */
+/* line 134, ../../app/stylesheets/partials/_style.sass */
 body #social_stuff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 132, ../../app/stylesheets/partials/_style.sass */
+/* line 136, ../../app/stylesheets/partials/_style.sass */
 body #social_stuff .wrapper section {
   padding: 1em 0;
 }
-/* line 134, ../../app/stylesheets/partials/_style.sass */
+/* line 138, ../../app/stylesheets/partials/_style.sass */
 body footer {
   -webkit-font-smoothing: subpixel-antialiased;
   padding: 15px 0;
@@ -1369,13 +1373,13 @@ body footer {
   background-attachment: scroll;
   background-position: center top;
 }
-/* line 146, ../../app/stylesheets/partials/_style.sass */
+/* line 150, ../../app/stylesheets/partials/_style.sass */
 body footer h1 {
   color: black;
   text-shadow: #555555 0 1px 0;
   padding: 0.25em 0 0.5em 0;
 }
-/* line 150, ../../app/stylesheets/partials/_style.sass */
+/* line 154, ../../app/stylesheets/partials/_style.sass */
 body footer #contact_us {
   display: inline;
   float: left;
@@ -1386,7 +1390,7 @@ body footer #contact_us {
 * html body footer #contact_us {
   overflow-x: hidden;
 }
-/* line 152, ../../app/stylesheets/partials/_style.sass */
+/* line 156, ../../app/stylesheets/partials/_style.sass */
 body footer #where_to_find_us {
   display: inline;
   float: left;
@@ -1397,11 +1401,11 @@ body footer #where_to_find_us {
 * html body footer #where_to_find_us {
   overflow-x: hidden;
 }
-/* line 154, ../../app/stylesheets/partials/_style.sass */
+/* line 158, ../../app/stylesheets/partials/_style.sass */
 body footer #colophon p {
   color: white;
 }
-/* line 156, ../../app/stylesheets/partials/_style.sass */
+/* line 160, ../../app/stylesheets/partials/_style.sass */
 body .post_footer {
   border-top: 1px solid #222222;
   height: 20px;
