@@ -1,7 +1,7 @@
-module HerculesTriggers
-  class Deployer
+module Hercules
+  class Triggers
     def self.before_deploy(options)
-      true
+      FileUtils.mkdir_p './tmp/sockets/'
     end
 
     def self.after_deploy(options)
