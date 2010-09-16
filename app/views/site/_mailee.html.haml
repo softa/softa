@@ -1,4 +1,4 @@
-#softa_mailee
+#softa_mailee{:style => 'max-height:420px;'}
   .wrapper
     %section
       #maileeme.work_showcase
@@ -6,14 +6,15 @@
           .work_showcase_info
             %h3= link_to image_tag('maileeme/maileeme_logo.png', :alt => 'Mailee.me - Email marketing 2.0'), 'http://mailee.me'
             %p Mailee.me é um aplicativo web 2.0 para fazer email marketing. Desenvolvido em Ruby on Rails, PostgreSQL e focado em usabilidade, possui criador de templates, geolocalização, integração com redes sociais e inteligentes recursos anti-SPAM.
-            %ul.mailee_links
-              %li #{ link_to 'Cadastre-se grátis »', 'http://mailee.me/cadastro.html' }
-              %li #{ link_to 'Acompanhe no Twitter »', 'http://twitter.com/maileeme', :target => :_blank }
-              %li #{ link_to 'Acesse o Blog »', 'http://blog.mailee.me' }
+            #{ link_to 'acompanhe no Twitter »', 'http://twitter.com/maileeme', :target => :_blank }
+            #{ link_to 'acesse o Blog »', 'http://blog.mailee.me' }
             %ul.showcase_more_images
               %li= link_to image_tag('maileeme/maileeme_small_one.jpg'), image_path('maileeme/maileeme_one.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'
               %li= link_to image_tag('maileeme/maileeme_small_two.jpg'), image_path('maileeme/maileeme_two.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'
               %li= link_to image_tag('maileeme/maileeme_small_three.jpg'), image_path('maileeme/maileeme_three.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'
-          .work_showcase_image= image_tag 'maileeme/maileeme_showcase.png'
+          .work_showcase_image= image_tag 'maileeme/maileeme_showcase_alt.png'
           .clear
+.mailee_signup_bar{:style => 'background:#666; height:60px;'}
+  .wrapper
+    %h2{:style => 'z-index:60;'} #{ link_to 'cadastre-se grátis »', 'http://mailee.me/cadastro.html' }
 .clear

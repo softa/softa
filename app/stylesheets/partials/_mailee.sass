@@ -11,31 +11,6 @@ body #content
     .wrapper
       overflow: visible
       position: relative
-      .arrow_right, .arrow_left
-        height: 66px
-        width: 33px
-        position: absolute
-        margin-top: -16px
-        background:
-          color: transparent
-          image: url(/images/arrows_sprite.png)
-          repeat: no-repeat
-      .arrow_right
-        background-position: -60px -214px
-        right: -50px
-        top: 50%
-        &:hover
-          background-position: -60px -128px
-        &:active
-          background-position: -60px -42px
-      .arrow_left
-        background-position: 0 -214px
-        left: -70px
-        top: 50%
-        &:hover
-          background-position: 0 -128px
-        &:active
-          background-position: 0 -42px
     h1
       text-shadow: #fff 0 1px 0
       color: #ccc
@@ -61,8 +36,19 @@ body #content
             border-bottom: 0 none
       ul.mailee_links
         a
-          color: #2255A0
-          text-shadow: #ccc 0 1px 0
+          +rounded(10px)
+          background: $mailee
+          color: white
+          font-weight: 900
+          padding: 4px 8px 6px 8px
+          text-shadow: ($mailee - #666) 0 -1px 0
+          &:hover
+            text-decoration: none
+            background: $mailee + #111
+          &:active
+            background: $mailee - #111
+        li
+          padding: 10px 0
       ul.showcase_more_images
         margin: 0
         padding: 0

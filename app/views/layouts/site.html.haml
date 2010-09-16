@@ -33,10 +33,9 @@
       });
     %link{ :rel => 'apple-touch-icon-precomposed', :href => 'apple-touch-icon.png'}
     %link{ :rel => 'shortcut icon', :href => 'favicon.ico' }
-  %body
-    -#= link_to 'Voltar ao topo', '#top', :class => 'to_up'
-    .fixed_navigation= render 'layouts/top_navigation_fixed'
-    %header#top= render 'layouts/header'
+  %body#top
+    #back_to_top #{link_to image_tag('to_top.png'), '#top' }
+    %header= render 'layouts/navigation'
     #content= yield
     .clear
     %footer= render 'layouts/footer'
