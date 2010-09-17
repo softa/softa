@@ -8,6 +8,13 @@
       %section
         %h2 Blog
         #softa_blog_rss
+          %ul
+            - @posts.each do |post|
+              %li
+                %h3.what
+                  %a.event_link{:href => post.link }= post.title
+                %p #{post.desc}...
+				  	
     #calendar
       %section
         %h2= t 'social.agenda'
