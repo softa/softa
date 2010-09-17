@@ -1,4 +1,4 @@
-#softa_mailee{:style => 'max-height:390px;'}
+#softa_mailee
   .wrapper
     %section
       #maileeme.work_showcase
@@ -12,9 +12,7 @@
               %li= link_to image_tag('maileeme/maileeme_small_one.jpg'), image_path('maileeme/maileeme_one.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'
               %li= link_to image_tag('maileeme/maileeme_small_two.jpg'), image_path('maileeme/maileeme_two.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'
               %li= link_to image_tag('maileeme/maileeme_small_three.jpg'), image_path('maileeme/maileeme_three.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'
+            %h2 #{ link_to t('mailee.signup'), 'http://mailee.me/cadastro.html', :id => 'mailee_call_to_action' }
           .work_showcase_image{:style => 'text-align: right;'}= image_tag 'maileeme/maileeme_showcase.png'
           .clear
-.mailee_signup_bar
-  .wrapper
-    %h2{:style => 'z-index:60;'} #{ link_to t('mailee.signup'), 'http://mailee.me/cadastro.html' }
 .clear

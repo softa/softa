@@ -15,13 +15,13 @@ pt:
 
   description:
     punchline: "Desenvolvemos aplicações <em class='web_two'>web 2.0</em> usando <em class='ruby_on_rails'>Ruby on Rails</em> e <em class='postgresql'>PostgreSQL</em>, aliando o melhor da tecnologia <em class='open_source'>Open Source</em> aos <em class='methods'>métodos certos</em> para realizar seus projetos no <em class='methods'>menor tempo</em> e com a <em class='methods'>maior qualidade</em>."
-    call_to_action: Envie seu projeto »    
+    call_to_action: envie seu projeto »
 
   mailee:
     description: Mailee.me é um aplicativo web 2.0 para fazer email marketing. Desenvolvido em Ruby on Rails, PostgreSQL e focado em usabilidade, possui criador de templates, geolocalização, integração com redes sociais e inteligentes recursos anti-SPAM.
     twitter: acompanhe no Twitter »
     blog: acesse o Blog »
-    signup: 'cadastre-se grátis »'
+    signup: cadastre-se grátis »
 
   method:
     title: Metodologia
@@ -47,7 +47,7 @@ pt:
     db: Arquiteto de Dados. Gosta de estruturas auto-explicativas, auto-referentes e auto-limpantes.
     fc: Suporte incansável, aikidoka e ciclista amador. Amante de cervejas artesanais e RP nas horas vagas.
     jm: Desenvolvedor Rails, JavaScript e de outras coisas menos ortodoxas. Comemora efusivamente quando realiza entregas com zero bugs.
-    lt: Artista do design, tipografia, UI e UX. Extremista em detalhes, não perdoa erros de 1px.
+    lt: Artista do design, tipografia, UI <em class='alternate'>&</em> UX. Extremista em detalhes, não perdoa erros de 1px.
     pa: Malabarista de infraestrutura, desenvolvedor Rails e o que mais precisar. Ele mora na internet e gosta de todas as novas buzz words.
 
   social:

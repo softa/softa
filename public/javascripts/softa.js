@@ -1,6 +1,4 @@
-$('img').lazyload({
-	 placeholder : "img/grey.gif",       
-     effect      : "fadeIn"});
+$('img').lazyload({ placeholder: "/images/spaceball.gif", effect: "fadeIn"});
 var $top1= $('#softa_description').offset().top + 100;
 $(window).scroll(function(){
   if ($(window).scrollTop()>$top1){

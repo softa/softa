@@ -191,29 +191,43 @@ form fieldset input[type="text"]:focus, form fieldset input[type="text"]:active,
   outline: 0 none;
 }
 
-/* line 2, ../../app/stylesheets/partials/_description.sass */
+/* line 1, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description {
   backgrond-color: black;
   border-bottom: 1px solid #cccccc;
 }
-/* line 5, ../../app/stylesheets/partials/_description.sass */
+/* line 4, ../../app/stylesheets/partials/_description.sass */
 body #content #softa_description #softa_logo {
   float: left;
-  width: 18%;
+  width: 26%;
+  text-align: center;
 }
 /* line 8, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description h1 {
+body #content #softa_description #softa_logo h1 {
+  padding: 0;
+  margin: 0;
+}
+/* line 11, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description #softa_logo h1 img {
+  padding-top: 14px;
+}
+/* line 13, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description #site_call_to_action {
+  margin-left: 26%;
+}
+/* line 15, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h2 {
   float: left;
-  width: 82%;
+  width: 74%;
   z-index: 100;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 38px;
   padding: 1em 0;
   color: #999999;
   font-weight: 100;
 }
-/* line 17, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description h1 em {
+/* line 24, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h2 em {
   font-style: normal;
   transition: color 1s ease-in;
   -webkit-transition: color 1s ease-in;
@@ -221,71 +235,54 @@ body #content #softa_description h1 em {
   -o-transition: color 1s ease-in;
   -khtml-transition: color 1s ease-in;
 }
-/* line 26, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description h1 em.web_two.active {
+/* line 33, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h2 em.web_two.active {
   color: #ff9900;
 }
-/* line 29, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description h1 em.ruby_on_rails.active {
+/* line 36, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h2 em.ruby_on_rails.active {
   color: #b42738;
 }
-/* line 32, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description h1 em.postgresql.active {
+/* line 39, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h2 em.postgresql.active {
   color: #009acc;
 }
-/* line 35, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description h1 em.open_source.active {
+/* line 42, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h2 em.open_source.active {
   color: #40a850;
 }
-/* line 38, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description h1 em.methods.active {
+/* line 45, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h2 em.methods.active {
   color: #aa5303;
 }
-/* line 41, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description h1 em.web_two.passed, body #content #softa_description h1 em.ruby_on_rails.passed, body #content #softa_description h1 em.postgresql.passed, body #content #softa_description h1 em.open_source.passed, body #content #softa_description h1 em.methods.passed {
+/* line 48, ../../app/stylesheets/partials/_description.sass */
+body #content #softa_description h2 em.web_two.passed, body #content #softa_description h2 em.ruby_on_rails.passed, body #content #softa_description h2 em.postgresql.passed, body #content #softa_description h2 em.open_source.passed, body #content #softa_description h2 em.methods.passed {
   color: #666666;
-}
-/* line 43, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description .call_to_action {
-  background-image: url(/images/call_to_action.png);
-  background-position: left top;
-  width: 400px;
-  height: 48px;
-  display: block;
-  float: right;
-  margin-left: 18%;
-  margin-top: -1em;
-  font-size: 28px;
-  text-align: center;
-  text-indent: -10000em;
-}
-/* line 56, ../../app/stylesheets/partials/_description.sass */
-body #content #softa_description .call_to_action:hover {
-  background-position: right top;
 }
 
 /* line 2, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee {
   border-top: 1px solid white;
   border-bottom: 1px solid #cccccc;
+  padding-bottom: 20px;
   background-color: #cccccc;
   background-image: url(/images/maileeme/background.png);
   background-repeat: repeat-x;
   background-attachment: scroll;
   background-position: left top;
 }
-/* line 11, ../../app/stylesheets/partials/_mailee.sass */
+/* line 12, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .wrapper {
   overflow: visible;
   position: relative;
 }
-/* line 14, ../../app/stylesheets/partials/_mailee.sass */
+/* line 15, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee h1 {
   text-shadow: white 0 1px 0;
   color: #cccccc;
   margin-top: 0.5em;
 }
-/* line 18, ../../app/stylesheets/partials/_mailee.sass */
+/* line 19, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info {
   display: inline;
   float: left;
@@ -297,7 +294,7 @@ body #content #softa_mailee .work_showcase_info {
 * html body #content #softa_mailee .work_showcase_info {
   overflow-x: hidden;
 }
-/* line 22, ../../app/stylesheets/partials/_mailee.sass */
+/* line 23, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info ul.mailee_links, body #content #softa_mailee .work_showcase_info ul.circlo_links, body #content #softa_mailee .work_showcase_info ul.tbrasil_links {
   box-shadow: #eeeeee 0 1px 0, #888888 0 1px 0 inset;
   -webkit-box-shadow: #eeeeee 0 1px 0, #888888 0 1px 0 inset;
@@ -313,22 +310,22 @@ body #content #softa_mailee .work_showcase_info ul.mailee_links, body #content #
   background-color: #aaaaaa;
   padding: 0.5em 1em;
 }
-/* line 28, ../../app/stylesheets/partials/_mailee.sass */
+/* line 29, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info ul.mailee_links li, body #content #softa_mailee .work_showcase_info ul.circlo_links li, body #content #softa_mailee .work_showcase_info ul.tbrasil_links li {
   text-shadow: #888888 0 -1px 0;
   color: white;
   border-top: 1px solid #bbbbbb;
   border-bottom: 1px solid #999999;
 }
-/* line 33, ../../app/stylesheets/partials/_mailee.sass */
+/* line 34, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info ul.mailee_links li:first-child, body #content #softa_mailee .work_showcase_info ul.circlo_links li:first-child, body #content #softa_mailee .work_showcase_info ul.tbrasil_links li:first-child {
   border-top: 0 none;
 }
-/* line 35, ../../app/stylesheets/partials/_mailee.sass */
+/* line 36, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info ul.mailee_links li:last-child, body #content #softa_mailee .work_showcase_info ul.circlo_links li:last-child, body #content #softa_mailee .work_showcase_info ul.tbrasil_links li:last-child {
   border-bottom: 0 none;
 }
-/* line 38, ../../app/stylesheets/partials/_mailee.sass */
+/* line 39, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info ul.mailee_links a {
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -341,31 +338,31 @@ body #content #softa_mailee .work_showcase_info ul.mailee_links a {
   padding: 4px 8px 6px 8px;
   text-shadow: #002d64 0 -1px 0;
 }
-/* line 45, ../../app/stylesheets/partials/_mailee.sass */
+/* line 46, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info ul.mailee_links a:hover {
   text-decoration: none;
   background: #6ea4db;
 }
-/* line 48, ../../app/stylesheets/partials/_mailee.sass */
+/* line 49, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info ul.mailee_links a:active {
   background: #4c82b9;
 }
-/* line 50, ../../app/stylesheets/partials/_mailee.sass */
+/* line 51, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info ul.mailee_links li {
   padding: 10px 0;
 }
-/* line 52, ../../app/stylesheets/partials/_mailee.sass */
+/* line 53, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info ul.showcase_more_images {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 56, ../../app/stylesheets/partials/_mailee.sass */
+/* line 57, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info ul.showcase_more_images li {
   display: inline;
   padding-left: 4px;
 }
-/* line 59, ../../app/stylesheets/partials/_mailee.sass */
+/* line 60, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_info ul.showcase_more_images li img {
   -moz-box-shadow: 0 0 6px #888888 0;
   -webkit-box-shadow: 0 0 6px #888888 0;
@@ -373,7 +370,7 @@ body #content #softa_mailee .work_showcase_info ul.showcase_more_images li img {
   box-shadow: 0 0 6px #888888 0;
   border: 1px solid silver;
 }
-/* line 62, ../../app/stylesheets/partials/_mailee.sass */
+/* line 63, ../../app/stylesheets/partials/_mailee.sass */
 body #content #softa_mailee .work_showcase_image {
   display: inline;
   float: left;
@@ -386,79 +383,54 @@ body #content #softa_mailee .work_showcase_image {
   overflow-x: hidden;
 }
 
-/* line 67, ../../app/stylesheets/partials/_mailee.sass */
-.mailee_signup_bar {
-  background: #666666;
-  height: 70px;
-  border-top: 1px solid #555555;
-}
-/* line 72, ../../app/stylesheets/partials/_mailee.sass */
-.mailee_signup_bar .wrapper h2 {
-  z-index: 60;
-}
-/* line 74, ../../app/stylesheets/partials/_mailee.sass */
-.mailee_signup_bar .wrapper h2 a.mailee_call_to_action {
-  background-image: url(/images/mailee_call_to_action.png);
-  background-position: left top;
-  width: 325px;
-  margin-top: 12px;
-  height: 48px;
-  display: block;
-  text-indent: -10000em;
-}
-/* line 83, ../../app/stylesheets/partials/_mailee.sass */
-.mailee_signup_bar .wrapper h2 a.mailee_call_to_action:hover {
-  background-position: right top;
-}
-
-/* line 2, ../../app/stylesheets/partials/_methodology.sass */
-body #content .methodology_torned_paper {
+/* line 2, ../../app/stylesheets/partials/_method.sass */
+body #content .method_torned_paper {
   height: 14px;
   background-color: #cccccc;
-  background-image: url(/images/methodology/methodology_torned_paper_alt.gif);
+  background-image: url(/images/method/method_torned_paper.gif);
   background-repeat: repeat-x;
   background-attachment: scroll;
   background-position: center top;
 }
-/* line 10, ../../app/stylesheets/partials/_methodology.sass */
-body #content #softa_methodology {
+/* line 10, ../../app/stylesheets/partials/_method.sass */
+body #content #softa_method {
   border-bottom: 1px solid #cccccc;
   background-color: #e0e0e0;
-  background-image: url(/images/methodology/methodology_background.gif);
+  background-image: url(/images/method/method_background.gif);
   background-repeat: repeat;
   background-position: center top;
 }
-/* line 17, ../../app/stylesheets/partials/_methodology.sass */
-body #content #softa_methodology .wrapper {
+/* line 17, ../../app/stylesheets/partials/_method.sass */
+body #content #softa_method .wrapper {
   background-image: url(/images/coffee_stain.png);
   background-repeat: no-repeat;
   background-position: left 600px;
 }
-/* line 22, ../../app/stylesheets/partials/_methodology.sass */
-body #content #softa_methodology h1 {
+/* line 22, ../../app/stylesheets/partials/_method.sass */
+body #content #softa_method h1 {
   text-shadow: white 0 1px 0;
   color: #d8d8d8;
 }
-/* line 25, ../../app/stylesheets/partials/_methodology.sass */
-body #content #softa_methodology .method_image {
+/* line 25, ../../app/stylesheets/partials/_method.sass */
+body #content #softa_method .method_image {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 470px;
 }
 /* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #content #softa_methodology .method_image {
+* html body #content #softa_method .method_image {
   overflow-x: hidden;
 }
-/* line 27, ../../app/stylesheets/partials/_methodology.sass */
-body #content #softa_methodology .method_text {
+/* line 27, ../../app/stylesheets/partials/_method.sass */
+body #content #softa_method .method_text {
   display: inline;
   float: left;
   margin-right: 0;
   width: 470px;
 }
 /* line 139, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #content #softa_methodology .method_text {
+* html body #content #softa_method .method_text {
   overflow-x: hidden;
 }
 
@@ -902,6 +874,11 @@ body #softa_staff #daniel_weinmann .info p, body #softa_staff #diogo_biazus .inf
   margin: 0 0 0.25em 0;
 }
 /* line 40, ../../app/stylesheets/partials/_staff.sass */
+body #softa_staff #daniel_weinmann .info p em.alternate, body #softa_staff #diogo_biazus .info p em.alternate, body #softa_staff #felipe_cabral .info p em.alternate, body #softa_staff #juan_maiz .info p em.alternate, body #softa_staff #leonardo_tartari .info p em.alternate, body #softa_staff #pedro_axelrud .info p em.alternate {
+  font-family: "Baskerville", "Palatino", "Book Antiqua", "serif";
+  font-size: 13px;
+}
+/* line 44, ../../app/stylesheets/partials/_staff.sass */
 body #softa_staff #daniel_weinmann .info p.links, body #softa_staff #diogo_biazus .info p.links, body #softa_staff #felipe_cabral .info p.links, body #softa_staff #juan_maiz .info p.links, body #softa_staff #leonardo_tartari .info p.links, body #softa_staff #pedro_axelrud .info p.links {
   font-size: 12px;
   font-weight: 900;
@@ -927,26 +904,7 @@ body #content #rsonrails h2 img {
   vertical-align: middle;
 }
 
-/* line 1, ../../app/stylesheets/partials/_apple_overlay.sass */
-.showcase_image_large {
-  display: none;
-  background-image: url(/images/overlay/white.png);
-  width: 640px;
-  padding: 35px;
-  font-size: 11px;
-}
-/* line 7, ../../app/stylesheets/partials/_apple_overlay.sass */
-.showcase_image_large .close {
-  background-image: url(/images/overlay/close.png);
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  cursor: pointer;
-  height: 35px;
-  width: 35px;
-}
-
-/* line 4, ../../app/stylesheets/partials/_style.sass */
+/* line 3, ../../app/stylesheets/partials/_style.sass */
 body {
   line-height: 1.5;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Sans", "Helvetica", "sans-serif";
@@ -1081,7 +1039,7 @@ body pre {
 }
 /* line 90, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body pre, body code, body tt {
-  font: 1em "Menlo", "Monaco", "andale mono", "lucida console", "monospace";
+  font: 1em "Menlo", "Monaco", "Andale Mono", "Lucida Console", "monospace";
   line-height: 1.5;
 }
 /* line 91, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
@@ -1195,60 +1153,60 @@ body .bottom {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 10, ../../app/stylesheets/partials/_style.sass */
+/* line 9, ../../app/stylesheets/partials/_style.sass */
 body article, body aside, body figure, body footer, body header, body hgroup, body nav, body section {
   display: block;
 }
-/* line 12, ../../app/stylesheets/partials/_style.sass */
+/* line 11, ../../app/stylesheets/partials/_style.sass */
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-weight: 900;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
 }
-/* line 17, ../../app/stylesheets/partials/_style.sass */
+/* line 16, ../../app/stylesheets/partials/_style.sass */
 body p, body ul li {
   color: #444444;
 }
-/* line 19, ../../app/stylesheets/partials/_style.sass */
+/* line 18, ../../app/stylesheets/partials/_style.sass */
 body code, body samp {
   font-size: 1em;
-  font-family: "Menlo", "Monaco", "andale mono", "lucida console", "monospace";
+  font-family: "Menlo", "Monaco", "Andale Mono", "Lucida Console", "monospace";
 }
-/* line 22, ../../app/stylesheets/partials/_style.sass */
+/* line 21, ../../app/stylesheets/partials/_style.sass */
 body address {
   font-style: normal;
 }
-/* line 24, ../../app/stylesheets/partials/_style.sass */
+/* line 23, ../../app/stylesheets/partials/_style.sass */
 body a {
   cursor: pointer;
   color: #ff9900;
   -webkit-transition: color 0.35s ease-in;
   text-decoration: none;
 }
-/* line 29, ../../app/stylesheets/partials/_style.sass */
+/* line 28, ../../app/stylesheets/partials/_style.sass */
 body a:hover {
   color: #ffbb22;
   text-decoration: underline;
 }
-/* line 32, ../../app/stylesheets/partials/_style.sass */
+/* line 31, ../../app/stylesheets/partials/_style.sass */
 body a:active {
   position: relative;
   top: 1px;
   color: #ee8800;
 }
-/* line 36, ../../app/stylesheets/partials/_style.sass */
+/* line 35, ../../app/stylesheets/partials/_style.sass */
 body a:visited {
   color: #ff9900;
 }
-/* line 38, ../../app/stylesheets/partials/_style.sass */
+/* line 37, ../../app/stylesheets/partials/_style.sass */
 body .wrapper {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 40, ../../app/stylesheets/partials/_style.sass */
+/* line 39, ../../app/stylesheets/partials/_style.sass */
 body header {
   position: fixed;
   width: 100%;
@@ -1261,7 +1219,7 @@ body header {
   border-bottom: 1px solid #ffaa11;
   z-index: 999;
 }
-/* line 48, ../../app/stylesheets/partials/_style.sass */
+/* line 47, ../../app/stylesheets/partials/_style.sass */
 body header .top_bar {
   position: fixed;
   top: 0;
@@ -1271,98 +1229,90 @@ body header .top_bar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   background: black;
 }
-/* line 56, ../../app/stylesheets/partials/_style.sass */
+/* line 55, ../../app/stylesheets/partials/_style.sass */
 body header nav {
   display: block;
   padding: 16px 0 0 0;
 }
-/* line 59, ../../app/stylesheets/partials/_style.sass */
+/* line 58, ../../app/stylesheets/partials/_style.sass */
 body header nav .right {
   float: right;
 }
-/* line 61, ../../app/stylesheets/partials/_style.sass */
+/* line 60, ../../app/stylesheets/partials/_style.sass */
 body header nav .right a {
   padding-right: 4px;
 }
-/* line 63, ../../app/stylesheets/partials/_style.sass */
+/* line 62, ../../app/stylesheets/partials/_style.sass */
 body header nav .right a img {
   vertical-align: middle;
   opacity: 0.7;
 }
-/* line 66, ../../app/stylesheets/partials/_style.sass */
+/* line 65, ../../app/stylesheets/partials/_style.sass */
 body header nav .right a:hover img {
   opacity: 1;
 }
-/* line 68, ../../app/stylesheets/partials/_style.sass */
+/* line 67, ../../app/stylesheets/partials/_style.sass */
 body header nav a, body header nav a:visited {
   color: white;
   padding-right: 20px;
   text-shadow: #cc6600 0 -1px 0;
   font-weight: 900;
 }
-/* line 73, ../../app/stylesheets/partials/_style.sass */
+/* line 72, ../../app/stylesheets/partials/_style.sass */
 body header nav a:hover, body header nav a:visited:hover {
   color: white;
   text-decoration: underline;
 }
-/* line 76, ../../app/stylesheets/partials/_style.sass */
+/* line 75, ../../app/stylesheets/partials/_style.sass */
 body header nav a:active, body header nav a:visited:active {
   color: white;
   text-decoration: underline;
 }
-/* line 79, ../../app/stylesheets/partials/_style.sass */
+/* line 78, ../../app/stylesheets/partials/_style.sass */
 body header nav a img, body header nav a:visited img {
   vertical-align: middle;
 }
-/* line 81, ../../app/stylesheets/partials/_style.sass */
+/* line 80, ../../app/stylesheets/partials/_style.sass */
 body #content {
   text-shadow: white 0 1px 0;
 }
-/* line 83, ../../app/stylesheets/partials/_style.sass */
+/* line 82, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_description {
   padding-top: 50px;
 }
 /* line 85, ../../app/stylesheets/partials/_style.sass */
-body #content #softa_description #softa_logo {
-  text-align: center;
-}
-/* line 87, ../../app/stylesheets/partials/_style.sass */
-body #content #softa_description #softa_logo img {
-  padding-top: 20px;
-}
-/* line 90, ../../app/stylesheets/partials/_style.sass */
-body #content #softa_description h1, body #content #softa_methodology h1, body #content #softa_labs h1, body #content #softa_staff h1 {
+body #content #softa_description h1, body #content #softa_method h1, body #content #softa_labs h1, body #content #softa_staff h1 {
   padding: 0.25em 0 0.75em 0;
 }
-/* line 92, ../../app/stylesheets/partials/_style.sass */
-body #content #softa_description .wrapper section, body #content #softa_methodology .wrapper section, body #content #softa_labs .wrapper section, body #content #softa_staff .wrapper section {
+/* line 87, ../../app/stylesheets/partials/_style.sass */
+body #content #softa_description .wrapper section, body #content #softa_method .wrapper section, body #content #softa_labs .wrapper section, body #content #softa_staff .wrapper section {
   padding: 1em 0;
 }
-/* line 94, ../../app/stylesheets/partials/_style.sass */
-body #content #softa_methodology, body #content #softa_staff {
+/* line 89, ../../app/stylesheets/partials/_style.sass */
+body #content #softa_method, body #content #softa_staff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 96, ../../app/stylesheets/partials/_style.sass */
+/* line 91, ../../app/stylesheets/partials/_style.sass */
 body #content #softa_mailee .wrapper section {
   padding: 1em 0 0 0;
 }
-/* line 98, ../../app/stylesheets/partials/_style.sass */
+/* line 93, ../../app/stylesheets/partials/_style.sass */
 body #content #social_stuff {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 100, ../../app/stylesheets/partials/_style.sass */
+/* line 95, ../../app/stylesheets/partials/_style.sass */
 body #content #social_stuff .wrapper section {
   padding: 1em 0;
 }
-/* line 102, ../../app/stylesheets/partials/_style.sass */
+/* line 97, ../../app/stylesheets/partials/_style.sass */
 body #content #rsonrails {
   background: #cc2222;
 }
-/* line 104, ../../app/stylesheets/partials/_style.sass */
+/* line 99, ../../app/stylesheets/partials/_style.sass */
 body #content #rsonrails .wrapper section {
   text-align: center;
 }
-/* line 106, ../../app/stylesheets/partials/_style.sass */
+/* line 101, ../../app/stylesheets/partials/_style.sass */
 body footer {
   -webkit-font-smoothing: subpixel-antialiased;
   padding: 15px 0;
@@ -1375,13 +1325,13 @@ body footer {
   background-attachment: scroll;
   background-position: center top;
 }
-/* line 118, ../../app/stylesheets/partials/_style.sass */
+/* line 113, ../../app/stylesheets/partials/_style.sass */
 body footer h1 {
   color: black;
   text-shadow: #555555 0 1px 0;
   padding: 0.25em 0 0.5em 0;
 }
-/* line 122, ../../app/stylesheets/partials/_style.sass */
+/* line 117, ../../app/stylesheets/partials/_style.sass */
 body footer #contact_us {
   display: inline;
   float: left;
@@ -1392,7 +1342,7 @@ body footer #contact_us {
 * html body footer #contact_us {
   overflow-x: hidden;
 }
-/* line 124, ../../app/stylesheets/partials/_style.sass */
+/* line 119, ../../app/stylesheets/partials/_style.sass */
 body footer #where_to_find_us {
   display: inline;
   float: left;
@@ -1403,13 +1353,13 @@ body footer #where_to_find_us {
 * html body footer #where_to_find_us {
   overflow-x: hidden;
 }
-/* line 126, ../../app/stylesheets/partials/_style.sass */
+/* line 121, ../../app/stylesheets/partials/_style.sass */
 body .post_footer {
   border-top: 1px solid #222222;
   background: black;
   text-align: center;
 }
-/* line 130, ../../app/stylesheets/partials/_style.sass */
+/* line 125, ../../app/stylesheets/partials/_style.sass */
 body .post_footer #colophon p {
   color: white;
   font-size: 13px;
@@ -1418,33 +1368,73 @@ body .post_footer #colophon p {
   margin: 0;
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 138, ../../app/stylesheets/partials/_style.sass */
+/* line 133, ../../app/stylesheets/partials/_style.sass */
 body .post_footer #colophon p img {
-  vertical-align: text-bottom;
+  vertical-align: middle;
 }
 
-/* line 140, ../../app/stylesheets/partials/_style.sass */
+/* line 135, ../../app/stylesheets/partials/_style.sass */
 #back_to_top {
   display: none;
   position: fixed;
   top: 50px;
   right: 15px;
 }
-/* line 145, ../../app/stylesheets/partials/_style.sass */
+/* line 140, ../../app/stylesheets/partials/_style.sass */
 #back_to_top img {
   border: 0 none;
 }
 
-/* line 4, ../../app/stylesheets/screen.sass */
+/* line 142, ../../app/stylesheets/partials/_style.sass */
+#site_call_to_action, #mailee_call_to_action {
+  background-position: left top;
+  height: 44px;
+  display: block;
+  padding-top: 4px;
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0;
+  color: white;
+}
+/* line 154, ../../app/stylesheets/partials/_style.sass */
+#site_call_to_action:hover, #mailee_call_to_action:hover {
+  background-position: right top;
+  text-decoration: none;
+}
+/* line 157, ../../app/stylesheets/partials/_style.sass */
+#site_call_to_action:active, #mailee_call_to_action:active {
+  background-position: left top;
+  text-decoration: none;
+}
+
+/* line 160, ../../app/stylesheets/partials/_style.sass */
+#site_call_to_action {
+  background-image: url(/images/site_call_to_action.png);
+  width: 400px;
+}
+
+/* line 163, ../../app/stylesheets/partials/_style.sass */
+#mailee_call_to_action {
+  background-image: url(/images/mailee_call_to_action.png);
+  width: 325px;
+}
+
+/* line 2, ../../app/stylesheets/screen.sass */
 ::-moz-selection {
   background: #ff9900;
   color: white;
   text-shadow: none;
 }
 
-/* line 8, ../../app/stylesheets/screen.sass */
+/* line 6, ../../app/stylesheets/screen.sass */
 ::selection {
   background: #ff9900;
   color: white;
   text-shadow: none;
+}
+
+/* line 10, ../../app/stylesheets/screen.sass */
+a:focus {
+  outline-color: #ff9900;
 }
