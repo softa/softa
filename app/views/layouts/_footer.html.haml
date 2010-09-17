@@ -1,22 +1,22 @@
 .wrapper
   #contact_us
-    %h1 Entre em contato
-    %form#contact_us{ :name => 'contact_form', :action => '#', :method => 'post' }
+    %h1= t 'contact.title'
+    %form#contact_us{ :name => :contact_form, :action => '#', :method => :post }
       = token_tag
       %fieldset
-        %label{ :for => 'contact_us_name' } Nome
+        %label{ :for => :contact_us_name }= t 'contact.name'
         %br
-        %input#contact_us_name{ :name => 'name', :type => 'text', :placeholder => 'Seu nome completo' }
+        %input#contact_us_name{ :name => :name, :type => :text, :placeholder => t('contact.name_placeholder') }
       %fieldset
-        %label{ :for => 'contact_us_email' } Email
+        %label{ :for => :contact_us_email } Email
         %br
-        %input#contact_us_email{ :name => 'email', :type => 'email', :placeholder => 'usuario@dominio.com', :pattern => "/^[a-z0-9\._-]+@([a-z0-9][a-z0-9-_]*[a-z0-9-_]\.)+([a-z-_]+\.)?([a-z-_]+)$/"}
+        %input#contact_us_email{ :name => :email, :type => :email, :placeholder => t('contact.email_placeholder'), :pattern => "/^[a-z0-9\._-]+@([a-z0-9][a-z0-9-_]*[a-z0-9-_]\.)+([a-z-_]+\.)?([a-z-_]+)$/"}
       %fieldset
-        %label{ :for => 'contact_us_message' } Mensagem
+        %label{ :for => :contact_us_message }= t 'contact.message'
         %br
-        %textarea#contact_us_message{ :name => 'message', :type => 'email', :placeholder => 'Escreva sua mensagem', :wrap => 'soft', :rows => 4 }
+        %textarea#contact_us_message{ :name => :message, :placeholder => t('contact.message_placeholder'), :wrap => 'soft', :rows => 4 }
       %fieldset.submit_button
-        %button{ :type => 'submit', :form => 'contact_form' } enviar »
+        %button{ :type => :submit, :form => :contact_form }= t 'contact.send'
   #where_to_find_us
     %address{:style => 'text-align:right;'}
       %a{ :href => 'http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Softa&sll=-30.039703,-51.2104&sspn=0.001983,0.004128&ie=UTF8&hq=*&hnear=&ll=-30.039526,-51.210752&spn=0.001983,0.004128&z=19&iwloc=A&cid=3597396454165080845', :target => :_blank } #{image_tag 'show_me_the_way.png', :style => 'margin-bottom:.5em; margin-top:1em; border:0 none;'}

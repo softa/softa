@@ -1,29 +1,33 @@
 class SiteController < ApplicationController
+
+  caches_page :index
+
+  def set_initial_locale
+    redirect_to "/#{lookup}"
+  end
+
   def index
-    # [{:who => "Juan", :when => Date.today}].to_yaml
-    #--- \n- :who: Juan\n  :when: 2010-09-16\n"
-=begin
+    I18n.locale = params[:lang]
+    @events = []
     require 'open-uri'
     require 'ostruct'
-    feed = 'http://www.google.com/calendar/feeds/62loik9tem085k7v8rrgjg0138%40group.calendar.google.com/public/basic'
-    doc = Hpricot.XML(open(feed).read)
-    @events = []
-    doc.search('entry').each do |entry|
-        content = (entry%'content').html
-            whn = content.scan(/Quando: (.+201\d)/).to_s
-            whr = content.scan(/Onde: (.+)/).to_s
-           desc = content.scan(/Descrição do evento: (.+)/).to_s
-           link = content.scan(/http:\/\//).to_s
-      event_url = content.scan(/http:\/\//).to_s
-      @events << OpenStruct.new({
-        :title     => (entry%'title').html,
-        :when      => whn,
-        :where     => whr,
-        :desc      => desc,
-        :link      => link,
-        :event_url => event_url
+    #raise open('http://blog.softa.com.br/rss.xml').read
+    doc = Hpricot.XML(open('http://blog.softa.com.br/rss.xml').read)
+    @posts = (doc/'item')[0..4].map do |item|
+      OpenStruct.new({
+        :title => (item%'title').inner_text,
+        :link => (item%'link').inner_text,
+        :desc => view_context.strip_tags((item%'description').inner_text).gsub(/\s+/, ' ')[0..150]
       })
     end
-=end
+    #raise @posts.inspect
   end
+
+protected
+
+  def lookup
+    ipnum = request.ip.split(/\./).reverse.each_with_index.map{|v,i| v.to_i*256**i }.sum
+    COUNTRIES.detect{|country| country.first === ipnum }.last rescue :en
+  end
+
 end

@@ -1,20 +1,20 @@
-en:
+fr:
 
   head:
-    title: Softa · Web 2.0 apps with Rails and PostgreSQL
+    title: Softa · Merci! Beacup!
     description: "Web 2.0 apps. TODO"
 
   softa:
-    hello: Hello. Welcome to Softa's website.
+    hello: Hola. Bienvenido!
 
   nav:
-    method: Method
-    staff: Staff
+    method: Cucaracha
+    staff: Tequila
     social: Twitter, Blog & Agenda
-    contact: Contact
+    contact: Habla!
 
   description:
-    punchline: "We develop <em class='web_two'>web 2.0</em> apps using <em class='ruby_on_rails'>Ruby on Rails</em> and <em class='postgresql'>PostgreSQL</em>, combining the best of <em class='open_source'>Open Source</em> technologies with the <em class='methods'>right methods</em> to make your projects in <em class='methods'>less time</em> and with the <em class='methods'>greatest quality</em>."
+    punchline: "Je taime... <em class='web_two'>web 2.0</em> apps using <em class='ruby_on_rails'>Ruby on Rails</em> and <em class='postgresql'>PostgreSQL</em>, combining the best of <em class='open_source'>Open Source</em> technologies with the <em class='methods'>right methods</em> to make your projects in <em class='methods'>less time</em> and with the <em class='methods'>greatest quality</em>."
     call_to_action: Get a quotation » 
 
   mailee:

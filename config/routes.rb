@@ -1,9 +1,9 @@
 Softa::Application.routes.draw do |map|
 
-  get "site/index"
-  get "site/agenda"
+  #get ":lang", :controller => 'site', :action => 'index'
+  get "/:lang", :controller => 'site', :action => 'index'
 
-  root :to => 'site#index'
+  root :to => 'site#set_initial_locale'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

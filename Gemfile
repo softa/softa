@@ -14,7 +14,7 @@ gem 'hpricot'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 # Use unicorn as the web server
-gem 'unicorn'
+
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -33,3 +33,6 @@ gem 'unicorn'
 # group :test do
 #   gem 'webrat'
 # end
+#group :production do
+  gem 'unicorn'
+#end

@@ -2,10 +2,10 @@
 .wrapper
   %nav
     = link_to 'Mailee.me', '#softa_mailee'
-    = link_to 'Metodologia', '#softa_methodology'
+    = link_to t('nav.method'), '#softa_methodology'
     = link_to 'Softa Labs', '#softa_labs'
-    = link_to 'Quem somos', '#softa_staff'
-    = link_to 'Twitter, Blog & Agenda', '#social'
-    = link_to 'Contato', '#contact_us'
-    .right #{link_to(image_tag('flags/br.png'), '/br', :title => 'Português')} #{link_to(image_tag('flags/es.png'), '/es', :title => 'Español')} #{link_to(image_tag('flags/fr.png'), '/fr', :title => 'Français')} #{link_to(image_tag('flags/us.png'), '/en', :title => 'English')}
+    = link_to t('nav.staff'), '#softa_staff'
+    = link_to t('nav.social'), '#social'
+    = link_to t('nav.contact'), '#contact_us'
+    .right #{link_to(image_tag('flags/br.png'), '/pt', :title => 'Português')} #{link_to(image_tag('flags/es.png'), '/es', :title => 'Español')} #{link_to(image_tag('flags/fr.png'), '/fr', :title => 'Français')} #{link_to(image_tag('flags/us.png'), '/en', :title => 'English')}
   .clear
