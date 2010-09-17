@@ -1,0 +1,68 @@
+pt:
+
+  head:
+    title: Softa · Aplicações web 2.0 em Rails e PostgreSQL
+    description: "Aplicações web 2.0. O melhor do open source: Ruby on Rails e PostgreSQL. Nós utilizamos as melhores tecnologias aliadas aos métodos certos para desenvolver seus projetos no menor tempo e com a maior qualidade."
+
+  softa:
+    hello: Olá. Seja bem vindo ao site da Softa.
+
+  nav:
+    method: Metodologia
+    staff: Quem somos
+    social: Twitter, Blog & Agenda
+    contact: Contato
+
+  description:
+    punchline: "Desenvolvemos aplicações <em class='web_two'>web 2.0</em> usando <em class='ruby_on_rails'>Ruby on Rails</em> e <em class='postgresql'>PostgreSQL</em>, aliando o melhor da tecnologia <em class='open_source'>Open Source</em> aos <em class='methods'>métodos certos</em> para realizar seus projetos no <em class='methods'>menor tempo</em> e com a <em class='methods'>maior qualidade</em>."
+    call_to_action: Envie seu projeto »    
+
+  mailee:
+    description: Mailee.me é um aplicativo web 2.0 para fazer email marketing. Desenvolvido em Ruby on Rails, PostgreSQL e focado em usabilidade, possui criador de templates, geolocalização, integração com redes sociais e inteligentes recursos anti-SPAM.
+    twitter: acompanhe no Twitter »
+    blog: acesse o Blog »
+    signup: 'cadastre-se grátis »'
+
+  method:
+    title: Metodologia
+    contact: entre em contato
+    agile:
+      title: Métodos ágeis
+      desc: <p>Utilizar métodos ágeis significa colocar as pessoas em primeiro lugar. O sucesso de um projeto de software começa com um time qualificado e que ama o que faz. Cliente como parte da equipe, comunicação aberta e foco no resultado complementam a receita.</p><p>Acreditamos que não existem dogmas em desenvolvimento de software e que o mais importante é o aprendizado contínuo.</p>
+    quality:
+      title: Qualidade
+      desc: <p>Nós buscamos a melhor experiência de uso para o usuário através de interfaces bem projetadas e desenhadas.</p><p>Além disso, utilizamos uma série de técnicas para criar sistemas de alta qualidade. Controle de versões com git, testes automatizados, verificação da cobertura de testes, integração contínua e deployment automatizado são algumas delas.</p>
+    tech:
+      title: Tecnologia
+      desc: <p>Empresas de tecnologia não devem ter medo de experimentar. Estamos sempre estudando novas ferramentas e testando novas plataformas. Hoje, trabalhamos principalmente com Ruby on Rails e PostgreSQL.</p><p>Nosso cinto de utilidades conta também com linguagens como C, JavaScript (Node.js), Python, Erlang e Haskell.</p>
+
+  labs:
+    hstore:
+      desc: Suporte ao campo <samp>hstore</samp> do PostgreSQL no <samp>ActiveRecord</samp>. Adeus <samp>serialize</samp>.
+    hercules:
+      desc: TODO
+
+  staff:
+    dw: TOOOOODO
+    db: Arquiteto de Dados. Gosta de estruturas auto-explicativas, auto-referentes e auto-limpantes.
+    fc: Suporte incansável, aikidoka e ciclista amador. Amante de cervejas artesanais e RP nas horas vagas.
+    jm: Desenvolvedor Rails, JavaScript e de outras coisas menos ortodoxas. Comemora efusivamente quando realiza entregas com zero bugs.
+    lt: Artista do design, tipografia, UI e UX. Extremista em detalhes, não perdoa erros de 1px.
+    pa: Malabarista de infraestrutura, desenvolvedor Rails e o que mais precisar. Ele mora na internet e gosta de todas as novas buzz words.
+
+  social:
+    agenda: Agenda
+    interested: Interessado em uma palestra, curso ou evento?
+    contact: Entre em contato »
+
+  contact:
+    title: Entre em contato
+    name: Nome
+    name_placeholder: Seu nome completo
+    email_placeholder: usuario@dominio.com
+    message: Mensagem
+    send:  enviar »
+    message_placeholder: Escreva sua mensagem
+
+  colophon:
+    five_years: 5 anos

@@ -2,6 +2,6 @@
   .wrapper
     %section
       #softa_logo= link_to image_tag('softa.png'), root_path
-      %h1 Desenvolvemos aplicações <em class="web_two">web 2.0</em> usando <em class="ruby_on_rails">Ruby on Rails</em> e <em class="postgresql">PostgreSQL</em>, aliando o melhor da tecnologia <em class="open_source">Open Source</em> aos <em class="methods">métodos certos</em> para realizar seus projetos no <em class="methods">menor tempo</em> e com a <em class="methods">maior qualidade</em>.
+      %h1= raw t 'description.punchline'
       .clear
-      #{link_to('Envie seu projeto »', '#', :class => 'call_to_action')}
+      #{link_to(t('description.call_to_action'), '#contact_us', :class => 'call_to_action')}

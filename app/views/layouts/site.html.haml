@@ -5,19 +5,19 @@
     %meta{ :charset => 'UTF-8' }
     /[if IE]
       %meta{ 'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge;chrome=1' }
-    %title Softa · Aplicações web 2.0 em Rails e PostgreSQL
-    %meta{ :name => 'robots', :content => 'index, follow' }
-    %meta{ :name => 'description', :content => 'Aplicações web 2.0. O melhor do open source: Ruby on Rails e PostgreSQL. Nós utilizamos as melhores tecnologias aliadas aos métodos certos para desenvolver seus projetos no menor tempo e com a maior qualidade.' }
-    %meta{ :name => 'author', :content => 'Softa' }
-    %meta{ :name => 'keywords', :content => 'web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0, ui, ux' }
+    %title= t 'head.title'
+    %meta{ :name => :robots, :content => 'index, follow' }
+    %meta{ :name => :description, :content => t('head.description') }
+    %meta{ :name => :author, :content => 'Softa' }
+    %meta{ :name => :keywords, :content => 'web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0, ui, ux' }
     %meta{ :name => 'viewport', :content=> 'width=device-width; initial-scale=1.0; maximum-scale=1.0;' }
     = stylesheet_link_tag 'screen.css', 'shadowbox.css', :media => 'screen, projection'
     /[if IE]
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
       = javascript_include_tag 'selectivizr/selectivizr'
-    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter', 'juitter/system', 'zrssfeed/jquery.zrssfeed.min', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo', 'shadowbox/shadowbox'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter', 'juitter/system', 'zrssfeed/jquery.zrssfeed.min', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo', 'shadowbox/shadowbox', 'jquery.lazyload.mini'
     = csrf_meta_tag
-    :javascript 
+    :javascript
       Shadowbox.init({
         overlayOpacity: 0.8,
         animate: false
@@ -41,6 +41,6 @@
     %footer= render 'layouts/footer'
     .post_footer
       #colophon
-        %p #{image_tag 'softa_footer.png'} · 2010 · 5 anos
+        %p #{image_tag 'softa_footer.png'} · 2010 · #{t('colophon.five_years')}
     = javascript_include_tag 'softa'
     = render 'layouts/google_analytics'

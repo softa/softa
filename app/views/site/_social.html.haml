@@ -10,21 +10,20 @@
         #softa_blog_rss
     #calendar
       %section
-        %h2 Agenda
+        %h2= t 'social.agenda'
         #softa_calendar_rss
-          -#
-            %ul
-              - @events.each do |event|
-                %li
-                  %time.when{ :datetime => event.when }= event.when
-                  %h3.what
-                    %a.event_link{:href => event.link }= event.title
-                  %h4.where= event.where
-                  .clear
-                  %p= event.desc
-                  %p.event_url #{link_to event.event_url}
+          %ul
+            - @events.each do |event|
+              %li
+                %time.when{ :datetime => event.when }= event.when
+                %h3.what
+                  %a.event_link{:href => event.link }= event.title
+                %h4.where= event.where
+                .clear
+                %p= event.desc
+                %p.event_url #{link_to event.event_url}
         .separator #{image_tag 'separator.png'}
         .event_contact
-          %h3 Interessado em uma palestra, curso ou evento?
-          %p #{mail_to 'contato@softa.com.br',  'Entre em contato »' }
+          %h3= t 'social.interested'
+          %p #{mail_to 'contato@softa.com.br',  t('social.contact') }
     .clear
