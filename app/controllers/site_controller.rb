@@ -2,6 +2,8 @@ class SiteController < ApplicationController
 
   caches_page :index
 
+  # Used to redirect a users that enters "softa.com.br"
+  # based on his IP.
   def set_initial_locale
     redirect_to "/#{lookup}"
   end
@@ -11,7 +13,6 @@ class SiteController < ApplicationController
     @events = []
     require 'open-uri'
     require 'ostruct'
-    #raise open('http://blog.softa.com.br/rss.xml').read
     doc = Hpricot.XML(open('http://blog.softa.com.br/rss.xml').read)
     @posts = (doc/'item')[0..4].map do |item|
       OpenStruct.new({
@@ -20,9 +21,14 @@ class SiteController < ApplicationController
         :desc => view_context.strip_tags((item%'description').inner_text).gsub(/\s+/, ' ')[0..150]
       })
     end
-    #raise @posts.inspect
   end
 
+  def contact
+    Site.deliver_contact(params)
+    render :json => {:ok => true}.to_json
+  rescue 
+    render :json => {:ok => false}.to_json
+  end
 protected
 
   def lookup
