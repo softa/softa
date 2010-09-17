@@ -1,5 +1,6 @@
 class SiteController < ApplicationController
 
+  VALID_LANGS = %w{pt en es fr}
   caches_page :index
 
   # Used to redirect a users that enters "softa.com.br"
@@ -9,7 +10,7 @@ class SiteController < ApplicationController
   end
 
   def index
-    
+    return redirect_to '/en' unless VALID_LANGS.include?(params[:lang])
     I18n.locale = params[:lang]
     @events = YAML.load_file("#{Rails.root}/config/schedule.yml")
     require 'open-uri'
@@ -24,12 +25,21 @@ class SiteController < ApplicationController
     end
   end
 
+  # Used to expire cache
+  # It would be nice if tumblr had a hook for it
+  # It would...
+  def cache
+    render :text => VALID_LANGS.map{|lang| File.delete("#{Rails.root}/public/#{lang}.html") rescue "#{lang} not found" }.join("<br />")
+  end
+
+  # Sends the email via ajax.
   def contact
     Site.deliver_contact(params)
     render :json => {:ok => true}.to_json
   rescue 
     render :json => {:ok => false}.to_json
   end
+
 protected
 
   def lookup
