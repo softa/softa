@@ -59,6 +59,10 @@ pt:
     title: Entre em contato
     name: Nome
     name_placeholder: Seu nome completo
+    name_required: Você precisa preencher seu nome para poder enviar.
+    email_required: Você precisa preencher seu email para poder enviar.
+    invalid_email: Formato de email inválido. Tente novamente.
+    message_required: Você precisa escrever uma mensagem para poder enviar.
     email_placeholder: usuario@dominio.com
     message: Mensagem
     send:  enviar »
