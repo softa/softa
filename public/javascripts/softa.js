@@ -1,6 +1,5 @@
-$('img').lazyload({
-	 placeholder : "img/grey.gif",       
-     effect      : "fadeIn"});
+$('img').lazyload({ placeholder: "/images/spaceball.gif", effect: "fadeIn"});
+
 $('form#contact_us').submit(function(){
   var data = $(this).serialize()
   var url = $(this).attr('action')
@@ -27,8 +26,7 @@ $("a[href^='#']").click(function(){
 })
 var emphasis = [".web_two",".ruby_on_rails",".postgresql",".open_source",".methods"]
 function change_emphasis(emphasis, index){
-  if(index > 0)
-    $(emphasis[index - 1]).removeClass('active').addClass('passed')
+  if(index > 0) $(emphasis[index - 1]).removeClass('active').addClass('passed')
   if(index == emphasis.length){
     return
   }else{

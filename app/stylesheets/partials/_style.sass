@@ -1,6 +1,5 @@
 @import "blueprint/reset", "blueprint/grid", "partials/forms", "blueprint/typography", "blueprint/utilities", "compass/css3"
-@import "partials/description", "partials/mailee", "partials/methodology", "partials/labs", "partials/social", "partials/staff", "partials/rsonrails"
-@import "partials/apple_overlay"
+@import "partials/description", "partials/mailee", "partials/method", "partials/labs", "partials/social", "partials/staff", "partials/rsonrails"
 body
   +blueprint-typography(true)
   +blueprint-utilities
@@ -82,16 +81,12 @@ body
     text-shadow: #fff 0 1px 0
     #softa_description
       padding-top: 50px
-      #softa_logo
-        text-align: center
-        img
-          padding-top: 20px
-    #softa_description, #softa_methodology, #softa_labs, #softa_staff
+    #softa_description, #softa_method, #softa_labs, #softa_staff
       h1
         padding: .25em 0 .75em 0
       .wrapper section
         padding: 1em 0
-    #softa_methodology, #softa_staff
+    #softa_method, #softa_staff
       -webkit-font-smoothing: subpixel-antialiased
     #softa_mailee .wrapper section
       padding: 1em 0 0 0
@@ -136,7 +131,7 @@ body
       margin: 0
       -webkit-font-smoothing: subpixel-antialiased
       img
-        vertical-align: text-bottom
+        vertical-align: middle
 #back_to_top
   display: none
   position: fixed
@@ -144,3 +139,27 @@ body
   right: 15px
   img
     border: 0 none
+#site_call_to_action, #mailee_call_to_action
+  background-position: left top
+  height: 44px
+  display: block
+  padding-top: 4px
+  font:
+    size: 26px
+    weight: 900
+  text:
+    align: center
+    shadow: rgba(0,0,0,.3) 0 -1px 0
+  color: white
+  &:hover
+    background-position: right top
+    text-decoration: none
+  &:active
+    background-position: left top
+    text-decoration: none
+#site_call_to_action
+  background-image: url(/images/site_call_to_action.png)
+  width: 400px
+#mailee_call_to_action
+  background-image: url(/images/mailee_call_to_action.png)
+  width: 325px

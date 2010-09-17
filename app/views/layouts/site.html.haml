@@ -18,10 +18,7 @@
     = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter', 'juitter/system', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo', 'shadowbox/shadowbox', 'jquery.lazyload.mini'
     = csrf_meta_tag
     :javascript
-      Shadowbox.init({
-        overlayOpacity: 0.8,
-        animate: false
-      });
+      Shadowbox.init({ overlayOpacity: 0.8, animate: false });
     %link{ :rel => 'apple-touch-icon-precomposed', :href => 'apple-touch-icon.png'}
     %link{ :rel => 'shortcut icon', :href => 'favicon.ico' }
   %body#top
