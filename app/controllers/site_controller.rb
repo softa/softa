@@ -7,8 +7,9 @@ class SiteController < ApplicationController
   end
 
   def index
+    
     I18n.locale = params[:lang]
-    @events = []
+    @events = YAML.load_file("#{Rails.root}/config/schedule.yml")
     require 'open-uri'
     require 'ostruct'
     #raise open('http://blog.softa.com.br/rss.xml').read
