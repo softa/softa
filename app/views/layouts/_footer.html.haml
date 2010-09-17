@@ -1,6 +1,10 @@
 .wrapper
   #softa_contact
     %h1= t 'contact.title'
+    #contact_us_success{:style => 'display:none'}
+      Aeeeeeeee!
+    #contact_us_failure{:style => 'display:none'}
+      Boooooooooo!
     %form#contact_us{ :name => :contact_form, :action => '/contact', :method => :post }
       = token_tag
       %fieldset
@@ -20,7 +24,7 @@
         %textarea#contact_us_message{ :name => :message, :placeholder => t('contact.message_placeholder'), :wrap => 'soft', :rows => 4 }
         #contact_us_message_required= t('contact.message_required')
       %fieldset.submit_button
-        %button{ :type => :submit, :form => :contact_form }= t 'contact.send'
+        %button#send_button{ :type => :submit, :form => :contact_form }= t 'contact.send'
   #where_to_find_us
     %address{:style => 'text-align:right;'}
       %a{ :href => 'http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Softa&sll=-30.039703,-51.2104&sspn=0.001983,0.004128&ie=UTF8&hq=*&hnear=&ll=-30.039526,-51.210752&spn=0.001983,0.004128&z=19&iwloc=A&cid=3597396454165080845', :target => :_blank } #{image_tag 'where_are_we.gif', :style => 'margin-bottom:.5em; margin-top:1em; border:0 none;'}

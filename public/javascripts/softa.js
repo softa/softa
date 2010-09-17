@@ -6,31 +6,46 @@ $('form#contact_us').submit(function(){
     $('#contact_us_name').focus()
     $('#contact_us_name_required').slideDown()
     return false
+  }else{
+    $('#contact_us_name_required').slideUp()
   }
+  email_re = /^[a-z0-9\._-]+@([a-z0-9][a-z0-9-_]*[a-z0-9-_]\.)+([a-z-_]+\.)?([a-z-_]+)$/
   if( ! $('#contact_us_email').val() ){
     $('#contact_us_email').focus()
     $('#contact_us_email_required').slideDown()
     return false
-  }
-  email_re = /^[a-z0-9\._-]+@([a-z0-9][a-z0-9-_]*[a-z0-9-_]\.)+([a-z-_]+\.)?([a-z-_]+)$/
-  if( ! $('#contact_us_email').val().match(email_re) ){
+  }else if( ! $('#contact_us_email').val().match(email_re) ){
     $('#contact_us_email').focus()
+    $('#contact_us_email_required').slideUp()
     $('#contact_us_email_invalid').slideDown()
     return false
+  }else{
+    $('#contact_us_email_required').slideUp()
+    $('#contact_us_email_invalid').slideUp()
   }
+
   if( ! $('#contact_us_message').val() ){
     $('#contact_us_message').focus()
     $('#contact_us_message_required').slideDown()
     return false
+  }else{
+    $('#contact_us_message_required').slideUp()
   }
-
+  $(this).find('input, textarea, button').attr('disabled', true)
   var data = $(this).serialize()
   var url = $(this).attr('action')
   $.post(url, data, function(result){
-	if(result['ok'])
-	  alert('Ok. pensar na mensagem aqui LT.')
-	else
-	  alert('Error. pensar na mensagem aqui LT.')
+    //$('#send_button').attr('disabled', true)
+    $('#contact_us').find('input, textarea, button').attr('disabled', false)
+  	if(result['ok']){
+      $('#contact_us').find('input, textarea').val('')
+      $('#contact_us').fadeOut()
+      $('#contact_us_success').fadeIn()
+	  }else{
+      $('#contact_us').fadeOut()
+      $('#contact_us_failure').fadeIn()
+    }
+
   }, 'json')
   return false
 })
