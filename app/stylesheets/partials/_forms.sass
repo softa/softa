@@ -28,6 +28,23 @@ form
         color: white
         border-color: (#f90 - #666)
         outline: 0 none
+    #contact_us_name_required, #contact_us_email_required, #contact_us_message_required, #contact_us_email_invalid
+      +rounded(0px 0px 4px 4px)
+      display: none
+      margin-left: 12px
+      margin-top: 1px
+      width: 360px
+      font:
+        size: 11px
+        weight: 900
+      color: white
+      padding: 4px 10px
+    #contact_us_name_required, #contact_us_email_required, #contact_us_message_required
+      background: $orange
+      text-shadow: $social 0 -1px 0
+    #contact_us_email_invalid
+      background: $red
+      text-shadow: ($red - $grey) 0 -1px 0
     input[type="text"], input[type="email"], input[type="password"]
       height: 30px
     textarea
