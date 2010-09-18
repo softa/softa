@@ -40,7 +40,7 @@ pt:
     hstore:
       desc: Suporte ao campo <samp>hstore</samp> do PostgreSQL no <samp>ActiveRecord</samp>. Adeus <samp>serialize</samp>.
     hercules:
-      desc: TODO
+      desc: Deploy a la Heroku encontra integração contínua.
 
   staff:
     dw: Gerente do ócio criativo, vai nas reuniões que ninguém mais quer ir. Tanguero, músico, e apaixonado pelo marketing do respeito.

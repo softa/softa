@@ -14,16 +14,21 @@ body #softa_staff
     background-color: ($orange - #2d2d2d)
     background-clip: padding-box
     margin-bottom: 1em
+    &:hover
+      .picture
+        background-position: right top
+    .picture
+      +box-shadow(#333,0,0,3px)
+      width: 84px
+      height: 84px
+      margin: 18px 0 16px 16px
+      border: 1px solid ($orange + #222)
+      background-position: left top
     a
       color: ($orange + #2d2d2d)
       text-shadow: ($orange - #444) 0 -1px 0
     .image
       +column(3)
-      img
-        +box-shadow(#333,0,0,3px)
-        width: 84px
-        margin: 18px 0 16px 16px
-        border: 1px solid ($orange + #222)
     .info
       +column(8, last)
       padding-top: .75em
@@ -47,3 +52,15 @@ body #softa_staff
           weight: 900
         padding: 0
         margin: 0 0 1em 0
+#daniel_weinmann .picture
+  background-image: url(/images/staff/dw_dw.jpg)
+#diogo_biazus .picture
+  background-image: url(/images/staff/db_db.jpg)
+#felipe_cabral .picture
+  background-image: url(/images/staff/fc_fc.jpg)
+#juan_maiz .picture
+  background-image: url(/images/staff/jm_jm.jpg)
+#leonardo_tartari .picture
+  background-image: url(/images/staff/lt_lt.jpg)
+#pedro_axelrud .picture
+  background-image: url(/images/staff/pa_pa.jpg)
