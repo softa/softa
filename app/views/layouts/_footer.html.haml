@@ -30,8 +30,10 @@
       %fieldset.submit_button
         %button#send_button{ :type => :submit, :form => :contact_form }= t 'contact.send'
   #where_to_find_us
+    %p
+      %a{ :href => 'http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Softa&sll=-30.039703,-51.2104&sspn=0.001983,0.004128&ie=UTF8&hq=*&hnear=&ll=-30.039526,-51.210752&spn=0.001983,0.004128&z=19&iwloc=A&cid=3597396454165080845', :target => :_blank }
+        #{image_tag 'where_are_we.gif'}
     %address{:style => 'text-align:right;'}
-      %a{ :href => 'http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Softa&sll=-30.039703,-51.2104&sspn=0.001983,0.004128&ie=UTF8&hq=*&hnear=&ll=-30.039526,-51.210752&spn=0.001983,0.004128&z=19&iwloc=A&cid=3597396454165080845', :target => :_blank } #{image_tag 'where_are_we.gif', :style => 'margin-bottom:.5em; margin-top:1em; border:0 none;'}
       %br
       Rua Vieira de Castro, 262 / 202
       %br

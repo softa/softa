@@ -1,5 +1,7 @@
 en:
 
+  lang: 'en'
+
   head:
     title: Softa · Web 2.0 apps with Rails and PostgreSQL
     description: "Web 2.0 apps. TODO"

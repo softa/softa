@@ -55,7 +55,11 @@ body
     nav
       display: block
       padding: 16px 0 0 0
+      span
+        color: $orange + #444
+        padding: 0 6px
       .right
+        line-height: 15px
         float: right
         a
           padding-right: 4px
@@ -66,7 +70,6 @@ body
             opacity: 1
       a, a:visited
         color: white
-        padding-right: 20px
         text-shadow: ($orange - #333) 0 -1px 0
         font-weight: 900
         &:hover
@@ -118,6 +121,24 @@ body
       +column(12)
     #where_to_find_us
       +column(12,last)
+      p
+        +rounded(6px)
+        +background-clip('border')
+        margin: 0
+        line-height: 0px
+        text-align: center
+        background: black
+        border: 1px solid #444
+        -webkit-transition: background .25s ease-in
+        &:hover
+          background-color: $orange
+        &:active
+          background-color: $orange - #444
+          position: relative
+          top: 1px
+        a img
+          margin: 8px
+          border: 1px solid #ddd
   .post_footer
     border-top: 1px solid #222
     background: black

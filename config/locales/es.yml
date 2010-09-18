@@ -1,5 +1,7 @@
 es:
 
+  lang: 'es'
+
   head:
     title: Softa · Hola! Arriba!
     description: "Web 2.0 apps. TODO"

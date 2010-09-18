@@ -1,5 +1,7 @@
 pt:
 
+  lang: 'pt-br'
+
   head:
     title: Softa · Aplicações web 2.0 em Rails e PostgreSQL
     description: "Aplicações web 2.0. O melhor do open source: Ruby on Rails e PostgreSQL. Nós utilizamos as melhores tecnologias aliadas aos métodos certos para desenvolver seus projetos no menor tempo e com a maior qualidade."
