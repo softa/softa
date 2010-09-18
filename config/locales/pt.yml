@@ -74,6 +74,12 @@ pt:
     message: Mensagem
     send:  enviar »
     message_placeholder: Escreva sua mensagem
+    send_ok_title: Mensagem enviada com sucesso!
+    send_ok_message: Obrigado. Em breve retornaremos seu contato.
+    send_error_title: Ocorreu um erro ao enviar a mensagem.
+    send_error_message: Tente novamente ou, se preferir, envie um email para contato@softa.com.br.
+    send_another_message: Enviar outra mensagem ».
+    try_again: Tentar novamente »
 
   colophon:
     five_years: 5 anos

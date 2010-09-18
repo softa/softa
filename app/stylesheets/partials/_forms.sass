@@ -55,6 +55,7 @@ form
       -webkit-transition: color .5s ease-in
     button[type="submit"]
       +rounded(3em)
+      cursor: pointer
       padding: 6px 1em 8px 1em
       margin-top: 1em
       border: 0 none
@@ -80,3 +81,19 @@ form
     input[type="text"], input[type="email"], input[type="password"], textarea, button[type="submit"]
       &:focus, &:active, &:hover
         outline: 0 none
+#contact_us_success,#contact_us_failure
+  h3
+    font:
+      family: Georgia, Times, 'Times New Roman', Serif, serif
+      style: italic
+      weight: 100
+      size: 18px
+    padding: 14px 0
+    text-shadow: #000 1px 1px 2px
+  p
+    color: white
+    font-size: 14px
+#contact_us_success h3
+  color: $green
+#contact_us_failure h3
+  color: $red

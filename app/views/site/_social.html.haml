@@ -6,14 +6,16 @@
         #softa_twitter
     #blog
       %section
-        %h2 Blog
+        %h2
+          #{link_to 'Blog', 'http://blog.softa.com.br/', :target=> :_blank}
         #softa_blog
           %ul
             - @posts.each do |post|
               %li
                 %h3.what
-                  %a.event_link{:href => post.link }= post.title
-                %p #{post.desc}...
+                  #{ link_to post.title, post.link, :target=> :_blank, :class => 'event_link'}
+                %p
+                  #{post.desc}…
     #calendar
       %section
         %h2= t 'social.agenda'
@@ -23,13 +25,19 @@
               %li
                 %time.when{ :datetime => event[:when] }= event[:when]
                 %h3.what
-                  %a.event_link{:href => event[:link] }= event[:title]
-                %h4.where= event[:where]
+                  #{link_to event[:title], event[:title_link], :class => 'event_link', :target=> :_blank}
+                %h4.where
+                  #{event[:where]}
                 .clear
-                %p= event[:desc]
-                %p.event_url #{link_to event[:event_site]}
-        .separator #{image_tag 'separator.png'}
+                %p
+                  #{truncate(event[:desc], :length => 100, :separator => '.', :omission => '…')}
+                %p.event_url
+                  #{link_to event[:event_site], event[:event_site], :target=> :_blank}
+        .separator
+          #{image_tag 'separator.png'}
         .event_contact
-          %h3= t 'social.interested'
-          %p #{mail_to 'contato@softa.com.br',  t('social.contact') }
+          %h3
+            #{t('social.interested')}
+          %p
+            #{mail_to 'contato@softa.com.br',  t('social.contact'), :target=> :_blank }
     .clear

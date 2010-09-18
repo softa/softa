@@ -2,9 +2,13 @@
   #softa_contact
     %h1= t 'contact.title'
     #contact_us_success{:style => 'display:none'}
-      Aeeeeeeee!
+      %h3 #{t('contact.send_ok_title')}
+      %p #{t('contact.send_ok_message')}
+      %p.send_another #{link_to t('contact.send_another_message'), '#'}
     #contact_us_failure{:style => 'display:none'}
-      Boooooooooo!
+      %h3 #{t('contact.send_error_title')}
+      %p #{t('contact.send_error_message')}
+      %p.send_another #{link_to t('contact.try_again'), '#'}
     %form#contact_us{ :name => :contact_form, :action => '/contact', :method => :post }
       = token_tag
       %fieldset
@@ -15,7 +19,7 @@
       %fieldset
         %label{ :for => :contact_us_email } Email
         %br
-        %input#contact_us_email{ :name => :email, :type => :email, :placeholder => t('contact.email_placeholder'), :pattern => "/^[a-z0-9\._-]+@([a-z0-9][a-z0-9-_]*[a-z0-9-_]\.)+([a-z-_]+\.)?([a-z-_]+)$/"}
+        %input#contact_us_email{ :name => :email, :type => :email, :placeholder => t('contact.email_placeholder')}
         #contact_us_email_required= t('contact.email_required')
         #contact_us_email_invalid= t('contact.invalid_email')
       %fieldset

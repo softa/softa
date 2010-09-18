@@ -37,16 +37,22 @@ $('form#contact_us').submit(function(){
   $.post(url, data, function(result){
     //$('#send_button').attr('disabled', true)
     $('#contact_us').find('input, textarea, button').attr('disabled', false)
-  	if(result['ok']){
+    if(result['ok']){
       $('#contact_us').find('input, textarea').val('')
       $('#contact_us').fadeOut()
       $('#contact_us_success').fadeIn()
-	  }else{
+    }else{
       $('#contact_us').fadeOut()
       $('#contact_us_failure').fadeIn()
     }
-
   }, 'json')
+  return false
+})
+
+$('.send_another').click(function(){
+  $('#contact_us_success').hide()
+  $('#contact_us_failure').hide()
+  $('#contact_us').fadeIn()
   return false
 })
 
