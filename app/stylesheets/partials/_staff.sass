@@ -11,12 +11,16 @@ body #softa_staff
   #daniel_weinmann, #diogo_biazus, #felipe_cabral, #juan_maiz, #leonardo_tartari, #pedro_axelrud
     +two-box-shadow(($orange + #222) 0 1px 0, ($orange - #444) 0 1px 0 inset)
     +rounded(4px)
+    height: 9em
     background-color: ($orange - #2d2d2d)
     background-clip: padding-box
     margin-bottom: 1em
     &:hover
       .picture
         background-position: right top
+    &:active
+      .picture
+        background-position: right bottom
     .picture
       +box-shadow(#333,0,0,3px)
       width: 84px
@@ -24,7 +28,7 @@ body #softa_staff
       margin: 18px 0 16px 16px
       border: 1px solid ($orange + #222)
       background-position: left top
-      -webkit-transition: background-position .2s ease-in
+      -webkit-transition: background-position .2s ease-in-out
     a
       color: ($orange + #2d2d2d)
       text-shadow: ($orange - #444) 0 -1px 0

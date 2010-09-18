@@ -6,7 +6,7 @@
           .work_showcase_info
             %h3= link_to image_tag('maileeme/maileeme_logo.png', :alt => 'Mailee.me - Email marketing 2.0'), 'http://mailee.me'
             %p= t 'mailee.description'
-            #{ link_to t('mailee.twitter'), 'http://twitter.com/maileeme', :target => :_blank }
+            #{ link_to t('mailee.twitter'), 'http://twitter.com/maileeme', :target => :_blank, :class => :follow_on_twitter }
             #{ link_to t('mailee.blog'), 'http://blog.mailee.me' }
             %ul.showcase_more_images
               %li= link_to image_tag('maileeme/maileeme_small_one.jpg'), image_path('maileeme/maileeme_one.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'
