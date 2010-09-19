@@ -1,5 +1,7 @@
 en:
 
+  lang: 'en'
+
   head:
     title: Web 2.0 apps with Ruby on Rails and PostgreSQL · Softa
     description: "Web 2.0 apps. The best of open source: Ruby on Rails and PostgreSQL. We use the best technologies together with the right methods to develop your projects in less time and with the greatest quality."
@@ -14,55 +16,73 @@ en:
     contact: Contact
 
   description:
-    punchline: "We develop <em class='web_two'>web 2.0</em> apps using <em class='ruby_on_rails'>Ruby on Rails</em> and <em class='postgresql'>PostgreSQL</em>, combining the best of <em class='open_source'>Open Source</em> technologies with the <em class='methods'>right methods</em> to make your projects in <em class='methods'>less time</em> and with the <em class='methods'>greatest quality</em>."
+    punchline: "We develop <em class='web_two'>web 2.0</em> apps using <em class='ruby_on_rails'>Ruby on Rails</em> and <em class='postgresql'>PostgreSQL</em>, combining the best of <em class='open_source'>Open Source</em> with the <em class='methods'>right methods</em> to make your projects in <em class='methods'>less time</em> and with the <em class='methods'>greatest quality</em>."
     call_to_action: send us your project »
 
   mailee:
-    description: Mailee.me is a web 2.0 app for email marketing. Created in Ruby on Rails and PostgreSQL, and focused in usability, it has a templates creator, geolocation, social networks integration
+    description: Mailee.me is a web 2.0 app for email marketing. Created in Ruby on Rails and PostgreSQL, and focused in usability, it has a template creator, geolocation, social networks integration and smart anti-SPAM features.
     twitter: follow on Twitter »
     blog: read the Blog »
-    signup: signup free »
+    signup: signup for free »
 
   method:
     title: Method
     contact: get in touch
     agile:
       title: Agile methods
-      desc: <p>Blah</p><p>Blah</p>
+      desc: <p>Using agile methods means putting people first. The success of a software project starts with a qualified team that loves its work. Client as a team member, open communication and focus on results complement the recipe.</p><p>We believe that there are no dogmas in software development and that what matters the most is continuous learning.</p>
     quality:
       title: Quality
-      desc: <p>Blah</p><p>Blah</p>
+      desc: <p>User experience determines the quality of a software. That's why we dedicate most of our efforts to create well designed and well drawn interfaces.</p><p>Besides that, we use a variety of techniques to create high-quality systems. Version control with git, automated testing, test coverage checking, continuous integration and automated deployment are among them.</p>
     tech:
       title: Tech
-      desc: <p>Blah</p><p>Blah</p>
+      desc: <p>Technology companies should not be afraid to experiment. We are always studying new tools and testing new platforms. Today, we work primarily with Ruby on Rails and PostgreSQL.</p><p>Our utility belt also has languages such as C, JavaScript (Node.js), Python, Erlang and Haskell.</p>
 
   labs:
     hstore:
-      desc: Adds support for the PostgreSQL's <samp>hstore</samp> type on <samp>ActiveRecord</samp>. Goodbye <samp>serialize</samp>.
+      desc: Add support for PostgreSQL's <samp>hstore</samp> type on <samp>ActiveRecord</samp>. Goodbye <samp>serialize</samp>.
     hercules:
-      desc: TODO
+      desc: <samp>Heroku</samp> style deployment meets <samp>continuous integration</samp>
+    source: source
 
   staff:
-    dw: TOOOOODO
-    db: TODO
-    fc: TODO
-    jm: TODO
+    dw: Manager of creative leisure, goes to the meetings nobody else wants to go. Tanguero, musician, and passionate about respect marketing.
+    db: Data Architect. He likes self-explanatory, self-referential and self-cleaning structures.
+    fc: Tireless support, aikidoka and amateur cyclist. Lover of craft beers and PR in his spare time.
+    jm: Rails, JavaScript and other less orthodox things developer. Celebrates effusively when he delivers with zero bugs.
     lt: Design, typography, UI <em class='alternate'>&</em> UX enthusiast. Obsessive for details, does not forgive one pixel mistakes.
-    pa: TODO
+    pa: Infrastructure juggler, Rails developer and anything else you need. He lives on Internet and enjoys all new buzz words.
+    xkcd:
+      dw: "Don't worry: he always shows up."
+      db: TODO
+      fc: Smell like a man, Man!
+      jm: TODO
+      lt: Take this cursor out of my face!
+      pa: TODO
 
   social:
-    agenda: Agenda
-    interested: TODO
+    agenda: schedule
+    interested: Interested in a lecture, course or event?
     contact: Get in touch »
 
   contact:
     title: Get in touch
     name: Name
-    name_placeholder: Your complete name
+    name_placeholder: Your full name
+    name_required: You must fill in your name to post.
+    email_required: You must fill in your email to post.
+    invalid_email: Invalid email format. Please try again.
     email_placeholder: user@domain.com
+    message_required: You must write a message to post.
     message: Message
     send: send »
     message_placeholder: Write your message
+    send_ok_title: Message sent successfully!
+    send_ok_message: Thank you. We'll get in touch soons.
+    send_error_title: Ooops. Something went wrong.
+    send_error_message: Please try again or, if you prefer, send us an email at contato@softa.com.br.
+    send_another_message: Send another message »
+    try_again: Try again »
 
   colophon:
     five_years: 5 years

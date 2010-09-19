@@ -1,17 +1,20 @@
 class SiteController < ApplicationController
 
+  VALID_LANGS = %w{pt en es fr}
   caches_page :index
 
+  # Used to redirect a users that enters "softa.com.br"
+  # based on his IP.
   def set_initial_locale
     redirect_to "/#{lookup}"
   end
 
   def index
+    return redirect_to '/en' unless VALID_LANGS.include?(params[:lang])
     I18n.locale = params[:lang]
-    @events = []
+    @events = YAML.load_file("#{Rails.root}/config/schedule.yml")
     require 'open-uri'
     require 'ostruct'
-    #raise open('http://blog.softa.com.br/rss.xml').read
     doc = Hpricot.XML(open('http://blog.softa.com.br/rss.xml').read)
     @posts = (doc/'item')[0..4].map do |item|
       OpenStruct.new({
@@ -20,7 +23,22 @@ class SiteController < ApplicationController
         :desc => view_context.strip_tags((item%'description').inner_text).gsub(/\s+/, ' ')[0..150]
       })
     end
-    #raise @posts.inspect
+  end
+
+  # Used to expire cache
+  # It would be nice if tumblr had a hook for it
+  # It would...
+  def cache
+    render :text => VALID_LANGS.map{|lang| File.delete("#{Rails.root}/public/#{lang}.html") rescue "#{lang} not found" }.join("<br />")
+  end
+
+  # Sends the email via ajax.
+  def contact
+    # raise "FAILURE"
+    Site.deliver_contact(params)
+    render :json => {:ok => true}.to_json
+  rescue 
+    render :json => {:ok => false}.to_json
   end
 
 protected

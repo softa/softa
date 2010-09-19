@@ -1,5 +1,7 @@
 fr:
 
+  lang: 'fr'
+
   head:
     title: Softa · Merci! Beacup!
     description: "Web 2.0 apps. TODO"
@@ -41,6 +43,7 @@ fr:
       desc: Adds support for the PostgreSQL's <samp>hstore</samp> type on <samp>ActiveRecord</samp>. Goodbye <samp>serialize</samp>.
     hercules:
       desc: TODO
+    source: TODO
 
   staff:
     dw: TOOOOODO
@@ -49,6 +52,13 @@ fr:
     jm: TODO
     lt: TODO
     pa: TODO
+    xkcd:
+      dw: TODO
+      db: TODO
+      fc: TODO
+      jm: TODO
+      lt: TODO
+      pa: TODO
 
   social:
     agenda: Agenda
@@ -56,13 +66,23 @@ fr:
     contact: Get in touch »
 
   contact:
-    title: Get in touch
-    name: Name
-    name_placeholder: Your complete name
-    email_placeholder: user@domain.com
-    message: Message
-    send: send »
-    message_placeholder: Write your message
+    title: Entre em contato
+    name: Nome
+    name_placeholder: Seu nome completo
+    name_required: Você precisa preencher seu nome para poder enviar.
+    email_required: Você precisa preencher seu email para poder enviar.
+    invalid_email: Formato de email inválido. Tente novamente.
+    message_required: Você precisa escrever uma mensagem para poder enviar.
+    email_placeholder: usuario@dominio.com
+    message: Mensagem
+    send:  enviar »
+    message_placeholder: Escreva sua mensagem
+    send_ok_title: Mensagem enviada com sucesso!
+    send_ok_message: Obrigado. Em breve retornaremos seu contato.
+    send_error_title: Ocorreu um erro ao enviar a mensagem.
+    send_error_message: Tente novamente ou, se preferir, envie um email para contato@softa.com.br.
+    send_another_message: Enviar outra mensagem ».
+    try_again: Tentar novamente »
 
   colophon:
     five_years: 5 years

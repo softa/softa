@@ -1,6 +1,6 @@
 !!!5
 = render 'layouts/softa'
-%html{ :lang => 'pt-br'}
+%html{ :lang => t('lang')}
   %head
     %meta{ :charset => 'UTF-8' }
     /[if IE]
@@ -9,8 +9,9 @@
     %meta{ :name => :robots, :content => 'index, follow' }
     %meta{ :name => :description, :content => t('head.description') }
     %meta{ :name => :author, :content => 'Softa' }
+    %link{ :rel => 'alternate', :href => 'http://blog.softa.com.br/rss.xml', :type => 'application/rss+xml', :title => 'RSS' }
     %meta{ :name => :keywords, :content => 'web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0, ui, ux' }
-    %meta{ :name => 'viewport', :content=> 'width=device-width; initial-scale=1.0; maximum-scale=1.0;' }
+    %meta{ :name => 'viewport', :content => 'width=device-width; initial-scale=1.0; maximum-scale=1.0;' }
     = stylesheet_link_tag 'screen.css', 'shadowbox.css', :media => 'screen, projection'
     /[if IE]
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
@@ -21,7 +22,8 @@
       Shadowbox.init({ overlayOpacity: 0.8, animate: false });
     %link{ :rel => 'apple-touch-icon-precomposed', :href => 'apple-touch-icon.png'}
     %link{ :rel => 'shortcut icon', :href => 'favicon.ico' }
-  %body#top
+  %body
+    #top
     #back_to_top #{link_to image_tag('to_top.png'), '#top' }
     %header= render 'layouts/navigation'
     #content= yield
@@ -29,6 +31,6 @@
     %footer= render 'layouts/footer'
     .post_footer
       #colophon
-        %p #{image_tag 'softa_footer.png'} · 2010 · #{t('colophon.five_years')}
+        %p 2010 ·#{image_tag('colophon.png')}· #{t('colophon.five_years')}
     = javascript_include_tag 'softa'
     = render 'layouts/google_analytics'

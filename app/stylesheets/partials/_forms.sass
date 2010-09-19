@@ -28,6 +28,23 @@ form
         color: white
         border-color: (#f90 - #666)
         outline: 0 none
+    #contact_us_name_required, #contact_us_email_required, #contact_us_message_required, #contact_us_email_invalid
+      +rounded(0px 0px 4px 4px)
+      display: none
+      margin-left: 12px
+      margin-top: 1px
+      width: 360px
+      font:
+        size: 11px
+        weight: 900
+      color: white
+      padding: 4px 10px
+    #contact_us_name_required, #contact_us_email_required, #contact_us_message_required
+      background: $orange
+      text-shadow: $social 0 -1px 0
+    #contact_us_email_invalid
+      background: $red
+      text-shadow: ($red - $grey) 0 -1px 0
     input[type="text"], input[type="email"], input[type="password"]
       height: 30px
     textarea
@@ -38,6 +55,7 @@ form
       -webkit-transition: color .5s ease-in
     button[type="submit"]
       +rounded(3em)
+      cursor: pointer
       padding: 6px 1em 8px 1em
       margin-top: 1em
       border: 0 none
@@ -58,8 +76,25 @@ form
         top: 1px
         background-color: #aaa
       &:focus
-        +box-shadow(0,0,6px,#fff)
-        background-color: #eee
+        +box-shadow(0,0,20px,$orange)
+        background-color: #fff
+        color: black
     input[type="text"], input[type="email"], input[type="password"], textarea, button[type="submit"]
       &:focus, &:active, &:hover
         outline: 0 none
+#contact_us_success,#contact_us_failure
+  h3
+    font:
+      family: Georgia, Times, 'Times New Roman', Serif, serif
+      style: italic
+      weight: 100
+      size: 18px
+    padding: 14px 0
+    text-shadow: #000 1px 1px 2px
+  p
+    color: white
+    font-size: 14px
+#contact_us_success h3
+  color: $green
+#contact_us_failure h3
+  color: $red

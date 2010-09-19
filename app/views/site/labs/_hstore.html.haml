@@ -1,13 +1,15 @@
-%article.labs_article
-  .article_images
-    = image_tag 'labs/hstore.jpg'
-  .article_title
-    %h2 ActiveRecord Postgres Hstore
-  .article_author
-    %h4 Juan Maiz
-  .article_content
-    %p
-      = raw t 'labs.hstore.desc'
-      %br
-      = link_to 'GitHub »', 'http://github.com/softa/activerecord-postgres-hstore'
+%article.labs_project
+  .project_language #{image_tag 'labs/ruby.png', :title => 'Ruby'}
+  .project_image #{link_to image_tag('labs/hstore_small.jpg'), image_path('labs/hstore.jpg'), :rel => 'shadowbox[Softa Labs - HStore]'}
+  .project_info  
+    %h2.project_title #{link_to 'Active Record Postgres Hstore', 'http://github.com/softa/activerecord-postgres-hstore', :target => :_blank}
+    %h4.project_author #{link_to 'Juan Maiz', 'http://github.com/softa', :target => :_blank}
+    %p.project_description= raw t 'labs.hstore.desc'
   .clear
+  %hr
+  .project_actions
+    .install
+      %code gem install activerecord-postgres-hstore
+    .action.view_source #{link_to t('labs.source'), 'http://github.com/softa/activerecord-postgres-hstore', :target => :_blank}
+    .action.download #{link_to 'download', 'http://github.com/softa/activerecord-postgres-hstore/archives/master', :target => :_blank}
+    .clear

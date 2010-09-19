@@ -1,25 +1,39 @@
 .wrapper
-  #contact_us
+  #softa_contact
     %h1= t 'contact.title'
-    %form#contact_us{ :name => :contact_form, :action => '#', :method => :post }
+    #contact_us_success{:style => 'display:none'}
+      %h3 #{t('contact.send_ok_title')}
+      %p #{t('contact.send_ok_message')}
+      %p.send_another #{link_to t('contact.send_another_message'), '#'}
+    #contact_us_failure{:style => 'display:none'}
+      %h3 #{t('contact.send_error_title')}
+      %p #{t('contact.send_error_message')}
+      %p.send_another #{link_to t('contact.try_again'), '#'}
+    %form#contact_us{ :name => :contact_form, :action => '/contact', :method => :post }
       = token_tag
       %fieldset
         %label{ :for => :contact_us_name }= t 'contact.name'
         %br
         %input#contact_us_name{ :name => :name, :type => :text, :placeholder => t('contact.name_placeholder') }
+        #contact_us_name_required= t('contact.name_required')
       %fieldset
         %label{ :for => :contact_us_email } Email
         %br
-        %input#contact_us_email{ :name => :email, :type => :email, :placeholder => t('contact.email_placeholder'), :pattern => "/^[a-z0-9\._-]+@([a-z0-9][a-z0-9-_]*[a-z0-9-_]\.)+([a-z-_]+\.)?([a-z-_]+)$/"}
+        %input#contact_us_email{ :name => :email, :type => :email, :placeholder => t('contact.email_placeholder')}
+        #contact_us_email_required= t('contact.email_required')
+        #contact_us_email_invalid= t('contact.invalid_email')
       %fieldset
         %label{ :for => :contact_us_message }= t 'contact.message'
         %br
         %textarea#contact_us_message{ :name => :message, :placeholder => t('contact.message_placeholder'), :wrap => 'soft', :rows => 4 }
+        #contact_us_message_required= t('contact.message_required')
       %fieldset.submit_button
-        %button{ :type => :submit, :form => :contact_form }= t 'contact.send'
+        %button#send_button{ :type => :submit, :form => :contact_form }= t 'contact.send'
   #where_to_find_us
+    %p
+      %a{ :href => 'http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Softa&sll=-30.039703,-51.2104&sspn=0.001983,0.004128&ie=UTF8&hq=*&hnear=&ll=-30.039526,-51.210752&spn=0.001983,0.004128&z=19&iwloc=A&cid=3597396454165080845', :target => :_blank }
+        #{image_tag 'where_are_we.gif'}
     %address{:style => 'text-align:right;'}
-      %a{ :href => 'http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Softa&sll=-30.039703,-51.2104&sspn=0.001983,0.004128&ie=UTF8&hq=*&hnear=&ll=-30.039526,-51.210752&spn=0.001983,0.004128&z=19&iwloc=A&cid=3597396454165080845', :target => :_blank } #{image_tag 'where_are_we.gif', :style => 'margin-bottom:.5em; margin-top:1em; border:0 none;'}
       %br
       Rua Vieira de Castro, 262 / 202
       %br

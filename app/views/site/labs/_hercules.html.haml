@@ -1,13 +1,15 @@
-%article.labs_article
-  .article_images
-    = image_tag 'labs/hercules.jpg'
-  .article_title
-    %h2 Hercules
-  .article_author
-    %h4 Diogo Biazus
-  .article_content
-    %p
-      = raw t 'labs.hercules.desc'
-      %br
-      = link_to 'GitHub »', 'http://github.com/softa/hercules'
+%article.labs_project
+  .project_language #{image_tag 'labs/ruby.png', :title => 'Ruby'}
+  .project_image #{link_to image_tag('labs/hercules_small.jpg'), image_path('labs/hercules.jpg'), :rel => 'shadowbox[Softa Labs - Hercules]'}
+  .project_info
+    %h2.project_title #{link_to 'Hercules', 'http://github.com/diogob/hercules', :target => :_blank}
+    %h4.project_author #{link_to 'Diogo Biazus', 'http://github.com/diogob', :target => :_blank}
+    %p.project_description= raw t('labs.hercules.desc')
   .clear
+  %hr
+  .project_actions
+    .install
+      %code gem install hercules
+    .action.view_source #{link_to t('labs.source'), 'http://github.com/diogob/hercules', :target => :_blank}
+    .action.download #{link_to 'download', 'http://github.com/diogob/hercules/archives/master', :target => :_blank}
+    .clear

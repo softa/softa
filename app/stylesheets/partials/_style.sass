@@ -55,7 +55,11 @@ body
     nav
       display: block
       padding: 16px 0 0 0
+      span
+        color: $orange + #444
+        padding: 0 6px
       .right
+        line-height: 15px
         float: right
         a
           padding-right: 4px
@@ -66,7 +70,6 @@ body
             opacity: 1
       a, a:visited
         color: white
-        padding-right: 20px
         text-shadow: ($orange - #333) 0 -1px 0
         font-weight: 900
         &:hover
@@ -114,22 +117,39 @@ body
       color: #000
       text-shadow: #555 0 1px 0
       padding: .25em 0 .5em 0
-    #contact_us
+    #softa_contact
       +column(12)
     #where_to_find_us
       +column(12,last)
+      p
+        +rounded(6px)
+        +background-clip('border')
+        margin: 0
+        line-height: 0px
+        text-align: center
+        background: black
+        border: 1px solid #444
+        -webkit-transition: background .25s ease-in
+        &:hover
+          background-color: $orange
+        &:active
+          background-color: $orange - #444
+          position: relative
+          top: 1px
+        a img
+          margin: 8px
+          border: 1px solid #ddd
   .post_footer
     border-top: 1px solid #222
     background: black
     text-align: center
+    padding: 14px 0
     #colophon p
+      padding: 0
+      margin: 0
       color: white
       font:
-        size: 13px
         weight: 900
-      padding: .5em 0
-      margin: 0
-      -webkit-font-smoothing: subpixel-antialiased
       img
         vertical-align: middle
 #back_to_top
@@ -141,11 +161,11 @@ body
     border: 0 none
 #site_call_to_action, #mailee_call_to_action
   background-position: left top
-  height: 44px
+  height: 39px
   display: block
-  padding-top: 4px
+  padding-top: 9px
   font:
-    size: 26px
+    size: 20px
     weight: 900
   text:
     align: center
@@ -163,3 +183,4 @@ body
 #mailee_call_to_action
   background-image: url(/images/mailee_call_to_action.png)
   width: 325px
+  margin-top: 16px

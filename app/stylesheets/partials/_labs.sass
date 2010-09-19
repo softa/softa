@@ -1,10 +1,14 @@
 body #content
-  .labs_header_wire
-    border-top: 1px solid white
+  .labs_header_wire, .labs_footer_wire
     background:
       image: url(/images/header_top.gif)
       repeat: repeat
+  .labs_header_wire
+    border-top: 1px solid white
     height: 2px
+  .labs_footer_wire
+    border-bottom: 1px solid white
+    height: 1px
   #softa_labs
     background: #f3f3f3
     border-top: 1px solid white
@@ -12,45 +16,135 @@ body #content
       text-align: center
     hr
       border: 0 none
-      border-bottom: 1px dotted #ddd
       padding: 1em 0
-    samp
-      +rounded(4px)
-      background: $grey
-      color: white
-      text-shadow: #000 0 -1px 0
-      padding: .25em
-      -webkit-font-smoothing: subpixel-antialiased
-  article.labs_article
-    .article_images
-      +column(8)
-      img
-      ul
-        list-style: none
-        margin: 0
-        padding: 0
-        li
-          float: left
-          margin-right: 18px
-    .article_title
-      h2
-        color: $grey
-    .article_author
-      h4
-        color: $orange
-    .article_content
-      +column(16,last)
+    article.labs_project
+      margin: 0 24px
+      +rounded(6px)
+      +inset-box-shadow(0, 1px, 0, #fff)
+      background: #e7e7e7
+      border: 1px solid #d6d6d6
+      +background-clip('padding')
       p
-      ul
         margin: 0
+      hr
         padding: 0
-        list-style: none
-        li
+        margin: 0
+        border-top: 1px solid #ccc
+        border-bottom: 1px solid #f7f7f7
+    .project_language
+      float: right
+      display: inline
+      margin: 20px 20px 0 0
+    .project_image
+      min-width: 100px
+      min-height: 100px
+      margin: 20px
+      float: left
+      img
+        +rounded(6px)
+        background: $grey
+        padding: 5px
+        cursor: pointer
+        -webkit-transition: background .2s ease-in
+        &:hover
+          background: $orange
+        &:active
+          background: $orange - #222
+    .project_info
+      float: left
+      width: 650px
+      padding: 14px 20px 20px 0px
+      .project_title
+        color: $orange
+      .project_author
+        color: $grey
+      .project_description
+        font-size: 16px
+        margin: 10px 0 0 0
+    .project_actions
+      +rounded(0px 0px 6px 6px)
+      background: #ccc
+      width: 100%
+      padding: 6px 0
+      .install
+        float: left
+        padding: 4px 0 4px 20px
+        code
+          font-weight: 900
+          text-shadow: #fff 0 1px 0
+      .action
+        a
+          +inset-box-shadow(0, 1px, 0, #fff)
+          +rounded(4px)
+          border: 1px solid #b0b0b0
+          padding: 3px 10px
+          margin-right: 20px
+          display: block
+          float: right
+          color: #222
+          text-shadow: #fff 0 1px 0
+          font-weight: 900
+          display: block
+          background: #ddd
+          text-decoration: none
+          &:hover
+            text-decoration: none
+            background: #eee
+            color: #000
+          &:active
+            text-decoration: none
+            background: #c0c0c0
+
+
+//
+  body #content
+    .labs_header_wire
+      border-top: 1px solid white
+      background:
+        image: url(/images/header_top.gif)
+        repeat: repeat
+      height: 2px
+    #softa_labs
+      background: #f3f3f3
+      border-top: 1px solid white
+      h1
+        text-align: center
+      hr
+        border: 0 none
+        border-bottom: 1px dotted #ddd
+        padding: 1em 0
+      samp
+        +rounded(4px)
+        background: $grey
+        color: white
+        text-shadow: #000 0 -1px 0
+        padding: .25em
+        -webkit-font-smoothing: subpixel-antialiased
+    article.labs_article
+      .article_images
+        +column(6)
+        img
+          max-width: 150px
+        ul
+          list-style: none
           margin: 0
           padding: 0
-  .labs_footer_wire
-    border-bottom: 1px solid white
-    background:
-      image: url(/images/header_top.gif)
-      repeat: repeat
-    height: 1px
+          li
+            float: left
+            margin-right: 18px
+      .article_title
+        h2
+          color: $grey
+      .article_author
+        h4
+          color: $orange
+      .article_content
+        +column(16,last)
+        p
+        ul
+          margin: 0
+          padding: 0
+          list-style: none
+          li
+            margin: 0
+            padding: 0

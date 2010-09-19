@@ -52,3 +52,5 @@ module Softa
 end
 
 COUNTRIES = Marshal.load(File.read('countries.marshal'))
+
+Sass::Plugin.options[:style] = :compressed
