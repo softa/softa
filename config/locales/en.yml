@@ -23,6 +23,7 @@ en:
     description: Mailee.me is a web 2.0 app for email marketing. Created in Ruby on Rails and PostgreSQL, and focused in usability, it has a template creator, geolocation, social networks integration and smart anti-SPAM features.
     twitter: follow on Twitter »
     blog: read the Blog »
+    screenshots: Screenshots
     signup: signup for free »
 
   method:
@@ -43,7 +44,7 @@ en:
       desc: Add support for PostgreSQL's <samp>hstore</samp> type on <samp>ActiveRecord</samp>. Goodbye <samp>serialize</samp>.
     hercules:
       desc: <samp>Heroku</samp> style deployment meets <samp>continuous integration</samp>
-    source: source
+    source: view source
 
   staff:
     dw: Manager of creative leisure, goes to the meetings nobody else wants to go. Tanguero, musician, and passionate about respect marketing.

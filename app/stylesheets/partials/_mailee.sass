@@ -17,49 +17,68 @@ body #content
       color: #ccc
       margin-top: .5em
     .work_showcase_info
-      +column(9, last)
-      +append(1)
-      h3
-      ul.mailee_links, ul.circlo_links, ul.tbrasil_links
-        +two-box-shadow((#aaa + #444) 0 1px 0, (#aaa - #222) 0 1px 0 inset)
-        +rounded(.5em)
-        list-style: none
+      +column(10, last)
+      h3, p
+        margin-right: 30px
+      .mailee_links
+        +inset-box-shadow(0, 1px, 0, #eee)
+        +rounded(6px)
+        border: 1px solid #999
         background-color: #aaa
-        padding: .5em 1em
-        li
-          text-shadow: #888 0 -1px 0
-          color: white
-          border-top: 1px solid #bbb
-          border-bottom: 1px solid #999
-          &:first-child
-            border-top: 0 none
-          &:last-child
-            border-bottom: 0 none
-      ul.mailee_links
-        a
-          +rounded(10px)
-          background: $mailee
-          color: white
+        +linear-gradient(color-stops(#c7c7c7, #808080))
+        padding: 12px
+        margin: 0 10px 0 0
+        hr
+          +groove(#cfcfcf)
+        h4
+          font-size: 14px
+          text-transform: lowercase
+          font-variant: small-caps
           font-weight: 900
+          color: #444
+          padding: 0 0 10px 0
+          text-shadow: #ddd 0 1px 0
+        .twitter, .blog
+          +inset-box-shadow(0, 1px, 0, rgba(255,255,255,.5))
+          +rounded(6px)
+          background-color: #444
+          +linear-gradient(color-stops(#666, #222))
+          -webkit-transform: background .2s ease-in
+          color: #fff
+          margin: 12px 0
+          border: 1px solid #444
+          font-weight: 900
+          font-size: 12px
           padding: 4px 8px 6px 8px
-          text-shadow: ($mailee - #666) 0 -1px 0
+          text-shadow: rgba(0,0,0,.5) 1px 1px 0
           &:hover
             text-decoration: none
-            background: $mailee + #111
+            background-color: $mailee
+            +linear-gradient(color-stops($mailee, ($mailee - #444)))
+            color: white
           &:active
-            background: $mailee - #111
+            background-color: $mailee - #111
+            +linear-gradient(color-stops(($mailee - #111), ($mailee - #555)))
         li
-          padding: 10px 0
+          padding: 6px 0
       ul.showcase_more_images
         margin: 0
         padding: 0
         list-style: none
         li
           display: inline
-          padding-left: 4px
+          padding-right: 6px
           img
-            +box-shadow(0, 0, 6px, #888)
-            border: 1px solid silver
+            display: inline-block
+            line-height: 0px
+            padding: 4px
+            +rounded(4px)
+            background: $grey
+            -webkit-transition: background .2s ease-in
+            &:hover
+              background: $orange
+            &:active
+              background: $orange - #444
     .work_showcase_image
       +column(14)
       text-align: right

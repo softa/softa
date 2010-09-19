@@ -24,13 +24,13 @@
     %link{ :rel => 'shortcut icon', :href => 'favicon.ico' }
   %body
     #top
-    #back_to_top #{link_to image_tag('to_top.png'), '#top' }
+    #back_to_top #{link_to image_tag('to_top.png', :size => '48x48'), '#top' }
     %header= render 'layouts/navigation'
     #content= yield
     .clear
     %footer= render 'layouts/footer'
     .post_footer
       #colophon
-        %p 2010 ·#{image_tag('colophon.png')}· #{t('colophon.five_years')}
+        %p 2010 ·#{image_tag('colophon.png', :size => '84x32')}· #{t('colophon.five_years')}
     = javascript_include_tag 'softa'
     = render 'layouts/google_analytics'

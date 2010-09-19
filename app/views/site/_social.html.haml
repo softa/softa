@@ -30,7 +30,7 @@
                   #{truncate(event[:desc], :length => 100, :separator => '.', :omission => '…')}
                 %p.event_url
                   #{link_to event[:event_site], event[:event_site], :target=> :_blank}
-        .separator #{image_tag 'separator.png'}
+        .separator #{image_tag 'separator.png', :size => '50x16'}
         .event_contact
           %h3 #{t('social.interested')}
           %p #{mail_to 'contato@softa.com.br',  t('social.contact'), :target=> :_blank }

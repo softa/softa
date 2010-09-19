@@ -23,6 +23,7 @@ es:
     description: Mailee.me es una aplicación web 2.0 para email marketing. Desarrollado con Ruby on Rails y PostgreSQL, y con el foco en la usabilidad, posee creador de templates, geolocalización, integración con redes sociales y recursos inteligentes anti-SPAM.
     twitter: Síganos en Twitter »
     blog: lea el Blog »
+    screenshots: Veja alguns screenshots
     signup: regístrese gratis »
 
   method:
