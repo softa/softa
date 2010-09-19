@@ -43,6 +43,7 @@ en:
       desc: Adds support for the PostgreSQL's <samp>hstore</samp> type on <samp>ActiveRecord</samp>. Goodbye <samp>serialize</samp>.
     hercules:
       desc: <samp>Heroku</samp> style deployment meets <samp>continuous integration</samp>
+    source: source
 
   staff:
     dw: TOOOOODO
@@ -60,7 +61,7 @@ en:
       pa: TODO
 
   social:
-    agenda: Agenda
+    agenda: schedule
     interested: TODO
     contact: Get in touch »
 

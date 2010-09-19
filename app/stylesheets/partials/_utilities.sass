@@ -10,6 +10,12 @@
   -moz-box-shadow:    $x $y $radius $color
   -o-box-shadow:  $x $y $radius $color
   -khtml-box-shadow:  $x $y $radius $color
+=inset-box-shadow($x, $y, $radius, $color)
+  box-shadow:         $x $y $radius $color inset
+  -webkit-box-shadow: $x $y $radius $color inset
+  -moz-box-shadow:    $x $y $radius $color inset
+  -o-box-shadow:  $x $y $radius $color inset
+  -khtml-box-shadow:  $x $y $radius $color inset
 =two-box-shadow($box-shadow-one, $box-shadow-two)
   box-shadow:         $box-shadow-one, $box-shadow-two
   -webkit-box-shadow: $box-shadow-one, $box-shadow-two

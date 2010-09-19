@@ -2,23 +2,20 @@
   .wrapper
     #twitter
       %section
-        %h2 Twitter
+        %h2 twitter
         #softa_twitter
     #blog
       %section
-        %h2
-          #{link_to 'Blog', 'http://blog.softa.com.br/', :target=> :_blank}
+        %h2 #{link_to 'blog.softa.com.br', 'http://blog.softa.com.br/', :target=> :_blank}
         #softa_blog
           %ul
             - @posts.each do |post|
               %li
-                %h3.what
-                  #{ link_to post.title, post.link, :target=> :_blank, :class => 'event_link'}
-                %p
-                  #{post.desc}…
+                %h3.what #{ link_to post.title, post.link, :target=> :_blank, :class => 'event_link'}
+                %p #{post.desc}…
     #calendar
       %section
-        %h2= t 'social.agenda'
+        %h2 #{t 'social.agenda'}
         #softa_calendar
           %ul
             - @events.each do |event|
@@ -33,11 +30,8 @@
                   #{truncate(event[:desc], :length => 100, :separator => '.', :omission => '…')}
                 %p.event_url
                   #{link_to event[:event_site], event[:event_site], :target=> :_blank}
-        .separator
-          #{image_tag 'separator.png'}
+        .separator #{image_tag 'separator.png'}
         .event_contact
-          %h3
-            #{t('social.interested')}
-          %p
-            #{mail_to 'contato@softa.com.br',  t('social.contact'), :target=> :_blank }
+          %h3 #{t('social.interested')}
+          %p #{mail_to 'contato@softa.com.br',  t('social.contact'), :target=> :_blank }
     .clear

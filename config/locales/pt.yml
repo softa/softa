@@ -43,6 +43,7 @@ pt:
       desc: Suporte ao campo <samp>hstore</samp> do PostgreSQL no <samp>ActiveRecord</samp>. Adeus <samp>serialize</samp>.
     hercules:
       desc: Deploy a la Heroku encontra integração contínua.
+    source: código fonte
 
   staff:
     dw: Gerente do ócio criativo, vai nas reuniões que ninguém mais quer ir. Tanguero, músico, e apaixonado pelo marketing do respeito.
@@ -60,7 +61,7 @@ pt:
       pa: TODO
 
   social:
-    agenda: Agenda
+    agenda: agenda
     interested: Interessado em uma palestra, curso ou evento?
     contact: Entre em contato »
 
