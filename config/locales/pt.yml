@@ -1,7 +1,7 @@
 pt:
 
   head:
-    title: Softa · Aplicações web 2.0 em Rails e PostgreSQL
+    title: Aplicações web 2.0 em Ruby on Rails e PostgreSQL · Softa
     description: "Aplicações web 2.0. O melhor do open source: Ruby on Rails e PostgreSQL. Nós utilizamos as melhores tecnologias aliadas aos métodos certos para desenvolver seus projetos no menor tempo e com a maior qualidade."
 
   softa:
@@ -18,7 +18,7 @@ pt:
     call_to_action: envie seu projeto »
 
   mailee:
-    description: Mailee.me é um aplicativo web 2.0 para fazer email marketing. Desenvolvido em Ruby on Rails, PostgreSQL e focado em usabilidade, possui criador de templates, geolocalização, integração com redes sociais e inteligentes recursos anti-SPAM.
+    description: Mailee.me é um aplicativo web 2.0 para fazer email marketing. Desenvolvido em Ruby on Rails e PostgreSQL, e focado em usabilidade, possui criador de templates, geolocalização, integração com redes sociais e inteligentes recursos anti-SPAM.
     twitter: acompanhe no Twitter »
     blog: acesse o Blog »
     signup: cadastre-se grátis »
@@ -31,7 +31,7 @@ pt:
       desc: <p>Utilizar métodos ágeis significa colocar as pessoas em primeiro lugar. O sucesso de um projeto de software começa com um time qualificado e que ama o que faz. Cliente como parte da equipe, comunicação aberta e foco no resultado complementam a receita.</p><p>Acreditamos que não existem dogmas em desenvolvimento de software e que o mais importante é o aprendizado contínuo.</p>
     quality:
       title: Qualidade
-      desc: <p>Nós buscamos a melhor experiência de uso para o usuário através de interfaces bem projetadas e desenhadas.</p><p>Além disso, utilizamos uma série de técnicas para criar sistemas de alta qualidade. Controle de versões com git, testes automatizados, verificação da cobertura de testes, integração contínua e deployment automatizado são algumas delas.</p>
+      desc: <p>Nós buscamos a melhor experiência de uso através de interfaces bem projetadas e desenhadas.</p><p>Além disso, utilizamos uma série de técnicas para criar sistemas de alta qualidade. Controle de versões com git, testes automatizados, verificação da cobertura de testes, integração contínua e deployment automatizado são algumas delas.</p>
     tech:
       title: Tecnologia
       desc: <p>Empresas de tecnologia não devem ter medo de experimentar. Estamos sempre estudando novas ferramentas e testando novas plataformas. Hoje, trabalhamos principalmente com Ruby on Rails e PostgreSQL.</p><p>Nosso cinto de utilidades conta também com linguagens como C, JavaScript (Node.js), Python, Erlang e Haskell.</p>
@@ -66,3 +66,4 @@ pt:
 
   colophon:
     five_years: 5 anos
+

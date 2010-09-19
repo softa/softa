@@ -1,8 +1,8 @@
 en:
 
   head:
-    title: Softa · Web 2.0 apps with Rails and PostgreSQL
-    description: "Web 2.0 apps. TODO"
+    title: Web 2.0 apps with Ruby on Rails and PostgreSQL · Softa
+    description: "Web 2.0 apps. The best of open source: Ruby on Rails and PostgreSQL. We use the best technologies together with the right methods to develop your projects in less time and with the greatest quality."
 
   softa:
     hello: Hello. Welcome to Softa's website.
@@ -15,10 +15,10 @@ en:
 
   description:
     punchline: "We develop <em class='web_two'>web 2.0</em> apps using <em class='ruby_on_rails'>Ruby on Rails</em> and <em class='postgresql'>PostgreSQL</em>, combining the best of <em class='open_source'>Open Source</em> technologies with the <em class='methods'>right methods</em> to make your projects in <em class='methods'>less time</em> and with the <em class='methods'>greatest quality</em>."
-    call_to_action: get a quotation »
+    call_to_action: send us your project »
 
   mailee:
-    description: Mailee.me is a todo text.
+    description: Mailee.me is a web 2.0 app for email marketing. Created in Ruby on Rails and PostgreSQL, and focused in usability, it has a templates creator, geolocation, social networks integration
     twitter: follow on Twitter »
     blog: read the Blog »
     signup: signup free »
@@ -66,3 +66,4 @@ en:
 
   colophon:
     five_years: 5 years
+

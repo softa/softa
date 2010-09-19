@@ -15,7 +15,7 @@ es:
 
   description:
     punchline: "Nosotros desarrojamos... <em class='web_two'>web 2.0</em> apps using <em class='ruby_on_rails'>Ruby on Rails</em> and <em class='postgresql'>PostgreSQL</em>, combining the best of <em class='open_source'>Open Source</em> technologies with the <em class='methods'>right methods</em> to make your projects in <em class='methods'>less time</em> and with the <em class='methods'>greatest quality</em>."
-    call_to_action: Get a quotation » 
+    call_to_action: Get a quotation »
 
   mailee:
     description: Mailee.me is a todo text.
@@ -65,4 +65,5 @@ es:
     message_placeholder: Write your message
 
   colophon:
-    five_years: 5 years
+    five_years: 5 años
+
