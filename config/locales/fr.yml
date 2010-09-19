@@ -43,6 +43,7 @@ fr:
       desc: Adds support for the PostgreSQL's <samp>hstore</samp> type on <samp>ActiveRecord</samp>. Goodbye <samp>serialize</samp>.
     hercules:
       desc: TODO
+    source: TODO
 
   staff:
     dw: TOOOOODO
