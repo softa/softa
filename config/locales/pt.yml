@@ -17,14 +17,14 @@ pt:
 
   description:
     punchline: "Desenvolvemos aplicações <em class='web_two'>web 2.0</em> usando <em class='ruby_on_rails'>Ruby on Rails</em> e <em class='postgresql'>PostgreSQL</em>, aliando o melhor do <em class='open_source'>Open Source</em> aos <em class='methods'>métodos certos</em> para realizar seus projetos no <em class='methods'>menor tempo</em> e com a <em class='methods'>maior qualidade</em>."
-    call_to_action: envie seu projeto
+    call_to_action: envie seu projeto »
 
   mailee:
     description: Mailee.me é um aplicativo web 2.0 para email marketing. Desenvolvido em Ruby on Rails e PostgreSQL, e focado em usabilidade, possui criador de templates, geolocalização, integração com redes sociais e inteligentes recursos anti-SPAM.
-    twitter: acompanhe no Twitter
-    blog: acesse o Blog
+    twitter: acompanhe no Twitter »
+    blog: acesse o Blog »
     screenshots: Veja algumas telas
-    signup: Cadastre-se grátis
+    signup: cadastre-se grátis »
 
   method:
     title: Metodologia
@@ -48,14 +48,14 @@ pt:
 
   staff:
     dw: Gerente do ócio criativo, vai nas reuniões que ninguém mais quer ir. Tanguero, músico, e apaixonado pelo marketing do respeito.
-    db: Arquiteto de Dados. Gosta de estruturas auto-explicativas, auto-referentes e auto-limpantes.
+    db: Arquiteto de Banco de Dados. Gosta de estruturas auto-explicativas, auto-referentes e auto-limpantes.
     fc: Suporte incansável, aikidoka e ciclista amador. Amante de cervejas artesanais e RP nas horas vagas.
     jm: Desenvolvedor Rails, JavaScript e de outras coisas menos ortodoxas. Comemora efusivamente quando realiza entregas com zero bugs.
     lt: Artista do design, tipografia, UI <em class='alternate'>&</em> UX. Extremista em detalhes, não perdoa erros de 1px.
     pa: Malabarista de infraestrutura, desenvolvedor Rails e o que mais precisar. Ele mora na internet e gosta de todas as novas buzzwords.
     xkcd:
       dw: "Não se preocupe: ele sempre aparece."
-      db: TODO
+      db: "Também gosta de alts engraçadinhos."
       fc: TODO
       jm: "#TODO escrever 'alt' para próxima versão."
       lt: Tire seu cursor de cima de mim!
@@ -65,10 +65,6 @@ pt:
     agenda: agenda
     interested: Interessado em uma palestra, curso ou evento?
     contact: Entre em contato »
-
-  rsonrails:
-    we_organize: Nós organizamos o
-    about: Evento realizado no sul do Brasil, apresentando <em>palestras técnicas</em>, <em>cases</em> e <em>lightning talks</em>, e voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <em>Ruby on Rails</em>.
 
   contact:
     title: Entre em contato
