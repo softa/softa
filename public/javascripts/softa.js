@@ -1,4 +1,4 @@
-$('img').lazyload({ placeholder: "/images/spaceball.gif", effect: "fadeIn"});
+$("img[id!='back_to_top']").lazyload({ placeholder: "/images/spaceball.gif", effect: "fadeIn"});
 
 $('form#contact_us').submit(function(){
 

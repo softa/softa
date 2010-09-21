@@ -17,14 +17,14 @@ en:
 
   description:
     punchline: "We develop <em class='web_two'>web 2.0</em> apps using <em class='ruby_on_rails'>Ruby on Rails</em> and <em class='postgresql'>PostgreSQL</em>, combining the best of <em class='open_source'>Open Source</em> with the <em class='methods'>right methods</em> to make your projects in <em class='methods'>less time</em> and with the <em class='methods'>greatest quality</em>."
-    call_to_action: send us your project »
+    call_to_action: send us your project
 
   mailee:
     description: Mailee.me is a web 2.0 app for email marketing. Created in Ruby on Rails and PostgreSQL, and focused in usability, it has a template creator, geolocation, social networks integration and smart anti-SPAM features.
-    twitter: follow on Twitter »
-    blog: read the Blog »
+    twitter: Twitter
+    blog: Blog
     screenshots: Screenshots
-    signup: signup for free »
+    signup: Signup for free
 
   method:
     title: Method

@@ -38,14 +38,14 @@ body #content
           color: #444
           padding: 0 0 10px 0
           text-shadow: #ddd 0 1px 0
-        .twitter, .blog, .help
+        .twitter, .blog, .help, .mailee_call_to_action
           +inset-box-shadow(0, 1px, 0, rgba(255,255,255,.5))
           +rounded(6px)
           background-color: #444
           +linear-gradient(color-stops(#666, #222))
           -webkit-transform: background .2s ease-in
           color: #fff
-          margin: 12px 0
+          margin: 12px 2px 12px 0
           border: 1px solid $grey
           font-weight: 900
           font-size: 12px
@@ -59,6 +59,16 @@ body #content
           &:active
             background-color: $mailee - #111
             +linear-gradient(color-stops(($mailee - #111), ($mailee - #555)))
+        .mailee_call_to_action
+          background: $green
+          border-color: $green - $grey
+          +linear-gradient(color-stops($green, ($green - $grey)))
+          &:hover
+            background: $green + #222
+            +linear-gradient(color-stops(($green + #222), ($green - $grey)))
+          &:active
+            background: $green - #111
+            +linear-gradient(color-stops(($green - #111), ($green - #888)))
         li
           padding: 6px 0
       ul.showcase_more_images

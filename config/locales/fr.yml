@@ -17,14 +17,14 @@ fr:
 
   description:
     punchline: "Je taime... <em class='web_two'>web 2.0</em> apps using <em class='ruby_on_rails'>Ruby on Rails</em> and <em class='postgresql'>PostgreSQL</em>, combining the best of <em class='open_source'>Open Source</em> technologies with the <em class='methods'>right methods</em> to make your projects in <em class='methods'>less time</em> and with the <em class='methods'>greatest quality</em>."
-    call_to_action: Get a quotation » 
+    call_to_action: Get a quotation
 
   mailee:
     description: Mailee.me is a todo text.
-    twitter: follow on Twitter »
-    blog: read the Blog »
+    twitter: Twitter
+    blog: Blog
     screenshots: Veja alguns screenshots
-    signup: 'signup free »'
+    signup: Signup for free
 
   method:
     title: Method

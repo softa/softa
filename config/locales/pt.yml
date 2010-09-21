@@ -17,14 +17,14 @@ pt:
 
   description:
     punchline: "Desenvolvemos aplicações <em class='web_two'>web 2.0</em> usando <em class='ruby_on_rails'>Ruby on Rails</em> e <em class='postgresql'>PostgreSQL</em>, aliando o melhor do <em class='open_source'>Open Source</em> aos <em class='methods'>métodos certos</em> para realizar seus projetos no <em class='methods'>menor tempo</em> e com a <em class='methods'>maior qualidade</em>."
-    call_to_action: envie seu projeto »
+    call_to_action: envie seu projeto
 
   mailee:
     description: Mailee.me é um aplicativo web 2.0 para email marketing. Desenvolvido em Ruby on Rails e PostgreSQL, e focado em usabilidade, possui criador de templates, geolocalização, integração com redes sociais e inteligentes recursos anti-SPAM.
-    twitter: acompanhe no Twitter »
-    blog: acesse o Blog »
+    twitter: acompanhe no Twitter
+    blog: acesse o Blog
     screenshots: Veja algumas telas
-    signup: cadastre-se grátis »
+    signup: Cadastre-se grátis
 
   method:
     title: Metodologia
@@ -68,7 +68,7 @@ pt:
 
   rsonrails:
     we_organize: Nós organizamos o
-    about: Único no sul do Brasil o evento apresenta <em>palestras técnicas</em>, <em>cases</em> e <em>lightning talks</em> voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <em>Ruby on Rails</em>.
+    about: Evento realizado no sul do Brasil, apresentando <em>palestras técnicas</em>, <em>cases</em> e <em>lightning talks</em>, e voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <em>Ruby on Rails</em>.
 
   contact:
     title: Entre em contato

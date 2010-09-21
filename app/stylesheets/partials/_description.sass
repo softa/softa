@@ -1,27 +1,47 @@
 body #content #softa_description
   backgrond-color: #000
   border-bottom: 1px solid #ccc
-  padding-bottom: 60px
-  #softa_logo
-    float: left
+  .wrapper
+    padding: 0
+  #softa
+    float: right
     width: 26%
     text-align: center
     h1
       padding: 0
       margin: 0
       img
-        padding-top: 28px
-  .call_to_action_wrapper
-  #site_call_to_action
-    // margin-left: 26%
-    // position: absolute
-    // right: 0
-    // top: -80px
+        padding-top: 14px
+  .call_to_action
+    .site_call_to_action
+      +rounded(8px)
+      +inset-box-shadow(0, 1px, 0, rgba(255,255,255,.5))
+      background: $green
+      +linear-gradient(color-stops($green, ($green - #444)))
+      border: 1px solid ($green - #111)
+      padding: 4px 6px
+      margin: 16px 20px
+      text-align: center
+      display: block
+      font:
+        size: 16px
+        weight: 900
+      color: white
+      text-shadow: ($green - #444) 1px 1px 0
+      -webkit-transition: color .2s ease-in
+      &:hover
+        text-decoration: none
+        background: $green + #111
+        +linear-gradient(color-stops(($green + #111), ($green - #222)))
+      &:active
+        text-decoration: none
+        background: $green - #111
+        +linear-gradient(color-stops(($green - #111), ($green - #444)))
   h2
     float: left
     width: 74%
     z-index: 100
-    font-size: 26px
+    font-size: 33px
     line-height: 38px
     padding: 1em 0
     color: #999

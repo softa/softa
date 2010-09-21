@@ -1,9 +1,9 @@
 #softa_description
   .wrapper
     %section
-      #softa_logo
-        %h1= link_to image_tag('softa.png'), root_path
+      #softa
+        %h1 #{image_tag('softa.png')}
+        .call_to_action
+          #{link_to(t('description.call_to_action'), '#contact_us', :class => 'site_call_to_action', :target => :_self)}
       %h2= raw t 'description.punchline'
       .clear
-      .call_to_action_wrapper
-        #{link_to(t('description.call_to_action'), '#contact_us', :id => 'site_call_to_action', :target => :_self)}

@@ -10,7 +10,7 @@
               #{t('mailee.description')}
             .mailee_links
               %p
-                #{link_to 'Twitter', 'http://twitter.com/maileeme', :class=>'twitter', :target => :_blank } #{link_to 'Blog', 'http://blog.mailee.me', :class=>'blog', :target => :_blank } #{link_to 'Help', 'http://help.mailee.me/', :class=>'help', :target => :_blank }
+                #{link_to 'Twitter', 'http://twitter.com/maileeme', :class=>'twitter', :target => :_blank } #{link_to 'Blog', 'http://blog.mailee.me', :class=>'blog', :target => :_blank } #{link_to 'Help', 'http://help.mailee.me/', :class=>'help', :target => :_blank } #{link_to t('mailee.signup'), 'http://mailee.me/cadastro.html', :class => 'mailee_call_to_action', :target => :_blank}
               %hr
               %h4 #{t('mailee.screenshots')}
               %ul.showcase_more_images
@@ -20,8 +20,7 @@
                   #{link_to image_tag('maileeme/maileeme_small_two.jpg'), image_path('maileeme/maileeme_two.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
                 %li
                   #{link_to image_tag('maileeme/maileeme_small_three.jpg'), image_path('maileeme/maileeme_three.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
-          .work_showcase_image{:style => 'text-align: right; position:relative;'}
-            #{link_to t('mailee.signup'), 'http://mailee.me/cadastro.html', :id => 'mailee_call_to_action', :target => :_blank}
+          .work_showcase_image
             #{image_tag 'maileeme/maileeme_showcase.png', :title => 'Mailee.me - Email marketing 2.0', :alt => 'Mailee.me - Email marketing 2.0' }
           .clear
 .clear

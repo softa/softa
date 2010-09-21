@@ -23,6 +23,8 @@ class SiteController < ApplicationController
         :desc => view_context.strip_tags((item%'description').inner_text).gsub(/\s+/, ' ')[0..150]
       })
     end
+  rescue
+    @posts = []
   end
 
   # Used to expire cache
