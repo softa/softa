@@ -64,6 +64,10 @@ pt:
     agenda: agenda
     interested: Interessado em uma palestra, curso ou evento?
     contact: Entre em contato »
+  
+  rsonrails:
+    we_organize: Nós organizamos o
+    about: Evento realizado no sul do Brasil, apresentando <em>palestras técnicas</em>, <em>cases</em> e <em>lightning talks</em>, e voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <em>Ruby on Rails</em>.
 
   contact:
     title: Entre em contato
