@@ -39,26 +39,10 @@ body #content
           padding: 0 0 10px 0
           text-shadow: #ddd 0 1px 0
         .twitter, .blog, .help, .mailee_call_to_action
-          +inset-box-shadow(0, 1px, 0, rgba(255,255,255,.2))
-          +rounded(6px)
-          background-color: #444
-          +linear-gradient(color-stops(#666, #222))
-          -webkit-transform: background .2s ease-in
           color: #fff
-          margin: 12px 2px 12px 0
-          border: 1px solid $grey
-          font-weight: 900
-          font-size: 12px
-          padding: 4px 8px 6px 8px
-          text-shadow: rgba(0,0,0,.5) 1px 1px 0
           &:hover
             text-decoration: none
-            background-color: $mailee
-            +linear-gradient(color-stops($mailee, ($mailee - #444)))
             color: white
-          &:active
-            background-color: $mailee - #111
-            +linear-gradient(color-stops(($mailee - #111), ($mailee - #555)))
         .mailee_call_to_action
           background: $green
           border-color: $green - $grey
@@ -84,7 +68,7 @@ body #content
             padding: 4px
             +rounded(4px)
             background: $grey
-            -webkit-transition: background .2s ease-in
+            +transition(background, .2s, ease-in)
             &:hover
               background: $orange
             &:active

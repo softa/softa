@@ -1,5 +1,5 @@
-@import "blueprint/reset", "blueprint/grid", "partials/forms", "blueprint/typography", "blueprint/utilities", "compass/css3"
-@import "partials/description", "partials/mailee", "partials/method", "partials/labs", "partials/social", "partials/staff", "partials/rsonrails"
+@import "blueprint/reset", "blueprint/grid", "blueprint/typography", "blueprint/utilities", "compass/css3"
+@import  "partials/button", "partials/forms", "partials/description", "partials/mailee", "partials/method", "partials/labs", "partials/social", "partials/staff", "partials/rsonrails"
 body
   +blueprint-typography(true)
   +blueprint-utilities
@@ -23,7 +23,7 @@ body
   a
     cursor: pointer
     color: $link_color
-    -webkit-transition: color .35s ease-in
+    +transition(color, .35s, ease-in)
     text-decoration: none
     &:hover
       color: $link_color + #222
@@ -131,7 +131,7 @@ body
         text-align: center
         background: black
         border: 1px solid #444
-        -webkit-transition: background .25s ease-in
+        +transition(background, .25s, ease-in)
         &:hover
           background-color: $orange
         &:active
