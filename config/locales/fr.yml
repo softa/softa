@@ -21,8 +21,6 @@ fr:
 
   mailee:
     description: Mailee.me is a todo text.
-    twitter: Twitter
-    blog: Blog
     screenshots: Veja alguns screenshots
     signup: Signup for free
 
@@ -47,6 +45,7 @@ fr:
     source: TODO
 
   staff:
+    who_we_are: TODO
     dw: TOOOOODO
     db: TODO
     fc: TODO
@@ -80,14 +79,14 @@ fr:
     message_required: Você precisa escrever uma mensagem para poder enviar.
     email_placeholder: usuario@dominio.com
     message: Mensagem
-    send:  enviar »
+    send:  Enviar
     message_placeholder: Escreva sua mensagem
     send_ok_title: Mensagem enviada com sucesso!
     send_ok_message: Obrigado. Em breve retornaremos seu contato.
     send_error_title: Ocorreu um erro ao enviar a mensagem.
     send_error_message: Tente novamente ou, se preferir, envie um email para contato@softa.com.br.
-    send_another_message: Enviar outra mensagem ».
-    try_again: Tentar novamente »
+    send_another_message: Enviar outra mensagem.
+    try_again: Tentar novamente
 
   colophon:
     five_years: 5 years

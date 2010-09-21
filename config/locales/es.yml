@@ -17,12 +17,10 @@ es:
 
   description:
     punchline: "Desarrollamos aplicaciones <em class='web_two'>web 2.0</em> con <em class='ruby_on_rails'>Ruby on Rails</em> y <em class='postgresql'>PostgreSQL</em>, combinando lo mejor del <em class='open_source'>Open Source</em> con los <em class='methods'>métodos correctos</em> para llevar a cabo sus proyectos en <em class='methods'>menos tiempo</em> y con la <em class='methods'>mejor calidad</em>."
-    call_to_action: envíe su proyecto
+    call_to_action: Envíe su proyecto
 
   mailee:
     description: Mailee.me es una aplicación web 2.0 para email marketing. Desarrollado con Ruby on Rails y PostgreSQL, y con el foco en la usabilidad, posee creador de templates, geolocalización, integración con redes sociales y recursos inteligentes anti-SPAM.
-    twitter: Twitter
-    blog: Blog
     screenshots: Veja alguns screenshots
     signup: Regístrese gratis
 
@@ -47,15 +45,16 @@ es:
     source: código fuente
 
   staff:
+    who_we_are: Quiénes somos
     dw: Gerente del ocio creativo. Tanguero, músico, y un apasionado del marketing del respeto.
     db: Arquitecto de datos. Le gustan las estructuras autoexplicativas, autorreferentes y autolimpiantes.
     fc: Soporte incansable, aikidoka y ciclista amateur. Amante de las cervezas artesanales y RRPP en su tiempo libre.
     jm: Desarrollador Rails, JavaScript y de otras cosas menos ortodoxas. Celebra efusivamente al hacer las entregas con cero bugs.
     lt: Artista del diseño, tipografía, UI <em class='alternate'>&</em> UX. Extremista en detalles, no perdona errores de 1px.
-    pa: Malabarista de la infraestructura, desarrollador Rails y todo más que necesite. El vive en Internet y le gustan todas las nuevas buzz words.
+    pa: Malabarista de la infraestructura, desarrollador Rails y todo más que necesite. El vive en Internet y le gustan todas las nuevas buzzwords.
     xkcd:
       dw: "No se preocupe: el siempre aparece."
-      db: TODO
+      db: "La Garantía Soy Yo."
       fc: TODO
       jm: TODO
       lt: ¡Ay Caramba! ¡No hablo español!
@@ -80,14 +79,14 @@ es:
     message_required: Usted debe escribir un mensaje para poder enviar.
     email_placeholder: usuario@dominio.com
     message: Mensaje
-    send:  enviar »
+    send:  Enviar
     message_placeholder: Escriba su mensaje
     send_ok_title: ¡Mensaje enviado con éxito!
     send_ok_message: Muchas gracias. Pronto nos pondremos en contacto.
     send_error_title: Ooops. Se ha producido un error al enviar el mensaje.
     send_error_message: Por favor, inténtelo de nuevo o, si lo prefiere, envíe un email a contato@softa.com.br.
-    send_another_message: Enviar otro mensaje ».
-    try_again: Intentar de nuevo »
+    send_another_message: Enviar otro mensaje.
+    try_again: Intentar de nuevo.
 
   colophon:
     five_years: 5 años

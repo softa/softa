@@ -1,0 +1,34 @@
+.softa_button, button[type="submit"]
+  +inset-box-shadow(0, 1px, 0, rgba(255,255,255,.2))
+  +rounded(6px)
+  background-color: #444
+  +linear-gradient(color-stops(#666, #222))
+  +transform(background, .2s, ease-in)
+  color: #fff
+  margin: 12px 2px 12px 0
+  border: 1px solid $grey
+  font-weight: 900
+  font-size: 12px
+  padding: 4px 8px 6px 8px
+  text-shadow: rgba(0,0,0,.5) 1px 1px 0
+  &:hover, &:focus
+    text-decoration: none
+    background-color: $mailee
+    +linear-gradient(color-stops($mailee, ($mailee - #444)))
+    color: white
+  &:active
+    background-color: $mailee - #111
+    +linear-gradient(color-stops(($mailee - #111), ($mailee - #555)))
+
+button[type="submit"]
+  padding: 4px 16px 6px 16px
+  &:hover, &:focus
+    border-color: ($orange - #333)
+    text-decoration: none
+    background-color: $orange
+    +linear-gradient(color-stops($orange, ($orange - #444)))
+    color: white
+  &:active
+    text-decoration: none
+    background-color: $orange - #111
+    +linear-gradient(color-stops(($orange - #111), ($orange - #666)))
