@@ -31,6 +31,7 @@ $('form#contact_us').submit(function(){
   }else{
     $('#contact_us_message_required').slideUp()
   }
+
   $(this).find('input, textarea, button').attr('disabled', true)
   var data = $(this).serialize()
   var url = $(this).attr('action')
@@ -53,6 +54,7 @@ $('.send_another').click(function(){
   $('#contact_us_success').hide()
   $('#contact_us_failure').hide()
   $('#contact_us').fadeIn()
+  $('#contact_us_name').focus()
   return false
 })
 

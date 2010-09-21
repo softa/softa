@@ -47,7 +47,7 @@ en:
     source: view source
 
   staff:
-    dw: Manager of creative leisure, goes to the meetings nobody else wants to go. Tanguero, musician, and passionate about respect marketing.
+    dw: Manager of creative leisure. Tanguero, musician, and passionate about respect marketing.
     db: Data Architect. He likes self-explanatory, self-referential and self-cleaning structures.
     fc: Tireless support, aikidoka and amateur cyclist. Lover of craft beers and PR in his spare time.
     jm: Rails, JavaScript and other less orthodox things developer. Celebrates effusively when he delivers with zero bugs.
@@ -67,8 +67,8 @@ en:
     contact: Get in touch »
 
   rsonrails:
-    we_organize: Nós organizamos o
-    about: Evento realizado no sul do Brasil, apresentando <em>palestras técnicas</em>, <em>cases</em> e <em>lightning talks</em>, e voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <em>Ruby on Rails</em>.
+    we_organize: We organize
+    about: Event held in southern Brazil, with <em>technical lectures</em>, <em>cases</em> and <em>lightning talks</em>, and targeted to developers and enthusiasts in application development using <em>Ruby on Rails</em>.
 
   contact:
     title: Get in touch

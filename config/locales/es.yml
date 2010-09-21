@@ -47,7 +47,7 @@ es:
     source: código fuente
 
   staff:
-    dw: Gerente del ocio creativo, va a las reuniones que nadie más quiere ir. Tanguero, músico, y un apasionado del marketing del respeto.
+    dw: Gerente del ocio creativo. Tanguero, músico, y un apasionado del marketing del respeto.
     db: Arquitecto de datos. Le gustan las estructuras autoexplicativas, autorreferentes y autolimpiantes.
     fc: Soporte incansable, aikidoka y ciclista amateur. Amante de las cervezas artesanales y RRPP en su tiempo libre.
     jm: Desarrollador Rails, JavaScript y de otras cosas menos ortodoxas. Celebra efusivamente al hacer las entregas con cero bugs.
@@ -67,8 +67,8 @@ es:
     contact: Contáctenos »
 
   rsonrails:
-    we_organize: Nós organizamos o
-    about: Evento realizado no sul do Brasil, apresentando <em>palestras técnicas</em>, <em>cases</em> e <em>lightning talks</em>, e voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <em>Ruby on Rails</em>.
+    we_organize: Nosotros organizamos el
+    about: Evento celebrado en el sur de Brasil, presentando <em>charlas técnicas</em>, <em>casos</em> y <em>lightning talks</em>, y dirigido a los desarrolladores y entusiastas del desarrollo de aplicaciones usando <em>Ruby on Rails</em>.
 
   contact:
     title: Contáctenos
