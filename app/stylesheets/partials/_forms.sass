@@ -20,10 +20,8 @@ form
       font-family: $blueprint-font-family
       background-color: rgba(255,255,255,.1)
       color: (#f90 - #222)
-      -webkit-transition: border-color .25s ease-in
-      -webkit-transition: -webkit-box-shadow .25s ease-in
-      -moz-transition: border-color .25s ease-in
-      -moz-transition: -moz-box-shadow .25s ease-in
+      +transition(border-color, .25s, ease-in)
+      +transition(box-shadow, .25s, ease-in)
       &:focus
         +box-shadow(rgba(255,128,0,1),0,0,6px)
         color: white
@@ -53,33 +51,7 @@ form
     label
       font-weight: 900
       color: #666
-      -webkit-transition: color .5s ease-in
-    button[type="submit"]
-      +rounded(3em)
-      cursor: pointer
-      padding: 6px 1em 8px 1em
-      margin-top: 1em
-      border: 0 none
-      text-shadow: #ddd 0 1px 0
-      -webkit-transition: background-color .15s ease-in
-      background:
-        color: #ccc
-        image: url(/images/button_background.png)
-        repeat: repeat-x
-        position: left top
-      font:
-        size: 14px
-        weight: 900
-      &:hover
-        background-color: #eee
-      &:active
-        position: relative
-        top: 1px
-        background-color: #aaa
-      &:focus
-        +box-shadow(0,0,20px,$orange)
-        background-color: #fff
-        color: black
+      +transition(color, .5s, ease-in)
     input[type="text"], input[type="email"], input[type="password"], textarea, button[type="submit"]
       &:focus, &:active, &:hover
         outline: 0 none

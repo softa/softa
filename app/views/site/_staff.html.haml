@@ -1,7 +1,8 @@
 #softa_staff
   .wrapper
     %section
-      %h1 Quem somos
+      %h1
+        #{ t('staff.who_we_are') }
       - for idiot in %w{dw db fc jm lt pa}
         = render "site/staff/#{idiot}" # How sweet... +1
       .clear

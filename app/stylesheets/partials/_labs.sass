@@ -45,7 +45,7 @@ body #content
         background: $grey
         padding: 5px
         cursor: pointer
-        -webkit-transition: background .2s ease-in
+        +transition(background, .2s, ease-in)
         &:hover
           background: $orange
         &:active
@@ -55,10 +55,10 @@ body #content
       width: 650px
       padding: 14px 20px 20px 0px
       .project_title
-        color: $orange
-        font-size: 22px
-      .project_author
-        color: $grey
+        margin-top: 14px
+        a
+          font-size: 22px
+      .project_author a
         font-size: 18px
       .project_description
         font-size: 16px
