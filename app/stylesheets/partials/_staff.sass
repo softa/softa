@@ -15,12 +15,8 @@ body #softa_staff
     background-color: ($orange - #2d2d2d)
     background-clip: padding-box
     margin-bottom: 1em
-    &:hover
-      .picture
-        background-position: right top
-    &:active
-      .picture
-        background-position: right bottom
+    &:hover .picture
+      background-position: right top
     .picture
       +box-shadow(#333,0,0,3px)
       +rounded(6px)
@@ -30,7 +26,7 @@ body #softa_staff
       margin: 18px 0 16px 16px
       border: 1px solid ($orange + #222)
       background-position: left top
-      -webkit-transition: background-position .2s ease-in-out
+      +transition(background-position, .2s, ease-in-out)
     a
       color: ($orange + #2d2d2d)
       text-shadow: ($orange - #444) 0 -1px 0
