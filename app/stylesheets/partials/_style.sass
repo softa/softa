@@ -114,8 +114,8 @@ body
       attachment: scroll
       position: center top
     h1
-      color: #000
-      text-shadow: #555 0 1px 0
+      color: #fff
+      text-shadow: #000 2px 2px 2px
       padding: .25em 0 .5em 0
     #softa_contact
       +column(12)
@@ -160,10 +160,10 @@ body
   img
     border: 0 none
 #site_call_to_action, #mailee_call_to_action
-  background-position: left top
-  height: 39px
+  background:
+    position: left top
+    repeat: no-repeat
   display: block
-  padding-top: 9px
   font:
     size: 20px
     weight: 900
@@ -178,10 +178,17 @@ body
     background-position: left top
     text-decoration: none
 #site_call_to_action
-  background-image: url(/images/site_call_to_action.png)
-  width: 400px
+  background-image: url(/images/site_call_to_action_alt.png)
+  width: 110px
+  height: 80px
+  padding: 60px 35px 40px 35px
+  font-size: 16px
+  font-family: georgia, times, serif
+  font-style: italic
 #mailee_call_to_action
   position: absolute
+  height: 39px
+  padding-top: 9px
   bottom: 20px
   right: 20px
   background-image: url(/images/mailee_call_to_action.png)
