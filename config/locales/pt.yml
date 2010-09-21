@@ -66,6 +66,10 @@ pt:
     interested: Interessado em uma palestra, curso ou evento?
     contact: Entre em contato »
 
+  rsonrails:
+    we_organize: Nós organizamos o
+    about: Único no sul do Brasil o evento apresenta <em>palestras técnicas</em>, <em>cases</em> e <em>lightning talks</em> voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <em>Ruby on Rails</em>.
+
   contact:
     title: Entre em contato
     name: Nome

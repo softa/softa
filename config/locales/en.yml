@@ -79,7 +79,7 @@ en:
     send: send »
     message_placeholder: Write your message
     send_ok_title: Message sent successfully!
-    send_ok_message: Thank you. We'll get in touch soons.
+    send_ok_message: Thank you. We'll get in touch soon.
     send_error_title: Ooops. Something went wrong.
     send_error_message: Please try again or, if you prefer, send us an email at contato@softa.com.br.
     send_another_message: Send another message »
