@@ -46,24 +46,28 @@ es:
 
   staff:
     who_we_are: Quiénes somos
-    dw: Gerente del ocio creativo, va a las reuniones que nadie más quiere ir. Tanguero, músico, y un apasionado del marketing del respeto.
-    db: Arquitecto de banco de datos. Le gustan las estructuras autoexplicativas, autorreferentes y autolimpiantes.
+    dw: Gerente del ocio creativo. Tanguero, músico, y un apasionado del marketing del respeto.
+    db: Arquitecto de datos. Le gustan las estructuras autoexplicativas, autorreferentes y autolimpiantes.
     fc: Soporte incansable, aikidoka y ciclista amateur. Amante de las cervezas artesanales y RRPP en su tiempo libre.
     jm: Desarrollador Rails, JavaScript y de otras cosas menos ortodoxas. Celebra efusivamente al hacer las entregas con cero bugs.
     lt: Artista del diseño, tipografía, UI <em class='alternate'>&</em> UX. Extremista en detalles, no perdona errores de 1px.
     pa: Malabarista de la infraestructura, desarrollador Rails y todo más que necesite. El vive en Internet y le gustan todas las nuevas buzzwords.
     xkcd:
       dw: "No se preocupe: el siempre aparece."
-      db: "La Garantía Soy Yo."
-      fc: "Smell like a man, Man!"
-      jm: TODO
+      db: "La garantía soy yo."
+      fc: Smell like a man, Man!
+      jm: "# TODO escribir 'alt' para la próxima versión."
       lt: ¡Ay Caramba! ¡No hablo español!
-      pa: TODO
+      pa: ¿¡Como así se cayó internet!?
 
   social:
     agenda: agenda
     interested: ¿Interesado en una conferencia, curso o evento?
     contact: Contáctenos »
+
+  rsonrails:
+    we_organize: Nosotros organizamos el
+    about: Evento celebrado en el sur de Brasil, presentando <em>charlas técnicas</em>, <em>casos</em> y <em>lightning talks</em>, y dirigido a los desarrolladores y entusiastas del desarrollo de aplicaciones usando <em>Ruby on Rails</em>.
 
   contact:
     title: Contáctenos

@@ -46,8 +46,8 @@ en:
 
   staff:
     who_we_are: Staff
-    dw: Manager of creative leisure, goes to the meetings nobody else wants to go. Tanguero, musician, and passionate about respect marketing.
-    db: Database Architect. He likes self-explanatory, self-referential and self-cleaning structures.
+    dw: Manager of creative leisure. Tanguero, musician, and passionate about respect marketing.
+    db: Data Architect. He likes self-explanatory, self-referential and self-cleaning structures.
     fc: Tireless support, aikidoka and amateur cyclist. Lover of craft beers and PR in his spare time.
     jm: Rails, JavaScript and other less orthodox things developer. Celebrates effusively when he delivers with zero bugs.
     lt: Design, typography, UI <em class='alternate'>&</em> UX enthusiast. Obsessive for details, does not forgive one pixel mistakes.
@@ -58,12 +58,16 @@ en:
       fc: "Smell like a man, Man!"
       jm: "#TODO Next version. Write 'alt' message."
       lt: Take this cursor out of my face!
-      pa: TODO
+      pa: WTF!? The internet is down!?
 
   social:
     agenda: schedule
     interested: Interested in a lecture, course or event?
     contact: Get in touch »
+
+  rsonrails:
+    we_organize: We organize
+    about: Event held in southern Brazil, with <em>technical lectures</em>, <em>cases</em> and <em>lightning talks</em>, and targeted to developers and enthusiasts in application development using <em>Ruby on Rails</em>.
 
   contact:
     title: Get in touch

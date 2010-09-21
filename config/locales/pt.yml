@@ -46,8 +46,8 @@ pt:
 
   staff:
     who_we_are: Quem somos
-    dw: Gerente do ócio criativo, vai nas reuniões que ninguém mais quer ir. Tanguero, músico, e apaixonado pelo marketing do respeito.
-    db: Arquiteto de Banco de Dados. Gosta de estruturas auto-explicativas, auto-referentes e auto-limpantes.
+    dw: Gerente do ócio criativo. Tanguero, músico, e apaixonado pelo marketing do respeito.
+    db: Arquiteto de Dados. Gosta de estruturas auto-explicativas, auto-referentes e auto-limpantes.
     fc: Suporte incansável, aikidoka e ciclista amador. Amante de cervejas artesanais e RP nas horas vagas.
     jm: Desenvolvedor Rails, JavaScript e de outras coisas menos ortodoxas. Comemora efusivamente quando realiza entregas com zero bugs.
     lt: Artista do design, tipografia, UI <em class='alternate'>&</em> UX. Extremista em detalhes, não perdoa erros de 1px.
@@ -58,7 +58,7 @@ pt:
       fc: "Smell like a man, Man!"
       jm: "#TODO escrever 'alt' para próxima versão."
       lt: Tire seu cursor de cima de mim!
-      pa: TODO
+      pa: Como assim caiu a internet!?
 
   social:
     agenda: agenda
