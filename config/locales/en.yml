@@ -17,14 +17,14 @@ en:
 
   description:
     punchline: "We develop <em class='web_two'>web 2.0</em> apps using <em class='ruby_on_rails'>Ruby on Rails</em> and <em class='postgresql'>PostgreSQL</em>, combining the best of <em class='open_source'>Open Source</em> with the <em class='methods'>right methods</em> to make your projects in <em class='methods'>less time</em> and with the <em class='methods'>greatest quality</em>."
-    call_to_action: send us your project
+    call_to_action: send us your project »
 
   mailee:
     description: Mailee.me is a web 2.0 app for email marketing. Created in Ruby on Rails and PostgreSQL, and focused in usability, it has a template creator, geolocation, social networks integration and smart anti-SPAM features.
-    twitter: Twitter
-    blog: Blog
+    twitter: follow on Twitter »
+    blog: read the Blog »
     screenshots: Screenshots
-    signup: Signup for free
+    signup: signup for free »
 
   method:
     title: Method
@@ -48,14 +48,14 @@ en:
 
   staff:
     dw: Manager of creative leisure, goes to the meetings nobody else wants to go. Tanguero, musician, and passionate about respect marketing.
-    db: Data Architect. He likes self-explanatory, self-referential and self-cleaning structures.
+    db: Database Architect. He likes self-explanatory, self-referential and self-cleaning structures.
     fc: Tireless support, aikidoka and amateur cyclist. Lover of craft beers and PR in his spare time.
     jm: Rails, JavaScript and other less orthodox things developer. Celebrates effusively when he delivers with zero bugs.
     lt: Design, typography, UI <em class='alternate'>&</em> UX enthusiast. Obsessive for details, does not forgive one pixel mistakes.
     pa: Infrastructure juggler, Rails developer and anything else you need. He lives on Internet and enjoys all new buzz words.
     xkcd:
       dw: "Don't worry: he always shows up."
-      db: TODO
+      db: "Yeah, we also like XKCD!"
       fc: Smell like a man, Man!
       jm: TODO
       lt: Take this cursor out of my face!
@@ -65,10 +65,6 @@ en:
     agenda: schedule
     interested: Interested in a lecture, course or event?
     contact: Get in touch »
-
-  rsonrails:
-    we_organize: Nós organizamos o
-    about: Evento realizado no sul do Brasil, apresentando <em>palestras técnicas</em>, <em>cases</em> e <em>lightning talks</em>, e voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <em>Ruby on Rails</em>.
 
   contact:
     title: Get in touch
@@ -83,7 +79,7 @@ en:
     send: send »
     message_placeholder: Write your message
     send_ok_title: Message sent successfully!
-    send_ok_message: Thank you. We'll get in touch soon.
+    send_ok_message: Thank you. We'll get in touch soons.
     send_error_title: Ooops. Something went wrong.
     send_error_message: Please try again or, if you prefer, send us an email at contato@softa.com.br.
     send_another_message: Send another message »
