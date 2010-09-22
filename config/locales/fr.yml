@@ -8,6 +8,7 @@ fr:
 
   softa:
     hello: Bonjour. Bienvenue sur le site web Softa.
+    happy_hacking: "Não perca tempo copiando daqui, o código completo está em http://github.com/ltartari/softa. Feliz hacking."
 
   nav:
     method: Méthode

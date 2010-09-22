@@ -8,7 +8,8 @@ es:
 
   softa:
     hello: Hola. Bienvenido a la página de Softa.
-
+    happy_hacking: "Por favor, no pierdas el tiempo a copiar nada de aquí. El código completo se encuentra en http://github.com/ltartari/softa. Feliz hacking."
+    
   nav:
     method: Metodología
     staff: Quiénes somos

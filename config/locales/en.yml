@@ -8,6 +8,7 @@ en:
 
   softa:
     hello: Hello. Welcome to Softa's website.
+    happy_hacking: "Please, don't waste your time copying anything from here. The full code is at http://github.com/ltartari/softa. Happy hacking."
 
   nav:
     method: Method
