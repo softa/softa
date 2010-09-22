@@ -11,8 +11,8 @@
           %ul
             - @posts.each do |post|
               %li
-                %h3.what #{ link_to post.title, post.link, :target=> :_blank, :class => 'event_link'}
-                %p #{post.desc}…
+                %h3.what #{link_to post.title, post.link, :target=> :_blank, :class => 'event_link'}
+                %p #{post.desc}… #{link_to t('social.blog.read_more'), post.link, :target=> :_blank}
     #calendar
       %section
         %h2 #{t 'social.agenda'}

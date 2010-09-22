@@ -5,6 +5,7 @@ fr:
   head:
     title: Softa · Merci! Beacup!
     description: "Web 2.0 apps. TODO"
+    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0, ui, ux"
 
   softa:
     hello: Bonjour. Bienvenue sur le site web Softa.
@@ -66,6 +67,8 @@ fr:
     interested: Envie d'une conférence, un cours ou un événement?
     contact: Entrer en contact
     with: avec
+    blog:
+      read_more: "[leia mais]"
 
   rsonrails:
     we_organize: Nós organizamos o
