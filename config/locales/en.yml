@@ -5,7 +5,7 @@ en:
   head:
     title: Web 2.0 apps with Ruby on Rails and PostgreSQL · Softa
     description: "Web 2.0 apps. The best of open source: Ruby on Rails and PostgreSQL. We use the best technologies together with the right methods to develop your projects in less time and with the greatest quality."
-    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0, ui, ux"
+    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, agile methods, agile programming, extreme programming, xp, ajax, javascript, web 2.0 applications, web systems, development, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programming, information architecture, usability, web2.0, user interface, user experience, ui, ux"
 
   softa:
     hello: Hello. Welcome to Softa's website.
