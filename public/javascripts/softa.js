@@ -32,8 +32,8 @@ $('form#contact_us').submit(function(){
     $('#contact_us_message_required').slideUp()
   }
 
-  $(this).find('input, textarea, button').attr('disabled', true)
   var data = $(this).serialize()
+  $(this).find('input, textarea, button').attr('disabled', true)
   var url = $(this).attr('action')
   $.post(url, data, function(result){
     //$('#send_button').attr('disabled', true)
