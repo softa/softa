@@ -55,15 +55,16 @@ es:
     xkcd:
       dw: "No se preocupe: el siempre aparece."
       db: "La garantía soy yo."
-      fc: Smell like a man, Man!
+      fc: "Smell like a man, Man!"
       jm: "# TODO escribir 'alt' para la próxima versión."
-      lt: ¡Ay Caramba! ¡No hablo español!
-      pa: ¿¡Como así se cayó internet!?
+      lt: "¡Ay Caramba! ¡No hablo español!"
+      pa: "¿¡Como así se cayó internet!?"
 
   social:
     agenda: agenda
     interested: ¿Interesado en una conferencia, curso o evento?
     contact: Contáctenos »
+    with: con
 
   rsonrails:
     we_organize: Nosotros organizamos el

@@ -7,17 +7,17 @@ fr:
     description: "Web 2.0 apps. TODO"
 
   softa:
-    hello: Hola. Bienvenido!
+    hello: Bonjour. Bienvenue sur le site web Softa.
 
   nav:
-    method: Cucaracha
-    staff: Tequila
-    social: Twitter, Blog & Agenda
-    contact: Habla!
+    method: Méthode
+    staff: Personnel
+    social: Twitter, Blog & Calendrier
+    contact: Contactez-nous
 
   description:
-    punchline: "Je taime... <em class='web_two'>web 2.0</em> apps using <em class='ruby_on_rails'>Ruby on Rails</em> and <em class='postgresql'>PostgreSQL</em>, combining the best of <em class='open_source'>Open Source</em> technologies with the <em class='methods'>right methods</em> to make your projects in <em class='methods'>less time</em> and with the <em class='methods'>greatest quality</em>."
-    call_to_action: Get a quotation
+    punchline: "Nous développons des applications <em class='web_two'>web 2.0</em> en utilisant <em class='ruby_on_rails'>Ruby on Rails</em> et <em class='postgresql'>PostgreSQL</em>, combinant le meilleur de l'<em class='open_source'>Open Source</em> pour les <em class='methods'>bonnes méthodes</em> pour réaliser leurs projets en <em class='methods'>moins de temps</em> et avec la plus <em class='methods'>haute qualité</em>."
+    call_to_action: Obtenez un devis
 
   mailee:
     description: Mailee.me is a todo text.
@@ -61,9 +61,10 @@ fr:
       pa: TODO
 
   social:
-    agenda: Agenda
-    interested: TODO
-    contact: Get in touch »
+    agenda: Calendrier
+    interested: Envie d'une conférence, un cours ou un événement?
+    contact: Entrer en contact
+    with: avec
 
   rsonrails:
     we_organize: Nós organizamos o

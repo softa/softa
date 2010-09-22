@@ -57,13 +57,14 @@ en:
       db: "Yeah, we also like XKCD!"
       fc: "Smell like a man, Man!"
       jm: "#TODO Next version. Write 'alt' message."
-      lt: Take this cursor out of my face!
-      pa: WTF!? The internet is down!?
+      lt: "Please, take the cursor out of my face."
+      pa: "WTF!? The internet is down!?"
 
   social:
     agenda: schedule
     interested: Interested in a lecture, course or event?
     contact: Get in touch »
+    with: with
 
   rsonrails:
     we_organize: We organize

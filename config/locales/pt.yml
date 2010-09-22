@@ -57,14 +57,15 @@ pt:
       db: "Também gosta de alts engraçadinhos."
       fc: "Smell like a man, Man!"
       jm: "#TODO escrever 'alt' para próxima versão."
-      lt: Tire seu cursor de cima de mim!
-      pa: Como assim caiu a internet!?
+      lt: "Por favor, tire a seta do mouse de cima de mim!"
+      pa: "Como assim caiu a internet!?"
 
   social:
     agenda: agenda
     interested: Interessado em uma palestra, curso ou evento?
     contact: Entre em contato »
-  
+    with: com
+
   rsonrails:
     we_organize: Nós organizamos o
     about: Evento realizado no sul do Brasil, apresentando <em>palestras técnicas</em>, <em>cases</em> e <em>lightning talks</em>, e voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <em>Ruby on Rails</em>.

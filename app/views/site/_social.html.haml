@@ -20,10 +20,15 @@
           %ul
             - @events.each do |event|
               %li
-                %time.when{ :datetime => event[:when] }= event[:when]
+                .when_and_event_title
+                  %time.when{ :datetime => event[:when_not_human] } #{event[:when]} ·
+                  %span.event_title #{event[:event_title]}
                 %h3.what
                   #{link_to event[:title], event[:title_link], :class => 'event_link', :target=> :_blank}
                 %h4.where
+                  %span.with #{t('social.with')}
+                  #{event[:who]}
+                  %br
                   #{event[:where]}
                 .clear
                 %p
