@@ -53,9 +53,14 @@ body #social
           display: block
           float: left
           margin: 4px 6px
+          &:hover img
+            border-color: $social + #444
+          &:active img
+            border-color: $social + #222
           img
             +box-shadow(rgba(0,0,0,.5),0,1px,2px)
             border: 1px solid ($social + #111)
+            
   #blog
     +column(9)
     +append(1)

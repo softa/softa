@@ -120,8 +120,8 @@ The Juitter developer shall have no responsability for data loss or damage of an
               if (item.text != "undefined") {
                 var link =  "http://twitter.com/"+item.from_user+"/status/"+item.id;
                 var tweet = $.Juitter.filter(item.text);
-                if(fromID=="image") mHTML="<a class='user_image_link' href='http://www.twitter.com/"+item.from_user+"'><img src='"+item.profile_image_url+"' alt='"+item.from_user+"' class='user_avatar rounded-img' /></a>"+"<p><a href='" + link + "'><strong>"+item.from_user+"</strong></a> "+$.Juitter.textFormat(tweet)+"</p><div class='clear'></div>";
-                else mHTML="<p><a href='http://www.twitter.com/"+item.from_user+"'>@"+item.from_user+":</a> "+$.Juitter.textFormat(tweet)+"</p><div class='clear'></div>";
+                if(fromID=="image") mHTML="<a class='user_image_link' href='http://www.twitter.com/"+item.from_user+"' target='_blank'><img src='"+item.profile_image_url+"' alt='"+item.from_user+"' class='user_avatar' /></a>"+"<p><a href='" + link + " 'target='_blank'><strong>"+item.from_user+"</strong></a> "+$.Juitter.textFormat(tweet)+"</p><div class='clear'></div>";
+                else mHTML="<p><a href='http://www.twitter.com/"+item.from_user+"' target='_blank'>@"+item.from_user+":</a> "+$.Juitter.textFormat(tweet)+"</p><div class='clear'></div>";
                 $("<li></li>")
                 .html(mHTML)
                 .attr('id', 'twittLI'+msgNb)
@@ -157,11 +157,11 @@ The Juitter developer shall have no responsability for data loss or damage of an
         textFormat: function(texto){
           //make links
           var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
-          texto = texto.replace(exp,"<a href='$1' class='extLink' "+openLink+">$1</a>");
+          texto = texto.replace(exp,"<a href='$1' class='extLink' "+openLink+" target='_blank'>$1</a>");
           var exp = /[\@]+([A-Za-z0-9-_]+)/ig;
-          texto = texto.replace(exp,"<a href='http://twitter.com/$1' class='profileLink'>@$1</a>");
+          texto = texto.replace(exp,"<a href='http://twitter.com/$1' class='profileLink' target='_blank'>@$1</a>");
           var exp = /[\#]+([A-Za-z0-9-_]+)/ig;
-          texto = texto.replace(exp,"<a href='http://twitter.com/#search?q=%23$1' onclick='$.Juitter.start({searchType:\"searchWord\",searchObject:\"$1\"});return false;' class='hashLink'>#$1</a>");
+          texto = texto.replace(exp,"<a href='http://twitter.com/#search?q=%23$1' class='hashLink' target='_blank'>#$1</a>");
           // make it bold
           if(mode=="searchWord"){
             tempParam = param.replace(/&ors=/,"");
