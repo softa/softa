@@ -85,6 +85,7 @@ pt:
     email_placeholder: usuario@dominio.com
     message: Mensagem
     send:  Enviar
+    wait: Aguarde...
     message_placeholder: Escreva sua mensagem
     send_ok_title: Mensagem enviada com sucesso!
     send_ok_message: Obrigado. Em breve retornaremos seu contato.
