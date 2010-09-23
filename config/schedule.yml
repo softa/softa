@@ -1,25 +1,28 @@
 --- 
 - :desc: Not defined yet.
-  :when: 16-18/OUT
+  :when_not_human: "2010-10-16"
   :event_title: Rails Rumble MMX
-  :who: Softa [DB, JM, LT & PA]
+  :who: Team Softa [DB, JM, LT & PA]
   :event_site: http://railsrumble.com/
-  :title: Rails Rumble
+  :title: Team Softa @ Rails Rumble
   :title_link: http://railsrumble.com/teams/softa
   :where: Worldwide
+  :when: 16-18/OUT
 - :desc: "A minha id\xC3\xA9ia \xC3\xA9 explicar o que \xC3\xA9 um analisador de PEG e porque \xC3\xA9 \xC3\xBAtil. Ent\xC3\xA3o, vou escrever um parser para uma linguagem simples e formal. No final, podemos discutir o crescente uso de analisadores pela comunidade (Mail, Cucumber \xE2\x80\xA6) e onde isso nos levar\xC3\xA1."
-  :when: 26/OUT
+  :when_not_human: "2010-10-26"
   :event_title: RubyConf 2010
   :who: Juan Maiz
   :event_site: http://www.rubyconf.com.br/
   :title: Treetop - O parser de Ruby
   :title_link: http://www.rubyconf.com.br/pt-BR/pages/speakers#juan_maiz
   :where: "S\xC3\xA3o Paulo, SP"
+  :when: 26/OUT
 - :desc: "A minha id\xC3\xA9ia \xC3\xA9 explicar o que \xC3\xA9 um analisador de PEG e porque \xC3\xA9 \xC3\xBAtil. Ent\xC3\xA3o, vou escrever um parser para uma linguagem simples e formal. No final, podemos discutir o crescente uso de analisadores pela comunidade (Mail, Cucumber \xE2\x80\xA6) e onde isso nos levar\xC3\xA1."
-  :when: 29-30/OUT
+  :when_not_human: "2010-10-29"
   :event_title: RubyConf Uruguay 2010
   :who: Juan Maiz
   :event_site: http://rubyconfuruguay.org/
   :title: "Treetop \xE2\x80\x93 O parser de Ruby"
   :title_link: http://rubyconfuruguay.org/en/speakers#joaomilho
   :where: Montevideo, Uruguay
+  :when: 29-30/OUT

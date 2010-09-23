@@ -3,8 +3,9 @@ require 'yaml'
 events = [
   {
     :when => "16-18/OUT",
-    :who => "Softa [DB, JM, LT & PA]",
-    :title => "Rails Rumble",
+    :when_not_human => "2010-10-16", 
+    :who => "Team Softa [DB, JM, LT & PA]",
+    :title => "Team Softa @ Rails Rumble",
     :title_link => "http://railsrumble.com/teams/softa",
     :where => "Worldwide",
     :desc => "Not defined yet.",
@@ -12,6 +13,7 @@ events = [
     :event_site => "http://railsrumble.com/"
   },{
     :when => "26/OUT",
+    :when_not_human => "2010-10-26", 
     :who => "Juan Maiz",
     :title => "Treetop - O parser de Ruby",
     :title_link => "http://www.rubyconf.com.br/pt-BR/pages/speakers#juan_maiz",
@@ -21,6 +23,7 @@ events = [
     :event_site => "http://www.rubyconf.com.br/"
   },{
     :when => "29-30/OUT",
+    :when_not_human => "2010-10-29",
     :who => "Juan Maiz",
     :title => "Treetop – O parser de Ruby",
     :title_link => "http://rubyconfuruguay.org/en/speakers#joaomilho",
@@ -30,4 +33,4 @@ events = [
     :event_site => "http://rubyconfuruguay.org/"
   }
 ]
-File.open('schedule.yml','w+'){|f| f.write events.to_yaml }
+File.open('../config/schedule.yml','w+'){|f| f.write events.to_yaml }

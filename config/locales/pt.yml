@@ -5,14 +5,16 @@ pt:
   head:
     title: Aplicações web 2.0 em Ruby on Rails e PostgreSQL · Softa
     description: "Aplicações web 2.0. O melhor do open source: Ruby on Rails e PostgreSQL. Utilizamos as melhores tecnologias aliadas aos métodos certos para desenvolver seus projetos no menor tempo e com a maior qualidade."
+    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0, interface de usuário, experiência de uso, ui, ux"
 
   softa:
     hello: Olá. Seja bem vindo ao site da Softa.
+    happy_hacking: "Por favor, não perca seu tempo copiando nada daqui. O código completo está em http://github.com/ltartari/softa. Happy hacking."
 
   nav:
     method: Metodologia
     staff: Quem somos
-    social: Twitter, Blog & Agenda
+    social: "Twitter, Blog & Agenda"
     contact: Contato
 
   description:
@@ -20,7 +22,7 @@ pt:
     call_to_action: Envie seu projeto
 
   mailee:
-    description: Mailee.me é um aplicativo web 2.0 para email marketing. Desenvolvido em Ruby on Rails e PostgreSQL, e focado em usabilidade, possui criador de templates, geolocalização, integração com redes sociais e inteligentes recursos anti-SPAM.
+    description: "Mailee.me é um aplicativo web 2.0 para email marketing. Desenvolvido em Ruby on Rails e PostgreSQL, e focado em usabilidade, possui criador de templates, geolocalização, integração com redes sociais e inteligentes recursos anti-SPAM."
     screenshots: Veja algumas telas
     signup: Cadastre-se grátis
 
@@ -29,13 +31,13 @@ pt:
     contact: entre em contato
     agile:
       title: Métodos ágeis
-      desc: <p>Utilizar métodos ágeis significa colocar as pessoas em primeiro lugar. O sucesso de um projeto de software começa com um time qualificado e que ama o que faz. Cliente como parte da equipe, comunicação aberta e foco no resultado complementam a receita.</p><p>Acreditamos que não existem dogmas em desenvolvimento de software e que o mais importante é o aprendizado contínuo.</p>
+      desc: "<p>Utilizar métodos ágeis significa colocar as pessoas em primeiro lugar. O sucesso de um projeto de software começa com um time qualificado e que ama o que faz. Cliente como parte da equipe, comunicação aberta e foco no resultado complementam a receita.</p><p>Acreditamos que não existem dogmas em desenvolvimento de software e que o mais importante é o aprendizado contínuo.</p>"
     quality:
       title: Qualidade
-      desc: <p>A experiência de uso determina a qualidade de um software. Por isto, dedicamos a maior parte de nossos esforços para a criação de interfaces bem projetadas e desenhadas.</p><p>Além disso, utilizamos uma série de técnicas para criar sistemas de alta qualidade. Controle de versões com git, testes automatizados, verificação da cobertura de testes, integração contínua e deployment automatizado são algumas delas.</p>
+      desc: "<p>A experiência de uso determina a qualidade de um software. Por isto, dedicamos a maior parte de nossos esforços para a criação de interfaces bem projetadas e desenhadas.</p><p>Além disso, utilizamos uma série de técnicas para criar sistemas de alta qualidade. Controle de versões com git, testes automatizados, verificação da cobertura de testes, integração contínua e deployment automatizado são algumas delas.</p>"
     tech:
       title: Tecnologia
-      desc: <p>Empresas de tecnologia não devem ter medo de experimentar. Estamos sempre estudando novas ferramentas e testando novas plataformas. Hoje, trabalhamos principalmente com Ruby on Rails e PostgreSQL.</p><p>Nosso cinto de utilidades conta também com linguagens como C, JavaScript (Node.js), Python, Erlang e Haskell.</p>
+      desc: "<p>Empresas de tecnologia não devem ter medo de experimentar. Estamos sempre estudando novas ferramentas e testando novas plataformas. Hoje, trabalhamos principalmente com Ruby on Rails e PostgreSQL.</p><p>Nosso cinto de utilidades conta também com linguagens como C, JavaScript (Node.js), Python, Erlang e Haskell.</p>"
 
   labs:
     hstore:
@@ -46,24 +48,31 @@ pt:
 
   staff:
     who_we_are: Quem somos
-    dw: Gerente do ócio criativo. Tanguero, músico, e apaixonado pelo marketing do respeito.
-    db: Arquiteto de Dados. Gosta de estruturas auto-explicativas, auto-referentes e auto-limpantes.
-    fc: Suporte incansável, aikidoka e ciclista amador. Amante de cervejas artesanais e RP nas horas vagas.
-    jm: Desenvolvedor Rails, JavaScript e de outras coisas menos ortodoxas. Comemora efusivamente quando realiza entregas com zero bugs.
-    lt: Artista do design, tipografia, UI <em class='alternate'>&</em> UX. Extremista em detalhes, não perdoa erros de 1px.
-    pa: Malabarista de infraestrutura, desenvolvedor Rails e o que mais precisar. Ele mora na internet e gosta de todas as novas buzzwords.
+    dw: "Gerente do ócio criativo. Tanguero, músico, e apaixonado pelo marketing do respeito."
+    db: "Arquiteto de Dados. Gosta de estruturas auto-explicativas, auto-referentes e auto-limpantes."
+    fc: "Suporte incansável, aikidoka e ciclista amador. Amante de cervejas artesanais e RP nas horas vagas."
+    jm: "Desenvolvedor Rails, JavaScript e de outras coisas menos ortodoxas. Comemora efusivamente quando realiza entregas com zero bugs."
+    lt: "Artista do design, tipografia, UI <em class='alternate'>&</em> UX. Extremista em detalhes, não perdoa erros de 1px."
+    pa: "Malabarista de infraestrutura, desenvolvedor Rails e o que mais precisar. Ele mora na internet e gosta de todas as novas buzzwords."
     xkcd:
       dw: "Não se preocupe: ele sempre aparece."
       db: "Também gosta de alts engraçadinhos."
-      fc: Smell like a man, Man!
+      fc: "Smell like a man, Man!"
       jm: "#TODO escrever 'alt' para próxima versão."
-      lt: Tire seu cursor de cima de mim!
-      pa: Como assim caiu a internet!?
+      lt: "Ok ok. Bem engraçado. Agora, por favor tire a seta do mouse de cima de mim!"
+      pa: "Como assim caiu a internet!?"
 
   social:
     agenda: agenda
-    interested: Interessado em uma palestra, curso ou evento?
+    interested: "Interessado em uma palestra, curso ou evento?"
     contact: Entre em contato »
+    with: com
+    blog:
+      read_more: "[leia mais]"
+
+  rsonrails:
+    we_organize: Nós organizamos o
+    about: "Evento realizado no sul do Brasil, apresentando <em>palestras técnicas</em>, <em>cases</em> e <em>lightning talks</em>, e voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <em>Ruby on Rails</em>."
 
   contact:
     title: Entre em contato
@@ -80,9 +89,10 @@ pt:
     send_ok_title: Mensagem enviada com sucesso!
     send_ok_message: Obrigado. Em breve retornaremos seu contato.
     send_error_title: Ooops. Ocorreu um erro ao enviar a mensagem.
-    send_error_message: Tente novamente ou, se preferir, envie um email para contato@softa.com.br.
+    send_error_message: "Tente novamente ou, se preferir, envie um email para contato@softa.com.br."
     send_another_message: Enviar outra mensagem.
     try_again: Tentar novamente.
 
   colophon:
     five_years: 5 anos
+

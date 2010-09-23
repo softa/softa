@@ -62,8 +62,7 @@ body #social
     p
       color: white
       a
-        color: black
-        text-decoration: underline
+        white-space: nowrap
     #softa_blog
       margin-bottom: 1em
       p
@@ -94,17 +93,23 @@ body #social
         margin: 6px 0
         color: $social + $grey
         text-shadow: ($social - #222) 1px 1px 0
-      time.when
+        span.with
+          font:
+            family: georgia, times, 'times new roman', serif
+            style: italic
+            weight: 100
+      .when_and_event_title
         +two-box-shadow(($social + #222) 0 1px 0, ($social - #666) 0 1px 0 inset)
         +rounded(3px)
-        font-weight: 900
         display: block
-        text-shadow: ($social + #222) 0 1px 0
         overflow: hidden
         padding: 4px
-        font-size: 12px
         background: ($social - #222)
-        color: white
+        time.when, span.event_title
+          font-weight: 900
+          color: white
+          text-shadow: ($social + #222) 0 1px 0
+          font-size: 12px
     li
       padding: 6px 0
       border-bottom: 1px solid ($social - #222)

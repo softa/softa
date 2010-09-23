@@ -5,14 +5,16 @@ en:
   head:
     title: Web 2.0 apps with Ruby on Rails and PostgreSQL · Softa
     description: "Web 2.0 apps. The best of open source: Ruby on Rails and PostgreSQL. We use the best technologies together with the right methods to develop your projects in less time and with the greatest quality."
+    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, agile methods, agile programming, extreme programming, xp, ajax, javascript, web 2.0 applications, web systems, development, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programming, information architecture, usability, web2.0, user interface, user experience, ui, ux"
 
   softa:
     hello: Hello. Welcome to Softa's website.
+    happy_hacking: "Please, don't waste your time copying anything from here. The full code is at http://github.com/ltartari/softa. Happy hacking."
 
   nav:
     method: Method
     staff: Staff
-    social: Twitter, Blog & Agenda
+    social: "Twitter, Blog & Agenda"
     contact: Contact
 
   description:
@@ -20,7 +22,7 @@ en:
     call_to_action: Send us your project
 
   mailee:
-    description: Mailee.me is a web 2.0 app for email marketing. Created in Ruby on Rails and PostgreSQL, and focused in usability, it has a template creator, geolocation, social networks integration and smart anti-SPAM features.
+    description: "Mailee.me is a web 2.0 app for email marketing. Created in Ruby on Rails and PostgreSQL, and focused in usability, it has a template creator, geolocation, social networks integration and smart anti-SPAM features."
     screenshots: Screenshots
     signup: Signup for free
 
@@ -29,13 +31,13 @@ en:
     contact: get in touch
     agile:
       title: Agile methods
-      desc: <p>Using agile methods means putting people first. The success of a software project starts with a qualified team that loves its work. Client as a team member, open communication and focus on results complement the recipe.</p><p>We believe that there are no dogmas in software development and that what matters the most is continuous learning.</p>
+      desc: "<p>Using agile methods means putting people first. The success of a software project starts with a qualified team that loves its work. Client as a team member, open communication and focus on results complement the recipe.</p><p>We believe that there are no dogmas in software development and that what matters the most is continuous learning.</p>"
     quality:
       title: Quality
-      desc: <p>User experience determines the quality of a software. That's why we dedicate most of our efforts to create well designed and well drawn interfaces.</p><p>Besides that, we use a variety of techniques to create high-quality systems. Version control with git, automated testing, test coverage checking, continuous integration and automated deployment are among them.</p>
+      desc: "<p>User experience determines the quality of a software. That's why we dedicate most of our efforts to create well designed and well drawn interfaces.</p><p>Besides that, we use a variety of techniques to create high-quality systems. Version control with git, automated testing, test coverage checking, continuous integration and automated deployment are among them.</p>"
     tech:
       title: Tech
-      desc: <p>Technology companies should not be afraid to experiment. We are always studying new tools and testing new platforms. Today, we work primarily with Ruby on Rails and PostgreSQL.</p><p>Our utility belt also has languages such as C, JavaScript (Node.js), Python, Erlang and Haskell.</p>
+      desc: "<p>Technology companies should not be afraid to experiment. We are always studying new tools and testing new platforms. Today, we work primarily with Ruby on Rails and PostgreSQL.</p><p>Our utility belt also has languages such as C, JavaScript (Node.js), Python, Erlang and Haskell.</p>"
 
   labs:
     hstore:
@@ -46,28 +48,31 @@ en:
 
   staff:
     who_we_are: Staff
-    dw: Manager of creative leisure. Tanguero, musician, and passionate about respect marketing.
-    db: Data Architect. He likes self-explanatory, self-referential and self-cleaning structures.
-    fc: Tireless support, aikidoka and amateur cyclist. Lover of craft beers and PR in his spare time.
-    jm: Rails, JavaScript and other less orthodox things developer. Celebrates effusively when he delivers with zero bugs.
-    lt: Design, typography, UI <em class='alternate'>&</em> UX enthusiast. Obsessive for details, does not forgive one pixel mistakes.
-    pa: Infrastructure juggler, Rails developer and anything else you need. He lives on Internet and enjoys all new buzzwords.
+    dw: "Manager of creative leisure. Tanguero, musician, and passionate about respect marketing."
+    db: "Data Architect. He likes self-explanatory, self-referential and self-cleaning structures."
+    fc: "Tireless support, aikidoka and amateur cyclist. Lover of craft beers and PR in his spare time."
+    jm: "Rails, JavaScript and other less orthodox things developer. Celebrates effusively when he delivers with zero bugs."
+    lt: "Design, typography, UI <em class='alternate'>&</em> UX enthusiast. Obsessive for details, does not forgive one pixel mistakes."
+    pa: "Infrastructure juggler, Rails developer and anything else you need. He lives on Internet and enjoys all new buzzwords."
     xkcd:
       dw: "Don't worry: he always shows up."
       db: "Yeah, we also like XKCD!"
-      fc: Smell like a man, Man!
+      fc: "Smell like a man, Man!"
       jm: "#TODO Next version. Write 'alt' message."
-      lt: Take this cursor out of my face!
-      pa: WTF!? The internet is down!?
+      lt: "Ok ok. Very funny. Now, please take the cursor out of my face."
+      pa: "WTF!? The internet is down!?"
 
   social:
     agenda: schedule
-    interested: Interested in a lecture, course or event?
+    interested: "Interested in a lecture, course or event?"
     contact: Get in touch »
+    with: with
+    blog:
+      read_more: "[read more]"
 
   rsonrails:
     we_organize: We organize
-    about: Event held in southern Brazil, with <em>technical lectures</em>, <em>cases</em> and <em>lightning talks</em>, and targeted to developers and enthusiasts in application development using <em>Ruby on Rails</em>.
+    about: "Event held in southern Brazil, with <em>technical lectures</em>, <em>cases</em> and <em>lightning talks</em>, and targeted at developers and enthusiasts in application development using <em>Ruby on Rails</em>."
 
   contact:
     title: Get in touch
@@ -82,9 +87,9 @@ en:
     send: Send
     message_placeholder: Write your message
     send_ok_title: Message sent successfully!
-    send_ok_message: Thank you. We'll get in touch soons.
+    send_ok_message: Thank you. We'll get in touch soon.
     send_error_title: Ooops. Something went wrong.
-    send_error_message: Please try again or, if you prefer, send us an email at contato@softa.com.br.
+    send_error_message: "Please try again or, if you prefer, send us an email at contato@softa.com.br."
     send_another_message: Send another message.
     try_again: Try again.
 

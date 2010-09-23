@@ -1,26 +1,26 @@
 #softa_mailee
   .wrapper
-    %section
-      #maileeme.work_showcase
-        %section
-          .work_showcase_info
-            %h3
-              #{link_to(image_tag('maileeme/maileeme_logo.png', :alt => 'Mailee.me - Email marketing 2.0'), 'http://mailee.me', :target => :_blank)}
+    #maileeme.work_showcase
+      %section
+        .work_showcase_info
+          %h3
+            #{link_to(image_tag('maileeme/maileeme_logo.png', :alt => 'Mailee.me - Email marketing 2.0'), 'http://mailee.me', :target => :_blank)}
+          %p
+            #{t('mailee.description')}
+          .mailee_links
             %p
-              #{t('mailee.description')}
-            .mailee_links
-              %p
-                #{link_to 'Twitter', 'http://twitter.com/maileeme', :class => 'twitter softa_button', :target => :_blank } #{link_to 'Blog', 'http://blog.mailee.me', :class => 'blog softa_button', :target => :_blank } #{link_to 'Help', 'http://help.mailee.me/', :class => 'help softa_button', :target => :_blank } #{link_to t('mailee.signup'), 'http://mailee.me/cadastro.html', :class => 'mailee_call_to_action softa_button', :target => :_blank}
-              %hr
-              %h4 #{t('mailee.screenshots')}
-              %ul.showcase_more_images
-                %li
-                  #{link_to image_tag('maileeme/maileeme_small_one.jpg'), image_path('maileeme/maileeme_one.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
-                %li
-                  #{link_to image_tag('maileeme/maileeme_small_two.jpg'), image_path('maileeme/maileeme_two.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
-                %li
-                  #{link_to image_tag('maileeme/maileeme_small_three.jpg'), image_path('maileeme/maileeme_three.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
-          .work_showcase_image
-            #{image_tag 'maileeme/maileeme_showcase.png', :title => 'Mailee.me - Email marketing 2.0', :alt => 'Mailee.me - Email marketing 2.0' }
-          .clear
+              #{link_to 'Twitter', 'http://twitter.com/maileeme', :class => 'twitter softa_button', :target => :_blank } #{link_to 'Blog', 'http://blog.mailee.me', :class => 'blog softa_button', :target => :_blank } #{link_to 'Help', 'http://help.mailee.me/', :class => 'help softa_button', :target => :_blank } #{link_to t('mailee.signup'), 'http://mailee.me/cadastro.html', :class => 'mailee_call_to_action softa_button', :target => :_blank}
+            .clear
+            %hr
+            %h4 #{t('mailee.screenshots')}
+            %ul.showcase_more_images
+              %li
+                #{link_to image_tag('maileeme/maileeme_small_one.jpg'), image_path('maileeme/maileeme_one.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
+              %li
+                #{link_to image_tag('maileeme/maileeme_small_two.jpg'), image_path('maileeme/maileeme_two.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
+              %li
+                #{link_to image_tag('maileeme/maileeme_small_three.jpg'), image_path('maileeme/maileeme_three.jpg'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
+        .work_showcase_image
+          #{image_tag 'maileeme/maileeme_showcase.png', :title => 'Mailee.me - Email marketing 2.0', :alt => 'Mailee.me - Email marketing 2.0' }
+        .clear
 .clear
