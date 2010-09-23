@@ -40,10 +40,10 @@ $('form#contact_us').submit(function(){
     $('#contact_us').find('input, textarea, button').attr('disabled', false)
     if(result['ok']){
       $('#contact_us').find('input, textarea').val('')
-      $('#contact_us').fadeOut()
+      $('#contact_us_content').fadeOut()
       $('#contact_us_success').fadeIn()
     }else{
-      $('#contact_us').fadeOut()
+      $('#contact_us_content').fadeOut()
       $('#contact_us_failure').fadeIn()
     }
   }, 'json')
@@ -53,7 +53,7 @@ $('form#contact_us').submit(function(){
 $('.send_another').click(function(){
   $('#contact_us_success').hide()
   $('#contact_us_failure').hide()
-  $('#contact_us').fadeIn()
+  $('#contact_us_content').fadeIn()
   $('#contact_us_name').focus()
   return false
 })
