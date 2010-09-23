@@ -120,7 +120,7 @@ The Juitter developer shall have no responsability for data loss or damage of an
               if (item.text != "undefined") {
                 var link =  "http://twitter.com/"+item.from_user+"/status/"+item.id;
                 var tweet = $.Juitter.filter(item.text);
-                if(fromID=="image") mHTML="<a class='user_image_link' href='http://www.twitter.com/"+item.from_user+"' target='_blank'><img src='"+item.profile_image_url+"' alt='"+item.from_user+"' class='user_avatar rounded-img' /></a>"+"<p><a href='" + link + " 'target='_blank'><strong>"+item.from_user+"</strong></a> "+$.Juitter.textFormat(tweet)+"</p><div class='clear'></div>";
+                if(fromID=="image") mHTML="<a class='user_image_link' href='http://www.twitter.com/"+item.from_user+"' target='_blank'><img src='"+item.profile_image_url+"' alt='"+item.from_user+"' class='user_avatar' /></a>"+"<p><a href='" + link + " 'target='_blank'><strong>"+item.from_user+"</strong></a> "+$.Juitter.textFormat(tweet)+"</p><div class='clear'></div>";
                 else mHTML="<p><a href='http://www.twitter.com/"+item.from_user+"' target='_blank'>@"+item.from_user+":</a> "+$.Juitter.textFormat(tweet)+"</p><div class='clear'></div>";
                 $("<li></li>")
                 .html(mHTML)
