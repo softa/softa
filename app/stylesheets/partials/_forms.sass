@@ -27,6 +27,10 @@ form
         color: white
         border-color: (#f90 - #666)
         outline: 0 none
+      &:invalid
+        background-color: rgba(255,0,0,.3)
+      &:required
+        background-color: rgba(255,0,0,.3)
     #contact_us_name_required, #contact_us_email_required, #contact_us_message_required, #contact_us_email_invalid
       +rounded(0px 0px 4px 4px)
       display: none
@@ -40,7 +44,8 @@ form
       padding: 4px 10px
     #contact_us_name_required, #contact_us_email_required, #contact_us_message_required
       background: $orange
-      text-shadow: $social 0 -1px 0
+      color: $social - #444
+      text-shadow: ($orange + #444) 0 1px 0
     #contact_us_email_invalid
       background: $red
       text-shadow: ($red - $grey) 0 -1px 0

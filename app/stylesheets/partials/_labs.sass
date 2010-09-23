@@ -82,23 +82,25 @@ body #content
         a
           +inset-box-shadow(0, 1px, 0, #fff)
           +rounded(4px)
-          border: 1px solid #b0b0b0
+          border: 1px solid #999
           padding: 3px 10px
           margin-right: 20px
           display: block
           float: right
-          color: #222
-          text-shadow: #fff 0 1px 0
+          color: #202020
+          text-shadow: #f2f2f2 0 1px 0
           font-weight: 900
           display: block
           background: #ddd
-          +linear-gradient(color-stops(#d0d0d0, #dfdfdf))
+          +linear-gradient(color-stops(#ccc, #bbb))
           text-decoration: none
           &:hover
             text-decoration: none
             background: #eee
             color: #000
+            +linear-gradient(color-stops(#ddd, #ccc))
           &:active
-            +inset-box-shadow(0, -1px, 0, #888)
+            +inset-box-shadow(0, -1px, 0, #ddd)
             text-decoration: none
             background: #c0c0c0
+            +linear-gradient(color-stops(#bbb, #ccc))
