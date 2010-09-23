@@ -36,7 +36,6 @@ class SiteController < ApplicationController
 
   # Sends the email via ajax.
   def contact
-    # raise "FAILURE"
     Site.deliver_contact(params)
     render :json => {:ok => true}.to_json
   rescue 

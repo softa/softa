@@ -29,7 +29,7 @@
           %textarea#contact_us_message{ :name => :message, :placeholder => t('contact.message_placeholder'), :wrap => 'soft', :rows => 4 }
           #contact_us_message_required= t('contact.message_required')
         %fieldset.submit_button
-          %button#send_button{ :type => :submit, :form => :contact_form }= t 'contact.send'
+          %button#send_button{ :"data-wait" => t('contact.wait'), :"data-send" => t('contact.send'), :type => :submit, :form => :contact_form }= t 'contact.send'
     #where_to_find_us
     %p
       %a{ :href => 'http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Softa&sll=-30.039703,-51.2104&sspn=0.001983,0.004128&ie=UTF8&hq=*&hnear=&ll=-30.039526,-51.210752&spn=0.001983,0.004128&z=19&iwloc=A&cid=3597396454165080845', :target => :_blank }

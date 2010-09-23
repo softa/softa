@@ -35,6 +35,8 @@ $('form#contact_us').submit(function(){
   var data = $(this).serialize()
   $(this).find('input, textarea, button').attr('disabled', true)
   var url = $(this).attr('action')
+  var bt = $('#contact_us button')
+  bt.html(bt.attr('data-wait'))
   $.post(url, data, function(result){
     //$('#send_button').attr('disabled', true)
     $('#contact_us').find('input, textarea, button').attr('disabled', false)
@@ -51,6 +53,8 @@ $('form#contact_us').submit(function(){
 })
 
 $('.send_another').click(function(){
+  var bt = $('#contact_us button')
+  bt.html(bt.attr('data-send'))
   $('#contact_us_success').hide()
   $('#contact_us_failure').hide()
   $('#contact_us_content').fadeIn()
@@ -68,7 +72,7 @@ $("a[href^='#']").click(function(){
   pos = $(href).position()
   pos.top -= 40
   $.scrollTo(pos,600)
-  if(href == '#contact_us') $('#contact_us_name').focus()
+  if(href == '#contact_us') $('.send_another').click()
   if(href == '#top') change_emphasis(emphasis, 0)
   return false
 })

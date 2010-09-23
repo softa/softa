@@ -85,6 +85,7 @@ en:
     message_required: You must write a message to post.
     message: Message
     send: Send
+    wait: Please wait...
     message_placeholder: Write your message
     send_ok_title: Message sent successfully!
     send_ok_message: Thank you. We'll get in touch soon.
