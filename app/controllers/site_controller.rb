@@ -36,7 +36,7 @@ class SiteController < ApplicationController
 
   # Sends the email via ajax.
   def contact
-    Site.deliver_contact(params)
+    Site.contact(params).deliver # Apparently deliver_contact(params) is deprecated.
     render :json => {:ok => true}.to_json
   rescue 
     render :json => {:ok => false}.to_json
