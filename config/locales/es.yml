@@ -33,7 +33,7 @@ es:
       title: Métodos ágiles
       desc: "<p>Utilizar métodos ágiles significa poner a la gente en primer lugar. El éxito de un proyecto de software empieza con un equipo cualificado y que ama lo que hace. Cliente como parte del equipo, comunicación abierta y foco en resultados complementan la receta.</p><p>Creemos que no hay dogmas en el desarrollo de software y que lo más importante es el aprendizaje continuo.</p>"
     quality:
-      title: Qualidade
+      title: Calidad
       desc: "<p>La experiencia de usuario determina la calidad de un software. Por lo tanto, dedicamos la mayor parte de nuestros esfuerzos para crear interfaces bien proyectadas y diseñadas.</p><p>Además de eso, usamos una variedad de técnicas para crear sistemas de alta calidad. Control de versiones con git, tests automatizados, verificación de la cobertura de tests, integración continua y despliegue automatizado son algunos ejemplos.</p>"
     tech:
       title: Tecnología
