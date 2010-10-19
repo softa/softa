@@ -8,9 +8,8 @@
   .clear
   %hr
   .project_actions
-    -#
-      .install
-        %code gem install hercules
+    .install
+      %code gem install hercules
     .action.view_source #{link_to t('labs.source'), 'http://github.com/diogob/hercules', :target => :_blank}
     .action.download #{link_to 'download', 'http://github.com/diogob/hercules/archives/master', :target => :_blank}
     .clear
