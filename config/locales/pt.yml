@@ -5,11 +5,11 @@ pt:
   head:
     title: Aplicações web 2.0 em Ruby on Rails e PostgreSQL · Softa
     description: "Aplicações web 2.0. O melhor do open source: Ruby on Rails e PostgreSQL. Utilizamos as melhores tecnologias aliadas aos métodos certos para desenvolver seus projetos no menor tempo e com a maior qualidade."
-    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0, interface de usuário, experiência de uso, ui, ux"
+    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, design, softa, programação, arquitetura de informação, usabilidade, web2.0, interface de usuário, experiência de uso, ui, ux"
 
   softa:
     hello: Olá. Seja bem vindo ao site da Softa.
-    happy_hacking: "Por favor, não perca seu tempo copiando nada daqui. O código completo está em http://github.com/ltartari/softa. Happy hacking."
+    happy_hacking: "Por favor, não perca seu tempo copiando nada daqui. O código completo está em http://github.com/softa. Happy hacking."
 
   nav:
     method: Metodologia
@@ -52,14 +52,12 @@ pt:
     db: "Arquiteto de Dados. Gosta de estruturas auto-explicativas, auto-referentes e auto-limpantes."
     fc: "Suporte incansável, aikidoka e ciclista amador. Amante de cervejas artesanais e RP nas horas vagas."
     jm: "Desenvolvedor Rails, JavaScript e de outras coisas menos ortodoxas. Comemora efusivamente quando realiza entregas com zero bugs."
-    lt: "Artista do design, tipografia, UI <em class='alternate'>&</em> UX. Extremista em detalhes, não perdoa erros de um pixel."
     pa: "Malabarista de infraestrutura, desenvolvedor Rails e o que mais precisar. Ele mora na internet e gosta de todas as novas buzzwords."
     xkcd:
       dw: "Não se preocupe: ele sempre aparece."
       db: "Também gosta de alts engraçadinhos."
       fc: "Smell like a man, Man!"
       jm: "#TODO escrever 'alt' para próxima versão."
-      lt: "Ok ok. Bem engraçado. Agora, por favor tire a seta do mouse de cima de mim!"
       pa: "Como assim caiu a internet!?"
 
   social:

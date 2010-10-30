@@ -5,11 +5,11 @@ en:
   head:
     title: Web 2.0 apps with Ruby on Rails and PostgreSQL · Softa
     description: "Web 2.0 apps. The best of open source: Ruby on Rails and PostgreSQL. We use the best technologies together with the right methods to develop your projects in less time and with the greatest quality."
-    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, agile methods, agile programming, extreme programming, xp, ajax, javascript, web 2.0 applications, web systems, development, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programming, information architecture, usability, web2.0, user interface, user experience, ui, ux"
+    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, agile methods, agile programming, extreme programming, xp, ajax, javascript, web 2.0 applications, web systems, development, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, design, softa, programming, information architecture, usability, web2.0, user interface, user experience, ui, ux"
 
   softa:
     hello: Hello. Welcome to Softa's website.
-    happy_hacking: "Please, don't waste your time copying anything from here. The full code is at http://github.com/ltartari/softa. Happy hacking."
+    happy_hacking: "Please, don't waste your time copying anything from here. The full code is at http://github.com/softa. Happy hacking."
 
   nav:
     method: Method
@@ -52,14 +52,12 @@ en:
     db: "Data Architect. He likes self-explanatory, self-referential and self-cleaning structures."
     fc: "Tireless support, aikidoka and amateur cyclist. Lover of craft beers and PR in his spare time."
     jm: "Rails, JavaScript and other less orthodox things developer. Celebrates effusively when he delivers with zero bugs."
-    lt: "Design, typography, UI <em class='alternate'>&</em> UX enthusiast. Obsessive for details, doesn't forgive one pixel mistakes."
     pa: "Infrastructure juggler, Rails developer and anything else you need. He lives on Internet and enjoys all new buzzwords."
     xkcd:
       dw: "Don't worry: he always shows up."
       db: "Yeah, we also like XKCD!"
       fc: "Smell like a man, Man!"
       jm: "#TODO Next version. Write 'alt' message."
-      lt: "Ok ok. Very funny. Now, please take the cursor out of my face."
       pa: "WTF!? The internet is down!?"
 
   social:
