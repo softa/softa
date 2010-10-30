@@ -5,7 +5,7 @@ module SiteHelper
   end
 
   def tweet_this(message)
-    link_to t('labs.tweet_this'), "http://twitter.com/?status=#{CGI.escape(message)}", :target => :_blank
+    link_to t('labs.tweet_this'), "http://twitter.com/?status=#{URI.escape(message)}", :target => :_blank
   end
 
   def gravatar(email)
