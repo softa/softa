@@ -5,11 +5,11 @@ fr:
   head:
     title: Softa · Merci! Beacup!
     description: "Web 2.0 apps. TODO"
-    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, design, softa, programação, arquitetura de informação, usabilidade, web2.0, ui, ux"
+    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, design, softa, programação, arquitetura de informação, usabilidade, web2.0, ui, ux"
 
   softa:
     hello: Bonjour. Bienvenue sur le site web Softa.
-    happy_hacking: "Não perca tempo copiando daqui, o código completo está em http://github.com/ltartari/softa. Feliz hacking."
+    happy_hacking: "Não perca tempo copiando daqui, o código completo está em http://github.com/softa. Feliz hacking."
 
   nav:
     method: Méthode
@@ -52,14 +52,12 @@ fr:
     db: TODO
     fc: TODO
     jm: TODO
-    lt: TODO
     pa: TODO
     xkcd:
       dw: TODO
       db: TODO
       fc: "Smell like a man, Man!"
       jm: TODO
-      lt: "Je voudrais un grand café, s’il vous plaît."
       pa: TODO
 
   social:

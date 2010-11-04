@@ -5,11 +5,11 @@ es:
   head:
     title: Aplicaciones Web 2.0 con Ruby on Rails y PostgreSQL · Softa
     description: "Aplicaciones Web 2.0. Lo mejor del open source: Ruby on Rails y PostgreSQL. Utilizamos la mejor tecnología combinada con los métodos correctos para desarrollar sus proyectos en el menor tiempo y con la mejor calidad."
-    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágiles, programación ágil, programación extrema, xp, ajax, javascript, aplicaciones web 2.0, sistemas web, desarrollo, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, léo tartari, diseño, softa, programación, arquitectura de información, usabilidad, web2.0, interfaz de usuario, experiencia de usuario, ui, ux"
+    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágiles, programación ágil, programación extrema, xp, ajax, javascript, aplicaciones web 2.0, sistemas web, desarrollo, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, diseño, softa, programación, arquitectura de información, usabilidad, web2.0, interfaz de usuario, experiencia de usuario, ui, ux"
 
   softa:
     hello: Hola. Bienvenido a la página de Softa.
-    happy_hacking: "Por favor, no pierdas el tiempo a copiar nada de aquí. El código completo se encuentra en http://github.com/ltartari/softa. Feliz hacking."
+    happy_hacking: "Por favor, no pierdas el tiempo a copiar nada de aquí. El código completo se encuentra en http://github.com/softa. Feliz hacking."
 
   nav:
     method: Metodología
@@ -52,14 +52,12 @@ es:
     db: "Arquitecto de datos. Le gustan las estructuras autoexplicativas, autorreferentes y autolimpiantes."
     fc: "Soporte incansable, aikidoka y ciclista amateur. Amante de las cervezas artesanales y RRPP en su tiempo libre."
     jm: "Desarrollador Rails, JavaScript y de otras cosas menos ortodoxas. Celebra efusivamente al hacer las entregas con cero bugs."
-    lt: "Artista del diseño, tipografía, UI <em class='alternate'>&</em> UX. Extremista en detalles, no perdona errores de uno pixel."
     pa: "Malabarista de la infraestructura, desarrollador Rails y todo más que necesite. El vive en Internet y le gustan todas las nuevas buzzwords."
     xkcd:
       dw: "No se preocupe: el siempre aparece."
       db: "La garantía soy yo."
       fc: "Smell like a man, Man!"
       jm: "# TODO escribir 'alt' para la próxima versión."
-      lt: "¡Ay Caramba! ¡No hablo español!"
       pa: "¿¡Como así se cayó internet!?"
 
   social:
