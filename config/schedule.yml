@@ -1,28 +1,29 @@
---- 
-- :desc: Not defined yet.
-  :when_not_human: "2010-10-16"
+---
+- :desc: "Fazer software é difícil, mas a evolução do hardware, das tecnologias e dos métodos tem tornado esta tarefa muito mais simples. Só que fazer um SaaS não é só fazer software, e sim prestar um serviço constante que envolve pós venda, cobrança, atendimento, etc."
+  :when_not_human: "2010-11-6"
   :event_title: Rails Rumble MMX
-  :who: Team Softa [DB, JM, LT & PA]
-  :event_site: http://railsrumble.com/
-  :title: Team Softa @ Rails Rumble
-  :title_link: http://railsrumble.com/teams/softa
-  :where: Worldwide
-  :when: 16-18/OUT
-- :desc: "A minha id\xC3\xA9ia \xC3\xA9 explicar o que \xC3\xA9 um analisador de PEG e porque \xC3\xA9 \xC3\xBAtil. Ent\xC3\xA3o, vou escrever um parser para uma linguagem simples e formal. No final, podemos discutir o crescente uso de analisadores pela comunidade (Mail, Cucumber \xE2\x80\xA6) e onde isso nos levar\xC3\xA1."
-  :when_not_human: "2010-10-26"
-  :event_title: RubyConf 2010
   :who: Juan Maiz
-  :event_site: http://www.rubyconf.com.br/
-  :title: Treetop - O parser de Ruby
-  :title_link: http://www.rubyconf.com.br/pt-BR/pages/speakers#juan_maiz
-  :where: "S\xC3\xA3o Paulo, SP"
-  :when: 26/OUT
-- :desc: "A minha id\xC3\xA9ia \xC3\xA9 explicar o que \xC3\xA9 um analisador de PEG e porque \xC3\xA9 \xC3\xBAtil. Ent\xC3\xA3o, vou escrever um parser para uma linguagem simples e formal. No final, podemos discutir o crescente uso de analisadores pela comunidade (Mail, Cucumber \xE2\x80\xA6) e onde isso nos levar\xC3\xA1."
-  :when_not_human: "2010-10-29"
-  :event_title: RubyConf Uruguay 2010
-  :who: Juan Maiz
-  :event_site: http://rubyconfuruguay.org/
-  :title: "Treetop \xE2\x80\x93 O parser de Ruby"
-  :title_link: http://rubyconfuruguay.org/en/speakers#joaomilho
-  :where: Montevideo, Uruguay
-  :when: 29-30/OUT
+  :event_site: http://www.labsconf.com.br/
+  :title: SaaS - Software as a Service
+  :title_link: http://www.labsconf.com.br/talks
+  :where: Online
+  :when: 6/NOV
+- :desc: ""
+  :when_not_human: "2010-11-17"
+  :event_title: Final do Tire do Papel
+  :who: Softa
+  :event_site: http://www.tiredopapel.com.br
+  :title: Final do Tire do Papel
+  :title_link: http://www.tiredopapel.com.br
+  :where: "Campinas (Unicamp), SP"
+  :when: 17/NOV
+- :desc: ""
+  :when_not_human: "2010-11-11"
+  :event_title: LATINOWARE 2010
+  :who: Daniel Weinmann
+  :event_site: http://www.latinoware.org/
+  :title: "Utilizando Rails e PostgreSQL"
+  :title_link: http://www.latinoware.org/
+  :where: Foz do Iguaçú, Paraná, Brazil
+  :when: 11/NOV
+
