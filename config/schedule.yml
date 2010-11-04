@@ -1,7 +1,7 @@
 ---
 - :desc: "Fazer software é difícil, mas a evolução do hardware, das tecnologias e dos métodos tem tornado esta tarefa muito mais simples. Só que fazer um SaaS não é só fazer software, e sim prestar um serviço constante que envolve pós venda, cobrança, atendimento, etc."
   :when_not_human: "2010-11-6"
-  :event_title: Rails Rumble MMX
+  :event_title: Labsconf
   :who: Juan Maiz
   :event_site: http://www.labsconf.com.br/
   :title: SaaS - Software as a Service
