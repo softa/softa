@@ -17,6 +17,7 @@
       = javascript_include_tag 'selectivizr/selectivizr'
     = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',  'juitter/jquery.juitter', 'juitter/system', 'http://html5shim.googlecode.com/svn/trunk/html5.js', 'scrollTo', 'shadowbox/shadowbox', 'jquery.lazyload.mini'
     = csrf_meta_tag
+    = render 'layouts/kissmetrics'
     :javascript
       Shadowbox.init({ overlayOpacity: 0.8, animate: false });
     %link{ :rel => 'apple-touch-icon-precomposed', :href => 'apple-touch-icon.png'}
@@ -30,6 +31,6 @@
     %footer= render 'layouts/footer'
     .post_footer
       #colophon
-        %p 2010 ·#{image_tag('colophon.png', :size => '84x32')}· #{t('colophon.five_years')}
+        %p 2011 ·#{image_tag('colophon.png', :size => '84x32')}· #{t('colophon.age')}
     = javascript_include_tag 'softa'
     = render 'layouts/google_analytics'
