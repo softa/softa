@@ -1,37 +1,31 @@
 ---
-- :desc: "Fazer software é difícil, mas a evolução do hardware, das tecnologias e dos métodos tem tornado esta tarefa muito mais simples. Só que fazer um SaaS não é só fazer software, e sim prestar um serviço constante que envolve pós venda, cobrança, atendimento, etc."
-  :when_not_human: "2010-11-6"
-  :event_title: Labsconf
-  :who: Juan Maiz
-  :event_site: http://www.labsconf.com.br/
-  :title: SaaS - Software as a Service
-  :title_link: http://www.labsconf.com.br/talks
-  :where: Online
-  :when: 6/NOV
 - :desc: ""
-  :when_not_human: "2010-11-11"
-  :event_title: LATINOWARE 2010
+  :when_not_human: "2011-01-17"
+  :event_title: BRNewTech
+  :who: Pedro Axelrud
+  :event_site: http://www.meetup.com/BRNewTech/calendar/15927603/ 
+  :event_site_title: Agenda do evento
+  :title: Bate-papo sobre empreendedorismo
+  :title_link: http://www.meetup.com/BRNewTech/
+  :where: "São Paulo, SP"
+  :when: 17/01
+- :desc: ""
+  :when_not_human: "2011-01-20"
+  :event_title: Campuseiros Empreendem
+  :who: Pedro Axelrud
+  :event_site: http://www.campus-party.com.br/2011/campuseros-empreendem.html
+  :event_site_title: www.campus-party.com.br
+  :title: Mailee.me na CP
+  :title_link: http://www.youtube.com/watch?v=pKjJcRkGBPg&feature=player_embedded
+  :where: "Centro Imigrantes, São Paulo, SP"
+  :when: 20/01
+- :desc: ""
+  :when_not_human: "2011-01-20"
+  :event_title: Campuseiros Empreendem
   :who: Daniel Weinmann
-  :event_site: http://www.latinoware.org/
-  :title: "Utilizando Rails e PostgreSQL"
-  :title_link: http://www.latinoware.org/
-  :where: Foz do Iguaçú, Paraná, Brazil
-  :when: 11/NOV
-- :desc: ""
-  :when_not_human: "2010-11-17"
-  :event_title: Final do Tire do Papel
-  :who: Softa
-  :event_site: http://www.tiredopapel.com.br
-  :title: Final do Tire do Papel
-  :title_link: http://www.tiredopapel.com.br
-  :where: "Campinas (Unicamp), SP"
-  :when: 17/NOV
-- :desc: ""
-  :when_not_human: "2010-11-24"
-  :event_title: Porto Alegre Agile Day 2010
-  :who: Daniel Weinmann
-  :event_site: http://agileday2010.guma-rs.org/
-  :title: Crowdfunding e Agile
-  :title_link: http://crowdfundingbr.com.br
-  :where: "FACIN, PUCRS"
-  :when: 24/NOV
+  :event_site: http://www.campus-party.com.br/2011/campuseros-empreendem.html
+  :event_site_title: www.campus-party.com.br
+  :title: Catarse na CP
+  :title_link: http://catarse.me/
+  :where: "Centro Imigrantes, São Paulo, SP"
+  :when: 20/01

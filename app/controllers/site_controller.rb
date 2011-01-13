@@ -15,7 +15,7 @@ class SiteController < ApplicationController
     @events = YAML.load_file("#{Rails.root}/config/schedule.yml")
     require 'open-uri'
     require 'ostruct'
-    doc = Hpricot.XML(open('http://blog.softa.com.br/rss.xml').read)
+    #doc = Hpricot.XML(open('http://blog.softa.com.br/rss.xml').read)
     @posts = (doc/'item')[0..5].map do |item|
       OpenStruct.new({
         :title => (item%'title').inner_text,
