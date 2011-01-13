@@ -15,7 +15,11 @@ class SiteController < ApplicationController
     @events = YAML.load_file("#{Rails.root}/config/schedule.yml")
     require 'open-uri'
     require 'ostruct'
-    #doc = Hpricot.XML(open('http://blog.softa.com.br/rss.xml').read)
+    # We create a blog cache entry for each day of the week
+    # Then we minimize problems with posterous' response time
+    blog_cache = "/tmp/blog_#{Time.now.strftime('%a')}.cache" 
+    File.open(blog_cache, 'w'){ |f| f.write(open('http://blog.softa.com.br/rss.xml').read) } unless File.exist?(blog_cache)
+    doc = Hpricot.XML(open(blog_cache).read)
     @posts = (doc/'item')[0..5].map do |item|
       OpenStruct.new({
         :title => (item%'title').inner_text,
