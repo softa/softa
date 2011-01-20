@@ -23,8 +23,13 @@ es:
 
   mailee:
     description: "Mailee.me es una aplicación web 2.0 para email marketing. Desarrollado con Ruby on Rails y PostgreSQL, y con el foco en la usabilidad, posee creador de templates, geolocalización, integración con redes sociales y recursos inteligentes anti-SPAM."
-    screenshots: Veja alguns screenshots
+    screenshots: Vea algunos screenshots
     signup: Regístrese gratis
+
+  catarse:
+    description: "El Catarse es la primera plataforma de financiamiento colaborativo de proyectos creativos de Brasil. Financie proyectos de manera colaborativa y  haga parte de algo más grande. Junte-se a todos los que quieren ver proyecto un proyecto realizarse y hágalo realidad. Eres la pieza que falta en esta historia!"
+    screenshots: Vea algunos screenshots
+    signup: Regístrese y contribuya
 
   method:
     title: Metodología

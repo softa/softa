@@ -1,0 +1,24 @@
+#softa_catarse
+  .wrapper
+    #catarse.work_showcase
+      %section
+        .work_showcase_info
+          %h3
+            #{link_to(image_tag('catarse.png', :alt => 'Catarse.me - A primeira plataforma de financiamento colaborativo de projetos criativos do Brasil'), 'http://catarse.me', :target => :_blank)}
+          %p.desc
+            #{t('catarse.description')}
+          .clear
+          .catarse_links
+            %h4 #{t('catarse.screenshots')}
+            %ul.showcase_more_images
+              %li
+                #{link_to image_tag('catarse/project-thumb.jpg'), image_path('catarse/project.jpg'), :rel => 'shadowbox[Catarse.me - A primeira plataforma de financiamento colaborativo de projetos criativos do Brasil]'}
+              %li
+                #{link_to image_tag('catarse/profile-thumb.jpg'), image_path('catarse/profile.jpg'), :rel => 'shadowbox[Catarse.me - A primeira plataforma de financiamento colaborativo de projetos criativos do Brasil]'}
+              %li
+                #{link_to image_tag('catarse/login-thumb.jpg'), image_path('catarse/login.jpg'), :rel => 'shadowbox[Catarse.me - A primeira plataforma de financiamento colaborativo de projetos criativos do Brasil]'}
+        .work_showcase_image
+          = link_to 'http://catarse.me' do 
+            #{image_tag 'catarse/home-small.png', :title => 'Catarse.me - A primeira plataforma de financiamento colaborativo de projetos criativos do Brasil', :alt => 'Catarse.me - A primeira plataforma de financiamento colaborativo de projetos criativos do Brasil' }
+        .clear
+.clear

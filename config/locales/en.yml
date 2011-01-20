@@ -26,6 +26,11 @@ en:
     screenshots: Screenshots
     signup: Signup for free
 
+  catarse:
+    description: "Catarse is the first crowdfunding platform from Brazil. Fund projects in a collaborative way and become part of something bigger. Join the group of everyone who wants to see a project happen and make it come true. You are the missing part in this story"
+    screenshots: Screenshots
+    signup: Signup and support
+
   method:
     title: Method
     contact: get in touch

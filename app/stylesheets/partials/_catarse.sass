@@ -1,0 +1,98 @@
+body #content
+  #softa_catarse
+    border-top: 1px solid #fff
+    border-bottom: 1px solid #ccc
+    padding-bottom: 20px
+    background:
+      color: #ccc
+      image: url(/images/catarse-bg.png)
+      repeat: repeat
+      attachment: scroll
+      position: left top
+    p.desc
+      background: rgba(255,255,255,0.5)
+      padding: 10px
+      +rounded(6px)
+      border: 1px solid #ddd
+      +column(9.2)
+    .wrapper
+      overflow: visible
+      position: relative
+    h1
+      text-shadow: #fff 0 1px 0
+      color: #ccc
+      margin-top: .5em
+    .work_showcase_info
+      +column(10, last)
+      h3, p
+        margin-right: 30px
+      .catarse_links
+        +inset-box-shadow(0, 1px, 0, #fff)
+        +rounded(6px)
+        border: 1px solid #999
+        background-color: #aaa
+        +linear-gradient(color-stops(#e7e7e7, #a0a0a0))
+        padding: 12px
+        margin: 0 10px 0 0
+        p
+          padding: 0 0 6px 0
+          margin: 0
+          clear: both
+        hr
+          +groove(#cfcfcf)
+        h4
+          font-size: 14px
+          text-transform: lowercase
+          font-variant: small-caps
+          font-weight: 900
+          color: #444
+          padding: 0 0 10px 0
+          text-shadow: #ddd 0 1px 0
+        .twitter, .blog, .help, .catarse_call_to_action
+          +inline-block
+          margin: 3px 2px 3px 4px
+          color: #fff
+          //float: left
+          white-space: nowrap
+          &:hover
+            text-decoration: none
+            color: white
+        .catarse_call_to_action
+          word-space: nowrap
+          background: $green - #222
+          border-color: $green - $grey
+          +linear-gradient(color-stops($green, ($green - $grey)))
+          &:hover
+            background: $green
+            +linear-gradient(color-stops(($green + #222), ($green - $grey)))
+          &:active
+            background: $green - #444
+            +linear-gradient(color-stops(($green - #111), ($green - #888)))
+      ul.showcase_more_images
+        margin: 0
+        padding: 0
+        list-style: none
+        li
+          display: inline
+          padding-right: 6px
+          img
+            display: inline-block
+            line-height: 0px
+            padding: 4px
+            +rounded(4px)
+            background: $grey
+            +transition(background, .2s, ease-in)
+            &:hover
+              background: $orange
+            &:active
+              background: $orange - #444
+    .work_showcase_image
+      +column(14)
+      text-align: right
+      img
+        padding-top: 10px
+  .follow_on_twitter
+    background: $catarse
+    color: white
+    padding: 4px
+    +rounded(4px)

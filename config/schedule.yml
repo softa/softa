@@ -29,3 +29,13 @@
   :title_link: http://catarse.me/
   :where: "Centro Imigrantes, São Paulo, SP"
   :when: 20/01
+- :desc: ""
+  :when_not_human: "2011-02-26"
+  :event_title: Ruby Masters
+  :who: Juan Maiz
+  :event_site: http://rubymastersconf.com
+  :event_site_title: rubymastersconf.com
+  :title: SaaS - Software as a Service
+  :title_link: http://rubymastersconf.com/
+  :where: "Online"
+  :when: 26/02
